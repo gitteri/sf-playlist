@@ -1,0 +1,36 @@
+{
+  "name": "spotify-playlist",
+  "version": "1.0.0",
+  "description": "A tool to update Spotify playlists based on upcoming concerts in Santa Fe, NM",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:scheduled": "node dist/scheduled.js",
+    "dev": "ts-node src/index.ts",
+    "dev:scheduled": "ts-node src/scheduled.ts",
+    "update": "npm run build && npm run start",
+    "start:daemon": "npm run build && node dist/scheduled.js > logs/playlist-updater.log 2>&1 &",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spotify",
+    "concerts",
+    "santa-fe",
+    "playlist"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.24",
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "spotify-web-api-node": "^5.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/spotify-web-api-node": "^5.0.11"
+  }
+}
