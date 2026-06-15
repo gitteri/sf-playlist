@@ -225,6 +225,26 @@ body {
   flex-direction: column;
   background: linear-gradient(135deg, var(--bg-dark-gray) 0%, #0d0d0d 100%);
 }
+.widget-highlight {
+  animation: spotify-pulse 2.0s ease-in-out;
+  border-color: var(--primary-green) !important;
+}
+@keyframes spotify-pulse {
+  0% {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  }
+  30% {
+    box-shadow: 0 0 25px rgba(29, 185, 84, 0.6);
+    border-color: var(--primary-green);
+  }
+  70% {
+    box-shadow: 0 0 25px rgba(29, 185, 84, 0.6);
+    border-color: var(--primary-green);
+  }
+  100% {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  }
+}
 .widget-header {
   display: flex;
   align-items: center;
@@ -541,7 +561,7 @@ body {
   letter-spacing: 0.5px;
 }
 
-/* Play button - floats on hover */
+/* Play button - always visible */
 .card-play-btn {
   width: 48px;
   height: 48px;
@@ -556,16 +576,12 @@ body {
   position: absolute;
   bottom: 24px;
   right: 24px;
-  opacity: 0;
-  transform: translateY(12px);
+  opacity: 1;
+  transform: translateY(0);
   box-shadow: 0 8px 16px rgba(0,0,0,0.5);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   cursor: pointer;
   z-index: 3;
-}
-.concert-card:hover .card-play-btn {
-  opacity: 1;
-  transform: translateY(0);
 }
 .card-play-btn:hover {
   background-color: var(--primary-green-hover);
@@ -581,7 +597,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  max-width: calc(100% - 24px); /* Make room for play button */
+  max-width: calc(100% - 64px); /* Make room for play button */
 }
 .time-venue-row {
   display: flex;

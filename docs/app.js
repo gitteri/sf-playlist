@@ -744,13 +744,41 @@ function playShowTracks(showId) {
 function playTrackOnSpotify(trackId) {
   if (embedController && trackId) {
     console.log(`Commanding Spotify Player to play: ${trackId}`);
+    
+    // Smoothly scroll the Spotify player into view on smaller screens (mobile/tablet)
+    // so the user does not have to scroll up manually to play or see the track loading.
+    if (window.innerWidth <= 1100) {
+      const sidebar = document.querySelector('.spotify-sidebar');
+      if (sidebar) {
+        sidebar.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+    
+    // Add a glowing pulse highlight to the Spotify widget to draw user's attention
+    const widget = document.querySelector('.spotify-widget');
+    if (widget) {
+      widget.classList.add('widget-highlight');
+      setTimeout(() => {
+        widget.classList.remove('widget-highlight');
+      }, 3000);
+    }
+    
     embedController.loadUri(`spotify:track:${trackId}`);
-    // Trigger playback programmatically after a brief load delay
+    
+    // Trigger playback programmatically. We try immediately and after short delays,
+    // which helps bypass load state latency if the browser allows autoplay.
+    embedController.play();
     setTimeout(() => {
       if (embedController) {
         embedController.play();
       }
-    }, 150);
+    }, 200);
+    setTimeout(() => {
+      if (embedController) {
+        embedController.play();
+      }
+    }, 600);
+    
     // Show the "Back to Playlist" button since we are playing a single track
     if (loadPlaylistBtn) {
       loadPlaylistBtn.style.display = 'inline-flex';
