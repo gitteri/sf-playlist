@@ -1,24 +1,52 @@
 // State Management
-let concerts = [];
+let rawConcerts = [];
+let groupedConcerts = [];
 let filteredConcerts = [];
 let embedController = null;
 let currentTrackId = null;
+let activeShowGroup = null;
+
+// Filter States
+const activeFilters = {
+  search: '',
+  date: 'all',
+  venue: 'all',
+  genres: [] // Array of selected genre strings for multi-toggle
+};
 
 // DOM Elements
 const searchInput = document.getElementById('search-input');
-const dateFilter = document.getElementById('date-filter');
-const sourceFilter = document.getElementById('source-filter');
+const venueFilter = document.getElementById('venue-filter');
+const datePillsContainer = document.getElementById('date-pills');
+const genrePillsContainer = document.getElementById('genre-pills');
 const concertGrid = document.getElementById('concert-grid');
 const loader = document.getElementById('loader');
 const emptyState = document.getElementById('empty-state');
 const resultsCount = document.getElementById('results-count');
 const clearFiltersBtn = document.getElementById('clear-filters-btn');
+const emptyResetBtn = document.getElementById('empty-reset-btn');
 
-// Now Playing DOM Elements
-const nowPlayingBanner = document.getElementById('now-playing-banner');
-const nowPlayingArtist = document.getElementById('now-playing-artist');
-const nowPlayingDetails = document.getElementById('now-playing-details');
-const nowPlayingTicketsBtn = document.getElementById('now-playing-btn-tickets');
+// Playbar Elements
+const bottomPlaybar = document.getElementById('bottom-playbar');
+const playbarArtist = document.getElementById('playbar-artist');
+const playbarVenue = document.getElementById('playbar-venue');
+const playbarImg = document.getElementById('playbar-img');
+const playbarTicketsBtn = document.getElementById('playbar-btn-tickets');
+const playbarDetailsBtn = document.getElementById('playbar-btn-details');
+
+// Modal Elements
+const showModal = document.getElementById('show-modal');
+const closeModalBtn = document.getElementById('close-modal-btn');
+const modalTitle = document.getElementById('modal-title');
+const modalVenueInfo = document.getElementById('modal-venue-info');
+const modalDateString = document.getElementById('modal-date-string');
+const modalHeaderBanner = document.getElementById('modal-header-banner');
+const modalLineupList = document.getElementById('modal-lineup-list');
+const modalDetailDate = document.getElementById('modal-detail-date');
+const modalDetailTime = document.getElementById('modal-detail-time');
+const modalDetailSources = document.getElementById('modal-detail-sources');
+const modalTicketsBtn = document.getElementById('modal-btn-tickets');
+const modalDirectionsBtn = document.getElementById('modal-btn-directions');
 
 // Month Names Helper
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -30,30 +58,227 @@ async function fetchConcerts() {
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-    concerts = await response.json();
+    rawConcerts = await response.json();
     
-    // Sort concerts chronologically
-    concerts.sort((a, b) => new Date(a.date) - new Date(b.date));
+    // Sort raw concerts chronologically
+    rawConcerts.sort((a, b) => new Date(a.date) - new Date(b.date));
     
-    filteredConcerts = [...concerts];
-    renderConcerts();
+    // Group concerts by show (venue + date + ticketUrl)
+    groupedConcerts = groupConcerts(rawConcerts);
+    
+    // Populate dynamic filters (venues, genres)
+    populateVenueFilter();
+    populateGenrePills();
+    
+    // Initial apply
+    applyFilters();
     
     // After rendering, if we already received a track event before the JSON loaded, trigger it now
     if (currentTrackId) {
-      highlightConcertByTrackId(currentTrackId);
+      highlightActiveConcertByTrack(currentTrackId);
     }
   } catch (error) {
     console.error('Error fetching concert data:', error);
     loader.innerHTML = `
-      <div style="text-align: center; padding: 40px;">
-        <i class="fa-solid fa-triangle-exclamation" style="font-size: 2.5rem; color: #ff527b; margin-bottom: 15px;"></i>
-        <p>Failed to load upcoming concerts. Make sure the updater script has run successfully.</p>
+      <div style="text-align: center; padding: 40px; color: #ff527b;">
+        <i class="fa-solid fa-triangle-exclamation" style="font-size: 2.5rem; margin-bottom: 15px;"></i>
+        <p style="font-weight: 600;">Failed to load upcoming concerts.</p>
+        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 5px;">Make sure the updater script has finished running.</p>
       </div>
     `;
   }
 }
 
-// Format Date Helpers
+// Group raw duplicate/co-headliner listings into unified shows
+function groupConcerts(rawList) {
+  const groups = [];
+  
+  rawList.forEach(item => {
+    const itemDate = new Date(item.date);
+    
+    // Try to find a matching show group
+    const matched = groups.find(g => {
+      // 1. Same venue
+      const sameVenue = g.venue.toLowerCase().trim() === item.venue.toLowerCase().trim();
+      if (!sameVenue) return false;
+      
+      // 2. Same ticket URL
+      if (item.ticketUrl && g.ticketUrl && item.ticketUrl === g.ticketUrl) {
+        return true;
+      }
+      
+      // 3. Close time (within 3 hours) on the same calendar day
+      const gDate = new Date(g.date);
+      const timeDiff = Math.abs(gDate.getTime() - itemDate.getTime());
+      const hoursDiff = timeDiff / (1000 * 60 * 60);
+      return hoursDiff < 3;
+    });
+    
+    // Determine this item's Spotify info
+    const performerInfo = {
+      name: item.artist,
+      spotifyId: item.trackIds && item.trackIds.length > 0 ? true : false,
+      artistImageUrl: item.artistImageUrl,
+      genres: item.genres || [],
+      trackIds: item.trackIds || []
+    };
+    
+    if (matched) {
+      // 1. Add performer if not already listed
+      const exists = matched.performers.some(p => p.name.toLowerCase() === item.artist.toLowerCase());
+      if (!exists) {
+        matched.performers.push(performerInfo);
+      }
+      
+      // 2. Combine track IDs
+      if (item.trackIds) {
+        matched.trackIds = [...new Set([...matched.trackIds, ...item.trackIds])];
+      }
+      
+      // 3. Combine genres
+      if (item.genres) {
+        matched.genres = [...new Set([...matched.genres, ...item.genres])];
+      }
+      
+      // 4. Update image if the group has none yet
+      if (!matched.artistImageUrl && item.artistImageUrl) {
+        matched.artistImageUrl = item.artistImageUrl;
+      }
+      
+      // 5. Keep ticket link
+      if (!matched.ticketUrl && item.ticketUrl) {
+        matched.ticketUrl = item.ticketUrl;
+      }
+      
+      // 6. Record source
+      if (!matched.sources.includes(item.source)) {
+        matched.sources.push(item.source);
+      }
+      
+      // 7. Store sub-artists if this item brought any (co-headliners unpacked in scraping)
+      if (item.subArtists) {
+        item.subArtists.forEach(sub => {
+          const subExists = matched.performers.some(p => p.name.toLowerCase() === sub.name.toLowerCase());
+          if (!subExists) {
+            matched.performers.push({
+              name: sub.name,
+              spotifyId: sub.spotifyId ? true : false,
+              artistImageUrl: sub.artistImageUrl,
+              genres: sub.genres || [],
+              trackIds: [] // Scraper top tracks went into parent trackIds
+            });
+          }
+          if (sub.genres) {
+            matched.genres = [...new Set([...matched.genres, ...sub.genres])];
+          }
+        });
+      }
+    } else {
+      // Create new show group
+      const newGroup = {
+        id: `show-${Math.random().toString(36).substr(2, 9)}`,
+        artist: item.artist, // headliner
+        venue: item.venue,
+        date: item.date,
+        ticketUrl: item.ticketUrl,
+        artistImageUrl: item.artistImageUrl,
+        trackIds: item.trackIds || [],
+        genres: item.genres || [],
+        sources: [item.source],
+        performers: [performerInfo]
+      };
+      
+      // Unpack subArtists if present
+      if (item.subArtists) {
+        item.subArtists.forEach(sub => {
+          newGroup.performers.push({
+            name: sub.name,
+            spotifyId: sub.spotifyId ? true : false,
+            artistImageUrl: sub.artistImageUrl,
+            genres: sub.genres || [],
+            trackIds: []
+          });
+          if (sub.genres) {
+            newGroup.genres = [...new Set([...newGroup.genres, ...sub.genres])];
+          }
+        });
+      }
+      
+      groups.push(newGroup);
+    }
+  });
+  
+  return groups;
+}
+
+// Populate Venue Dropdown Options
+function populateVenueFilter() {
+  const venues = [...new Set(groupedConcerts.map(g => g.venue))].sort();
+  
+  // Clear extra options
+  venueFilter.innerHTML = '<option value="all">All Venues</option>';
+  
+  venues.forEach(venue => {
+    const option = document.createElement('option');
+    option.value = venue;
+    option.textContent = venue;
+    venueFilter.appendChild(option);
+  });
+}
+
+// Extract and Populate Genre Filter Pills
+function populateGenrePills() {
+  const genreCounts = {};
+  
+  // Count genres
+  groupedConcerts.forEach(g => {
+    if (g.genres) {
+      g.genres.forEach(genre => {
+        const lower = genre.toLowerCase().trim();
+        // Ignore generic genres to keep the filter relevant
+        if (['rock', 'pop', 'indie', 'folk', 'singer-songwriter', 'alternative', 'country', 'bluegrass', 'jazz', 'blues', 'punk', 'electronic', 'americana', 'hip hop', 'soul', 'metal'].includes(lower) || lower.length > 2) {
+          genreCounts[genre] = (genreCounts[genre] || 0) + 1;
+        }
+      });
+    }
+  });
+  
+  // Sort genres by frequency
+  const sortedGenres = Object.keys(genreCounts).sort((a, b) => genreCounts[b] - genreCounts[a]);
+  
+  // Select top 16 genres
+  const topGenres = sortedGenres.slice(0, 16);
+  
+  genrePillsContainer.innerHTML = '';
+  
+  topGenres.forEach(genre => {
+    const button = document.createElement('button');
+    button.className = 'pill';
+    button.setAttribute('data-genre', genre);
+    button.textContent = `${genre.charAt(0).toUpperCase() + genre.slice(1)} (${genreCounts[genre]})`;
+    
+    button.addEventListener('click', () => {
+      toggleGenreFilter(genre, button);
+    });
+    
+    genrePillsContainer.appendChild(button);
+  });
+}
+
+// Toggle Genre selection in filters
+function toggleGenreFilter(genre, buttonElement) {
+  const idx = activeFilters.genres.indexOf(genre);
+  if (idx > -1) {
+    activeFilters.genres.splice(idx, 1);
+    buttonElement.classList.remove('active');
+  } else {
+    activeFilters.genres.push(genre);
+    buttonElement.classList.add('active');
+  }
+  applyFilters();
+}
+
+// Parse Date Helper
 function parseConcertDate(dateStr) {
   const dateObj = new Date(dateStr);
   return {
@@ -61,187 +286,352 @@ function parseConcertDate(dateStr) {
     day: dateObj.getDate(),
     year: dateObj.getFullYear(),
     timeString: dateObj.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+    weekday: dateObj.toLocaleDateString([], { weekday: 'short' }),
     dateOnly: new Date(dateObj.getFullYear(), dateObj.getMonth(), dateObj.getDate())
   };
 }
 
-// Render Concert Cards
+// Render Grouped Concerts Grid
 function renderConcerts() {
   // Hide loader
   loader.style.display = 'none';
-
-  // Clear existing cards (except loader)
+  
+  // Clear grid
   const cards = concertGrid.querySelectorAll('.concert-card');
   cards.forEach(card => card.remove());
-
-  // Update count
-  resultsCount.textContent = `Showing ${filteredConcerts.length} concert${filteredConcerts.length === 1 ? '' : 's'}`;
-
-  // Toggle empty state
+  
+  // Update count indicator
+  resultsCount.textContent = `Showing ${filteredConcerts.length} concert show${filteredConcerts.length === 1 ? '' : 's'}`;
+  
+  // Show / Hide empty state
   if (filteredConcerts.length === 0) {
     emptyState.style.display = 'flex';
     return;
   } else {
     emptyState.style.display = 'none';
   }
-
-  // Generate and insert cards
-  filteredConcerts.forEach((concert, index) => {
-    const { month, day, timeString } = parseConcertDate(concert.date);
-    const hasTime = concert.date.includes('T') && !concert.date.endsWith('T00:00:00.000Z');
+  
+  filteredConcerts.forEach(show => {
+    const { month, day, timeString, weekday } = parseConcertDate(show.date);
+    const hasTime = show.date.includes('T') && !show.date.endsWith('T00:00:00.000Z');
     
+    // Create card element
     const card = document.createElement('article');
     card.className = 'concert-card';
-    // Store unique identifier on element to scroll/find easily
-    card.setAttribute('data-artist-key', concert.artist.toLowerCase().trim());
-    if (concert.trackIds) {
-      card.setAttribute('data-track-ids', concert.trackIds.join(','));
+    card.setAttribute('data-show-id', show.id);
+    if (show.trackIds && show.trackIds.length > 0) {
+      card.setAttribute('data-track-ids', show.trackIds.join(','));
     }
     
-    const sourceClass = concert.source.toLowerCase().replace(/\s+/g, '-');
-    const sourceBadge = concert.source === 'Santa Fe Reporter' ? 'SFR' : concert.source;
+    // Generate co-headliners/support tag text
+    let supportText = '';
+    if (show.performers.length > 1) {
+      const coActs = show.performers.slice(1).map(p => p.name);
+      supportText = `<p class="co-headliners-subtext" title="w/ ${coActs.join(', ')}">w/ ${coActs.join(', ')}</p>`;
+    }
     
-    const ticketButton = concert.ticketUrl 
-      ? `<a href="${concert.ticketUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary"><i class="fa-solid fa-ticket"></i> Tickets</a>`
-      : '';
-      
-    const spotifySearchUrl = `https://open.spotify.com/search/${encodeURIComponent(concert.artist)}`;
+    // Generate genre tag HTML (first 2 genres)
+    let genreTagsHtml = '';
+    if (show.genres && show.genres.length > 0) {
+      genreTagsHtml = `
+        <div class="card-genre-tags">
+          ${show.genres.slice(0, 2).map(g => `<span class="card-genre-tag">${g}</span>`).join('')}
+        </div>
+      `;
+    }
     
+    // Source Badges
+    const sourcesLabel = show.sources.map(s => s === 'Santa Fe Reporter' ? 'SFR' : s).join(' + ');
+    
+    // Card structure
     card.innerHTML = `
-      <span class="source-tag ${sourceClass}">${sourceBadge}</span>
-      <div class="card-top">
-        <div class="date-badge">
-          <span class="month">${month}</span>
-          <span class="day">${day}</span>
+      <div class="card-bg-image" ${show.artistImageUrl ? `style="background-image: url('${show.artistImageUrl}')"` : ''}></div>
+      <div class="card-overlay"></div>
+      
+      <div class="card-content">
+        <div class="card-top-row">
+          <div class="date-badge">
+            <span class="month">${month}</span>
+            <span class="day">${day}</span>
+          </div>
+          <span class="source-icon-badge">${sourcesLabel}</span>
         </div>
-        <div class="time-venue-info">
-          <span class="time-text">
-            <i class="fa-regular fa-clock"></i> ${hasTime ? timeString : 'Time TBA'}
-          </span>
-          <span class="time-text">
-            <i class="fa-regular fa-calendar"></i> ${new Date(concert.date).toLocaleDateString([], { weekday: 'short' })}
-          </span>
+        
+        ${show.trackIds && show.trackIds.length > 0 ? `
+          <button class="card-play-btn" aria-label="Listen preview" onclick="event.stopPropagation(); playShowTracks('${show.id}');">
+            <i class="fa-solid fa-play"></i>
+          </button>
+        ` : ''}
+        
+        <div class="card-bottom-info">
+          <div class="time-venue-row">
+            <span><i class="fa-regular fa-clock"></i> ${hasTime ? timeString : 'TBA'}</span>
+            <span><i class="fa-regular fa-calendar"></i> ${weekday}</span>
+          </div>
+          <h3 class="card-artist-title" title="${show.artist}">${show.artist}</h3>
+          ${supportText}
+          <div class="card-venue" style="font-size: 0.85rem; font-weight: 500; margin-top: 2px;">
+            <i class="fa-solid fa-location-dot"></i> <span>${show.venue}</span>
+          </div>
+          ${genreTagsHtml}
         </div>
-      </div>
-      <h3 class="artist-title" title="${concert.artist}">${concert.artist}</h3>
-      <div class="venue-info">
-        <i class="fa-solid fa-location-dot"></i>
-        <span>${concert.venue}</span>
-      </div>
-      <div class="card-actions">
-        <a href="${spotifySearchUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-spotify">
-          <i class="fa-brands fa-spotify"></i> Listen
-        </a>
-        ${ticketButton}
       </div>
     `;
     
+    // Card click events (open details modal)
+    card.addEventListener('click', () => {
+      openShowDetailsModal(show);
+    });
+    
     concertGrid.appendChild(card);
   });
-
-  // Re-apply currently playing highlight if a track is active
+  
+  // Re-apply currently playing class
   if (currentTrackId) {
-    highlightConcertByTrackId(currentTrackId);
+    highlightActiveConcertByTrack(currentTrackId);
   }
 }
 
 // Filter Logic
 function applyFilters() {
-  const searchQuery = searchInput.value.toLowerCase().trim();
-  const dateVal = dateFilter.value;
-  const sourceVal = sourceFilter.value;
-
-  // Show/hide clear filters button
-  if (searchQuery !== '' || dateVal !== 'all' || sourceVal !== 'all') {
-    clearFiltersBtn.style.display = 'inline-block';
+  const searchQuery = activeFilters.search.toLowerCase().trim();
+  const dateVal = activeFilters.date;
+  const venueVal = activeFilters.venue;
+  const genresVal = activeFilters.genres;
+  
+  // Toggle reset button
+  if (searchQuery !== '' || dateVal !== 'all' || venueVal !== 'all' || genresVal.length > 0) {
+    clearFiltersBtn.style.display = 'inline-flex';
   } else {
     clearFiltersBtn.style.display = 'none';
   }
-
+  
   const today = new Date();
   today.setHours(0, 0, 0, 0);
-
+  
   const nextWeek = new Date(today);
   nextWeek.setDate(today.getDate() + 7);
-
-  filteredConcerts = concerts.filter(concert => {
-    // 1. Search Query Filter
-    const matchesSearch = 
-      concert.artist.toLowerCase().includes(searchQuery) ||
-      concert.venue.toLowerCase().includes(searchQuery);
-
-    // 2. Date Filter
-    const concertDate = new Date(concert.date);
-    concertDate.setHours(0, 0, 0, 0);
+  
+  filteredConcerts = groupedConcerts.filter(show => {
+    // 1. Search filter (match headliner, support performers, venue, or genres)
+    const performerMatch = show.performers.some(p => p.name.toLowerCase().includes(searchQuery));
+    const genreMatchText = show.genres ? show.genres.some(g => g.toLowerCase().includes(searchQuery)) : false;
+    const venueMatchText = show.venue.toLowerCase().includes(searchQuery);
+    const matchesSearch = searchQuery === '' || performerMatch || genreMatchText || venueMatchText;
+    
+    // 2. Venue filter
+    const matchesVenue = venueVal === 'all' || show.venue === venueVal;
+    
+    // 3. Date filter
+    const showDate = new Date(show.date);
+    showDate.setHours(0, 0, 0, 0);
     
     let matchesDate = true;
     if (dateVal === 'today') {
-      matchesDate = concertDate.getTime() === today.getTime();
+      matchesDate = showDate.getTime() === today.getTime();
     } else if (dateVal === 'week') {
-      matchesDate = concertDate >= today && concertDate <= nextWeek;
+      matchesDate = showDate >= today && showDate <= nextWeek;
     } else if (dateVal === 'month') {
       matchesDate = 
-        concertDate.getMonth() === today.getMonth() && 
-        concertDate.getFullYear() === today.getFullYear() &&
-        concertDate >= today;
+        showDate.getMonth() === today.getMonth() && 
+        showDate.getFullYear() === today.getFullYear() &&
+        showDate >= today;
     }
-
-    // 3. Source Filter
-    const matchesSource = sourceVal === 'all' || concert.source === sourceVal;
-
-    return matchesSearch && matchesDate && matchesSource;
+    
+    // 4. Genre Pills Filter (AND logic - must match all active pills, or OR logic - match any. Let's do OR/Any match for ease)
+    let matchesGenres = true;
+    if (genresVal.length > 0) {
+      matchesGenres = show.genres ? show.genres.some(g => genresVal.includes(g)) : false;
+    }
+    
+    return matchesSearch && matchesVenue && matchesDate && matchesGenres;
   });
-
+  
   renderConcerts();
 }
 
-// Clear Filters
+// Reset all active filters
 function clearFilters() {
+  // Clear search input
   searchInput.value = '';
-  dateFilter.value = 'all';
-  sourceFilter.value = 'all';
+  activeFilters.search = '';
+  
+  // Reset venue filter
+  venueFilter.value = 'all';
+  activeFilters.venue = 'all';
+  
+  // Reset date pills
+  activeFilters.date = 'all';
+  document.querySelectorAll('#date-pills .pill').forEach(btn => {
+    if (btn.getAttribute('data-value') === 'all') {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+  
+  // Reset genre pills
+  activeFilters.genres = [];
+  document.querySelectorAll('#genre-pills .pill').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  
   applyFilters();
 }
 
-// Spotify IFrame API Callback
+// Play Tracks for a Unified Show Group
+function playShowTracks(showId) {
+  const show = groupedConcerts.find(g => g.id === showId);
+  if (show && show.trackIds && show.trackIds.length > 0) {
+    playTrackOnSpotify(show.trackIds[0]);
+  }
+}
+
+// Play a specific track URI inside the Spotify embed iframe
+function playTrackOnSpotify(trackId) {
+  if (embedController && trackId) {
+    console.log(`Commanding Spotify Player to play: ${trackId}`);
+    embedController.loadUri(`spotify:track:${trackId}`);
+  } else {
+    console.warn('Spotify Embed controller is not ready or trackId is missing');
+  }
+}
+
+// Show details in Modal
+function openShowDetailsModal(show) {
+  activeShowGroup = show;
+  
+  // Date format
+  const dateObj = new Date(show.date);
+  const formattedDate = dateObj.toLocaleDateString([], {
+    weekday: 'long',
+    month: 'short',
+    day: 'numeric'
+  });
+  const formattedTime = show.date.includes('T') && !show.date.endsWith('T00:00:00.000Z')
+    ? dateObj.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+    : 'Time TBA';
+    
+  // Headline banner
+  modalTitle.textContent = show.artist;
+  modalVenueInfo.innerHTML = `<i class="fa-solid fa-location-dot"></i> ${show.venue}`;
+  modalDateString.textContent = formattedDate;
+  
+  if (show.artistImageUrl) {
+    modalHeaderBanner.style.backgroundImage = `url('${show.artistImageUrl}')`;
+  } else {
+    modalHeaderBanner.style.backgroundImage = "linear-gradient(135deg, #1f1f2e 0%, #0d0d13 100%)";
+  }
+  
+  // Sidebar info
+  modalDetailDate.textContent = dateObj.toLocaleDateString([], { year: 'numeric', month: 'long', day: 'numeric' });
+  modalDetailTime.textContent = formattedTime;
+  modalDetailSources.textContent = show.sources.join(', ');
+  
+  // Action Buttons
+  if (show.ticketUrl) {
+    modalTicketsBtn.href = show.ticketUrl;
+    modalTicketsBtn.style.display = 'inline-flex';
+  } else {
+    modalTicketsBtn.style.display = 'none';
+  }
+  
+  // Get Directions link
+  modalDirectionsBtn.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(show.venue + ' Santa Fe NM')}`;
+  
+  // Render performers lineup
+  modalLineupList.innerHTML = '';
+  
+  show.performers.forEach(perf => {
+    const card = document.createElement('div');
+    card.className = 'performer-card';
+    
+    // Genres HTML
+    let genresHtml = '';
+    if (perf.genres && perf.genres.length > 0) {
+      genresHtml = `
+        <div class="performer-genres">
+          ${perf.genres.slice(0, 3).map(g => `<span class="performer-genre-tag">${g}</span>`).join('')}
+        </div>
+      `;
+    }
+    
+    // Check if artist has playable tracks
+    let listenButtonHtml = '';
+    if (perf.trackIds && perf.trackIds.length > 0) {
+      listenButtonHtml = `
+        <button class="performer-play-btn" aria-label="Listen artist track" onclick="playTrackOnSpotify('${perf.trackIds[0]}')">
+          <i class="fa-solid fa-play"></i>
+        </button>
+      `;
+    } else if (show.trackIds && show.trackIds.length > 0 && perf.name.toLowerCase() === show.artist.toLowerCase()) {
+      // Main artist fallback to combined show tracks
+      listenButtonHtml = `
+        <button class="performer-play-btn" aria-label="Listen artist track" onclick="playTrackOnSpotify('${show.trackIds[0]}')">
+          <i class="fa-solid fa-play"></i>
+        </button>
+      `;
+    }
+    
+    card.innerHTML = `
+      <div class="performer-avatar" ${perf.artistImageUrl ? `style="background-image: url('${perf.artistImageUrl}')"` : ''}></div>
+      <div class="performer-info">
+        <h4 class="performer-name">${perf.name}</h4>
+        ${genresHtml}
+      </div>
+      ${listenButtonHtml}
+    `;
+    
+    modalLineupList.appendChild(card);
+  });
+  
+  // Display modal overlay
+  showModal.style.display = 'flex';
+  document.body.style.overflow = 'hidden'; // Lock background scroll
+}
+
+// Close Modal helper
+function closeModal() {
+  showModal.style.display = 'none';
+  document.body.style.overflow = ''; // Unlock background scroll
+}
+
+// Spotify IFrame API Callback hook
 window.onSpotifyIframeApiReady = (IFrameAPI) => {
   const element = document.getElementById('spotify-embed-iframe');
   const options = {
     width: '100%',
-    height: '480',
+    height: '380',
     uri: 'spotify:playlist:7IhapNTY8GMvqflSaVyQfP'
   };
   
   const callback = (EmbedController) => {
     embedController = EmbedController;
-    console.log('Spotify Embed Controller Initialized.');
-
-    // Listen for playback state updates
+    console.log('Spotify Embed Controller initialized successfully.');
+    
+    // Listen for playback state changes
     EmbedController.addListener('playback_update', e => {
       const data = e.data;
       if (data && data.playingURI) {
         const trackUri = data.playingURI;
         const trackId = trackUri.split(':').pop();
         
-        // Only trigger update if the track ID has changed
         if (currentTrackId !== trackId) {
           currentTrackId = trackId;
-          console.log(`Now playing Spotify Track ID: ${trackId}`);
+          console.log(`Playback event, track ID: ${trackId}`);
           
           if (data.isPaused) {
-            clearHighlight();
+            clearHighlightState();
           } else {
-            highlightConcertByTrackId(trackId);
+            highlightActiveConcertByTrack(trackId);
           }
         } else if (data.isPaused) {
-          clearHighlight();
+          clearHighlightState();
         } else {
-          // Resume playing
-          highlightConcertByTrackId(trackId);
+          highlightActiveConcertByTrack(trackId);
         }
       } else {
-        // No active playback
-        clearHighlight();
+        clearHighlightState();
       }
     });
   };
@@ -249,53 +639,62 @@ window.onSpotifyIframeApiReady = (IFrameAPI) => {
   IFrameAPI.createController(element, options, callback);
 };
 
-// Find and Highlight Concert by Spotify Track ID
-function highlightConcertByTrackId(trackId) {
-  // Clear any existing highlights
+// Find and highlight active concert card on the page based on playing track ID
+function highlightActiveConcertByTrack(trackId) {
+  // Clear any existing highlighted card classes
   document.querySelectorAll('.concert-card.currently-playing').forEach(el => {
     el.classList.remove('currently-playing');
   });
-
+  
   if (!trackId) {
-    clearHighlight();
+    clearHighlightState();
     return;
   }
-
-  // Find concert from state array
-  const matchedConcert = concerts.find(c => c.trackIds && c.trackIds.includes(trackId));
   
-  if (matchedConcert) {
-    console.log(`Playback matched concert: "${matchedConcert.artist}"`);
+  // Find concert from the grouped concerts
+  const matchedShow = groupedConcerts.find(g => g.trackIds && g.trackIds.includes(trackId));
+  
+  if (matchedShow) {
+    console.log(`Track match found! Active event: "${matchedShow.artist}"`);
+    activeShowGroup = matchedShow;
     
-    // 1. Update and show Now Playing banner
-    const dateFormatted = new Date(matchedConcert.date).toLocaleDateString([], {
+    // 1. Update bottom playbar details
+    playbarArtist.textContent = matchedShow.artist;
+    
+    const dateFormatted = new Date(matchedShow.date).toLocaleDateString([], {
       weekday: 'short',
       month: 'short',
       day: 'numeric'
     });
+    playbarVenue.textContent = `${matchedShow.venue} • ${dateFormatted}`;
     
-    nowPlayingArtist.textContent = matchedConcert.artist;
-    nowPlayingDetails.textContent = `playing at ${matchedConcert.venue} on ${dateFormatted}`;
-    
-    if (matchedConcert.ticketUrl) {
-      nowPlayingTicketsBtn.href = matchedConcert.ticketUrl;
-      nowPlayingTicketsBtn.style.display = 'inline-flex';
+    if (matchedShow.artistImageUrl) {
+      playbarImg.style.backgroundImage = `url('${matchedShow.artistImageUrl}')`;
     } else {
-      nowPlayingTicketsBtn.style.display = 'none';
+      playbarImg.style.backgroundImage = 'none';
     }
     
-    nowPlayingBanner.style.display = 'block';
-
-    // 2. Highlight card on the grid if it's currently rendered
+    // 2. Playbar Actions
+    if (matchedShow.ticketUrl) {
+      playbarTicketsBtn.href = matchedShow.ticketUrl;
+      playbarTicketsBtn.style.display = 'inline-flex';
+    } else {
+      playbarTicketsBtn.style.display = 'none';
+    }
+    
+    // Show playbar
+    bottomPlaybar.classList.add('active');
+    
+    // 3. Highlight grid card element
     const cardElement = Array.from(document.querySelectorAll('.concert-card')).find(el => {
-      const trackIdsAttr = el.getAttribute('data-track-ids');
-      return trackIdsAttr && trackIdsAttr.split(',').includes(trackId);
+      const showId = el.getAttribute('data-show-id');
+      return showId === matchedShow.id;
     });
-
+    
     if (cardElement) {
       cardElement.classList.add('currently-playing');
       
-      // Smoothly scroll the card into center view
+      // Scroll to it smoothly if not currently in view
       cardElement.scrollIntoView({
         behavior: 'smooth',
         block: 'center',
@@ -303,24 +702,76 @@ function highlightConcertByTrackId(trackId) {
       });
     }
   } else {
-    // Track is playing but not matched to a concert (e.g. ad, or other playlist item)
-    clearHighlight();
+    // Active track does not belong to any upcoming show
+    clearHighlightState();
   }
 }
 
-// Clear Highlights Helper
-function clearHighlight() {
-  nowPlayingBanner.style.display = 'none';
+// Dismiss bottom playbar and card highlights
+function clearHighlightState() {
+  bottomPlaybar.classList.remove('active');
   document.querySelectorAll('.concert-card.currently-playing').forEach(el => {
     el.classList.remove('currently-playing');
   });
 }
 
-// Event Listeners
-searchInput.addEventListener('input', applyFilters);
-dateFilter.addEventListener('change', applyFilters);
-sourceFilter.addEventListener('change', applyFilters);
-clearFiltersBtn.addEventListener('click', clearFilters);
+// Setup Event Listeners
+function setupEventListeners() {
+  // Input search
+  searchInput.addEventListener('input', (e) => {
+    activeFilters.search = e.target.value;
+    applyFilters();
+  });
+  
+  // Venue Select Dropdown
+  venueFilter.addEventListener('change', (e) => {
+    activeFilters.venue = e.target.value;
+    applyFilters();
+  });
+  
+  // Date pills toggle
+  datePillsContainer.addEventListener('click', (e) => {
+    const btn = e.target.closest('.pill');
+    if (btn) {
+      // Deactivate all date pills
+      datePillsContainer.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
+      
+      // Activate clicked
+      btn.classList.add('active');
+      activeFilters.date = btn.getAttribute('data-value');
+      applyFilters();
+    }
+  });
+  
+  // Reset buttons
+  clearFiltersBtn.addEventListener('click', clearFilters);
+  emptyResetBtn.addEventListener('click', clearFilters);
+  
+  // Modal close trigger
+  closeModalBtn.addEventListener('click', closeModal);
+  showModal.addEventListener('click', (e) => {
+    if (e.target === showModal) {
+      closeModal();
+    }
+  });
+  
+  // Keyboard ESC to close modal
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeModal();
+    }
+  });
+  
+  // Playbar details click handler
+  playbarDetailsBtn.addEventListener('click', () => {
+    if (activeShowGroup) {
+      openShowDetailsModal(activeShowGroup);
+    }
+  });
+}
 
-// Initial Fetch on Load
-document.addEventListener('DOMContentLoaded', fetchConcerts);
+// Initialize on DOM load
+document.addEventListener('DOMContentLoaded', () => {
+  setupEventListeners();
+  fetchConcerts();
+});

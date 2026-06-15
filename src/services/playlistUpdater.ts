@@ -66,14 +66,17 @@ export class PlaylistUpdater {
       for (const artist of allArtists) {
         console.log(`Processing artist: ${artist}`);
         
-        let artistId = await this.spotifyService.searchArtist(artist);
-        if (!artistId) {
+        let artistResult = await this.spotifyService.searchArtist(artist);
+        if (!artistResult) {
           const cleanedArtist = this.cleanArtist(artist);
           if (cleanedArtist !== artist) {
             console.log(`  - Trying cleaned artist name: "${cleanedArtist}"`);
-            artistId = await this.spotifyService.searchArtist(cleanedArtist);
+            artistResult = await this.spotifyService.searchArtist(cleanedArtist);
           }
         }
+        
+        let artistId = artistResult ? artistResult.id : null;
+        let imageUrl = artistResult ? artistResult.imageUrl : undefined;
         
         if (!artistId) {
           // Try splitting co-headliners/support acts if the combined name wasn't found
@@ -102,10 +105,21 @@ export class PlaylistUpdater {
           
           if (splitArtists.length > 1) {
             console.log(`  - Combined name not found on Spotify. Splitting into: ${splitArtists.join(', ')}`);
+            const subArtistsList: any[] = [];
             for (const subArtist of splitArtists) {
               const subCleaned = this.cleanArtist(subArtist);
-              let subArtistId = await this.spotifyService.searchArtist(subCleaned);
+              let subArtistResult = await this.spotifyService.searchArtist(subCleaned);
+              let subArtistId = subArtistResult ? subArtistResult.id : null;
+              let subImageUrl = subArtistResult ? subArtistResult.imageUrl : undefined;
+              let subGenres = subArtistResult ? subArtistResult.genres : [];
               
+              subArtistsList.push({
+                name: subArtist,
+                spotifyId: subArtistId || undefined,
+                artistImageUrl: subImageUrl || undefined,
+                genres: subGenres && subGenres.length > 0 ? subGenres : undefined
+              });
+
               if (subArtistId) {
                 const topTracks = await this.spotifyService.getArtistTopTracks(subArtistId, 3);
                 if (topTracks.length > 0) {
@@ -119,6 +133,14 @@ export class PlaylistUpdater {
                     if (c.artist.toLowerCase().trim() === artist.toLowerCase().trim()) {
                       if (!c.trackIds) c.trackIds = [];
                       c.trackIds = [...c.trackIds, ...topTracks];
+                      // Use the first sub-artist image found as the concert's background image
+                      if (subImageUrl && !c.artistImageUrl) c.artistImageUrl = subImageUrl;
+                      
+                      // Merge genres
+                      if (subGenres && subGenres.length > 0) {
+                        if (!c.genres) c.genres = [];
+                        c.genres = [...new Set([...c.genres, ...subGenres])];
+                      }
                     }
                   });
                 }
@@ -127,6 +149,13 @@ export class PlaylistUpdater {
                 unknownArtists.push(subArtist);
               }
             }
+            
+            // Assign sub-artists to parent concerts
+            validConcerts.forEach(c => {
+              if (c.artist.toLowerCase().trim() === artist.toLowerCase().trim()) {
+                c.subArtists = subArtistsList;
+              }
+            });
             continue; // Skip the rest of the main loop for the combined name
           }
           
@@ -145,11 +174,15 @@ export class PlaylistUpdater {
         trackIds = [...trackIds, ...topTracks];
         addedArtists++;
         addedTracks += topTracks.length;
-
-        // Associate track IDs with the concert
+ 
+        // Associate track IDs, artist image URL, and genres with the concert
         validConcerts.forEach(c => {
           if (c.artist.toLowerCase().trim() === artist.toLowerCase().trim()) {
             c.trackIds = topTracks;
+            if (imageUrl) c.artistImageUrl = imageUrl;
+            if (artistResult?.genres && artistResult.genres.length > 0) {
+              c.genres = artistResult.genres;
+            }
           }
         });
       }

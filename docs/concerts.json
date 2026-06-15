@@ -8,7 +8,8 @@
       "7kjKfbqzyJwWrq9wRWR6i5",
       "072jtJahYUUje6u4bKuQun",
       "0JCrp9M6IrJWLqMu1LXOHb"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb98e58c0ff5fb7debe43ea8e6"
   },
   {
     "artist": "Zach Aaron",
@@ -19,6 +20,12 @@
       "5TsolHsXhl5hx91t4OTjgg",
       "1LSRYJ9vAjqLzHr2xkVV8M",
       "6bfuEjT69kbM3VE9MgJ6gg"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebfee684cb2a825e3eab607908",
+    "genres": [
+      "texas country",
+      "red dirt",
+      "alt country"
     ]
   },
   {
@@ -36,7 +43,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "eclectic electric music by outer monkeys",
@@ -53,7 +61,8 @@
       "4xJDKlFEiO8GSgeKoZwdGW",
       "353NJIigFmLfti14KbEoz1",
       "4Ecy61WXJjPATqFxWPnZBa"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe694dec8a5237cd3d8b3914a"
   },
   {
     "artist": "Don Curry",
@@ -76,7 +85,8 @@
       "44uU2aojdKE5ZcqYdLSex5",
       "1mTylOf9mbZJblTkvzwJAr",
       "0LHUlWBPRTZJyARNQokkd9"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1272bdbd3509fcf9c1f49b24"
   },
   {
     "artist": "Doug Montgomery",
@@ -87,7 +97,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
@@ -113,6 +124,17 @@
       "0izT445qsXGB2LsdUJgdCn",
       "6OSL1RHhkkTIjghTc0xXFk",
       "7vjrklFWm0WCZXf3rr8qRw"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0cf39bb6ce504ab8e8c2c81c",
+    "subArtists": [
+      {
+        "name": "Johnny Lloyd",
+        "spotifyId": "2e3MqeCoPC7BSElTEf0y89",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0cf39bb6ce504ab8e8c2c81c"
+      },
+      {
+        "name": "Co."
+      }
     ]
   },
   {
@@ -124,6 +146,17 @@
       "4ABshobXQSd761AQ4t5u6s",
       "4g6flgWxvxgTUgod6NX09q",
       "05YpYVT7jXIZuet0LVXCi2"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2732b6a10869f536ce2bb65767e",
+    "subArtists": [
+      {
+        "name": "Gus Miller"
+      },
+      {
+        "name": "Rachel Cole",
+        "spotifyId": "3I7276JRy2r0RnruMqX6SS",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2732b6a10869f536ce2bb65767e"
+      }
     ]
   },
   {
@@ -135,7 +168,8 @@
       "22ihuNNUR2SLA84KtYOhso",
       "7MWjDwkSYPJMoMFtvwlBv9",
       "37fngt1KA7SeMUBrqMJkos"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8b7a0e8e33b99ab935c2b8fc"
   },
   {
     "artist": "Thurman Love",
@@ -146,7 +180,8 @@
       "3m61dkDuCQyqwOJdZFmLe6",
       "6BBpF5KouJ3XlRIbd8HlkQ",
       "3kWfd94q7zffIcdIHrrlbC"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0893cdd5fc5e5c68a559a611"
   },
   {
     "artist": "Second Chances Band",
@@ -158,7 +193,15 @@
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-06-18T00:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Remix Wednesdays"
+      },
+      {
+        "name": "DJ Stranger Vinyl Set"
+      }
+    ]
   },
   {
     "artist": "Swing & Sway the Night Away",
@@ -169,6 +212,25 @@
       "5Ea38RCmV570c6Sj4EUqIq",
       "0s4GCRjHuBh86j5AMnBn9c",
       "6VKViODSQDgDmgpuTsChdZ"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb70a9c7b5ec217f00e40431ad",
+    "genres": [
+      "french rap",
+      "french r&b"
+    ],
+    "subArtists": [
+      {
+        "name": "Swing",
+        "spotifyId": "0OQMxt6l70FM2YlLwYDiEn",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb70a9c7b5ec217f00e40431ad",
+        "genres": [
+          "french rap",
+          "french r&b"
+        ]
+      },
+      {
+        "name": "Sway the Night Away"
+      }
     ]
   },
   {
@@ -183,6 +245,19 @@
       "0SSbLSj9DLTaWsVORlyIoF",
       "1k3qMKP7YJMJs91cKby6H5",
       "5w9WEOWGBei8NuDUHHlJPF"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb071a018f3e5921e85290095f",
+    "subArtists": [
+      {
+        "name": "The Lowtimers",
+        "spotifyId": "2f41SnzTlJJ5rCBIez98ix",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb071a018f3e5921e85290095f"
+      },
+      {
+        "name": "Tommy Luke",
+        "spotifyId": "15Ggv1jCuM8depJaYWCdkm",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb15f4b2a04353116f6a125846"
+      }
     ]
   },
   {
@@ -203,6 +278,19 @@
       "0SSbLSj9DLTaWsVORlyIoF",
       "1k3qMKP7YJMJs91cKby6H5",
       "5w9WEOWGBei8NuDUHHlJPF"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb071a018f3e5921e85290095f",
+    "subArtists": [
+      {
+        "name": "The Lowtimers",
+        "spotifyId": "2f41SnzTlJJ5rCBIez98ix",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb071a018f3e5921e85290095f"
+      },
+      {
+        "name": "Tommy Luke",
+        "spotifyId": "15Ggv1jCuM8depJaYWCdkm",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb15f4b2a04353116f6a125846"
+      }
     ]
   },
   {
@@ -214,7 +302,8 @@
       "6Plwc7hs7t0hmF5hMAaJMV",
       "15L35gGagO5SZuZjKmACSH",
       "7E23il0kqPQOgEvJ30gsdx"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2735cdda90a98e1efba114c45ff"
   },
   {
     "artist": "Bread and Beats",
@@ -225,6 +314,25 @@
       "52VIdyKqp1pJRSyUQaxKUA",
       "7wWw7hBmErNg9u5w6Xx0vy",
       "40W8Mm9t3ZO1iNQlls35lL"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/a94fb066d16bf8bafed754f62c5b746357b661e6",
+    "genres": [
+      "soft rock",
+      "yacht rock"
+    ],
+    "subArtists": [
+      {
+        "name": "Bread",
+        "spotifyId": "70ZTdbPEcEugBNay4MvxfL",
+        "artistImageUrl": "https://i.scdn.co/image/a94fb066d16bf8bafed754f62c5b746357b661e6",
+        "genres": [
+          "soft rock",
+          "yacht rock"
+        ]
+      },
+      {
+        "name": "Beats"
+      }
     ]
   },
   {
@@ -242,7 +350,8 @@
       "5rDKoclY0LKzXq7FvK61S7",
       "0VHNl0ermDGgYh1yLH8rkE",
       "6eFt85TM4kGlsxwHxl1hhS"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba5642715408db4c9cbbfd802"
   },
   {
     "artist": "Vincent Neil Emerson",
@@ -253,6 +362,14 @@
       "3hQ51c9dPj9FcSdOHhrfkq",
       "0tIRswIxHkAXTF0cx2Eodb",
       "43b4N2ag6il5TtZ7z4ORc9"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1d19db14c3adf476fe5874a9",
+    "genres": [
+      "alt country",
+      "americana",
+      "outlaw country",
+      "red dirt",
+      "honky tonk"
     ]
   },
   {
@@ -262,14 +379,14 @@
     "source": "Santa Fe Reporter"
   },
   {
-    "artist": "David Geist Music Experience",
-    "venue": "Osteria D'Assisi",
+    "artist": "DJ OPTAMYSTIK",
+    "venue": "Cowgirl",
     "date": "2026-06-19T01:00:00.000Z",
     "source": "Santa Fe Reporter"
   },
   {
-    "artist": "DJ OPTAMYSTIK",
-    "venue": "Cowgirl",
+    "artist": "David Geist Music Experience",
+    "venue": "Osteria D'Assisi",
     "date": "2026-06-19T01:00:00.000Z",
     "source": "Santa Fe Reporter"
   },
@@ -282,6 +399,10 @@
       "21yHvVotcKaclhKxy15oQE",
       "22XK2RztNhWi4KkN7w2tli",
       "7pHoJZdrORq7QeBmpR0YK1"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27342a64c00f10746253717ba16",
+    "genres": [
+      "alt country"
     ]
   },
   {
@@ -293,7 +414,8 @@
       "0xy3JGKV6Csj7d1CtE6NsG",
       "2ghHBq7WcaUyRkLcKh6h8l",
       "276ZfAgAGiqQqF1Iub8adH"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc4a45f0e840b74b85c5e87d9"
   },
   {
     "artist": "Searows",
@@ -305,7 +427,8 @@
       "5swZvDSi78Znk4rlmwHNnj",
       "7fhAjbHrzGknwQkGIzJHVk",
       "5RXjt2s4HBJw3TcaAzwSrD"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb14229bdbda79ace871ef7bf2"
   },
   {
     "artist": "Strangers From Afar",
@@ -316,7 +439,8 @@
       "1eVXg13nNHBHMniWaH9QKv",
       "3msJioN2G3Vrcfjc4RgHhN",
       "1zQJzAHDpzc9wGzPaSS0BC"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d8a2c279630e9d4006814aa7"
   },
   {
     "artist": "Duodiaz",
@@ -351,7 +475,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Sir Woman",
@@ -362,6 +487,10 @@
       "6q8nlNnBLSAn5tU6tH9Zlz",
       "62gJ9HMWJdiOTWB3rwrTBL",
       "0zUz3MpYkz9KWuTMNfyv6P"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9096b9b9f923bb35b3413ec6",
+    "genres": [
+      "pop soul"
     ]
   },
   {
@@ -373,7 +502,8 @@
       "4jrdnlrqKKYYspbh1fGsL4",
       "0HH2YsUol3RfT0ZYUnqavb",
       "2NjuyulNkIIqXYN5SzYA7W"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2730d3a59a216cac65968ec91b9"
   },
   {
     "artist": "One Last Funky Dollar",
@@ -390,7 +520,8 @@
       "2h1wEdcOohrWQ8yF1Bp4KT",
       "1hKzT1zsDKFqqFaLugXHBt",
       "5nyuqr96Szc7z88YYJ2Ocq"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737462ed19dcf531e131e0faa1"
   },
   {
     "artist": "Baroque",
@@ -401,6 +532,11 @@
       "12V5AgfGpegwEjY5UgvoEU",
       "0smDqh40FcQS04QWMoWEHG",
       "6jL8iLdNYWVnhY5NnGsspN"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebb9db988dcbee579de19de1c5",
+    "genres": [
+      "ebm",
+      "cold wave"
     ]
   },
   {
@@ -436,7 +572,8 @@
       "1iY9n8a04FMbR4PicBq8nU",
       "1X84VaxOZGSqILdcqDJVMP",
       "5V0B6L518cRmFyTIp3ekeM"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273df7fcf496916c67c8351cb71"
   },
   {
     "artist": "The Chameleons",
@@ -447,6 +584,15 @@
       "3LvrEG9IQehvPxLDmIqjH8",
       "262mPGjCFLQoHE38LYHiCJ",
       "4Uv6BVQUcdxUkIRDAQ7a7l"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebb24ba09a762dfce961c60d81",
+    "genres": [
+      "post-punk",
+      "gothic rock",
+      "darkwave",
+      "deathrock",
+      "new wave",
+      "cold wave"
     ]
   },
   {
@@ -458,6 +604,17 @@
       "2xLqRx8FMK12Jkv6QqxzcE",
       "1I4RnCGYbYZs9qgdw7feVQ",
       "1Rpi2WKolQVJUfXjsfBJ1G"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2730e48bd0cd3d028201187f5a8",
+    "subArtists": [
+      {
+        "name": "AJW Presents iNK oN pAPER"
+      },
+      {
+        "name": "Kodama Trio",
+        "spotifyId": "7LTXSvNncFimzcFkkNrioe",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2730e48bd0cd3d028201187f5a8"
+      }
     ]
   },
   {
@@ -488,7 +645,8 @@
       "0z2WXMiBS62H8qqsgNSrp8",
       "2qiDS4LphQu1shXPdCn5UY",
       "6WGYeDSCqtvR8AhceFNp7B"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc89221998d9c70d029fa2472"
   },
   {
     "artist": "Silver Sky Blues Band",
@@ -511,7 +669,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Smooth & Suavecito",
@@ -525,6 +684,27 @@
       "6vnnplhIUCr1RuDaHY6Gu3",
       "0gYmFPIfSFXKmFZtqrnub7",
       "2lvlNTAmxNg6uCA9PHyBTf"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d3c955f5cc71aaf9619b280c",
+    "genres": [
+      "baltimore club",
+      "jersey club"
+    ],
+    "subArtists": [
+      {
+        "name": "Smooth",
+        "spotifyId": "4KKNSSNfectr01qLAy2wEc",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d3c955f5cc71aaf9619b280c",
+        "genres": [
+          "baltimore club",
+          "jersey club"
+        ]
+      },
+      {
+        "name": "Suavecito",
+        "spotifyId": "3zr8FJ1UqyZJcXE0dwQN4D",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737497f27bb5d97c78dbf9dc84"
+      }
     ]
   },
   {
@@ -542,7 +722,8 @@
       "6bkvR1J2ijLMLvxhAMKZgf",
       "0gvNB7eN98ovsApmfQVyWY",
       "0MorKC1NHqpUzvXDZPUdwn"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebcdc65fcce6057fd697c49b95"
   },
   {
     "artist": "Santa Fe Grass",
@@ -565,7 +746,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
@@ -582,7 +764,8 @@
       "30BJd40WXUOEQSb6lNreAe",
       "7AmgGDFrm2vQN3tTsSc45B",
       "0GkzqJHf9FZsY6MjExbX7W"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bc77c9502e9fcbf8f29f9e40"
   },
   {
     "artist": "Kontusion // Dispossessed // Dysphotic // Hot Wolf",
@@ -602,19 +785,75 @@
       "2vXko2Xl6b97IxNPa5J6sI",
       "09gvWkdphq01GEbjpXwYgK",
       "0zhSEGTG3QJeAca1pWGBEE"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273906a00488c76ba8147fb7f06",
+    "genres": [
+      "death metal",
+      "drone metal",
+      "sludge metal",
+      "doom metal"
+    ],
+    "subArtists": [
+      {
+        "name": "Kontusion",
+        "spotifyId": "2nRdFkICR7xbuTyS9ppFxR",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273906a00488c76ba8147fb7f06",
+        "genres": [
+          "death metal"
+        ]
+      },
+      {
+        "name": "Dispossessed",
+        "spotifyId": "5mXpXwn0lmJOfmNXS2Ixiw",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb84d2aadeccf470a4690dd7b3",
+        "genres": [
+          "drone metal",
+          "sludge metal",
+          "doom metal"
+        ]
+      },
+      {
+        "name": "Dysphotic",
+        "spotifyId": "3EHLbdK0omKX9eHd3g0GPm",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2730419c531d47a4225f2fc45e0",
+        "genres": [
+          "death metal"
+        ]
+      },
+      {
+        "name": "Hot Wolf",
+        "spotifyId": "5KNk94SweC6yLwJ1BilfmF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273b518e77250ba9c7c8748e270"
+      }
     ]
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-06-25T00:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Remix Wednesdays"
+      },
+      {
+        "name": "DJ Stranger Vinyl Set"
+      }
+    ]
   },
   {
     "artist": "Last Wednesdays with John Francis",
     "venue": "La Reina",
     "date": "2026-06-25T02:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Last Wednesdays"
+      },
+      {
+        "name": "John Francis"
+      }
+    ]
   },
   {
     "artist": "Bill Hearne",
@@ -625,7 +864,8 @@
       "6Plwc7hs7t0hmF5hMAaJMV",
       "15L35gGagO5SZuZjKmACSH",
       "7E23il0kqPQOgEvJ30gsdx"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2735cdda90a98e1efba114c45ff"
   },
   {
     "artist": "Locals Night + Folk Jam",
@@ -667,7 +907,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Turnover",
@@ -679,6 +920,12 @@
       "3vkj94FiLgUz3ysZcmIXPx",
       "0Wl2RALqRacaIJhnlRHK8J",
       "7itGQJ2FJZPl3VPD7x4vJw"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb848d27ab5fb5fa7bf05c3f15",
+    "genres": [
+      "midwest emo",
+      "dream pop",
+      "pop punk"
     ]
   },
   {
@@ -702,7 +949,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -713,7 +961,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
@@ -730,13 +979,22 @@
       "1wRjjybwHp8RwlJK1LlgaK",
       "16oNPQ2sVbzZyAscp4SFHD",
       "0x18q7L6pDUnRpZ1bIv8B5"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb768aac12e80d71cd3f9e2c0c"
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-07-02T00:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Remix Wednesdays"
+      },
+      {
+        "name": "DJ Stranger Vinyl Set"
+      }
+    ]
   },
   {
     "artist": "Bill Hearne",
@@ -747,7 +1005,8 @@
       "6Plwc7hs7t0hmF5hMAaJMV",
       "15L35gGagO5SZuZjKmACSH",
       "7E23il0kqPQOgEvJ30gsdx"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2735cdda90a98e1efba114c45ff"
   },
   {
     "artist": "DJ OPTAMYSTIK",
@@ -764,7 +1023,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Stanlie Kee and The Step In",
@@ -781,7 +1041,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -792,7 +1053,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
@@ -804,7 +1066,15 @@
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-07-09T00:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Remix Wednesdays"
+      },
+      {
+        "name": "DJ Stranger Vinyl Set"
+      }
+    ]
   },
   {
     "artist": "DJ OPTAMYSTIK",
@@ -821,7 +1091,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -832,7 +1103,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Santa Fe Grass",
@@ -849,7 +1121,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
@@ -861,7 +1134,15 @@
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-07-16T00:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Remix Wednesdays"
+      },
+      {
+        "name": "DJ Stranger Vinyl Set"
+      }
+    ]
   },
   {
     "artist": "DJ OPTAMYSTIK",
@@ -878,7 +1159,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -889,7 +1171,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Santa Fe Grass",
@@ -906,7 +1189,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
@@ -918,7 +1202,15 @@
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-07-23T00:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Remix Wednesdays"
+      },
+      {
+        "name": "DJ Stranger Vinyl Set"
+      }
+    ]
   },
   {
     "artist": "DJ OPTAMYSTIK",
@@ -935,7 +1227,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -946,7 +1239,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Santa Fe Grass",
@@ -963,7 +1257,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
@@ -975,13 +1270,29 @@
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-07-30T00:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Remix Wednesdays"
+      },
+      {
+        "name": "DJ Stranger Vinyl Set"
+      }
+    ]
   },
   {
     "artist": "Last Wednesdays with John Francis",
     "venue": "La Reina",
     "date": "2026-07-30T02:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Last Wednesdays"
+      },
+      {
+        "name": "John Francis"
+      }
+    ]
   },
   {
     "artist": "DJ OPTAMYSTIK",
@@ -998,7 +1309,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Santa Fe Cumbiero",
@@ -1009,6 +1321,11 @@
       "4Gqev5RBXz7j5ady7ntvm6",
       "77P0W9ZBXd4iF5tF7aluv7",
       "0wBfdFWuY9ESwKb5cLWyHc"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba30bc6e12ab8f5c98ba53d09",
+    "genres": [
+      "cumbia",
+      "cuarteto"
     ]
   },
   {
@@ -1020,7 +1337,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Santa Fe Grass",
@@ -1037,6 +1355,12 @@
       "0y8e8muEHphzSaE7kDiYvn",
       "3wShyyPO8fob86VMwkZOCt",
       "7gBvhUjKGik8Z6ywWvH1cJ"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd72d9238eabc945716da2137",
+    "genres": [
+      "bluegrass",
+      "newgrass",
+      "americana"
     ]
   },
   {
@@ -1048,7 +1372,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
@@ -1065,6 +1390,10 @@
       "73Sl9vnn0GKqM0P4Aceb1r",
       "3TbII1ufokybEMe488YOvM",
       "1mreV6riDZi2aAfFztC8np"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba12e93b08704ea32fe287f5e",
+    "genres": [
+      "surf rock"
     ]
   },
   {
@@ -1076,6 +1405,11 @@
       "3d2IeXv14uLNn8LyBAuOEI",
       "72U9iUryrmKLgXTGXjOb9J",
       "70PEZ5qdaO5on2NvyA3Rok"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46c16ceedabc9ce0e1a362d1929",
+    "genres": [
+      "neo-psychedelic",
+      "space rock"
     ]
   },
   {
@@ -1087,6 +1421,11 @@
       "19mRNWlmHCKIlBT8WOCaXQ",
       "3B7mbMbbcuKdfWssAcyvG8",
       "684VXujwkA962eZmEJN05N"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46cb527d08497ff51fbbd3b0e0b",
+    "genres": [
+      "stoner rock",
+      "garage rock"
     ]
   },
   {
@@ -1098,6 +1437,12 @@
       "45PmtkNbgCun4GPphHVzvi",
       "5p2HBJhp9jM5dhVTjunF6a",
       "6Pc50RJY1VmPT8AowAvQwE"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1aa6bf26b3afc9c1d098d2b0",
+    "genres": [
+      "surf rock",
+      "rockabilly",
+      "psychobilly"
     ]
   },
   {
@@ -1109,7 +1454,8 @@
       "3ogbdxSy8mT5zCkxifYu9K",
       "3s1uOFKUwnuPVPFAGVCEsA",
       "1nRcZ8paEupSa6OG3wZEzf"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27372d971ffb8b1350eeaf636d5"
   },
   {
     "artist": "DJ OPTAMYSTIK",
@@ -1126,7 +1472,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Wonderful Fantastic Hip-Hop Festival",
@@ -1143,6 +1490,10 @@
       "42X2sF885dznN3m4xx1ItT",
       "4QKPvZjJAFb3kw93q19SlG",
       "1PIgPavjixDf6agaJPqsUR"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7c10e4f8e36d9e14b31c721f",
+    "genres": [
+      "electro swing"
     ]
   },
   {
@@ -1154,7 +1505,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Santa Fe Grass",
@@ -1171,6 +1523,12 @@
       "3lfjd8A0DkB84yrvjzkbry",
       "5reQI13tWWYDLMrGcUF4Mk",
       "3TjJq3dLUien8DfEpxr52i"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba05e0d3f615af0b664cf607b",
+    "genres": [
+      "colombian pop",
+      "latin alternative",
+      "latin indie"
     ]
   },
   {
@@ -1182,7 +1540,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
@@ -1199,6 +1558,10 @@
       "4jfFCrPt6SMHAJYva4OUEk",
       "28BIVJlBWQhgKZKOdfDbYA",
       "1RB45q5WTitlyZLp595H6p"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273f77e44167d7cc0590196ef93",
+    "genres": [
+      "native american music"
     ]
   },
   {
@@ -1210,6 +1573,11 @@
       "0etKjdwsCnwtj6dB4iEZn8",
       "2vL3NFV79S9LvAnWAI6MMQ",
       "48bePG5thRkA5xttNPRB8c"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebffce0e0fc0c2c1e811e48602",
+    "genres": [
+      "dream pop",
+      "chillwave"
     ]
   },
   {
@@ -1233,7 +1601,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1244,7 +1613,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Santa Fe Grass",
@@ -1267,7 +1637,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
@@ -1284,7 +1655,8 @@
       "78okb4I5MHt9Pkj4By52li",
       "1hIbRfZ8QZmUcqBrbO0pku",
       "45yOoRo9JIZJoXIrkMurun"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737af98928cd5afc6dc8d73188"
   },
   {
     "artist": "DK Harrell",
@@ -1307,6 +1679,10 @@
       "3KZRkM7Uv0F2oCTUHAvv0a",
       "7ydapdmQ4oivP54X29q7Af",
       "0do3zfmbVl5DiGxUXrbhrT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb2f538487b6868a97f5a7fb",
+    "genres": [
+      "alt country"
     ]
   },
   {
@@ -1318,6 +1694,13 @@
       "5fW9gRfANuXLNgopaNTrHi",
       "01Cr7MlISmoh8gMlZBjpko",
       "6kgGjdcT7Brz9XPxLus88M"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebea8881cbd85a6f4fb22db65b",
+    "genres": [
+      "southern gothic",
+      "modern blues",
+      "blues rock",
+      "blues"
     ]
   },
   {
@@ -1329,7 +1712,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Lisa Morales",
@@ -1340,7 +1724,8 @@
       "6j8aIZfPZvMLtj8G8Hljft",
       "1dLSYH04jSwGxpNLBXiCdB",
       "2OCQJwElp7D6lqHEdLQVD3"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebed0c526bb5a1f0b8929988b7"
   },
   {
     "artist": "Gov't Mule",
@@ -1351,6 +1736,14 @@
       "3lzYx9dpCNw6CkttQe6SlE",
       "1b2S3hshRyAQw26g5ZwAUv",
       "4Q8JkGO6EnyAz0GHugMigw"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb689718b5c2ec46488718f4f5",
+    "genres": [
+      "jam band",
+      "southern rock",
+      "blues rock",
+      "modern blues",
+      "blues"
     ]
   },
   {
@@ -1362,6 +1755,12 @@
       "2LXfEAOEhhNupDM01ZLOQe",
       "3rc3BWLhFGj5ewNLJaOUAQ",
       "4jkQZNP7o8T7xuTs9EQu7Y"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb6eafd8abb52917d2d52b3b67",
+    "genres": [
+      "vaporwave",
+      "city pop",
+      "nu disco"
     ]
   },
   {
@@ -1373,7 +1772,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Pepper and The Movement",
@@ -1402,7 +1802,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
@@ -1419,13 +1820,25 @@
       "0zaXqaNFolJBALeGGSOelq",
       "1UIz73pbNgwZbLn99iSq0b",
       "2vW1iPJsR3zwxb9m6TvTAY"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8f76c60695ee4236b0fa7632",
+    "genres": [
+      "retro soul"
     ]
   },
   {
     "artist": "Last Wednesdays with John Francis",
     "venue": "La Reina",
     "date": "2026-08-27T02:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Last Wednesdays"
+      },
+      {
+        "name": "John Francis"
+      }
+    ]
   },
   {
     "artist": "Jay Boy Adams and Zenobia w/Bill Hearne",
@@ -1436,6 +1849,25 @@
       "3YpNm6q0gteD6R8gpm49Af",
       "1tgw48ErlHjmm3WahKXdK3",
       "3scAwLT1kY7nFkc6JJu3CW"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27322e6ab27696a93e24994358d",
+    "genres": [
+      "texas country",
+      "country rock"
+    ],
+    "subArtists": [
+      {
+        "name": "Jay Boy Adams",
+        "spotifyId": "6u4HGlTHI4MoixiNxVQhSz",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27322e6ab27696a93e24994358d",
+        "genres": [
+          "texas country",
+          "country rock"
+        ]
+      },
+      {
+        "name": "Zenobia w/Bill Hearne"
+      }
     ]
   },
   {
@@ -1453,6 +1885,10 @@
       "1RmJJPvyMSszOQHJ4s03A2",
       "4lhhYqzREcts4uOOqWHjRJ",
       "2eM4Ew20VXdjBhm6a6Cs9l"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe25488bca4236e5ae6d5feb8",
+    "genres": [
+      "retro soul"
     ]
   },
   {
@@ -1464,7 +1900,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1475,7 +1912,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Santa Fe Grass",
@@ -1495,6 +1933,25 @@
       "3wBSwnLJQfmLGiYQ2jF3FS",
       "0rtbXJV7J0aHT9HWQISY26",
       "1VPa2UPP9K3XADyyM6jqux"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba2a65cdcfb9f406ae6e274dd",
+    "genres": [
+      "surf rock"
+    ],
+    "subArtists": [
+      {
+        "name": "Sinister Surfer",
+        "spotifyId": "6R8y9IL7ld882MjAHhbbJC",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba2a65cdcfb9f406ae6e274dd",
+        "genres": [
+          "surf rock"
+        ]
+      },
+      {
+        "name": "Strange Magic",
+        "spotifyId": "2ggkOKwKgqUrzcjFLTDWEW",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb55e86c6f07c20693c1a98f23"
+      }
     ]
   },
   {
@@ -1506,7 +1963,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
@@ -1523,7 +1981,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1534,7 +1993,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -1545,7 +2005,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
@@ -1556,7 +2017,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1567,7 +2029,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -1578,7 +2041,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
@@ -1589,7 +2053,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1600,7 +2065,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -1611,7 +2077,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
@@ -1622,7 +2089,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1633,7 +2101,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -1644,7 +2113,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
@@ -1655,7 +2125,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1666,7 +2137,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -1677,7 +2149,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
@@ -1688,7 +2161,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1699,7 +2173,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -1710,7 +2185,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
@@ -1721,7 +2197,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1732,7 +2209,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -1743,7 +2221,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
@@ -1754,7 +2233,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1765,7 +2245,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -1776,7 +2257,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
@@ -1787,7 +2269,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1798,7 +2281,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -1809,7 +2293,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
@@ -1820,7 +2305,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1831,7 +2317,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -1842,7 +2329,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
@@ -1853,7 +2341,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1864,7 +2353,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -1875,7 +2365,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
@@ -1886,7 +2377,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1897,7 +2389,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -1908,7 +2401,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
@@ -1919,7 +2413,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1930,7 +2425,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -1941,7 +2437,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
@@ -1952,7 +2449,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1963,7 +2461,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -1974,7 +2473,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
@@ -1985,7 +2485,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -1996,7 +2497,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -2007,7 +2509,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
@@ -2018,7 +2521,8 @@
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
@@ -2029,7 +2533,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -2040,7 +2545,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -2051,7 +2557,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
@@ -2062,7 +2569,8 @@
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Rare of Breed",
@@ -2074,6 +2582,13 @@
       "4hh1SUEZijW1rPvof8RnCv",
       "1D3fFUTObiGfY3Ajam2XHx",
       "4KkAwbrvXDd0s721ufEmFj"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebbf4fbdb800bb53fd1598621f",
+    "genres": [
+      "christian hip hop",
+      "country christian",
+      "country hip hop",
+      "christian"
     ]
   },
   {
@@ -2089,6 +2604,30 @@
       "2cJWU90x1NlPNKWOS3lHyQ",
       "2Buj0g77kPF0r345PkzAo2",
       "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ]
+      }
     ]
   },
   {
@@ -2108,7 +2647,8 @@
       "5swZvDSi78Znk4rlmwHNnj",
       "7fhAjbHrzGknwQkGIzJHVk",
       "5RXjt2s4HBJw3TcaAzwSrD"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb14229bdbda79ace871ef7bf2"
   },
   {
     "artist": "KatsüK",
@@ -2120,7 +2660,8 @@
       "2t0xFKbOCmitR3wdd1XOIi",
       "20gdkTK87W0HOl5YoWIrrP",
       "6zGE5rGnZqPCU98iQohCnb"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273604772c1c96b1bdaadf148ce"
   },
   {
     "artist": "Jesus Bas",
@@ -2156,6 +2697,35 @@
       "69jVsEla1GaZYEzinH4kDb",
       "3C7Qjn5zpc6xJ81pamYWtJ",
       "7jd5bSsJ3pdPVDU7PdFVJL"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb848d27ab5fb5fa7bf05c3f15",
+    "genres": [
+      "midwest emo",
+      "dream pop",
+      "pop punk",
+      "shoegaze",
+      "post-grunge"
+    ],
+    "subArtists": [
+      {
+        "name": "Turnover",
+        "spotifyId": "0gLjJuczGWhqKVMmVpIT52",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb848d27ab5fb5fa7bf05c3f15",
+        "genres": [
+          "midwest emo",
+          "dream pop",
+          "pop punk"
+        ]
+      },
+      {
+        "name": "Narrow Head",
+        "spotifyId": "4g6ODwOQYRZLsP89kEoBIu",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe9c0358d8615d9ffcc799ba0",
+        "genres": [
+          "shoegaze",
+          "post-grunge"
+        ]
+      }
     ]
   },
   {
@@ -2175,7 +2745,8 @@
       "68MsVSVZO8eSPdqPfhG83A",
       "3fDYjf2WbXy7LzrwFeRzIU",
       "3lwLjFfQSGFK2pxTKNvPI0"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9b089175056ac1fbc164c46f"
   },
   {
     "artist": "Brett Dennen",
@@ -2187,7 +2758,8 @@
       "1N4GXAzVrcDeMWy7sUQaHf",
       "0ioDZn2JL53ictGJMMkETC",
       "0kgxYCZuYLlibZWnIvHrvL"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb4353d27614b23bae6b2aea0c"
   },
   {
     "artist": "Mina Fajardo and Chuscales",
@@ -2202,6 +2774,30 @@
       "2cJWU90x1NlPNKWOS3lHyQ",
       "2Buj0g77kPF0r345PkzAo2",
       "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ]
+      }
     ]
   },
   {
@@ -2235,6 +2831,13 @@
       "5ZGM626be3ItMW4UPjfqdY",
       "1CHL6sjDwpivvA4LE0lsww",
       "1iMOLNyzKtIMucwZzQSjZi"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb78eb659fbba3b198cc2f4160",
+    "genres": [
+      "garage rock",
+      "surf rock",
+      "noise rock",
+      "indie punk"
     ]
   },
   {
@@ -2247,6 +2850,12 @@
       "7lHGsPvsdeSD1tRm0faS1o",
       "3criOyPqWwtt5cUAcDCq6J",
       "1z3y0dcgWonv5eZJmkN05r"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb62a4b98bc97a9b5534cd1321",
+    "genres": [
+      "garage rock",
+      "surf rock",
+      "indie punk"
     ]
   },
   {
@@ -2259,6 +2868,10 @@
       "5p31gXMyrLUtvDbYIiSaBm",
       "4ZBf9RlEUr86x0lfa8c3sV",
       "4RpYDETtHvEOQAglR6OvPe"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb85fa0ce7125cddd2031f6c76",
+    "genres": [
+      "shoegaze"
     ]
   },
   {
@@ -2274,6 +2887,30 @@
       "2cJWU90x1NlPNKWOS3lHyQ",
       "2Buj0g77kPF0r345PkzAo2",
       "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ]
+      }
     ]
   },
   {
@@ -2293,6 +2930,11 @@
       "6rD4MHVZYYKplXGVO6C7qy",
       "0dWyiShx09WD8CgxqZh4c5",
       "0m2YCXCL1WRLsfvYvLtof4"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebbf788e1649b19be8f7e2d0e2",
+    "genres": [
+      "stutter house",
+      "drum and bass"
     ]
   },
   {
@@ -2312,7 +2954,8 @@
       "0aW3FQZlYWyj1gTn7mlc8t",
       "21CU5fG0Pp0LUbXRDG1d48",
       "562yKTMPiyCsZrzjXzUzSF"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8e479fc57372737933ff77b2"
   },
   {
     "artist": "Foghat",
@@ -2324,6 +2967,11 @@
       "4MYb7NWLwXNDB7bYs3HeX8",
       "5aYVqxyetmT5OYmvZCA90X",
       "48MQDFkvHlGnRQyUx6ZXVe"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc99812527711745e4e0bf29c",
+    "genres": [
+      "classic rock",
+      "southern rock"
     ]
   },
   {
@@ -2336,6 +2984,10 @@
       "4KGeSK35AEwinM77n6h52q",
       "2x2aTcPu4UQA6JckyV8Esc",
       "5jtHlZuDNl3HCWb2cDqy77"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0ba6295d8a378ca26bae6015",
+    "genres": [
+      "americana"
     ]
   },
   {
@@ -2348,6 +3000,11 @@
       "4o8goNKUaLWNiX0NN1WTHj",
       "11PlOBRQZGij71WmsIVQC4",
       "5hEXSSBy7bVEVw510JEGo6"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d2b43ca3d9818c6baf04d57f",
+    "genres": [
+      "americana",
+      "outlaw country"
     ]
   },
   {
@@ -2360,7 +3017,8 @@
       "2MQhTbX792AT6YyzwLz9dt",
       "5n4ukKmCn7OEgQVC4kxu6y",
       "2TmqE1B16v0H6BLbBz38ob"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9d60565c6405a35d5854b70d"
   },
   {
     "artist": "Dylan LeBlanc",
@@ -2372,6 +3030,10 @@
       "2zEByOH565rMCSacbB56Pd",
       "0SaaTLWDZAiaDLDbCq5znv",
       "3xLN3ZZ5BK3Og5wZ2WgObG"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8a27703d943c683757092f35",
+    "genres": [
+      "americana"
     ]
   },
   {
@@ -2387,6 +3049,30 @@
       "2cJWU90x1NlPNKWOS3lHyQ",
       "2Buj0g77kPF0r345PkzAo2",
       "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ]
+      }
     ]
   },
   {
@@ -2406,6 +3092,15 @@
       "2sKMKKLObm8wq7YTeB6Yxd",
       "6biQrLq3oML4mvr9RZ8ZFD",
       "5ygzu1GVY7wnjOvvvfamJ0"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebcdb24f2ab31c0739c346dacf",
+    "genres": [
+      "alt country",
+      "americana",
+      "outlaw country",
+      "red dirt",
+      "texas country",
+      "roots rock"
     ]
   },
   {
@@ -2418,6 +3113,11 @@
       "1kTZPhmN8PW3KrXahh8rs8",
       "5AbTdTkrWyTlnguWH6J2fD",
       "4V5874YanN9HS4fbTnwiQs"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb3536f18a4d9fe29772335ea3",
+    "genres": [
+      "smooth jazz",
+      "jazz"
     ]
   },
   {
@@ -2437,6 +3137,13 @@
       "6684GUHy1jpyhJVzpz5OFr",
       "276N2R4cVkJYp6vWECAlWm",
       "4s9Q3d4I8QcdcYGHqmqq4V"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9d87eb01be131943865a735e",
+    "genres": [
+      "americana",
+      "alt country",
+      "folk",
+      "singer-songwriter"
     ]
   },
   {
@@ -2449,6 +3156,11 @@
       "6Tc3cyJ9JGNVnlxCxL67rp",
       "2m5ItG3IIMsaGYJjZOvUoE",
       "2S6yBUXa5KddBV0CqBkcP1"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebf1ddbf901b0581a473305e4c",
+    "genres": [
+      "alt country",
+      "americana"
     ]
   },
   {
@@ -2461,6 +3173,12 @@
       "5T7ZTI47ewvq66rpX5bj5S",
       "0uD6bj0fgJRk2Jas7opwPN",
       "2iedbVlqr2NVlQwjxMxRLT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2739c0b600d4b8ae25a23964b9e",
+    "genres": [
+      "americana",
+      "alt country",
+      "outlaw country"
     ]
   },
   {
@@ -2476,6 +3194,30 @@
       "2cJWU90x1NlPNKWOS3lHyQ",
       "2Buj0g77kPF0r345PkzAo2",
       "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ]
+      }
     ]
   },
   {
@@ -2505,6 +3247,30 @@
       "2cJWU90x1NlPNKWOS3lHyQ",
       "2Buj0g77kPF0r345PkzAo2",
       "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ]
+      }
     ]
   },
   {
@@ -2524,6 +3290,11 @@
       "1bPcxJHusTrlr2Kj4kjK7e",
       "6CWDUTWFZW9P9wNkGqg0U5",
       "5bS7ajbQ4ZZDksu9ryAvXu"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb26b0d0de46b77e23675281",
+    "genres": [
+      "indie rock",
+      "power pop"
     ]
   },
   {
@@ -2536,7 +3307,8 @@
       "3frZl6bno6us1TLjr6PZ4h",
       "7fKqzZlS2em2fwDkKvSJZA",
       "1CQYKndmQR1bMvOSZrq2Lq"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc76f04ab8987c4fb298abb3c"
   },
   {
     "artist": "Jesus Bas",
@@ -2555,6 +3327,11 @@
       "3d2IeXv14uLNn8LyBAuOEI",
       "72U9iUryrmKLgXTGXjOb9J",
       "70PEZ5qdaO5on2NvyA3Rok"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46c16ceedabc9ce0e1a362d1929",
+    "genres": [
+      "neo-psychedelic",
+      "space rock"
     ]
   },
   {
@@ -2570,6 +3347,27 @@
       "2qPsFrbn4G1ytL3YmBFhxf",
       "7fBGO13V5jWSKzXWPP4Kus",
       "5AzXD4JyNAUTqPyoy16teD"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46cb527d08497ff51fbbd3b0e0b",
+    "genres": [
+      "stoner rock",
+      "garage rock"
+    ],
+    "subArtists": [
+      {
+        "name": "Eagles of Death Metal",
+        "spotifyId": "02uYdhMhCgdB49hZlYRm9o",
+        "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46cb527d08497ff51fbbd3b0e0b",
+        "genres": [
+          "stoner rock",
+          "garage rock"
+        ]
+      },
+      {
+        "name": "Headsend",
+        "spotifyId": "3Q9ixqkrzaQW2lFDSe8il1",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb61831236672eee9984631c21"
+      }
     ]
   },
   {
@@ -2585,6 +3383,30 @@
       "2cJWU90x1NlPNKWOS3lHyQ",
       "2Buj0g77kPF0r345PkzAo2",
       "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ]
+      }
     ]
   },
   {
@@ -2604,6 +3426,15 @@
       "75gfxIedwH7j2s5nc7JgWh",
       "2KtqjclZVtEm5K0LTmNdPI",
       "0U2TocFjqul3sis3sE5jZl"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb6cdde60b6c8838aeb82dfb41",
+    "genres": [
+      "progressive metal",
+      "glam metal",
+      "metal",
+      "heavy metal",
+      "hard rock",
+      "progressive rock"
     ]
   },
   {
@@ -2616,6 +3447,11 @@
       "0etKjdwsCnwtj6dB4iEZn8",
       "2vL3NFV79S9LvAnWAI6MMQ",
       "48bePG5thRkA5xttNPRB8c"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebffce0e0fc0c2c1e811e48602",
+    "genres": [
+      "dream pop",
+      "chillwave"
     ]
   },
   {
@@ -2628,7 +3464,8 @@
       "37piAuK1WhsQDLJ8hmDDSW",
       "3hVq9e2hA3J0NZmlXqTl0B",
       "609jfTPcX5w8YnpW2Sf9JI"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebfe0cbe07c7915a5d7420fb6b"
   },
   {
     "artist": "Soft Palms",
@@ -2640,7 +3477,8 @@
       "05s1RKoZ5JNuaSDB1hp9Yv",
       "1pWtC2kjZoUipQrHU49rSM",
       "3yvCKCykDXuRrlOCZwniKT"
-    ]
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb057fd1454058de189d9b9b3b"
   },
   {
     "artist": "Mina Fajardo and Chuscales",
@@ -2655,6 +3493,30 @@
       "2cJWU90x1NlPNKWOS3lHyQ",
       "2Buj0g77kPF0r345PkzAo2",
       "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ]
+      }
     ]
   }
 ]

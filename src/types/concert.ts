@@ -1,3 +1,10 @@
+export interface SubArtist {
+  name: string;
+  artistImageUrl?: string;
+  spotifyId?: string;
+  genres?: string[];
+}
+
 export interface Concert {
   artist: string;
   venue: string;
@@ -5,6 +12,9 @@ export interface Concert {
   ticketUrl?: string;
   source: string;
   trackIds?: string[];
+  artistImageUrl?: string;
+  genres?: string[];
+  subArtists?: SubArtist[];
 }
 
 export interface Venue {

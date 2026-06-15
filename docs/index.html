@@ -3,136 +3,238 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Santa Fe Concert Board & Playlist</title>
-  <meta name="description" content="Discover upcoming concerts and live music events in Santa Fe, NM and stream the curated Spotify playlist.">
+  <title>Santa Fe Live Music Board & Playlist</title>
+  <meta name="description" content="Discover upcoming live events in Santa Fe, NM. Stream preview tracks on Spotify, view full lineups, and get tickets.">
+  
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
   <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="glow-bg"></div>
-  <div class="glow-bg-2"></div>
+  <!-- Ambient background glow spots -->
+  <div class="glow-bg glow-spot-1"></div>
+  <div class="glow-bg glow-spot-2"></div>
+  <div class="glow-bg glow-spot-3"></div>
   
-  <header>
-    <div class="header-container">
+  <!-- Hero Section -->
+  <header class="hero-header">
+    <div class="hero-noise"></div>
+    <div class="hero-container">
       <div class="logo">
-        <i class="fa-solid fa-guitar logo-icon"></i>
-        <h1>Santa Fe <span>Concert Board</span></h1>
+        <span class="live-badge"><span class="live-dot"></span> LIVE</span>
+        <h1>SANTA FE <span>CONCERTS</span></h1>
       </div>
-      <p class="subtitle">Your weekly guide to live music in Santa Fe, NM. Hand-curated & automatically updated on Spotify.</p>
+      <p class="subtitle">Your weekly guide to live music in Santa Fe, NM. Preview upcoming shows below & listen on Spotify.</p>
     </div>
   </header>
 
-  <main class="main-container">
-    <!-- Left Panel: Spotify Playlist -->
-    <section class="spotify-panel" aria-label="Spotify Player">
-      <div class="glass-card spotify-card">
-        <div class="card-header">
-          <i class="fa-brands fa-spotify spotify-icon"></i>
-          <h2>Weekly Playlist</h2>
+  <main class="main-layout">
+    <!-- Left Column: Sticky Spotify Integration -->
+    <section class="spotify-sidebar" aria-label="Spotify Player">
+      <div class="spotify-widget glass-card">
+        <div class="widget-header">
+          <i class="fa-brands fa-spotify spotify-brand-icon"></i>
+          <div>
+            <h2>Weekly Playlist</h2>
+            <p class="playlist-meta">Santa Fe Upcoming Concerts</p>
+          </div>
         </div>
-        <p class="card-desc">Listen to top tracks from the artists playing in town this week.</p>
         
-        <!-- Embedded Spotify Player -->
+        <!-- Spotify Player Embed -->
         <div class="spotify-player-container">
           <div id="spotify-embed-iframe"></div>
         </div>
         
-        <div class="playlist-action">
+        <div class="sidebar-footer">
           <a href="https://open.spotify.com/playlist/7IhapNTY8GMvqflSaVyQfP" target="_blank" rel="noopener noreferrer" class="btn btn-spotify" id="btn-open-spotify">
-            <i class="fa-brands fa-spotify"></i> Open in Spotify
+            <i class="fa-brands fa-spotify"></i> Open Spotify App
           </a>
         </div>
       </div>
     </section>
 
-    <!-- Right Panel: Concert Listings -->
-    <section class="concerts-panel" aria-label="Concert Listings">
-      <!-- Control Bar: Search & Filters -->
-      <div class="glass-card controls-card">
-        <div class="controls-grid">
-          <!-- Search -->
-          <div class="control-group search-group">
-            <label for="search-input"><i class="fa-solid fa-magnifying-glass"></i> Search</label>
-            <input type="text" id="search-input" placeholder="Search artists, venues...">
+    <!-- Right Column: Interactive Concert Explorer -->
+    <section class="concerts-explorer" aria-label="Concert Explorer">
+      <!-- Search & Filters Panel -->
+      <div class="explorer-controls glass-card">
+        <div class="search-row">
+          <div class="search-input-wrapper">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" id="search-input" placeholder="Search artists, venues, genres...">
           </div>
-
-          <!-- Date Filter -->
-          <div class="control-group">
-            <label for="date-filter"><i class="fa-solid fa-calendar-days"></i> When</label>
-            <select id="date-filter">
-              <option value="all">Any Date</option>
-              <option value="today">Tonight</option>
-              <option value="week">Next 7 Days</option>
-              <option value="month">This Month</option>
-            </select>
-          </div>
-
-          <!-- Source Filter -->
-          <div class="control-group">
-            <label for="source-filter"><i class="fa-solid fa-circle-info"></i> Source</label>
-            <select id="source-filter">
-              <option value="all">All Sources</option>
-              <option value="Santa Fe Reporter">Santa Fe Reporter</option>
-              <option value="Songkick">Songkick</option>
+          
+          <div class="venue-select-wrapper">
+            <i class="fa-solid fa-location-dot select-icon"></i>
+            <select id="venue-filter">
+              <option value="all">All Venues</option>
+              <!-- Populated dynamically -->
             </select>
           </div>
         </div>
 
-        <div class="results-meta">
+        <!-- Date Filters (Pill design) -->
+        <div class="filter-section">
+          <span class="filter-label">When</span>
+          <div class="pill-group" id="date-pills">
+            <button class="pill active" data-value="all">Any Date</button>
+            <button class="pill" data-value="today">Tonight</button>
+            <button class="pill" data-value="week">Next 7 Days</button>
+            <button class="pill" data-value="month">This Month</button>
+          </div>
+        </div>
+
+        <!-- Genre Filters (Pill design) -->
+        <div class="filter-section" id="genre-filter-section">
+          <span class="filter-label">Genre</span>
+          <div class="pill-group scrollable" id="genre-pills">
+            <!-- Dynamic genres will be inserted here -->
+          </div>
+        </div>
+
+        <!-- Active Filter Status -->
+        <div class="results-bar">
           <span id="results-count">Showing 0 concerts</span>
-          <button id="clear-filters-btn" class="btn-text" style="display: none;">Clear Filters</button>
+          <button id="clear-filters-btn" class="btn-text" style="display: none;">
+            <i class="fa-solid fa-xmark"></i> Reset Filters
+          </button>
         </div>
       </div>
 
-      <!-- Now Playing Banner -->
-      <div id="now-playing-banner" class="glass-card now-playing-card" style="display: none; margin-bottom: 24px;">
-        <div class="now-playing-content">
-          <div class="now-playing-glow-pulse"></div>
-          <div class="now-playing-disc-container">
-            <i class="fa-solid fa-compact-disc fa-spin now-playing-icon"></i>
-          </div>
-          <div class="now-playing-text-info">
-            <span class="now-playing-label"><span class="pulse-dot"></span> NOW PLAYING ON SPOTIFY</span>
-            <h4 id="now-playing-artist">Artist Name</h4>
-            <p id="now-playing-details">Playing at Venue on Date</p>
-          </div>
-          <a id="now-playing-btn-tickets" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" style="display: none;">
-            <i class="fa-solid fa-ticket"></i> Get Tickets
-          </a>
-        </div>
-      </div>
-
-      <!-- Concert Cards Grid -->
-      <div class="concert-grid" id="concert-grid">
-        <!-- Loader -->
+      <!-- Main Concerts Grid -->
+      <div class="concerts-grid" id="concert-grid">
+        <!-- Loading State -->
         <div class="loader-container" id="loader">
-          <div class="spinner"></div>
-          <p>Loading upcoming concerts...</p>
+          <div class="spotify-spinner"></div>
+          <p>Scanning local show calendars...</p>
         </div>
-        <!-- Cards will be dynamically inserted here -->
       </div>
       
       <!-- Empty State -->
       <div class="empty-state" id="empty-state" style="display: none;">
-        <i class="fa-solid fa-calendar-xmark empty-icon"></i>
-        <h3>No Concerts Found</h3>
-        <p>Try adjusting your search terms or filters to find upcoming events.</p>
+        <i class="fa-solid fa-magnifying-glass empty-icon"></i>
+        <h3>No Events Match Your Filters</h3>
+        <p>Try clearing your search query or selecting a different genre/date.</p>
+        <button id="empty-reset-btn" class="btn btn-secondary btn-sm" style="margin-top: 15px;">Reset All Filters</button>
       </div>
     </section>
   </main>
 
+  <!-- Floating bottom music player (Spotify style playback bar) -->
+  <div id="bottom-playbar" class="bottom-playbar">
+    <div class="playbar-content">
+      <!-- Left side: Artist info -->
+      <div class="playbar-left" id="playbar-artist-info">
+        <div class="playbar-img-placeholder" id="playbar-img"></div>
+        <div class="playbar-text">
+          <h4 id="playbar-artist">Artist Name</h4>
+          <p id="playbar-venue">Venue name • Date</p>
+        </div>
+      </div>
+      
+      <!-- Center: Equalizer and status -->
+      <div class="playbar-center">
+        <div class="now-playing-visualizer">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+          <span class="bar bar-4"></span>
+        </div>
+        <span class="playbar-label">Now Playing Preview</span>
+      </div>
+      
+      <!-- Right: Action buttons -->
+      <div class="playbar-right" id="playbar-actions">
+        <a id="playbar-btn-tickets" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+          <i class="fa-solid fa-ticket"></i> Tickets
+        </a>
+        <button id="playbar-btn-details" class="btn btn-spotify btn-sm">
+          View Show Details
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Details Modal -->
+  <div id="show-modal" class="modal-overlay" style="display: none;">
+    <div class="modal-container">
+      <button class="close-modal-btn" id="close-modal-btn" aria-label="Close modal">&times;</button>
+      
+      <!-- Modal header / billboard banner -->
+      <div class="modal-header" id="modal-header-banner">
+        <div class="modal-header-overlay"></div>
+        <div class="modal-header-text">
+          <span class="modal-date-pill" id="modal-date-string">Saturday, Jun 14</span>
+          <h2 id="modal-title">Show Headliner</h2>
+          <p id="modal-venue-info"><i class="fa-solid fa-location-dot"></i> Venue name</p>
+        </div>
+      </div>
+      
+      <!-- Modal body content -->
+      <div class="modal-body">
+        <div class="modal-split-layout">
+          <!-- Left modal panel: Lineup & Artists -->
+          <div class="modal-main-content">
+            <h3 class="section-title">Full Lineup</h3>
+            <div class="lineup-list" id="modal-lineup-list">
+              <!-- Dynamically populated with individual cards for each performer -->
+            </div>
+          </div>
+          
+          <!-- Right modal panel: Details & Links -->
+          <div class="modal-sidebar-content">
+            <h3 class="section-title">Show Details</h3>
+            <div class="details-card">
+              <div class="detail-item">
+                <i class="fa-regular fa-calendar-days detail-icon"></i>
+                <div>
+                  <strong>Date</strong>
+                  <p id="modal-detail-date">June 14, 2026</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i class="fa-regular fa-clock detail-icon"></i>
+                <div>
+                  <strong>Time</strong>
+                  <p id="modal-detail-time">Time TBA</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <i class="fa-solid fa-circle-nodes detail-icon"></i>
+                <div>
+                  <strong>Sources</strong>
+                  <p id="modal-detail-sources">Songkick, Santa Fe Reporter</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="modal-actions">
+              <a id="modal-btn-tickets" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-spotify">
+                <i class="fa-solid fa-ticket"></i> Buy Tickets
+              </a>
+              <a id="modal-btn-directions" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <i class="fa-solid fa-diamond-turn-right"></i> Get Directions
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
   <footer>
     <div class="footer-container">
       <p>&copy; 2026 Santa Fe Concert Board. Powered by Santa Fe Reporter, Songkick, and Spotify.</p>
-      <p class="footer-note">Updated weekly. Make sure to check venue websites for showtimes and ticket availability.</p>
+      <p class="footer-note">Handcrafted with music discoverability in mind. Make sure to check venue websites for showtimes.</p>
     </div>
   </footer>
 
+  <!-- Spotify IFrame Player API -->
   <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
   <script src="app.js"></script>
 </body>

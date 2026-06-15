@@ -276,7 +276,7 @@ export class SpotifyService {
    * @param artistName Name of the artist to search for
    * @returns Artist ID if found, null otherwise
    */
-  async searchArtist(artistName: string): Promise<string | null> {
+  async searchArtist(artistName: string): Promise<{ id: string, imageUrl?: string, genres?: string[] } | null> {
     return this.withRetry(async () => {
       try {
         const response = await this.spotifyApi.searchArtists(artistName, { limit: 10 });
@@ -288,7 +288,11 @@ export class SpotifyService {
           );
           
           if (exactMatch) {
-            return exactMatch.id;
+            return {
+              id: exactMatch.id,
+              imageUrl: exactMatch.images && exactMatch.images.length > 0 ? exactMatch.images[0].url : undefined,
+              genres: exactMatch.genres || []
+            };
           }
 
           // Then try fuzzy matching
@@ -298,7 +302,11 @@ export class SpotifyService {
 
           if (fuzzyMatch) {
             console.log(`Found fuzzy match: "${fuzzyMatch.name}" for search term "${artistName}"`);
-            return fuzzyMatch.id;
+            return {
+              id: fuzzyMatch.id,
+              imageUrl: fuzzyMatch.images && fuzzyMatch.images.length > 0 ? fuzzyMatch.images[0].url : undefined,
+              genres: fuzzyMatch.genres || []
+            };
           }
         }
         
