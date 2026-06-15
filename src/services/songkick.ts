@@ -44,6 +44,11 @@ export class SongkickService {
 
       $('li.event-listings-element').each((_, element) => {
         try {
+          const cityName = $(element).find('.city-name').text().trim();
+          if (cityName && !cityName.toLowerCase().includes('santa fe')) {
+            return;
+          }
+
           const datetimeStr = $(element).find('time').attr('datetime');
           const date = datetimeStr ? new Date(datetimeStr) : new Date();
           const venue = $(element).find('a.venue-link').text().trim() || 'Unknown Venue';
@@ -106,6 +111,10 @@ export class SongkickService {
     // Find concert listings using the new structure
     $('li.event-listings-element').each((_, element) => {
       try {
+        const cityName = $(element).find('.city-name').text().trim();
+        if (cityName && !cityName.toLowerCase().includes('santa fe')) {
+          return;
+        }
         // Extract headliner(s) from the new structure
         const headliner = $(element).find('p.artists strong').text().trim();
         if (headliner) {
@@ -135,6 +144,10 @@ export class SongkickService {
       // Find concert listings (old structure fallback)
       $('.event-listings .event-listing').each((_, element) => {
         try {
+          const cityName = $(element).find('.city-name').text().trim();
+          if (cityName && !cityName.toLowerCase().includes('santa fe')) {
+            return;
+          }
           // Extract headliner
           const headliner = $(element).find('.artists strong, .artists .headliner').text().trim();
           if (headliner) {

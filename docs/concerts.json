@@ -95,10 +95,9 @@
     "description": "A singer-songwriter with an award or two under his belt. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
-      "5lQD8H7poACiGta7pDGUx1"
+      "5TLBt3CzZOVPiWEU2fUnZe"
     ],
-    "spotifyId": "5v2OClfpWhgwg5JTnmxtU1",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc317abdb5548c096f7af31bb"
+    "spotifyId": "4iydAEyDXQXcLbKb411r3V"
   },
   {
     "artist": "Johnny Lloyd & Co.",
@@ -461,21 +460,21 @@
     "source": "Santa Fe Reporter"
   },
   {
-    "artist": "David Geist Music Experience",
-    "venue": "Osteria D'Assisi",
-    "date": "2026-06-19T01:00:00.000Z",
-    "sourceEventId": 4838554,
-    "sourceEventSlug": "david-geist-music-experience-jun-18-2026",
-    "description": "<p>Tony-award winning pianist /vocalist performs an evening of Broadway, pop, and originals in a gorgeous setting!</p>",
-    "source": "Santa Fe Reporter"
-  },
-  {
     "artist": "DJ OPTAMYSTIK",
     "venue": "Cowgirl",
     "date": "2026-06-19T01:00:00.000Z",
     "sourceEventId": 4838498,
     "sourceEventSlug": "dj-optamystik-jun-18-2026",
     "description": "The most positive beats in town every Thursday.",
+    "source": "Santa Fe Reporter"
+  },
+  {
+    "artist": "David Geist Music Experience",
+    "venue": "Osteria D'Assisi",
+    "date": "2026-06-19T01:00:00.000Z",
+    "sourceEventId": 4838554,
+    "sourceEventSlug": "david-geist-music-experience-jun-18-2026",
+    "description": "<p>Tony-award winning pianist /vocalist performs an evening of Broadway, pop, and originals in a gorgeous setting!</p>",
     "source": "Santa Fe Reporter"
   },
   {
@@ -2391,15 +2390,6 @@
     "source": "Santa Fe Reporter"
   },
   {
-    "artist": "DJ OPTAMYSTIK",
-    "venue": "Cowgirl",
-    "date": "2026-08-21T01:00:00.000Z",
-    "sourceEventId": 4838507,
-    "sourceEventSlug": "dj-optamystik-aug-20-2026",
-    "description": "The most positive beats in town every Thursday.",
-    "source": "Santa Fe Reporter"
-  },
-  {
     "artist": "Bill Callahan",
     "venue": "The Bridge @ SF Brewing Co.",
     "date": "2026-08-21T01:00:00.000Z",
@@ -2418,6 +2408,15 @@
     "genres": [
       "alt country"
     ]
+  },
+  {
+    "artist": "DJ OPTAMYSTIK",
+    "venue": "Cowgirl",
+    "date": "2026-08-21T01:00:00.000Z",
+    "sourceEventId": 4838507,
+    "sourceEventSlug": "dj-optamystik-aug-20-2026",
+    "description": "The most positive beats in town every Thursday.",
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Fantastic Negrito",
@@ -3641,27 +3640,6 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
-    "artist": "Rare of Breed",
-    "venue": "Plaza Park",
-    "date": "2026-06-17T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43190956-rare-of-breed-at-plaza-park",
-    "listingUrl": "https://www.songkick.com/concerts/43190956-rare-of-breed-at-plaza-park",
-    "source": "Songkick",
-    "trackIds": [
-      "4hh1SUEZijW1rPvof8RnCv",
-      "1D3fFUTObiGfY3Ajam2XHx",
-      "4KkAwbrvXDd0s721ufEmFj"
-    ],
-    "spotifyId": "3GdRdoJomMK2f8xGjEZbHH",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebbf4fbdb800bb53fd1598621f",
-    "genres": [
-      "christian hip hop",
-      "country christian",
-      "country hip hop",
-      "christian"
-    ]
-  },
-  {
     "artist": "Mina Fajardo and Chuscales",
     "venue": "Teatro Paraguas",
     "date": "2026-06-18T01:30:00.000Z",
@@ -3735,27 +3713,30 @@
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb14229bdbda79ace871ef7bf2"
   },
   {
-    "artist": "KatsüK",
-    "venue": "Foster's 1881",
-    "date": "2026-06-20T01:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43188498-katsuk-at-fosters-1881",
-    "listingUrl": "https://www.songkick.com/concerts/43188498-katsuk-at-fosters-1881",
-    "source": "Songkick",
-    "trackIds": [
-      "2t0xFKbOCmitR3wdd1XOIi",
-      "20gdkTK87W0HOl5YoWIrrP",
-      "6zGE5rGnZqPCU98iQohCnb"
-    ],
-    "spotifyId": "2WWr8hd2729jAq7t044wY1",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273604772c1c96b1bdaadf148ce"
-  },
-  {
     "artist": "Jesus Bas",
     "venue": "La Boca",
     "date": "2026-06-19T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217018-jesus-bas-at-la-boca",
     "listingUrl": "https://www.songkick.com/concerts/43217018-jesus-bas-at-la-boca",
     "source": "Songkick"
+  },
+  {
+    "artist": "Johnny Bell",
+    "venue": "Santa Fe Noise Ordinance",
+    "date": "2026-06-22T01:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43273485-johnny-bell-at-santa-fe-noise-ordinance",
+    "listingUrl": "https://www.songkick.com/concerts/43273485-johnny-bell-at-santa-fe-noise-ordinance",
+    "source": "Songkick",
+    "trackIds": [
+      "2WxPCilH08ttH6jDtpXOfq",
+      "5en5TzTJ60Xpn7gE1HGlXu",
+      "0VFFCDogGPEmYVflOyfEn0"
+    ],
+    "spotifyId": "0TecByQRspSF15IxkCCd4I",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1bf0e018af9edd058a2d16de",
+    "genres": [
+      "rockabilly"
+    ]
   },
   {
     "artist": "Jesus Bas",
@@ -3925,19 +3906,37 @@
     "source": "Songkick"
   },
   {
+    "artist": "Canyon Road Summer Walk Series 2026",
+    "venue": "Unknown Venue",
+    "date": "2026-07-01T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/festivals/3791579-canyon-road-summer-walk-series/id/43273489-canyon-road-summer-walk-series-2026",
+    "listingUrl": "https://www.songkick.com/festivals/3791579-canyon-road-summer-walk-series/id/43273489-canyon-road-summer-walk-series-2026",
+    "source": "Songkick"
+  },
+  {
+    "artist": "Johnny Bell",
+    "venue": "Unknown Venue",
+    "date": "2026-07-01T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/festivals/3791579-canyon-road-summer-walk-series/id/43273489-canyon-road-summer-walk-series-2026",
+    "listingUrl": "https://www.songkick.com/festivals/3791579-canyon-road-summer-walk-series/id/43273489-canyon-road-summer-walk-series-2026",
+    "source": "Songkick",
+    "trackIds": [
+      "2WxPCilH08ttH6jDtpXOfq",
+      "5en5TzTJ60Xpn7gE1HGlXu",
+      "0VFFCDogGPEmYVflOyfEn0"
+    ],
+    "spotifyId": "0TecByQRspSF15IxkCCd4I",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1bf0e018af9edd058a2d16de",
+    "genres": [
+      "rockabilly"
+    ]
+  },
+  {
     "artist": "Jesus Bas",
     "venue": "La Boca",
     "date": "2026-07-03T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217024-jesus-bas-at-la-boca",
     "listingUrl": "https://www.songkick.com/concerts/43217024-jesus-bas-at-la-boca",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Matchbox Twenty Too",
-    "venue": "Overlook Park",
-    "date": "2026-07-05T01:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43234233-matchbox-twenty-too-at-overlook-park",
-    "listingUrl": "https://www.songkick.com/concerts/43234233-matchbox-twenty-too-at-overlook-park",
     "source": "Songkick"
   },
   {
@@ -4670,102 +4669,21 @@
     ]
   },
   {
-    "artist": "Widowspeak",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-08-12T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
-    "listingUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
+    "artist": "Johnny Bell",
+    "venue": "Hecho A Mano",
+    "date": "2026-08-09T17:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43273487-johnny-bell-at-hecho-a-mano",
+    "listingUrl": "https://www.songkick.com/concerts/43273487-johnny-bell-at-hecho-a-mano",
     "source": "Songkick",
     "trackIds": [
-      "0etKjdwsCnwtj6dB4iEZn8",
-      "2vL3NFV79S9LvAnWAI6MMQ",
-      "48bePG5thRkA5xttNPRB8c"
+      "2WxPCilH08ttH6jDtpXOfq",
+      "5en5TzTJ60Xpn7gE1HGlXu",
+      "0VFFCDogGPEmYVflOyfEn0"
     ],
-    "spotifyId": "5ZW7HlSuZz8ng2X21cXbdP",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebffce0e0fc0c2c1e811e48602",
+    "spotifyId": "0TecByQRspSF15IxkCCd4I",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1bf0e018af9edd058a2d16de",
     "genres": [
-      "dream pop",
-      "chillwave"
-    ]
-  },
-  {
-    "artist": "Dead Gowns",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-08-12T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
-    "listingUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
-    "source": "Songkick",
-    "trackIds": [
-      "37piAuK1WhsQDLJ8hmDDSW",
-      "3hVq9e2hA3J0NZmlXqTl0B",
-      "609jfTPcX5w8YnpW2Sf9JI"
-    ],
-    "spotifyId": "7jadGvdBDPrM4fNOukfDny",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebfe0cbe07c7915a5d7420fb6b"
-  },
-  {
-    "artist": "Soft Palms",
-    "venue": "Marigold Room",
-    "date": "2026-08-13T01:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43111798-soft-palms-at-marigold-room",
-    "listingUrl": "https://www.songkick.com/concerts/43111798-soft-palms-at-marigold-room",
-    "source": "Songkick",
-    "trackIds": [
-      "05s1RKoZ5JNuaSDB1hp9Yv",
-      "1pWtC2kjZoUipQrHU49rSM",
-      "3yvCKCykDXuRrlOCZwniKT"
-    ],
-    "spotifyId": "4PmRvPxX5xKA5zg4gmh4wR",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb057fd1454058de189d9b9b3b"
-  },
-  {
-    "artist": "Mina Fajardo and Chuscales",
-    "venue": "Teatro Paraguas",
-    "date": "2026-08-13T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43193644-mina-fajardo-at-teatro-paraguas",
-    "listingUrl": "https://www.songkick.com/concerts/43193644-mina-fajardo-at-teatro-paraguas",
-    "source": "Songkick",
-    "trackIds": [
-      "4RVmThKCzpzXn1hCatSsP6",
-      "1Qvam2fv4uTCpXAZNaOu2q",
-      "0RljIRAhI5Ki4opxkvFjoa",
-      "2cJWU90x1NlPNKWOS3lHyQ",
-      "2Buj0g77kPF0r345PkzAo2",
-      "31JmoseHvyHLQYEfMmwh0j"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-    "genres": [
-      "flamenco pop",
-      "flamenco"
-    ],
-    "subArtists": [
-      {
-        "name": "Mina Fajardo",
-        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-        "genres": [
-          "flamenco pop",
-          "flamenco"
-        ],
-        "trackIds": [
-          "4RVmThKCzpzXn1hCatSsP6",
-          "1Qvam2fv4uTCpXAZNaOu2q",
-          "0RljIRAhI5Ki4opxkvFjoa"
-        ]
-      },
-      {
-        "name": "Chuscales",
-        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
-        "genres": [
-          "flamenco"
-        ],
-        "trackIds": [
-          "2cJWU90x1NlPNKWOS3lHyQ",
-          "2Buj0g77kPF0r345PkzAo2",
-          "31JmoseHvyHLQYEfMmwh0j"
-        ]
-      }
+      "rockabilly"
     ]
   }
 ]
