@@ -788,9 +788,9 @@ function openShowDetailsModal(show) {
         const url = show.ticketUrl || show.listingUrl || 'https://www.songkick.com';
         return `<a href="${url}" target="_blank" rel="noopener noreferrer" style="color: var(--primary-green); text-decoration: underline; font-weight: 600;">Songkick</a>`;
       } else if (source === 'Santa Fe Reporter') {
-        let url = 'https://calendar.sfreporter.com/';
+        let url = 'https://calendar.sfreporter.com/calendars/all-events';
         if (show.sourceEventId) {
-          url = `https://calendar.sfreporter.com/#!/details/${show.sourceEventSlug || 'event'}/${show.sourceEventId}`;
+          url = `https://calendar.sfreporter.com/calendars/all-events/${show.sourceEventId}`;
         }
         return `<a href="${url}" target="_blank" rel="noopener noreferrer" style="color: var(--primary-green); text-decoration: underline; font-weight: 600;">Santa Fe Reporter</a>`;
       }
