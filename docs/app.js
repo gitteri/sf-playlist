@@ -14,42 +14,92 @@ const activeFilters = {
   genres: [] // Array of selected genre strings for multi-toggle
 };
 
-// DOM Elements
-const searchInput = document.getElementById('search-input');
-const venueFilter = document.getElementById('venue-filter');
-const datePillsContainer = document.getElementById('date-pills');
-const genrePillsContainer = document.getElementById('genre-pills');
-const concertGrid = document.getElementById('concert-grid');
-const loader = document.getElementById('loader');
-const emptyState = document.getElementById('empty-state');
-const resultsCount = document.getElementById('results-count');
-const clearFiltersBtn = document.getElementById('clear-filters-btn');
-const emptyResetBtn = document.getElementById('empty-reset-btn');
+// DOM Elements (assigned on init)
+let searchInput;
+let venueFilter;
+let datePillsContainer;
+let genrePillsContainer;
+let concertGrid;
+let loader;
+let emptyState;
+let resultsCount;
+let clearFiltersBtn;
+let emptyResetBtn;
 
 // Playbar Elements
-const bottomPlaybar = document.getElementById('bottom-playbar');
-const playbarArtist = document.getElementById('playbar-artist');
-const playbarVenue = document.getElementById('playbar-venue');
-const playbarImg = document.getElementById('playbar-img');
-const playbarTicketsBtn = document.getElementById('playbar-btn-tickets');
-const playbarDetailsBtn = document.getElementById('playbar-btn-details');
+let bottomPlaybar;
+let playbarArtist;
+let playbarVenue;
+let playbarImg;
+let playbarTicketsBtn;
+let playbarDetailsBtn;
 
 // Modal Elements
-const showModal = document.getElementById('show-modal');
-const closeModalBtn = document.getElementById('close-modal-btn');
-const modalTitle = document.getElementById('modal-title');
-const modalVenueInfo = document.getElementById('modal-venue-info');
-const modalDateString = document.getElementById('modal-date-string');
-const modalHeaderBanner = document.getElementById('modal-header-banner');
-const modalLineupList = document.getElementById('modal-lineup-list');
-const modalDetailDate = document.getElementById('modal-detail-date');
-const modalDetailTime = document.getElementById('modal-detail-time');
-const modalDetailSources = document.getElementById('modal-detail-sources');
-const modalTicketsBtn = document.getElementById('modal-btn-tickets');
-const modalDirectionsBtn = document.getElementById('modal-btn-directions');
+let showModal;
+let closeModalBtn;
+let modalTitle;
+let modalVenueInfo;
+let modalDateString;
+let modalHeaderBanner;
+let modalLineupList;
+let modalDetailDate;
+let modalDetailTime;
+let modalDetailSources;
+let modalTicketsBtn;
+let modalDirectionsBtn;
 
 // Month Names Helper
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+// Initialize DOM elements and check ready state
+function init() {
+  // Query all DOM elements
+  searchInput = document.getElementById('search-input');
+  venueFilter = document.getElementById('venue-filter');
+  datePillsContainer = document.getElementById('date-pills');
+  genrePillsContainer = document.getElementById('genre-pills');
+  concertGrid = document.getElementById('concert-grid');
+  loader = document.getElementById('loader');
+  emptyState = document.getElementById('empty-state');
+  resultsCount = document.getElementById('results-count');
+  clearFiltersBtn = document.getElementById('clear-filters-btn');
+  emptyResetBtn = document.getElementById('empty-reset-btn');
+
+  bottomPlaybar = document.getElementById('bottom-playbar');
+  playbarArtist = document.getElementById('playbar-artist');
+  playbarVenue = document.getElementById('playbar-venue');
+  playbarImg = document.getElementById('playbar-img');
+  playbarTicketsBtn = document.getElementById('playbar-btn-tickets');
+  playbarDetailsBtn = document.getElementById('playbar-btn-details');
+
+  showModal = document.getElementById('show-modal');
+  closeModalBtn = document.getElementById('close-modal-btn');
+  modalTitle = document.getElementById('modal-title');
+  modalVenueInfo = document.getElementById('modal-venue-info');
+  modalDateString = document.getElementById('modal-date-string');
+  modalHeaderBanner = document.getElementById('modal-header-banner');
+  modalLineupList = document.getElementById('modal-lineup-list');
+  modalDetailDate = document.getElementById('modal-detail-date');
+  modalDetailTime = document.getElementById('modal-detail-time');
+  modalDetailSources = document.getElementById('modal-detail-sources');
+  modalTicketsBtn = document.getElementById('modal-btn-tickets');
+  modalDirectionsBtn = document.getElementById('modal-btn-directions');
+
+  setupEventListeners();
+  fetchConcerts();
+  loadSpotifyPlayerAPI();
+}
+
+// Dynamically load the Spotify Player script to ensure no race conditions
+function loadSpotifyPlayerAPI() {
+  if (document.querySelector('script[src="https://open.spotify.com/embed/iframe-api/v1"]')) {
+    return;
+  }
+  const script = document.createElement('script');
+  script.src = "https://open.spotify.com/embed/iframe-api/v1";
+  script.async = true;
+  document.body.appendChild(script);
+}
 
 // Fetch Concert Data
 async function fetchConcerts() {
@@ -79,13 +129,15 @@ async function fetchConcerts() {
     }
   } catch (error) {
     console.error('Error fetching concert data:', error);
-    loader.innerHTML = `
-      <div style="text-align: center; padding: 40px; color: #ff527b;">
-        <i class="fa-solid fa-triangle-exclamation" style="font-size: 2.5rem; margin-bottom: 15px;"></i>
-        <p style="font-weight: 600;">Failed to load upcoming concerts.</p>
-        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 5px;">Make sure the updater script has finished running.</p>
-      </div>
-    `;
+    if (loader) {
+      loader.innerHTML = `
+        <div style="text-align: center; padding: 40px; color: #ff527b;">
+          <i class="fa-solid fa-triangle-exclamation" style="font-size: 2.5rem; margin-bottom: 15px;"></i>
+          <p style="font-weight: 600;">Failed to load upcoming concerts.</p>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 5px;">Make sure the updater script has finished running.</p>
+        </div>
+      `;
+    }
   }
 }
 
@@ -155,7 +207,7 @@ function groupConcerts(rawList) {
         matched.sources.push(item.source);
       }
       
-      // 7. Store sub-artists if this item brought any (co-headliners unpacked in scraping)
+      // 7. Store sub-artists if this item brought any
       if (item.subArtists) {
         item.subArtists.forEach(sub => {
           const subExists = matched.performers.some(p => p.name.toLowerCase() === sub.name.toLowerCase());
@@ -165,7 +217,7 @@ function groupConcerts(rawList) {
               spotifyId: sub.spotifyId ? true : false,
               artistImageUrl: sub.artistImageUrl,
               genres: sub.genres || [],
-              trackIds: [] // Scraper top tracks went into parent trackIds
+              trackIds: sub.trackIds || []
             });
           }
           if (sub.genres) {
@@ -196,7 +248,7 @@ function groupConcerts(rawList) {
             spotifyId: sub.spotifyId ? true : false,
             artistImageUrl: sub.artistImageUrl,
             genres: sub.genres || [],
-            trackIds: []
+            trackIds: sub.trackIds || []
           });
           if (sub.genres) {
             newGroup.genres = [...new Set([...newGroup.genres, ...sub.genres])];
@@ -213,6 +265,7 @@ function groupConcerts(rawList) {
 
 // Populate Venue Dropdown Options
 function populateVenueFilter() {
+  if (!venueFilter) return;
   const venues = [...new Set(groupedConcerts.map(g => g.venue))].sort();
   
   // Clear extra options
@@ -228,6 +281,7 @@ function populateVenueFilter() {
 
 // Extract and Populate Genre Filter Pills
 function populateGenrePills() {
+  if (!genrePillsContainer) return;
   const genreCounts = {};
   
   // Count genres
@@ -293,22 +347,26 @@ function parseConcertDate(dateStr) {
 
 // Render Grouped Concerts Grid
 function renderConcerts() {
+  if (!concertGrid) return;
+
   // Hide loader
-  loader.style.display = 'none';
+  if (loader) loader.style.display = 'none';
   
   // Clear grid
   const cards = concertGrid.querySelectorAll('.concert-card');
   cards.forEach(card => card.remove());
   
   // Update count indicator
-  resultsCount.textContent = `Showing ${filteredConcerts.length} concert show${filteredConcerts.length === 1 ? '' : 's'}`;
+  if (resultsCount) {
+    resultsCount.textContent = `Showing ${filteredConcerts.length} concert show${filteredConcerts.length === 1 ? '' : 's'}`;
+  }
   
   // Show / Hide empty state
   if (filteredConcerts.length === 0) {
-    emptyState.style.display = 'flex';
+    if (emptyState) emptyState.style.display = 'flex';
     return;
   } else {
-    emptyState.style.display = 'none';
+    if (emptyState) emptyState.style.display = 'none';
   }
   
   filteredConcerts.forEach(show => {
@@ -358,7 +416,7 @@ function renderConcerts() {
         </div>
         
         ${show.trackIds && show.trackIds.length > 0 ? `
-          <button class="card-play-btn" aria-label="Listen preview" onclick="event.stopPropagation(); playShowTracks('${show.id}');">
+          <button class="card-play-btn" aria-label="Listen preview" onclick="event.stopPropagation(); window.playShowTracks('${show.id}');">
             <i class="fa-solid fa-play"></i>
           </button>
         ` : ''}
@@ -400,10 +458,12 @@ function applyFilters() {
   const genresVal = activeFilters.genres;
   
   // Toggle reset button
-  if (searchQuery !== '' || dateVal !== 'all' || venueVal !== 'all' || genresVal.length > 0) {
-    clearFiltersBtn.style.display = 'inline-flex';
-  } else {
-    clearFiltersBtn.style.display = 'none';
+  if (clearFiltersBtn) {
+    if (searchQuery !== '' || dateVal !== 'all' || venueVal !== 'all' || genresVal.length > 0) {
+      clearFiltersBtn.style.display = 'inline-flex';
+    } else {
+      clearFiltersBtn.style.display = 'none';
+    }
   }
   
   const today = new Date();
@@ -438,7 +498,7 @@ function applyFilters() {
         showDate >= today;
     }
     
-    // 4. Genre Pills Filter (AND logic - must match all active pills, or OR logic - match any. Let's do OR/Any match for ease)
+    // 4. Genre Pills Filter
     let matchesGenres = true;
     if (genresVal.length > 0) {
       matchesGenres = show.genres ? show.genres.some(g => genresVal.includes(g)) : false;
@@ -453,28 +513,36 @@ function applyFilters() {
 // Reset all active filters
 function clearFilters() {
   // Clear search input
-  searchInput.value = '';
-  activeFilters.search = '';
+  if (searchInput) {
+    searchInput.value = '';
+    activeFilters.search = '';
+  }
   
   // Reset venue filter
-  venueFilter.value = 'all';
-  activeFilters.venue = 'all';
+  if (venueFilter) {
+    venueFilter.value = 'all';
+    activeFilters.venue = 'all';
+  }
   
   // Reset date pills
   activeFilters.date = 'all';
-  document.querySelectorAll('#date-pills .pill').forEach(btn => {
-    if (btn.getAttribute('data-value') === 'all') {
-      btn.classList.add('active');
-    } else {
-      btn.classList.remove('active');
-    }
-  });
+  if (datePillsContainer) {
+    datePillsContainer.querySelectorAll('.pill').forEach(btn => {
+      if (btn.getAttribute('data-value') === 'all') {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+  }
   
   // Reset genre pills
   activeFilters.genres = [];
-  document.querySelectorAll('#genre-pills .pill').forEach(btn => {
-    btn.classList.remove('active');
-  });
+  if (genrePillsContainer) {
+    genrePillsContainer.querySelectorAll('.pill').forEach(btn => {
+      btn.classList.remove('active');
+    });
+  }
   
   applyFilters();
 }
@@ -513,92 +581,105 @@ function openShowDetailsModal(show) {
     : 'Time TBA';
     
   // Headline banner
-  modalTitle.textContent = show.artist;
-  modalVenueInfo.innerHTML = `<i class="fa-solid fa-location-dot"></i> ${show.venue}`;
-  modalDateString.textContent = formattedDate;
+  if (modalTitle) modalTitle.textContent = show.artist;
+  if (modalVenueInfo) modalVenueInfo.innerHTML = `<i class="fa-solid fa-location-dot"></i> ${show.venue}`;
+  if (modalDateString) modalDateString.textContent = formattedDate;
   
-  if (show.artistImageUrl) {
-    modalHeaderBanner.style.backgroundImage = `url('${show.artistImageUrl}')`;
-  } else {
-    modalHeaderBanner.style.backgroundImage = "linear-gradient(135deg, #1f1f2e 0%, #0d0d13 100%)";
+  if (modalHeaderBanner) {
+    if (show.artistImageUrl) {
+      modalHeaderBanner.style.backgroundImage = `url('${show.artistImageUrl}')`;
+    } else {
+      modalHeaderBanner.style.backgroundImage = "linear-gradient(135deg, #1f1f2e 0%, #0d0d13 100%)";
+    }
   }
   
   // Sidebar info
-  modalDetailDate.textContent = dateObj.toLocaleDateString([], { year: 'numeric', month: 'long', day: 'numeric' });
-  modalDetailTime.textContent = formattedTime;
-  modalDetailSources.textContent = show.sources.join(', ');
+  if (modalDetailDate) modalDetailDate.textContent = dateObj.toLocaleDateString([], { year: 'numeric', month: 'long', day: 'numeric' });
+  if (modalDetailTime) modalDetailTime.textContent = formattedTime;
+  if (modalDetailSources) modalDetailSources.textContent = show.sources.join(', ');
   
   // Action Buttons
-  if (show.ticketUrl) {
-    modalTicketsBtn.href = show.ticketUrl;
-    modalTicketsBtn.style.display = 'inline-flex';
-  } else {
-    modalTicketsBtn.style.display = 'none';
+  if (modalTicketsBtn) {
+    if (show.ticketUrl) {
+      modalTicketsBtn.href = show.ticketUrl;
+      modalTicketsBtn.style.display = 'inline-flex';
+    } else {
+      modalTicketsBtn.style.display = 'none';
+    }
   }
   
   // Get Directions link
-  modalDirectionsBtn.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(show.venue + ' Santa Fe NM')}`;
+  if (modalDirectionsBtn) {
+    modalDirectionsBtn.href = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(show.venue + ' Santa Fe NM')}`;
+  }
   
   // Render performers lineup
-  modalLineupList.innerHTML = '';
-  
-  show.performers.forEach(perf => {
-    const card = document.createElement('div');
-    card.className = 'performer-card';
+  if (modalLineupList) {
+    modalLineupList.innerHTML = '';
     
-    // Genres HTML
-    let genresHtml = '';
-    if (perf.genres && perf.genres.length > 0) {
-      genresHtml = `
-        <div class="performer-genres">
-          ${perf.genres.slice(0, 3).map(g => `<span class="performer-genre-tag">${g}</span>`).join('')}
+    show.performers.forEach(perf => {
+      const card = document.createElement('div');
+      card.className = 'performer-card';
+      
+      // Genres HTML
+      let genresHtml = '';
+      if (perf.genres && perf.genres.length > 0) {
+        genresHtml = `
+          <div class="performer-genres">
+            ${perf.genres.slice(0, 3).map(g => `<span class="performer-genre-tag">${g}</span>`).join('')}
+          </div>
+        `;
+      }
+      
+      // Check if artist has playable tracks
+      let listenButtonHtml = '';
+      if (perf.trackIds && perf.trackIds.length > 0) {
+        listenButtonHtml = `
+          <button class="performer-play-btn" aria-label="Listen artist track" onclick="window.playTrackOnSpotify('${perf.trackIds[0]}')">
+            <i class="fa-solid fa-play"></i>
+          </button>
+        `;
+      } else if (show.trackIds && show.trackIds.length > 0 && perf.name.toLowerCase() === show.artist.toLowerCase()) {
+        // Main artist fallback to combined show tracks
+        listenButtonHtml = `
+          <button class="performer-play-btn" aria-label="Listen artist track" onclick="window.playTrackOnSpotify('${show.trackIds[0]}')">
+            <i class="fa-solid fa-play"></i>
+          </button>
+        `;
+      }
+      
+      card.innerHTML = `
+        <div class="performer-avatar" ${perf.artistImageUrl ? `style="background-image: url('${perf.artistImageUrl}')"` : ''}></div>
+        <div class="performer-info">
+          <h4 class="performer-name">${perf.name}</h4>
+          ${genresHtml}
         </div>
+        ${listenButtonHtml}
       `;
-    }
-    
-    // Check if artist has playable tracks
-    let listenButtonHtml = '';
-    if (perf.trackIds && perf.trackIds.length > 0) {
-      listenButtonHtml = `
-        <button class="performer-play-btn" aria-label="Listen artist track" onclick="playTrackOnSpotify('${perf.trackIds[0]}')">
-          <i class="fa-solid fa-play"></i>
-        </button>
-      `;
-    } else if (show.trackIds && show.trackIds.length > 0 && perf.name.toLowerCase() === show.artist.toLowerCase()) {
-      // Main artist fallback to combined show tracks
-      listenButtonHtml = `
-        <button class="performer-play-btn" aria-label="Listen artist track" onclick="playTrackOnSpotify('${show.trackIds[0]}')">
-          <i class="fa-solid fa-play"></i>
-        </button>
-      `;
-    }
-    
-    card.innerHTML = `
-      <div class="performer-avatar" ${perf.artistImageUrl ? `style="background-image: url('${perf.artistImageUrl}')"` : ''}></div>
-      <div class="performer-info">
-        <h4 class="performer-name">${perf.name}</h4>
-        ${genresHtml}
-      </div>
-      ${listenButtonHtml}
-    `;
-    
-    modalLineupList.appendChild(card);
-  });
+      
+      modalLineupList.appendChild(card);
+    });
+  }
   
   // Display modal overlay
-  showModal.style.display = 'flex';
+  if (showModal) {
+    showModal.style.display = 'flex';
+  }
   document.body.style.overflow = 'hidden'; // Lock background scroll
 }
 
 // Close Modal helper
 function closeModal() {
-  showModal.style.display = 'none';
+  if (showModal) {
+    showModal.style.display = 'none';
+  }
   document.body.style.overflow = ''; // Unlock background scroll
 }
 
 // Spotify IFrame API Callback hook
 window.onSpotifyIframeApiReady = (IFrameAPI) => {
   const element = document.getElementById('spotify-embed-iframe');
+  if (!element) return;
   const options = {
     width: '100%',
     height: '380',
@@ -659,31 +740,35 @@ function highlightActiveConcertByTrack(trackId) {
     activeShowGroup = matchedShow;
     
     // 1. Update bottom playbar details
-    playbarArtist.textContent = matchedShow.artist;
+    if (playbarArtist) playbarArtist.textContent = matchedShow.artist;
     
     const dateFormatted = new Date(matchedShow.date).toLocaleDateString([], {
       weekday: 'short',
       month: 'short',
       day: 'numeric'
     });
-    playbarVenue.textContent = `${matchedShow.venue} • ${dateFormatted}`;
+    if (playbarVenue) playbarVenue.textContent = `${matchedShow.venue} • ${dateFormatted}`;
     
-    if (matchedShow.artistImageUrl) {
-      playbarImg.style.backgroundImage = `url('${matchedShow.artistImageUrl}')`;
-    } else {
-      playbarImg.style.backgroundImage = 'none';
+    if (playbarImg) {
+      if (matchedShow.artistImageUrl) {
+        playbarImg.style.backgroundImage = `url('${matchedShow.artistImageUrl}')`;
+      } else {
+        playbarImg.style.backgroundImage = 'none';
+      }
     }
     
     // 2. Playbar Actions
-    if (matchedShow.ticketUrl) {
-      playbarTicketsBtn.href = matchedShow.ticketUrl;
-      playbarTicketsBtn.style.display = 'inline-flex';
-    } else {
-      playbarTicketsBtn.style.display = 'none';
+    if (playbarTicketsBtn) {
+      if (matchedShow.ticketUrl) {
+        playbarTicketsBtn.href = matchedShow.ticketUrl;
+        playbarTicketsBtn.style.display = 'inline-flex';
+      } else {
+        playbarTicketsBtn.style.display = 'none';
+      }
     }
     
     // Show playbar
-    bottomPlaybar.classList.add('active');
+    if (bottomPlaybar) bottomPlaybar.classList.add('active');
     
     // 3. Highlight grid card element
     const cardElement = Array.from(document.querySelectorAll('.concert-card')).find(el => {
@@ -709,7 +794,7 @@ function highlightActiveConcertByTrack(trackId) {
 
 // Dismiss bottom playbar and card highlights
 function clearHighlightState() {
-  bottomPlaybar.classList.remove('active');
+  if (bottomPlaybar) bottomPlaybar.classList.remove('active');
   document.querySelectorAll('.concert-card.currently-playing').forEach(el => {
     el.classList.remove('currently-playing');
   });
@@ -718,42 +803,50 @@ function clearHighlightState() {
 // Setup Event Listeners
 function setupEventListeners() {
   // Input search
-  searchInput.addEventListener('input', (e) => {
-    activeFilters.search = e.target.value;
-    applyFilters();
-  });
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      activeFilters.search = e.target.value;
+      applyFilters();
+    });
+  }
   
   // Venue Select Dropdown
-  venueFilter.addEventListener('change', (e) => {
-    activeFilters.venue = e.target.value;
-    applyFilters();
-  });
+  if (venueFilter) {
+    venueFilter.addEventListener('change', (e) => {
+      activeFilters.venue = e.target.value;
+      applyFilters();
+    });
+  }
   
   // Date pills toggle
-  datePillsContainer.addEventListener('click', (e) => {
-    const btn = e.target.closest('.pill');
-    if (btn) {
-      // Deactivate all date pills
-      datePillsContainer.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
-      
-      // Activate clicked
-      btn.classList.add('active');
-      activeFilters.date = btn.getAttribute('data-value');
-      applyFilters();
-    }
-  });
+  if (datePillsContainer) {
+    datePillsContainer.addEventListener('click', (e) => {
+      const btn = e.target.closest('.pill');
+      if (btn) {
+        // Deactivate all date pills
+        datePillsContainer.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
+        
+        // Activate clicked
+        btn.classList.add('active');
+        activeFilters.date = btn.getAttribute('data-value');
+        applyFilters();
+      }
+    });
+  }
   
   // Reset buttons
-  clearFiltersBtn.addEventListener('click', clearFilters);
-  emptyResetBtn.addEventListener('click', clearFilters);
+  if (clearFiltersBtn) clearFiltersBtn.addEventListener('click', clearFilters);
+  if (emptyResetBtn) emptyResetBtn.addEventListener('click', clearFilters);
   
   // Modal close trigger
-  closeModalBtn.addEventListener('click', closeModal);
-  showModal.addEventListener('click', (e) => {
-    if (e.target === showModal) {
-      closeModal();
-    }
-  });
+  if (closeModalBtn) closeModalBtn.addEventListener('click', closeModal);
+  if (showModal) {
+    showModal.addEventListener('click', (e) => {
+      if (e.target === showModal) {
+        closeModal();
+      }
+    });
+  }
   
   // Keyboard ESC to close modal
   document.addEventListener('keydown', (e) => {
@@ -763,15 +856,22 @@ function setupEventListeners() {
   });
   
   // Playbar details click handler
-  playbarDetailsBtn.addEventListener('click', () => {
-    if (activeShowGroup) {
-      openShowDetailsModal(activeShowGroup);
-    }
-  });
+  if (playbarDetailsBtn) {
+    playbarDetailsBtn.addEventListener('click', () => {
+      if (activeShowGroup) {
+        openShowDetailsModal(activeShowGroup);
+      }
+    });
+  }
 }
 
-// Initialize on DOM load
-document.addEventListener('DOMContentLoaded', () => {
-  setupEventListeners();
-  fetchConcerts();
-});
+// Explicitly register inline event handlers on the window to prevent ReferenceErrors
+window.playShowTracks = playShowTracks;
+window.playTrackOnSpotify = playTrackOnSpotify;
+
+// Bulletproof DOM initialization
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', init);
+} else {
+  init();
+}

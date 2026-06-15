@@ -112,18 +112,13 @@ export class PlaylistUpdater {
               let subArtistId = subArtistResult ? subArtistResult.id : null;
               let subImageUrl = subArtistResult ? subArtistResult.imageUrl : undefined;
               let subGenres = subArtistResult ? subArtistResult.genres : [];
-              
-              subArtistsList.push({
-                name: subArtist,
-                spotifyId: subArtistId || undefined,
-                artistImageUrl: subImageUrl || undefined,
-                genres: subGenres && subGenres.length > 0 ? subGenres : undefined
-              });
+              let subTracks: string[] = [];
 
               if (subArtistId) {
                 const topTracks = await this.spotifyService.getArtistTopTracks(subArtistId, 3);
                 if (topTracks.length > 0) {
                   console.log(`    - Found ${topTracks.length} tracks for split artist "${subArtist}"`);
+                  subTracks = topTracks;
                   trackIds = [...trackIds, ...topTracks];
                   addedArtists++;
                   addedTracks += topTracks.length;
@@ -148,6 +143,14 @@ export class PlaylistUpdater {
                 console.log(`    - Could not find split artist "${subArtist}" on Spotify`);
                 unknownArtists.push(subArtist);
               }
+
+              subArtistsList.push({
+                name: subArtist,
+                spotifyId: subArtistId || undefined,
+                artistImageUrl: subImageUrl || undefined,
+                genres: subGenres && subGenres.length > 0 ? subGenres : undefined,
+                trackIds: subTracks.length > 0 ? subTracks : undefined
+              });
             }
             
             // Assign sub-artists to parent concerts

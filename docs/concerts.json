@@ -130,7 +130,12 @@
       {
         "name": "Johnny Lloyd",
         "spotifyId": "2e3MqeCoPC7BSElTEf0y89",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0cf39bb6ce504ab8e8c2c81c"
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0cf39bb6ce504ab8e8c2c81c",
+        "trackIds": [
+          "0izT445qsXGB2LsdUJgdCn",
+          "6OSL1RHhkkTIjghTc0xXFk",
+          "7vjrklFWm0WCZXf3rr8qRw"
+        ]
       },
       {
         "name": "Co."
@@ -155,7 +160,12 @@
       {
         "name": "Rachel Cole",
         "spotifyId": "3I7276JRy2r0RnruMqX6SS",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2732b6a10869f536ce2bb65767e"
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2732b6a10869f536ce2bb65767e",
+        "trackIds": [
+          "4ABshobXQSd761AQ4t5u6s",
+          "4g6flgWxvxgTUgod6NX09q",
+          "05YpYVT7jXIZuet0LVXCi2"
+        ]
       }
     ]
   },
@@ -226,6 +236,11 @@
         "genres": [
           "french rap",
           "french r&b"
+        ],
+        "trackIds": [
+          "5Ea38RCmV570c6Sj4EUqIq",
+          "0s4GCRjHuBh86j5AMnBn9c",
+          "6VKViODSQDgDmgpuTsChdZ"
         ]
       },
       {
@@ -251,12 +266,22 @@
       {
         "name": "The Lowtimers",
         "spotifyId": "2f41SnzTlJJ5rCBIez98ix",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb071a018f3e5921e85290095f"
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb071a018f3e5921e85290095f",
+        "trackIds": [
+          "0FTLfh1awFJWM8gSsuXJ5o",
+          "2SXHQgtrrByir0a4R8P0cG",
+          "4nwCoP2p1sa1nb2rUVeluL"
+        ]
       },
       {
         "name": "Tommy Luke",
         "spotifyId": "15Ggv1jCuM8depJaYWCdkm",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb15f4b2a04353116f6a125846"
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb15f4b2a04353116f6a125846",
+        "trackIds": [
+          "0SSbLSj9DLTaWsVORlyIoF",
+          "1k3qMKP7YJMJs91cKby6H5",
+          "5w9WEOWGBei8NuDUHHlJPF"
+        ]
       }
     ]
   },
@@ -284,12 +309,22 @@
       {
         "name": "The Lowtimers",
         "spotifyId": "2f41SnzTlJJ5rCBIez98ix",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb071a018f3e5921e85290095f"
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb071a018f3e5921e85290095f",
+        "trackIds": [
+          "0FTLfh1awFJWM8gSsuXJ5o",
+          "2SXHQgtrrByir0a4R8P0cG",
+          "4nwCoP2p1sa1nb2rUVeluL"
+        ]
       },
       {
         "name": "Tommy Luke",
         "spotifyId": "15Ggv1jCuM8depJaYWCdkm",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb15f4b2a04353116f6a125846"
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb15f4b2a04353116f6a125846",
+        "trackIds": [
+          "0SSbLSj9DLTaWsVORlyIoF",
+          "1k3qMKP7YJMJs91cKby6H5",
+          "5w9WEOWGBei8NuDUHHlJPF"
+        ]
       }
     ]
   },
@@ -328,6 +363,11 @@
         "genres": [
           "soft rock",
           "yacht rock"
+        ],
+        "trackIds": [
+          "52VIdyKqp1pJRSyUQaxKUA",
+          "7wWw7hBmErNg9u5w6Xx0vy",
+          "40W8Mm9t3ZO1iNQlls35lL"
         ]
       },
       {
@@ -379,14 +419,14 @@
     "source": "Santa Fe Reporter"
   },
   {
-    "artist": "DJ OPTAMYSTIK",
-    "venue": "Cowgirl",
+    "artist": "David Geist Music Experience",
+    "venue": "Osteria D'Assisi",
     "date": "2026-06-19T01:00:00.000Z",
     "source": "Santa Fe Reporter"
   },
   {
-    "artist": "David Geist Music Experience",
-    "venue": "Osteria D'Assisi",
+    "artist": "DJ OPTAMYSTIK",
+    "venue": "Cowgirl",
     "date": "2026-06-19T01:00:00.000Z",
     "source": "Santa Fe Reporter"
   },
@@ -613,7 +653,12 @@
       {
         "name": "Kodama Trio",
         "spotifyId": "7LTXSvNncFimzcFkkNrioe",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2730e48bd0cd3d028201187f5a8"
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2730e48bd0cd3d028201187f5a8",
+        "trackIds": [
+          "2xLqRx8FMK12Jkv6QqxzcE",
+          "1I4RnCGYbYZs9qgdw7feVQ",
+          "1Rpi2WKolQVJUfXjsfBJ1G"
+        ]
       }
     ]
   },
@@ -698,12 +743,22 @@
         "genres": [
           "baltimore club",
           "jersey club"
+        ],
+        "trackIds": [
+          "7jJPmrB7baCiyfY44AhrFa",
+          "1cH5ljMHc9kVaUcd8TDQRf",
+          "0ndGo6Y6ngw33sCjJFsTl4"
         ]
       },
       {
         "name": "Suavecito",
         "spotifyId": "3zr8FJ1UqyZJcXE0dwQN4D",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737497f27bb5d97c78dbf9dc84"
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737497f27bb5d97c78dbf9dc84",
+        "trackIds": [
+          "6vnnplhIUCr1RuDaHY6Gu3",
+          "0gYmFPIfSFXKmFZtqrnub7",
+          "2lvlNTAmxNg6uCA9PHyBTf"
+        ]
       }
     ]
   },
@@ -800,6 +855,11 @@
         "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273906a00488c76ba8147fb7f06",
         "genres": [
           "death metal"
+        ],
+        "trackIds": [
+          "6BpnzfQlP433LhNNOTZAar",
+          "1ZnzjMoPth88sUTwNG93jX",
+          "3xHRXEPJwuVfQ5uwYIrFba"
         ]
       },
       {
@@ -810,6 +870,11 @@
           "drone metal",
           "sludge metal",
           "doom metal"
+        ],
+        "trackIds": [
+          "19VcFPSYSW2LmMhQeIFsKe",
+          "3rsTiJX6zWbNVWL5y635Om",
+          "5KsY0gYpM0R42CbfVs5ep8"
         ]
       },
       {
@@ -818,12 +883,22 @@
         "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2730419c531d47a4225f2fc45e0",
         "genres": [
           "death metal"
+        ],
+        "trackIds": [
+          "29jkvHNa1oDCzflezEooBk",
+          "2GVWntL8kc0BaIpQ6F5rqS",
+          "5OfpfMYe7t9hDTtGJGn7tq"
         ]
       },
       {
         "name": "Hot Wolf",
         "spotifyId": "5KNk94SweC6yLwJ1BilfmF",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273b518e77250ba9c7c8748e270"
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273b518e77250ba9c7c8748e270",
+        "trackIds": [
+          "2vXko2Xl6b97IxNPa5J6sI",
+          "09gvWkdphq01GEbjpXwYgK",
+          "0zhSEGTG3QJeAca1pWGBEE"
+        ]
       }
     ]
   },
@@ -1863,6 +1938,11 @@
         "genres": [
           "texas country",
           "country rock"
+        ],
+        "trackIds": [
+          "3YpNm6q0gteD6R8gpm49Af",
+          "1tgw48ErlHjmm3WahKXdK3",
+          "3scAwLT1kY7nFkc6JJu3CW"
         ]
       },
       {
@@ -1945,12 +2025,22 @@
         "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba2a65cdcfb9f406ae6e274dd",
         "genres": [
           "surf rock"
+        ],
+        "trackIds": [
+          "5iUa13sA7ERnOGSl5IRM2Q",
+          "19eh4VjhCKgbeZ9yRXygtz",
+          "0TDMW2afzkYOlthLOkr6vt"
         ]
       },
       {
         "name": "Strange Magic",
         "spotifyId": "2ggkOKwKgqUrzcjFLTDWEW",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb55e86c6f07c20693c1a98f23"
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb55e86c6f07c20693c1a98f23",
+        "trackIds": [
+          "3wBSwnLJQfmLGiYQ2jF3FS",
+          "0rtbXJV7J0aHT9HWQISY26",
+          "1VPa2UPP9K3XADyyM6jqux"
+        ]
       }
     ]
   },
@@ -2618,6 +2708,11 @@
         "genres": [
           "flamenco pop",
           "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
         ]
       },
       {
@@ -2626,6 +2721,11 @@
         "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
         "genres": [
           "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
         ]
       }
     ]
@@ -2715,6 +2815,11 @@
           "midwest emo",
           "dream pop",
           "pop punk"
+        ],
+        "trackIds": [
+          "3vkj94FiLgUz3ysZcmIXPx",
+          "0Wl2RALqRacaIJhnlRHK8J",
+          "7itGQJ2FJZPl3VPD7x4vJw"
         ]
       },
       {
@@ -2724,6 +2829,11 @@
         "genres": [
           "shoegaze",
           "post-grunge"
+        ],
+        "trackIds": [
+          "69jVsEla1GaZYEzinH4kDb",
+          "3C7Qjn5zpc6xJ81pamYWtJ",
+          "7jd5bSsJ3pdPVDU7PdFVJL"
         ]
       }
     ]
@@ -2788,6 +2898,11 @@
         "genres": [
           "flamenco pop",
           "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
         ]
       },
       {
@@ -2796,6 +2911,11 @@
         "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
         "genres": [
           "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
         ]
       }
     ]
@@ -2901,6 +3021,11 @@
         "genres": [
           "flamenco pop",
           "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
         ]
       },
       {
@@ -2909,6 +3034,11 @@
         "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
         "genres": [
           "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
         ]
       }
     ]
@@ -3063,6 +3193,11 @@
         "genres": [
           "flamenco pop",
           "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
         ]
       },
       {
@@ -3071,6 +3206,11 @@
         "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
         "genres": [
           "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
         ]
       }
     ]
@@ -3208,6 +3348,11 @@
         "genres": [
           "flamenco pop",
           "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
         ]
       },
       {
@@ -3216,6 +3361,11 @@
         "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
         "genres": [
           "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
         ]
       }
     ]
@@ -3261,6 +3411,11 @@
         "genres": [
           "flamenco pop",
           "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
         ]
       },
       {
@@ -3269,6 +3424,11 @@
         "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
         "genres": [
           "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
         ]
       }
     ]
@@ -3361,12 +3521,22 @@
         "genres": [
           "stoner rock",
           "garage rock"
+        ],
+        "trackIds": [
+          "19mRNWlmHCKIlBT8WOCaXQ",
+          "3B7mbMbbcuKdfWssAcyvG8",
+          "684VXujwkA962eZmEJN05N"
         ]
       },
       {
         "name": "Headsend",
         "spotifyId": "3Q9ixqkrzaQW2lFDSe8il1",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb61831236672eee9984631c21"
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb61831236672eee9984631c21",
+        "trackIds": [
+          "2qPsFrbn4G1ytL3YmBFhxf",
+          "7fBGO13V5jWSKzXWPP4Kus",
+          "5AzXD4JyNAUTqPyoy16teD"
+        ]
       }
     ]
   },
@@ -3397,6 +3567,11 @@
         "genres": [
           "flamenco pop",
           "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
         ]
       },
       {
@@ -3405,6 +3580,11 @@
         "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
         "genres": [
           "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
         ]
       }
     ]
@@ -3507,6 +3687,11 @@
         "genres": [
           "flamenco pop",
           "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
         ]
       },
       {
@@ -3515,6 +3700,11 @@
         "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
         "genres": [
           "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
         ]
       }
     ]
