@@ -128,7 +128,7 @@ function getMajorGenres(show) {
     } else if (textToScan.includes('dj') || textToScan.includes('electronic') || textToScan.includes('rap') || textToScan.includes('hip-hop') || textToScan.includes('hip hop') || textToScan.includes('dance') || textToScan.includes('disco') || textToScan.includes('rave')) {
       majorGenres.add('Pop / Electronic / Hip Hop');
     } else {
-      majorGenres.add('Local / Other');
+      majorGenres.add('Other');
     }
   }
   
@@ -424,7 +424,7 @@ function populateGenrePills() {
     { name: 'Jazz / Blues / Funk', icon: 'fa-music' },
     { name: 'Pop / Electronic / Hip Hop', icon: 'fa-headphones' },
     { name: 'Classical / World / Latin', icon: 'fa-globe' },
-    { name: 'Local / Other', icon: 'fa-compact-disc' }
+    { name: 'Other', icon: 'fa-compact-disc' }
   ];
   
   genrePillsContainer.innerHTML = '';
@@ -625,20 +625,21 @@ function checkShowMatch(show, excludeGenreFilter = false) {
   // 2. Venue filter
   const matchesVenue = venueVal === 'all' || show.venue === venueVal;
   
-  // 3. Date filter
+  // 3. Date filter (Always filter out past shows, showing only today and later)
   const showDate = new Date(show.date);
   showDate.setHours(0, 0, 0, 0);
   
-  let matchesDate = true;
-  if (dateVal === 'today') {
-    matchesDate = showDate.getTime() === today.getTime();
-  } else if (dateVal === 'week') {
-    matchesDate = showDate >= today && showDate <= nextWeek;
-  } else if (dateVal === 'month') {
-    matchesDate = 
-      showDate.getMonth() === today.getMonth() && 
-      showDate.getFullYear() === today.getFullYear() &&
-      showDate >= today;
+  let matchesDate = showDate >= today;
+  if (matchesDate) {
+    if (dateVal === 'today') {
+      matchesDate = showDate.getTime() === today.getTime();
+    } else if (dateVal === 'week') {
+      matchesDate = showDate <= nextWeek;
+    } else if (dateVal === 'month') {
+      matchesDate = 
+        showDate.getMonth() === today.getMonth() && 
+        showDate.getFullYear() === today.getFullYear();
+    }
   }
   
   // 4. Genre Pills Filter (Matches mapped major categories)
