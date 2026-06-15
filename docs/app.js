@@ -411,13 +411,15 @@ function populateGenrePills() {
   genrePillsContainer.innerHTML = '';
   
   categories.forEach(cat => {
-    // Count shows in this category
+    // Count shows matching all non-genre filters + this specific genre
     const count = groupedConcerts.filter(show => {
+      const matchesOthers = checkShowMatch(show, true);
       const majors = getMajorGenres(show);
-      return majors.includes(cat.name);
+      return matchesOthers && majors.includes(cat.name);
     }).length;
     
-    if (count > 0) {
+    // Show the genre pill if count > 0 OR if it's currently selected as an active filter
+    if (count > 0 || activeFilters.genres.includes(cat.name)) {
       const button = document.createElement('button');
       button.className = 'pill';
       button.setAttribute('data-genre', cat.name);
@@ -526,7 +528,9 @@ function renderConcerts() {
     
     // Card structure
     card.innerHTML = `
-      <div class="card-bg-image" ${show.artistImageUrl ? `style="background-image: url('${show.artistImageUrl}')"` : ''}></div>
+      <div class="card-bg-image" ${show.artistImageUrl ? `style="background-image: url('${show.artistImageUrl}')"` : ''}>
+        ${!show.artistImageUrl ? `<div class="card-bg-placeholder"><i class="fa-solid fa-music"></i></div>` : ''}
+      </div>
       <div class="card-overlay"></div>
       
       <div class="card-content">
@@ -573,6 +577,59 @@ function renderConcerts() {
   }
 }
 
+// Helper to check if a show matches current filters
+function checkShowMatch(show, excludeGenreFilter = false) {
+  const searchQuery = activeFilters.search.toLowerCase().trim();
+  const dateVal = activeFilters.date;
+  const venueVal = activeFilters.venue;
+  const genresVal = activeFilters.genres;
+  
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  
+  const nextWeek = new Date(today);
+  nextWeek.setDate(today.getDate() + 7);
+  
+  // 1. Search filter (match artist name, performer name, genre list, specific performer genre, description, or venue)
+  const performerMatch = show.artist.toLowerCase().includes(searchQuery) || 
+                         show.performers.some(p => p.name.toLowerCase().includes(searchQuery));
+  
+  const genreMatchText = (show.genres && show.genres.some(g => g.toLowerCase().includes(searchQuery))) || 
+                         show.performers.some(p => p.genres && p.genres.some(g => g.toLowerCase().includes(searchQuery)));
+  
+  const descriptionMatch = show.description ? show.description.toLowerCase().includes(searchQuery) : false;
+  const venueMatchText = show.venue.toLowerCase().includes(searchQuery);
+  const matchesSearch = searchQuery === '' || performerMatch || genreMatchText || descriptionMatch || venueMatchText;
+  
+  // 2. Venue filter
+  const matchesVenue = venueVal === 'all' || show.venue === venueVal;
+  
+  // 3. Date filter
+  const showDate = new Date(show.date);
+  showDate.setHours(0, 0, 0, 0);
+  
+  let matchesDate = true;
+  if (dateVal === 'today') {
+    matchesDate = showDate.getTime() === today.getTime();
+  } else if (dateVal === 'week') {
+    matchesDate = showDate >= today && showDate <= nextWeek;
+  } else if (dateVal === 'month') {
+    matchesDate = 
+      showDate.getMonth() === today.getMonth() && 
+      showDate.getFullYear() === today.getFullYear() &&
+      showDate >= today;
+  }
+  
+  // 4. Genre Pills Filter (Matches mapped major categories)
+  let matchesGenres = true;
+  if (!excludeGenreFilter && genresVal.length > 0) {
+    const showMajorGenres = getMajorGenres(show);
+    matchesGenres = showMajorGenres.some(g => genresVal.includes(g));
+  }
+  
+  return matchesSearch && matchesVenue && matchesDate && matchesGenres;
+}
+
 // Filter Logic
 function applyFilters() {
   const searchQuery = activeFilters.search.toLowerCase().trim();
@@ -589,47 +646,11 @@ function applyFilters() {
     }
   }
   
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
+  // Filter grouped concerts
+  filteredConcerts = groupedConcerts.filter(show => checkShowMatch(show));
   
-  const nextWeek = new Date(today);
-  nextWeek.setDate(today.getDate() + 7);
-  
-  filteredConcerts = groupedConcerts.filter(show => {
-    // 1. Search filter (match headliner, support performers, venue, or genres)
-    const performerMatch = show.artist.toLowerCase().includes(searchQuery) || show.performers.some(p => p.name.toLowerCase().includes(searchQuery));
-    const genreMatchText = show.genres ? show.genres.some(g => g.toLowerCase().includes(searchQuery)) : false;
-    const venueMatchText = show.venue.toLowerCase().includes(searchQuery);
-    const matchesSearch = searchQuery === '' || performerMatch || genreMatchText || venueMatchText;
-    
-    // 2. Venue filter
-    const matchesVenue = venueVal === 'all' || show.venue === venueVal;
-    
-    // 3. Date filter
-    const showDate = new Date(show.date);
-    showDate.setHours(0, 0, 0, 0);
-    
-    let matchesDate = true;
-    if (dateVal === 'today') {
-      matchesDate = showDate.getTime() === today.getTime();
-    } else if (dateVal === 'week') {
-      matchesDate = showDate >= today && showDate <= nextWeek;
-    } else if (dateVal === 'month') {
-      matchesDate = 
-        showDate.getMonth() === today.getMonth() && 
-        showDate.getFullYear() === today.getFullYear() &&
-        showDate >= today;
-    }
-    
-    // 4. Genre Pills Filter (Matches mapped major categories)
-    let matchesGenres = true;
-    if (genresVal.length > 0) {
-      const showMajorGenres = getMajorGenres(show);
-      matchesGenres = showMajorGenres.some(g => genresVal.includes(g));
-    }
-    
-    return matchesSearch && matchesVenue && matchesDate && matchesGenres;
-  });
+  // Dynamically update the genre pills counts based on matching shows
+  populateGenrePills();
   
   renderConcerts();
 }
@@ -832,7 +853,9 @@ function openShowDetailsModal(show) {
       }
       
       card.innerHTML = `
-        <div class="performer-avatar" ${perf.artistImageUrl ? `style="background-image: url('${perf.artistImageUrl}')"` : ''}></div>
+        <div class="performer-avatar" ${perf.artistImageUrl ? `style="background-image: url('${perf.artistImageUrl}')"` : ''}>
+          ${!perf.artistImageUrl ? `<i class="fa-solid fa-user" style="color: rgba(255, 255, 255, 0.25); font-size: 1.2rem;"></i>` : ''}
+        </div>
         <div class="performer-info">
           <h4 class="performer-name">${perf.name}</h4>
           ${genresHtml}
