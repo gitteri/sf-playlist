@@ -582,7 +582,7 @@ function renderConcerts() {
         </div>
         
         ${show.trackIds && show.trackIds.length > 0 ? `
-          <button class="card-play-btn" aria-label="Listen preview" onclick="event.stopPropagation(); window.playShowTracks('${show.id}');">
+          <button class="card-play-btn" aria-label="Listen preview">
             <i class="fa-solid fa-play"></i>
           </button>
         ` : ''}
@@ -606,6 +606,15 @@ function renderConcerts() {
     card.addEventListener('click', () => {
       openShowDetailsModal(show);
     });
+    
+    // Play button click events (DOM listener to preserve user gesture context)
+    const playBtn = card.querySelector('.card-play-btn');
+    if (playBtn) {
+      playBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        playShowTracks(show.id);
+      });
+    }
     
     concertGrid.appendChild(card);
   });
@@ -906,16 +915,17 @@ function openShowDetailsModal(show) {
       
       // Check if artist has playable tracks
       let listenButtonHtml = '';
+      let targetTrackId = '';
       if (perf.trackIds && perf.trackIds.length > 0) {
-        listenButtonHtml = `
-          <button class="performer-play-btn" aria-label="Listen artist track" onclick="window.playTrackOnSpotify('${perf.trackIds[0]}')">
-            <i class="fa-solid fa-play"></i>
-          </button>
-        `;
+        targetTrackId = perf.trackIds[0];
       } else if (show.trackIds && show.trackIds.length > 0 && perf.name.toLowerCase() === show.artist.toLowerCase()) {
         // Main artist fallback to combined show tracks
+        targetTrackId = show.trackIds[0];
+      }
+      
+      if (targetTrackId) {
         listenButtonHtml = `
-          <button class="performer-play-btn" aria-label="Listen artist track" onclick="window.playTrackOnSpotify('${show.trackIds[0]}')">
+          <button class="performer-play-btn" aria-label="Listen artist track" data-track-id="${targetTrackId}">
             <i class="fa-solid fa-play"></i>
           </button>
         `;
@@ -934,6 +944,18 @@ function openShowDetailsModal(show) {
       `;
       
       modalLineupList.appendChild(card);
+      
+      // Attach click listener programmatically to preserve user gesture
+      const listenBtn = card.querySelector('.performer-play-btn');
+      if (listenBtn) {
+        listenBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const trackId = listenBtn.getAttribute('data-track-id');
+          if (trackId) {
+            playTrackOnSpotify(trackId);
+          }
+        });
+      }
     });
   }
   
