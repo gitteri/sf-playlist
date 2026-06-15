@@ -79,6 +79,7 @@ export class SongkickService {
               venue,
               date,
               ticketUrl,
+              listingUrl: ticketUrl,
               source: 'Songkick'
             });
           });

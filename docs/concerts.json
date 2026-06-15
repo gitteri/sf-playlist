@@ -1,26 +1,19 @@
 [
   {
-    "artist": "Fragile Rock",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-06-14T22:30:00.000Z",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "7kjKfbqzyJwWrq9wRWR6i5",
-      "072jtJahYUUje6u4bKuQun",
-      "0JCrp9M6IrJWLqMu1LXOHb"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb98e58c0ff5fb7debe43ea8e6"
-  },
-  {
     "artist": "Zach Aaron",
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-06-14T23:00:00.000Z",
+    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events/#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-6b97f410-657f-4c66-8748-2d3428f21794",
+    "sourceEventId": 4843484,
+    "sourceEventSlug": "zach-aaron-jun-14-2026",
+    "description": "An Americana singer-songwriter. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "5TsolHsXhl5hx91t4OTjgg",
       "1LSRYJ9vAjqLzHr2xkVV8M",
       "6bfuEjT69kbM3VE9MgJ6gg"
     ],
+    "spotifyId": "41Tb9oRP77iJ5r9I2XbyFh",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebfee684cb2a825e3eab607908",
     "genres": [
       "texas country",
@@ -32,93 +25,161 @@
     "artist": "Smoking Toad",
     "venue": "Social Kitchen & Bar",
     "date": "2026-06-15T00:00:00.000Z",
+    "listingUrl": "https://www.socialkitchensf.com/",
+    "sourceEventId": 4838468,
+    "description": "<p>Catch the unique sounds of Smoking Toad, a Santa Fe-based Americana and country band led by Liam Downey, as they bring an electrifying blend of rock, blues, and R&amp;B to select nights. </p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-06-15T00:00:00.000Z",
+    "sourceEventId": 4835577,
+    "sourceEventSlug": "doug-montgomery-jun-14-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "eclectic electric music by outer monkeys",
     "venue": "Nuckolls Brewery",
     "date": "2026-06-15T00:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "sourceEventId": 4845384,
+    "description": "<p>Announcing <strong><em>outer monkeys</em></strong><em>, </em>an eclectic collab between singer Hannah Loomis and guitarist Ross Hamlin! Join us for our first show, Sunday June 14, 6-8pm @ Nuckolls Brewing in the Railyard. Free admission. Covering Lenny Kravitz, Prince, Pretenders, Amy Winehouse + more, plus originals with pop, jazz, R&amp;B, + rock influences</p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "42O3gSOikiyvWC9zuCFETr",
+      "2iNnc7Mri9zwcKNaokk5zo",
+      "2T6GZ5swwPreQyL3OZQ63X"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273c2972eb6a045e09402fd64d5",
+    "subArtists": [
+      {
+        "name": "pop"
+      },
+      {
+        "name": "jazz",
+        "spotifyId": "5J2yd9qX9G0bdHZzg5LN3m",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273c2972eb6a045e09402fd64d5",
+        "trackIds": [
+          "42O3gSOikiyvWC9zuCFETr",
+          "2iNnc7Mri9zwcKNaokk5zo",
+          "2T6GZ5swwPreQyL3OZQ63X"
+        ]
+      },
+      {
+        "name": "amp;B"
+      },
+      {
+        "name": "rock influences"
+      }
+    ]
   },
   {
     "artist": "Sara Douga",
     "venue": "La Reina",
     "date": "2026-06-15T02:00:00.000Z",
+    "listingUrl": "https://elreycourt.com/event/sara-douga?gclid=CjwKCAjwidXQBhAZEiwA4egw6OwYEcVkc_VjnxZA3Jpw23PfhxvO9cTvNG-LWS-_2zS9TukLZTUPlRoCYSsQAvD_BwE&gad_source=1",
+    "sourceEventId": 4837743,
+    "sourceEventSlug": "sara-douga-jun-14-2026-8-00pm",
+    "description": "Songwriter Sara Douga will be performing her country tunes at La Reina for an intimate night of Americana and margaritas.",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "4xJDKlFEiO8GSgeKoZwdGW",
       "353NJIigFmLfti14KbEoz1",
       "4Ecy61WXJjPATqFxWPnZBa"
     ],
+    "spotifyId": "14WmvI716VLBUPwNqiLZzA",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe694dec8a5237cd3d8b3914a"
   },
   {
     "artist": "Don Curry",
     "venue": "Cowgirl",
     "date": "2026-06-15T22:00:00.000Z",
+    "listingUrl": "https://cowgirlsantafe.com/music/",
+    "sourceEventId": 4843492,
+    "sourceEventSlug": "don-curry-jun-15-2026",
+    "description": "An afternoon of spicy, deep-flavored rock.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Santa Fe Grass",
     "venue": "Santa Fe Brewing Company",
     "date": "2026-06-15T22:20:00.000Z",
+    "listingUrl": " https://santafebrewing.com/taproom/beer-hall/",
+    "sourceEventId": 4809575,
+    "sourceEventSlug": "santa-fe-grass-jun-15-2026",
+    "description": "<p>Live traditional and contemporary bluegrass music. </p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Eastwood & Holly",
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-06-15T23:00:00.000Z",
+    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events/#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-ffb917e0-a352-4439-8b4a-03c81cc3105f",
+    "sourceEventId": 4843486,
+    "sourceEventSlug": "eastwood-holly-jun-15-2026",
+    "description": "<p>A three-piece indie-folk band from Fort Collins, Colorado.</p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "44uU2aojdKE5ZcqYdLSex5",
       "1mTylOf9mbZJblTkvzwJAr",
       "0LHUlWBPRTZJyARNQokkd9"
     ],
+    "spotifyId": "3iyNkncezKr61GX7GVMHvN",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1272bdbd3509fcf9c1f49b24"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-06-16T00:00:00.000Z",
+    "sourceEventId": 4835578,
+    "sourceEventSlug": "doug-montgomery-jun-15-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
     "venue": "TerraCotta Wine Bistro",
     "date": "2026-06-16T00:30:00.000Z",
+    "sourceEventId": 4832352,
+    "sourceEventSlug": "darin-savage-jun-15-2026",
+    "description": "Darin Savage plays Spanish guitar every Monday evening. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Jeff Mann",
     "venue": "Cowgirl",
     "date": "2026-06-16T22:00:00.000Z",
+    "sourceEventId": 4843497,
+    "sourceEventSlug": "jeff-mann-jun-16-2026",
+    "description": "A singer-songwriter with an award or two under his belt. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "5TLBt3CzZOVPiWEU2fUnZe"
-    ]
+    ],
+    "spotifyId": "4iydAEyDXQXcLbKb411r3V"
   },
   {
     "artist": "Johnny Lloyd & Co.",
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-06-16T23:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1CrctnCgAn/",
+    "sourceEventId": 4795695,
+    "description": "<p>Enjoy Americana tunes with Johnny Lloyd &amp; Co. on the patio at Tumbleroot Brewery.</p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "0izT445qsXGB2LsdUJgdCn",
@@ -146,6 +207,10 @@
     "artist": "Gus Miller / Rachel Cole",
     "venue": "La Reina",
     "date": "2026-06-17T02:00:00.000Z",
+    "listingUrl": "https://elreycourt.com/event/gus-miller-rachel-cole?gclid=CjwKCAjwidXQBhAZEiwA4egw6OwYEcVkc_VjnxZA3Jpw23PfhxvO9cTvNG-LWS-_2zS9TukLZTUPlRoCYSsQAvD_BwE&gad_source=1",
+    "sourceEventId": 4837751,
+    "sourceEventSlug": "gus-miller-rachel-cole-jun-16-2026",
+    "description": "Austin-based Bluegrass / alt country act Gus Miller and Americana/roots artist Rachel Cole will be playing La Reina. Looks like another fantastic time at everyones favorite Cowboy dress-up saloon.",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "4ABshobXQSd761AQ4t5u6s",
@@ -173,36 +238,52 @@
     "artist": "Grant Knoxlyn",
     "venue": "Cowgirl",
     "date": "2026-06-17T22:00:00.000Z",
+    "sourceEventId": 4850038,
+    "sourceEventSlug": "grant-knoxlyn-jun-17-2026",
+    "description": "Nashville-infused folk/Americana. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "22ihuNNUR2SLA84KtYOhso",
       "7MWjDwkSYPJMoMFtvwlBv9",
       "37fngt1KA7SeMUBrqMJkos"
     ],
+    "spotifyId": "2CGJgkLXDucGKT7YrfRfY3",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8b7a0e8e33b99ab935c2b8fc"
   },
   {
     "artist": "Thurman Love",
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-06-17T23:00:00.000Z",
+    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-584a6240-0531-447f-83a8-b9cb87e552e2",
+    "sourceEventId": 4849976,
+    "sourceEventSlug": "thurman-love-jun-17-2026",
+    "description": "<p>Thurman Love has a new EP <em>FolkHub</em>, and he's pretty psyched to share the tunes on the Tumbleroot patio. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "3m61dkDuCQyqwOJdZFmLe6",
       "6BBpF5KouJ3XlRIbd8HlkQ",
       "3kWfd94q7zffIcdIHrrlbC"
     ],
+    "spotifyId": "7lyzioP0SvPdtJPgpqBjdw",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0893cdd5fc5e5c68a559a611"
   },
   {
     "artist": "Second Chances Band",
     "venue": "Social Kitchen & Bar",
     "date": "2026-06-18T00:00:00.000Z",
+    "listingUrl": "https://www.socialkitchensf.com/Events/",
+    "sourceEventId": 4838258,
+    "description": "<p>An unforgettable evening of live country music, good vibes, and great company.</p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-06-18T00:00:00.000Z",
+    "listingUrl": "https://www.rmxaudiobar.com/",
+    "sourceEventId": 4851974,
+    "sourceEventSlug": "remix-wednesdays-feat-dj-stranger-vinyl-set-jun-17-2026",
+    "description": "<p>Enjoy \"Night Snacks with a Soundtrack\" at Remix Audio Bar with  DJ Stranger curating an all vinyl hip hop set.  Try our in house made ice cream for dessert. </p>",
     "source": "Santa Fe Reporter",
     "subArtists": [
       {
@@ -217,6 +298,10 @@
     "artist": "Swing & Sway the Night Away",
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-06-18T01:00:00.000Z",
+    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-12260062-a937-4a39-8580-1ae8c888f3b7",
+    "sourceEventId": 4849981,
+    "sourceEventSlug": "swing-sway-the-night-away-jun-17-2026",
+    "description": "Swing those mid-week blues away with the help of the Santa Fe Great Big Jazz Band. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "5Ea38RCmV570c6Sj4EUqIq",
@@ -252,6 +337,10 @@
     "artist": "The Lowtimers / Tommy Luke",
     "venue": "La Reina",
     "date": "2026-06-18T02:00:00.000Z",
+    "listingUrl": "https://elreycourt.com/event/the-lowtimers-tommy-luke?gclid=CjwKCAjwidXQBhAZEiwA4egw6OwYEcVkc_VjnxZA3Jpw23PfhxvO9cTvNG-LWS-_2zS9TukLZTUPlRoCYSsQAvD_BwE&gad_source=1",
+    "sourceEventId": 4837834,
+    "sourceEventSlug": "the-lowtimers-tommy-luke-jun-17-2026-7-00pm",
+    "description": "More Americana for the patrons of La Reina!  Grab your hat, your boots and ready yourself for a couple classy cocktails.",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "0FTLfh1awFJWM8gSsuXJ5o",
@@ -289,12 +378,16 @@
     "artist": "DJ ICKYMAC",
     "venue": "Farafina",
     "date": "2026-06-18T02:00:00.000Z",
+    "sourceEventId": 4851133,
+    "description": "<p>Reggae, dancehall, afrobeat and reggaeton.</p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "The Lowtimers / Tommy Luke",
     "venue": "El Rey Court ",
     "date": "2026-06-18T02:00:00.000Z",
+    "sourceEventId": 4836188,
+    "description": "<p>The Lowtimers are a west-coast Americana band rooted in the road-worn songwriting of Austin Smith and Mark Tegio. Tommy Luke’s songs carry the dusty, well-worn sounds of western music. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "0FTLfh1awFJWM8gSsuXJ5o",
@@ -332,18 +425,25 @@
     "artist": "Bill Hearne",
     "venue": "Cowgirl",
     "date": "2026-06-18T22:00:00.000Z",
+    "sourceEventId": 4840912,
+    "sourceEventSlug": "bill-hearne-jun-18-2026",
+    "description": "<p>Share happy hour with Santa Fe's own musical legend Bill Hearne. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "6Plwc7hs7t0hmF5hMAaJMV",
       "15L35gGagO5SZuZjKmACSH",
       "7E23il0kqPQOgEvJ30gsdx"
     ],
+    "spotifyId": "29JEPgxSlt5lTvqT2f1BOk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2735cdda90a98e1efba114c45ff"
   },
   {
     "artist": "Bread and Beats",
     "venue": "Vital Spaces",
     "date": "2026-06-18T23:00:00.000Z",
+    "listingUrl": "vitalspaces.org",
+    "sourceEventId": 4848028,
+    "description": "<p>Enjoy some delicious scratch made sourdough bread, tea, friends, and music on vinyl. This session's featured vinyl is \"Promises\" by Floating Points, Pharoah Sanders and the London Symphony Orchestra.</p><p><br></p><p><br></p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "52VIdyKqp1pJRSyUQaxKUA",
@@ -379,30 +479,43 @@
     "artist": "Bob Maus",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-06-19T00:00:00.000Z",
+    "listingUrl": "https://www.reverbnation.com/bobmaus/song/34523171-bob-maus-live-performance-demo",
+    "sourceEventId": 4848626,
+    "description": "<p>Maus plays blues, soul and pop on piano and vocals. </p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "JJ Slater",
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-06-19T00:00:00.000Z",
+    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-5a9a2b3a-2d01-4b77-9dc0-b119e1abe4be",
+    "sourceEventId": 4849987,
+    "sourceEventSlug": "jj-slater-jun-18-2026",
+    "description": "<p>A New England-based Americana and blues singer-songwriter.</p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "5rDKoclY0LKzXq7FvK61S7",
       "0VHNl0ermDGgYh1yLH8rkE",
       "6eFt85TM4kGlsxwHxl1hhS"
     ],
+    "spotifyId": "0ewR6eRfZ68HojjOTn91Ba",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba5642715408db4c9cbbfd802"
   },
   {
     "artist": "Vincent Neil Emerson",
     "venue": "Railyard Plaza",
     "date": "2026-06-19T01:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462163?tc=lensic360",
+    "sourceEventId": 4835896,
+    "sourceEventSlug": "vincent-neil-emerson-jun-18-2026",
+    "description": "Texan Americana songwriter Vincent Neil Emerson is playing at the Santa Fe Railyard as part of Lensic 360's summer o' fun!  Opening the outdoor bash is JD Nash &amp; The Rash of Cash.  It's gonna be a smash well worth crashing!",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "3hQ51c9dPj9FcSdOHhrfkq",
       "0tIRswIxHkAXTF0cx2Eodb",
       "43b4N2ag6il5TtZ7z4ORc9"
     ],
+    "spotifyId": "2TbbmB7fmmCN7rlOt1wHlC",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1d19db14c3adf476fe5874a9",
     "genres": [
       "alt country",
@@ -416,30 +529,42 @@
     "artist": "The Pre Game Thursday Nights",
     "venue": "Cowgirl",
     "date": "2026-06-19T01:00:00.000Z",
+    "sourceEventId": 4848635,
+    "description": "<p>DJ Optamystik taking requests and mixing all your favorites from oldies to today's hits mixing up all genres.</p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Geist Music Experience",
     "venue": "Osteria D'Assisi",
     "date": "2026-06-19T01:00:00.000Z",
+    "sourceEventId": 4838554,
+    "sourceEventSlug": "david-geist-music-experience-jun-18-2026",
+    "description": "<p>Tony-award winning pianist /vocalist performs an evening of Broadway, pop, and originals in a gorgeous setting!</p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "DJ OPTAMYSTIK",
     "venue": "Cowgirl",
     "date": "2026-06-19T01:00:00.000Z",
+    "sourceEventId": 4838498,
+    "sourceEventSlug": "dj-optamystik-jun-18-2026",
+    "description": "The most positive beats in town every Thursday.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Garry Blackchild",
     "venue": "The Mine Shaft Tavern",
     "date": "2026-06-19T01:00:00.000Z",
+    "sourceEventId": 4850093,
+    "sourceEventSlug": "garry-blackchild-jun-18-2026-5-00pm",
+    "description": "<p>An Afro-Indigenous country-blues artist whose 'Rebel Folk' sound blends Southwestern grit with Southern roots. His music channels the spirit and stories of life in New Mexico.</p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "21yHvVotcKaclhKxy15oQE",
       "22XK2RztNhWi4KkN7w2tli",
       "7pHoJZdrORq7QeBmpR0YK1"
     ],
+    "spotifyId": "5oxGamQviaoYWHBjm3Ikau",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27342a64c00f10746253717ba16",
     "genres": [
       "alt country"
@@ -449,12 +574,17 @@
     "artist": "Calder Allen",
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-06-19T01:30:00.000Z",
+    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-9a1d0292-b2af-408c-91ed-f224129fd889",
+    "sourceEventId": 4849990,
+    "sourceEventSlug": "calder-allen-jun-18-2026",
+    "description": "<p>A fifth-generation Texan whose roots run deep in the state, giving life to his his Americana/folk repertoire.</p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "0xy3JGKV6Csj7d1CtE6NsG",
       "2ghHBq7WcaUyRkLcKh6h8l",
       "276ZfAgAGiqQqF1Iub8adH"
     ],
+    "spotifyId": "1XlVbGlQaBoESaJ43y2sCD",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc4a45f0e840b74b85c5e87d9"
   },
   {
@@ -462,72 +592,125 @@
     "venue": "Meow Wolf",
     "date": "2026-06-19T02:30:00.000Z",
     "ticketUrl": "https://tickets.lensic360.org/tickets/456866?tc=lensic360",
+    "sourceEventId": 4835899,
+    "sourceEventSlug": "searows-jun-18-2026",
+    "description": "The project of singer-songwriter Alex Duckart, Searows is bringing moody tunes to Meow Wolf for a night of folklore-inspired indie.  ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "5swZvDSi78Znk4rlmwHNnj",
       "7fhAjbHrzGknwQkGIzJHVk",
       "5RXjt2s4HBJw3TcaAzwSrD"
     ],
+    "spotifyId": "0nugNBwdWaptgIAsEtx1It",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb14229bdbda79ace871ef7bf2"
   },
   {
     "artist": "Strangers From Afar",
     "venue": "The Mine Shaft Tavern",
     "date": "2026-06-19T23:00:00.000Z",
+    "sourceEventId": 4848047,
+    "description": "<p>Original music from a Madrid alt-rock duo. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1eVXg13nNHBHMniWaH9QKv",
       "3msJioN2G3Vrcfjc4RgHhN",
       "1zQJzAHDpzc9wGzPaSS0BC"
     ],
+    "spotifyId": "38eB62uUrJvaBU2ufWDSeb",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d8a2c279630e9d4006814aa7"
   },
   {
     "artist": "Duodiaz",
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-06-19T23:00:00.000Z",
+    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-97b064b6-190e-44f4-a63f-f2ca0b64654a",
+    "sourceEventId": 4849997,
+    "sourceEventSlug": "duodiaz-jun-19-2026",
+    "description": "You heard 'em...your favorite standards and jazz arrangements. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "The Flatcar Series",
     "venue": "Nuckolls Brewing Co.",
     "date": "2026-06-19T23:15:00.000Z",
-    "source": "Santa Fe Reporter"
+    "sourceEventId": 4848048,
+    "description": "<p>An unforgettable evening filled with live music, delectable food and refreshing drinks in the iconic Santa Fe Railyard. Don't miss this opportunity to be a part of the thriving music community in Santa Fe.</p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "4OPh20gSFeDunvGutWIFVl",
+      "5EpT8WZZJpNvklVxX3IAbc",
+      "3ALAtsoSWR69bBb3Eqk5lO"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2738ec6cb3b171b65f8be33aeaf",
+    "subArtists": [
+      {
+        "name": "live music",
+        "spotifyId": "2WrC1IQgDsMNS4WelQfNNE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2738ec6cb3b171b65f8be33aeaf",
+        "trackIds": [
+          "4OPh20gSFeDunvGutWIFVl",
+          "5EpT8WZZJpNvklVxX3IAbc",
+          "3ALAtsoSWR69bBb3Eqk5lO"
+        ]
+      },
+      {
+        "name": "delectable food"
+      },
+      {
+        "name": "refreshing drinks in the iconic Santa Fe Railyard"
+      }
+    ]
   },
   {
     "artist": "Artisan String Quartet",
     "venue": "First Presbyterian Church",
     "date": "2026-06-19T23:30:00.000Z",
+    "listingUrl": "https://fpcsantafe.org/",
+    "sourceEventId": 4842171,
+    "sourceEventSlug": "tgif-music-series-artisan-string-quartet-jun-19-2026",
+    "description": "<p>The Artisan String Quartet perform compositions that are TBA.</p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "El Brujo Trio",
     "venue": "Social Kitchen & Bar",
     "date": "2026-06-20T00:00:00.000Z",
+    "listingUrl": "https://www.socialkitchensf.com/",
+    "sourceEventId": 4838308,
+    "description": "<p>Experience the magic with a Nuevo Flamenco acoustic trio.</p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-06-20T00:00:00.000Z",
+    "sourceEventId": 4753762,
+    "sourceEventSlug": "david-wood-jun-19-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Sir Woman",
     "venue": "Railyard Plaza",
     "date": "2026-06-20T01:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462173?tc=lensic360",
+    "sourceEventId": 4835902,
+    "sourceEventSlug": "sir-woman-jun-19-2026",
+    "description": "If you've seen any of Sir Woman's shows in the past, you probably already know that the Texas funk outfit is as charismatic as they are musically competent.  These guys are a hell of a ride live if you got your dancin' boots on.  ABQ's own Sweet Roll will be opening up the show.",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "6q8nlNnBLSAn5tU6tH9Zlz",
       "62gJ9HMWJdiOTWB3rwrTBL",
       "0zUz3MpYkz9KWuTMNfyv6P"
     ],
+    "spotifyId": "3H03S3ZtyYLdzsk6EYndUL",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9096b9b9f923bb35b3413ec6",
     "genres": [
       "pop soul"
@@ -537,94 +720,170 @@
     "artist": "Cynical Bird",
     "venue": "The Mine Shaft Tavern",
     "date": "2026-06-20T01:00:00.000Z",
+    "sourceEventId": 4850095,
+    "sourceEventSlug": "cynical-bird-jun-19-2026-6-00pm",
+    "description": "<p>Rock/folk/Americana. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "4jrdnlrqKKYYspbh1fGsL4",
       "0HH2YsUol3RfT0ZYUnqavb",
       "2NjuyulNkIIqXYN5SzYA7W"
     ],
+    "spotifyId": "5SwAxpgegLSfmdAE6cee3R",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2730d3a59a216cac65968ec91b9"
   },
   {
     "artist": "One Last Funky Dollar",
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-06-20T01:30:00.000Z",
+    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-6a947863-34a4-4aea-b525-0222b07837c8",
+    "sourceEventId": 4850001,
+    "sourceEventSlug": "one-last-funky-dollar-jun-19-2026",
+    "description": "<p>One Last Funky Dollar is a speciality show presented by One More Silver Dollar featuring the Burque Horns. Its a funky soul dance party featuring the music of Aretha, Otis, Pickett, Dr John and many more funky favorites.</p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Pollo Frito",
     "venue": "Cowgirl",
     "date": "2026-06-20T02:00:00.000Z",
+    "sourceEventId": 4850040,
+    "sourceEventSlug": "pollo-frito-jun-19-2026",
+    "description": "If their New Orleans funk is as good as the New Orleans fried chicken, then we're all in for a treat. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "2h1wEdcOohrWQ8yF1Bp4KT",
       "1hKzT1zsDKFqqFaLugXHBt",
       "5nyuqr96Szc7z88YYJ2Ocq"
     ],
+    "spotifyId": "1dWKDCP00wfyjjcGmzRjYI",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737462ed19dcf531e131e0faa1"
   },
   {
-    "artist": "Baroque",
+    "artist": "The high Baroque",
     "venue": "New Mexico School for the Arts",
     "date": "2026-06-20T18:00:00.000Z",
+    "listingUrl": "https://www.severallfriends.org/",
+    "sourceEventId": 4848119,
+    "sourceEventSlug": "baroque-at-altitude-the-high-baroque-at-7-000-ft-jun-20-2026",
+    "description": "<p>Music of Bach, Leclair, and Handel featuring Jennifer Perez, soprano; Stephen Redfield, violin and Kathleen McIntosh, harpsichord. Admission is by donation; suggested donation $20. No reservations needed.</p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
-      "12V5AgfGpegwEjY5UgvoEU",
-      "0smDqh40FcQS04QWMoWEHG",
-      "6jL8iLdNYWVnhY5NnGsspN"
+      "6FAnxR1DS28Igf3MOhPsXV",
+      "4g8h8YDgIkPiVLJUfZf6xK",
+      "6MaOTWofqLDcgTwyZijWWB"
     ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebb9db988dcbee579de19de1c5",
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2733792b16218895ff9e69e1166",
     "genres": [
-      "ebm",
-      "cold wave"
+      "baroque"
+    ],
+    "subArtists": [
+      {
+        "name": "Jennifer Perez",
+        "spotifyId": "31vyNfijTIv1zfLQt1DnBF"
+      },
+      {
+        "name": "soprano; Stephen Redfield"
+      },
+      {
+        "name": "violin"
+      },
+      {
+        "name": "Kathleen McIntosh",
+        "spotifyId": "2CQPsJOInIbVURj5JIJso1",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2733792b16218895ff9e69e1166",
+        "genres": [
+          "baroque"
+        ],
+        "trackIds": [
+          "6FAnxR1DS28Igf3MOhPsXV",
+          "4g8h8YDgIkPiVLJUfZf6xK",
+          "6MaOTWofqLDcgTwyZijWWB"
+        ]
+      },
+      {
+        "name": "harpsichord",
+        "spotifyId": "34DnI8qQXptP7t0Ptnmmce",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273f0333b408a0886cc1cef8165"
+      }
     ]
   },
   {
     "artist": "DB Gomez Duo",
     "venue": "Cowgirl",
     "date": "2026-06-20T19:00:00.000Z",
+    "sourceEventId": 4850053,
+    "sourceEventSlug": "db-gomez-duo-jun-20-2026",
+    "description": "An Americana and bluegrass duo.",
     "source": "Santa Fe Reporter"
   },
   {
-    "artist": "Juneteenth Celebration: Sudan Archives",
+    "artist": "Sudan Archives",
     "venue": "Railyard Plaza",
     "date": "2026-06-20T20:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "listingUrl": "https://tickets.lensic360.org/tickets/462174?tc=lensic360",
+    "sourceEventId": 4835907,
+    "sourceEventSlug": "juneteenth-celebration-sudan-archives-jun-20-2026",
+    "description": "Strings shredder Sudan Archives will be lighting up the Railyard as part of a celebration of Juneteenth!  Note that the show is on the 20th not the actual holiday.",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "3XqP0HAPdDN3Lkdoufds20",
+      "6CNIrZlW3GjsMpYdVcgvvV",
+      "62wAc90VNxtcNJQJrPaeJQ"
+    ],
+    "spotifyId": "2MPHBxznH1fj59jbOWY38u",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0937734c7a4d13d8ef02e2f7",
+    "genres": [
+      "alternative r&b",
+      "indie soul"
+    ]
   },
   {
     "artist": "The Jakes",
     "venue": "The Mine Shaft Tavern",
     "date": "2026-06-20T21:00:00.000Z",
+    "sourceEventId": 4850103,
+    "sourceEventSlug": "the-jakes-jun-20-2026-3-00pm",
+    "description": "Are The Jakes more or less than Less Than Jake? You be the judge. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Bob Maus - Blues Soul Pop",
     "venue": "Inn & Spa at Loretto",
     "date": "2026-06-21T00:00:00.000Z",
+    "listingUrl": "https://www.reverbnation.com/bobmaus/song/34523171-bob-maus-live-performance-demo",
+    "sourceEventId": 4794560,
+    "description": "<p>Maus plays blues, soul and pop on piano and vocals. </p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Blue Midnight",
     "venue": "The Mine Shaft Tavern",
     "date": "2026-06-21T01:00:00.000Z",
+    "sourceEventId": 4850110,
+    "sourceEventSlug": "blue-midnight-jun-20-2026-6-00pm",
+    "description": "An expounding on the midnight blues.",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1iY9n8a04FMbR4PicBq8nU",
       "1X84VaxOZGSqILdcqDJVMP",
       "5V0B6L518cRmFyTIp3ekeM"
     ],
+    "spotifyId": "6czyqWtxj2PB60bn5rEuuk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273df7fcf496916c67c8351cb71"
   },
   {
     "artist": "The Chameleons",
     "venue": "Farafina",
     "date": "2026-06-21T01:00:00.000Z",
+    "sourceEventId": 4848096,
+    "description": "<p>A unique blend of jazz, latin and blues. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "3LvrEG9IQehvPxLDmIqjH8",
       "262mPGjCFLQoHE38LYHiCJ",
       "4Uv6BVQUcdxUkIRDAQ7a7l"
     ],
+    "spotifyId": "4HLWX9kzfraiCsTvrxJEXm",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebb24ba09a762dfce961c60d81",
     "genres": [
       "post-punk",
@@ -639,6 +898,9 @@
     "artist": "AJW Presents iNK oN pAPER & Kodama Trio",
     "venue": "Entropy Gallery",
     "date": "2026-06-21T01:30:00.000Z",
+    "listingUrl": "https://avantjazzworkshop.com/AJWseries.html",
+    "sourceEventId": 4849058,
+    "description": "<p><strong></strong></p><p>Avant Jazz Workshop presents a birthday celebration of Milton Villarrubia III with two of his favorite groups iNK oN pAPER and The Kodama Trio.</p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "2xLqRx8FMK12Jkv6QqxzcE",
@@ -667,60 +929,101 @@
     "venue": "Paradiso",
     "date": "2026-06-21T01:30:00.000Z",
     "ticketUrl": "https://tickets.holdmyticket.com/tickets/463044",
-    "source": "Santa Fe Reporter"
+    "sourceEventId": 4848092,
+    "description": "<p><strong>An evening of swinging favorites. Featuring original musical arrangements by writer and bandleader Robert Beasley, this 14-piece jazz orchestra will keep your toe tapping all evening, or dancing.</strong></p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "original musical arrangements by writer"
+      },
+      {
+        "name": "leader Robert Beasley"
+      },
+      {
+        "name": "this 14-piece jazz orchestra will keep your toe tapping all evening"
+      },
+      {
+        "name": "or dancing"
+      }
+    ]
   },
   {
     "artist": "Randolph and the Variants",
     "venue": "Cowgirl",
     "date": "2026-06-21T02:00:00.000Z",
+    "sourceEventId": 4850057,
+    "sourceEventSlug": "randolph-and-the-variants-jun-20-2026",
+    "description": "<p>A variety of crowd pleasing country, blues, rock 'n' roll covers, and original tracks.</p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "The Ron Crowder Band",
     "venue": "Cowgirl",
     "date": "2026-06-21T18:00:00.000Z",
+    "listingUrl": "https://cowgirlsantafe.com/music/",
+    "sourceEventId": 4840915,
+    "sourceEventSlug": "the-ron-crowder-band-jun-21-2026",
+    "description": "Bring your dancing shoes for this award winning pop, rock and funk performance. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Casey James Brooks",
     "venue": "The Mine Shaft Tavern",
     "date": "2026-06-21T19:00:00.000Z",
+    "sourceEventId": 4850117,
+    "sourceEventSlug": "casey-james-brooks-jun-21-2026",
+    "description": "A singer-songwriter with three names. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "0z2WXMiBS62H8qqsgNSrp8",
       "2qiDS4LphQu1shXPdCn5UY",
       "6WGYeDSCqtvR8AhceFNp7B"
     ],
+    "spotifyId": "2buFZfeZ4VcWWFXfhpnNW9",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc89221998d9c70d029fa2472"
   },
   {
     "artist": "Silver Sky Blues Band",
     "venue": "The Mine Shaft Tavern",
     "date": "2026-06-21T21:00:00.000Z",
+    "sourceEventId": 4850119,
+    "sourceEventSlug": "silver-sky-blues-band-jun-21-2026-3-00pm",
+    "description": "Blues.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "DJ Pygar",
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-06-21T23:00:00.000Z",
+    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-8b6542ab-323e-4513-96cb-88ae19b154e0",
+    "sourceEventId": 4850003,
+    "sourceEventSlug": "dj-pygar-jun-21-2026",
+    "description": "Don't let the end of the weekend bring you down—DJ Pygar is here to transport you into the cosmos with his Dutch-infused intergalactic beats.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-06-22T00:00:00.000Z",
+    "sourceEventId": 4835579,
+    "sourceEventSlug": "doug-montgomery-jun-21-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Smooth & Suavecito",
     "venue": "Social Kitchen & Bar",
     "date": "2026-06-22T00:00:00.000Z",
+    "listingUrl": "https://www.socialkitchensf.com/",
+    "sourceEventId": 4838287,
+    "description": "<p>Two powerhouse bands that ignite the stage with Latin rock, Chicano funk and timeless old-school classics. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "7jJPmrB7baCiyfY44AhrFa",
@@ -766,66 +1069,96 @@
     "artist": "Trow Browne",
     "venue": "Cowgirl",
     "date": "2026-06-22T01:00:00.000Z",
+    "sourceEventId": 4850065,
+    "sourceEventSlug": "trow-browne-jun-21-2026",
+    "description": "This guy has a whole bag of Americana tricks.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Chessa Peak",
     "venue": "Cowgirl",
     "date": "2026-06-22T22:00:00.000Z",
+    "sourceEventId": 4850068,
+    "sourceEventSlug": "chessa-peak-jun-22-2026",
+    "description": "<p>Instead of blue crabs, Chessa Peak brings a collection folk, blues, rock, Americana tunes to the C-girl stage. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "6bkvR1J2ijLMLvxhAMKZgf",
       "0gvNB7eN98ovsApmfQVyWY",
       "0MorKC1NHqpUzvXDZPUdwn"
     ],
+    "spotifyId": "4d4jkY0neGqawQF3EvHJRf",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebcdc65fcce6057fd697c49b95"
   },
   {
     "artist": "Santa Fe Grass",
     "venue": "Santa Fe Brewing Company",
     "date": "2026-06-22T22:20:00.000Z",
+    "listingUrl": " https://santafebrewing.com/taproom/beer-hall/",
+    "sourceEventId": 4809576,
+    "sourceEventSlug": "santa-fe-grass-jun-22-2026",
+    "description": "<p>Live traditional and contemporary bluegrass music. </p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Smoking Toad",
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-06-22T23:00:00.000Z",
+    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-e699b0a4-0225-4830-9d61-a6434d9d7de2",
+    "sourceEventId": 4850016,
+    "sourceEventSlug": "smoking-toad-jun-22-2026",
+    "description": "<p>Smoking Toad plays a funky blend of rock 'n' roll, blues and R&amp;B, including both original tunes and covers of artists such as Lou Reed, James Brown, Jimi Hendrix, Buddy Miles, Lynyrd Skynyrd, and Taj Mahal.</p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-06-23T00:00:00.000Z",
+    "sourceEventId": 4835580,
+    "sourceEventSlug": "doug-montgomery-jun-22-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
     "venue": "TerraCotta Wine Bistro",
     "date": "2026-06-23T00:30:00.000Z",
+    "sourceEventId": 4832353,
+    "sourceEventSlug": "darin-savage-jun-22-2026",
+    "description": "Darin Savage plays Spanish guitar every Monday evening. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Amy Coffman",
     "venue": "Cowgirl",
     "date": "2026-06-23T22:00:00.000Z",
+    "sourceEventId": 4850078,
+    "sourceEventSlug": "amy-coffman-jun-23-2026",
+    "description": "<p>Amy Mann + expectoration + Americana/folk = Amy Coffman. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "30BJd40WXUOEQSb6lNreAe",
       "7AmgGDFrm2vQN3tTsSc45B",
       "0GkzqJHf9FZsY6MjExbX7W"
     ],
+    "spotifyId": "3DCk6poKoiJVXlAyOe1YLE",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bc77c9502e9fcbf8f29f9e40"
   },
   {
     "artist": "Kontusion // Dispossessed // Dysphotic // Hot Wolf",
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-06-24T01:30:00.000Z",
+    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-b260bcb0-639b-4baa-a20a-4a0730b3466c",
+    "sourceEventId": 4850034,
+    "sourceEventSlug": "kontusion-dispossessed-dysphotic-hot-wolf-jun-23-2026",
+    "description": "A night of pure death metal by bands with logos that are either intentionally designed to be totally illegible, or are rejects from the Magic Eye book series.",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "6BpnzfQlP433LhNNOTZAar",
@@ -906,6 +1239,10 @@
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-06-25T00:00:00.000Z",
+    "listingUrl": "https://www.rmxaudiobar.com/",
+    "sourceEventId": 4851977,
+    "sourceEventSlug": "remix-wednesdays-feat-dj-stranger-vinyl-set-jun-24-2026",
+    "description": "<p>Enjoy \"Night Snacks with a Soundtrack\" at Remix Audio Bar with  DJ Stranger curating an all vinyl hip hop set.  Try our in house made ice cream for dessert. </p>",
     "source": "Santa Fe Reporter",
     "subArtists": [
       {
@@ -920,6 +1257,9 @@
     "artist": "Last Wednesdays with John Francis",
     "venue": "La Reina",
     "date": "2026-06-25T02:00:00.000Z",
+    "sourceEventId": 4828305,
+    "sourceEventSlug": "last-wednesdays-with-john-francis-jun-24-2026",
+    "description": "It's that time again-- Time to join the yaught rockin' John Francis and his merry bunch for the last Wednesday of the month at La Reina!  There will be songs; there will be mezcal; there will be a bunch of Santa Fe transplants in cowboy boots who are a little bit mean.",
     "source": "Santa Fe Reporter",
     "subArtists": [
       {
@@ -934,30 +1274,45 @@
     "artist": "Bill Hearne",
     "venue": "Cowgirl",
     "date": "2026-06-25T22:00:00.000Z",
+    "sourceEventId": 4840910,
+    "sourceEventSlug": "bill-hearne-jun-25-2026",
+    "description": "<p>Share happy hour with Santa Fe's own musical legend Bill Hearne. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "6Plwc7hs7t0hmF5hMAaJMV",
       "15L35gGagO5SZuZjKmACSH",
       "7E23il0kqPQOgEvJ30gsdx"
     ],
+    "spotifyId": "29JEPgxSlt5lTvqT2f1BOk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2735cdda90a98e1efba114c45ff"
   },
   {
     "artist": "Locals Night + Folk Jam",
     "venue": "La Reina",
     "date": "2026-06-26T01:00:00.000Z",
+    "listingUrl": "https://elreycourt.com/event/locals-night-folk-jam-17",
+    "sourceEventId": 4837840,
+    "sourceEventSlug": "locals-night-folk-jam-jun-25-2026",
+    "description": "<p>Grab your instrument and join Queen Bee Music Association for a folk jam! All experience levels welcome! </p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Heartbyrne",
     "venue": "Railyard Plaza",
     "date": "2026-06-26T01:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462190?tc=lensic360",
+    "sourceEventId": 4835939,
+    "sourceEventSlug": "heartbyrne-jun-25-2026",
+    "description": "Talking Heads and David Byrne cover act Heartbyrne will be playing the Railyard as part of Lensic360's summerific concert series. Show up to this one and you will surely be up all night.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "DJ OPTAMYSTIK",
     "venue": "Cowgirl",
     "date": "2026-06-26T01:00:00.000Z",
+    "sourceEventId": 4838499,
+    "sourceEventSlug": "dj-optamystik-jun-25-2026",
+    "description": "The most positive beats in town every Thursday.",
     "source": "Santa Fe Reporter"
   },
   {
@@ -965,24 +1320,35 @@
     "venue": "Tumbleroot Pottery Pub",
     "date": "2026-06-26T01:30:00.000Z",
     "ticketUrl": "https://tickets.lensic360.org/tickets/461905?tc=lensic360",
+    "sourceEventId": 4835946,
+    "sourceEventSlug": "vincen-garcia-jun-25-2026",
+    "description": "A Spanish bassist from Valencia, Vincen Garcia is a world renowned jazz and funk musician.  Now, he's bringing his groovy jams to the acoustically-experimental concert hall at Tumbleroot.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Bryan Hutchinson, piano",
     "venue": "First Presbyterian Church",
     "date": "2026-06-26T23:30:00.000Z",
+    "listingUrl": "https://fpcsantafe.org/",
+    "sourceEventId": 4842173,
+    "sourceEventSlug": "tgif-music-series-bryan-hutchinson-piano-jun-26-2026",
+    "description": "<p>Bryan Hutchinson performs de Falla, Granados and Chopin on piano. </p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-06-27T00:00:00.000Z",
+    "sourceEventId": 4753763,
+    "sourceEventSlug": "david-wood-jun-26-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
@@ -990,12 +1356,16 @@
     "venue": "The Bridge @ SF Brewing Co.",
     "date": "2026-06-27T01:00:00.000Z",
     "ticketUrl": "https://tickets.lensic360.org/tickets/461968?tc=lensic360",
+    "sourceEventId": 4835942,
+    "sourceEventSlug": "turnover-jun-26-2026",
+    "description": "Supported by 'Narrow Head' and 'she's green', Virginia rockband turnover is playing the outdoor stage at The Bridge",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "3vkj94FiLgUz3ysZcmIXPx",
       "0Wl2RALqRacaIJhnlRHK8J",
       "7itGQJ2FJZPl3VPD7x4vJw"
     ],
+    "spotifyId": "0gLjJuczGWhqKVMmVpIT52",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb848d27ab5fb5fa7bf05c3f15",
     "genres": [
       "midwest emo",
@@ -1007,60 +1377,88 @@
     "artist": "The Ron Crowder Band",
     "venue": "Cowgirl",
     "date": "2026-06-28T18:00:00.000Z",
+    "listingUrl": "https://cowgirlsantafe.com/music/",
+    "sourceEventId": 4840916,
+    "sourceEventSlug": "the-ron-crowder-band-jun-28-2026",
+    "description": "Bring your dancing shoes for this award winning pop, rock and funk performance. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Carson Barry Trio",
     "venue": "El Rey Court ",
     "date": "2026-06-28T21:00:00.000Z",
+    "listingUrl": "https://elreycourt.com/event/summer-sunday-ft-carson-barry-trio",
+    "sourceEventId": 4837842,
+    "sourceEventSlug": "summer-sunday-ft-carson-barry-trio-jun-28-2026",
+    "description": "La Reina is bringing their signature cocktails outdoors alongside some pop-up pizza from Tender Fire as part of their Summer Sundays series!  Music starts at 5 thanks to the Carson Barry Trio.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-06-29T00:00:00.000Z",
+    "sourceEventId": 4835581,
+    "sourceEventSlug": "doug-montgomery-jun-28-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-06-30T00:00:00.000Z",
+    "sourceEventId": 4835582,
+    "sourceEventSlug": "doug-montgomery-jun-29-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
     "venue": "TerraCotta Wine Bistro",
     "date": "2026-06-30T00:30:00.000Z",
+    "sourceEventId": 4832354,
+    "sourceEventSlug": "darin-savage-jun-29-2026",
+    "description": "Darin Savage plays Spanish guitar every Monday evening. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Relaay",
     "venue": "THE PLAZA",
     "date": "2026-07-01T00:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462200?tc=lensic360",
+    "sourceEventId": 4835959,
+    "sourceEventSlug": "relaay-may-30-2026",
+    "description": "<p>Louisville-based indie pop duo Relaay will be playing The Plaza with Luke McMurray Nutting.  </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1wRjjybwHp8RwlJK1LlgaK",
       "16oNPQ2sVbzZyAscp4SFHD",
       "0x18q7L6pDUnRpZ1bIv8B5"
     ],
+    "spotifyId": "66tdy2Pn0JQDzaJFp74vya",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb768aac12e80d71cd3f9e2c0c"
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-07-02T00:00:00.000Z",
+    "listingUrl": "https://www.rmxaudiobar.com/",
+    "sourceEventId": 4851978,
+    "sourceEventSlug": "remix-wednesdays-feat-dj-stranger-vinyl-set-jul-1-2026",
+    "description": "<p>Enjoy \"Night Snacks with a Soundtrack\" at Remix Audio Bar with  DJ Stranger curating an all vinyl hip hop set.  Try our in house made ice cream for dessert. </p>",
     "source": "Santa Fe Reporter",
     "subArtists": [
       {
@@ -1075,72 +1473,101 @@
     "artist": "Bill Hearne",
     "venue": "Cowgirl",
     "date": "2026-07-02T22:00:00.000Z",
+    "sourceEventId": 4840911,
+    "sourceEventSlug": "bill-hearne-jul-2-2026",
+    "description": "<p>Share happy hour with Santa Fe's own musical legend Bill Hearne. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "6Plwc7hs7t0hmF5hMAaJMV",
       "15L35gGagO5SZuZjKmACSH",
       "7E23il0kqPQOgEvJ30gsdx"
     ],
+    "spotifyId": "29JEPgxSlt5lTvqT2f1BOk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2735cdda90a98e1efba114c45ff"
   },
   {
     "artist": "DJ OPTAMYSTIK",
     "venue": "Cowgirl",
     "date": "2026-07-03T01:00:00.000Z",
+    "sourceEventId": 4838500,
+    "sourceEventSlug": "dj-optamystik-jul-2-2026",
+    "description": "The most positive beats in town every Thursday.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-07-04T00:00:00.000Z",
+    "sourceEventId": 4753764,
+    "sourceEventSlug": "david-wood-jul-3-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Stanlie Kee and The Step In",
     "venue": "Cowgirl",
     "date": "2026-07-05T19:00:00.000Z",
+    "sourceEventId": 4386790,
+    "sourceEventSlug": "stanlie-kee-and-the-step-in-jul-5-2026",
+    "description": "It's not red, yellow, green, orange or pink. It's all blues here. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-07-06T00:00:00.000Z",
+    "sourceEventId": 4835583,
+    "sourceEventSlug": "doug-montgomery-jul-5-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-07-07T00:00:00.000Z",
+    "sourceEventId": 4835584,
+    "sourceEventSlug": "doug-montgomery-jul-6-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
     "venue": "TerraCotta Wine Bistro",
     "date": "2026-07-07T00:30:00.000Z",
+    "sourceEventId": 4832355,
+    "sourceEventSlug": "darin-savage-jul-6-2026",
+    "description": "Darin Savage plays Spanish guitar every Monday evening. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-07-09T00:00:00.000Z",
+    "listingUrl": "https://www.rmxaudiobar.com/",
+    "sourceEventId": 4851979,
+    "sourceEventSlug": "remix-wednesdays-feat-dj-stranger-vinyl-set-jul-8-2026",
+    "description": "<p>Enjoy \"Night Snacks with a Soundtrack\" at Remix Audio Bar with  DJ Stranger curating an all vinyl hip hop set.  Try our in house made ice cream for dessert. </p>",
     "source": "Santa Fe Reporter",
     "subArtists": [
       {
@@ -1155,60 +1582,86 @@
     "artist": "DJ OPTAMYSTIK",
     "venue": "Cowgirl",
     "date": "2026-07-10T01:00:00.000Z",
+    "sourceEventId": 4838501,
+    "sourceEventSlug": "dj-optamystik-jul-9-2026",
+    "description": "The most positive beats in town every Thursday.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-07-11T00:00:00.000Z",
+    "sourceEventId": 4753765,
+    "sourceEventSlug": "david-wood-jul-10-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-07-13T00:00:00.000Z",
+    "sourceEventId": 4835585,
+    "sourceEventSlug": "doug-montgomery-jul-12-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Santa Fe Grass",
     "venue": "Santa Fe Brewing Company",
     "date": "2026-07-13T22:20:00.000Z",
+    "listingUrl": " https://santafebrewing.com/taproom/beer-hall/",
+    "sourceEventId": 4809579,
+    "sourceEventSlug": "santa-fe-grass-jul-13-2026",
+    "description": "<p>Live traditional and contemporary bluegrass music. </p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-07-14T00:00:00.000Z",
+    "sourceEventId": 4835586,
+    "sourceEventSlug": "doug-montgomery-jul-13-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
     "venue": "TerraCotta Wine Bistro",
     "date": "2026-07-14T00:30:00.000Z",
+    "sourceEventId": 4832356,
+    "sourceEventSlug": "darin-savage-jul-13-2026",
+    "description": "Darin Savage plays Spanish guitar every Monday evening. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-07-16T00:00:00.000Z",
+    "listingUrl": "https://www.rmxaudiobar.com/",
+    "sourceEventId": 4851980,
+    "sourceEventSlug": "remix-wednesdays-feat-dj-stranger-vinyl-set-jul-15-2026",
+    "description": "<p>Enjoy \"Night Snacks with a Soundtrack\" at Remix Audio Bar with  DJ Stranger curating an all vinyl hip hop set.  Try our in house made ice cream for dessert. </p>",
     "source": "Santa Fe Reporter",
     "subArtists": [
       {
@@ -1223,60 +1676,86 @@
     "artist": "DJ OPTAMYSTIK",
     "venue": "Cowgirl",
     "date": "2026-07-17T01:00:00.000Z",
+    "sourceEventId": 4838502,
+    "sourceEventSlug": "dj-optamystik-jul-16-2026",
+    "description": "The most positive beats in town every Thursday.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-07-18T00:00:00.000Z",
+    "sourceEventId": 4753766,
+    "sourceEventSlug": "david-wood-jul-17-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-07-20T00:00:00.000Z",
+    "sourceEventId": 4835587,
+    "sourceEventSlug": "doug-montgomery-jul-19-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Santa Fe Grass",
     "venue": "Santa Fe Brewing Company",
     "date": "2026-07-20T22:20:00.000Z",
+    "listingUrl": " https://santafebrewing.com/taproom/beer-hall/",
+    "sourceEventId": 4809580,
+    "sourceEventSlug": "santa-fe-grass-jul-20-2026",
+    "description": "<p>Live traditional and contemporary bluegrass music. </p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-07-21T00:00:00.000Z",
+    "sourceEventId": 4835588,
+    "sourceEventSlug": "doug-montgomery-jul-20-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
     "venue": "TerraCotta Wine Bistro",
     "date": "2026-07-21T00:30:00.000Z",
+    "sourceEventId": 4832357,
+    "sourceEventSlug": "darin-savage-jul-20-2026",
+    "description": "Darin Savage plays Spanish guitar every Monday evening. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-07-23T00:00:00.000Z",
+    "listingUrl": "https://www.rmxaudiobar.com/",
+    "sourceEventId": 4851981,
+    "sourceEventSlug": "remix-wednesdays-feat-dj-stranger-vinyl-set-jul-22-2026",
+    "description": "<p>Enjoy \"Night Snacks with a Soundtrack\" at Remix Audio Bar with  DJ Stranger curating an all vinyl hip hop set.  Try our in house made ice cream for dessert. </p>",
     "source": "Santa Fe Reporter",
     "subArtists": [
       {
@@ -1291,60 +1770,86 @@
     "artist": "DJ OPTAMYSTIK",
     "venue": "Cowgirl",
     "date": "2026-07-24T01:00:00.000Z",
+    "sourceEventId": 4838503,
+    "sourceEventSlug": "dj-optamystik-jul-23-2026",
+    "description": "The most positive beats in town every Thursday.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-07-25T00:00:00.000Z",
+    "sourceEventId": 4753767,
+    "sourceEventSlug": "david-wood-jul-24-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-07-27T00:00:00.000Z",
+    "sourceEventId": 4835589,
+    "sourceEventSlug": "doug-montgomery-jul-26-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Santa Fe Grass",
     "venue": "Santa Fe Brewing Company",
     "date": "2026-07-27T22:20:00.000Z",
+    "listingUrl": " https://santafebrewing.com/taproom/beer-hall/",
+    "sourceEventId": 4809581,
+    "sourceEventSlug": "santa-fe-grass-jul-27-2026",
+    "description": "<p>Live traditional and contemporary bluegrass music. </p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-07-28T00:00:00.000Z",
+    "sourceEventId": 4835590,
+    "sourceEventSlug": "doug-montgomery-jul-27-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
     "venue": "TerraCotta Wine Bistro",
     "date": "2026-07-28T00:30:00.000Z",
+    "sourceEventId": 4832358,
+    "sourceEventSlug": "darin-savage-jul-27-2026",
+    "description": "Darin Savage plays Spanish guitar every Monday evening. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-07-30T00:00:00.000Z",
+    "listingUrl": "https://www.rmxaudiobar.com/",
+    "sourceEventId": 4851982,
+    "sourceEventSlug": "remix-wednesdays-feat-dj-stranger-vinyl-set-jul-29-2026",
+    "description": "<p>Enjoy \"Night Snacks with a Soundtrack\" at Remix Audio Bar with  DJ Stranger curating an all vinyl hip hop set.  Try our in house made ice cream for dessert. </p>",
     "source": "Santa Fe Reporter",
     "subArtists": [
       {
@@ -1359,6 +1864,9 @@
     "artist": "Last Wednesdays with John Francis",
     "venue": "La Reina",
     "date": "2026-07-30T02:00:00.000Z",
+    "sourceEventId": 4828306,
+    "sourceEventSlug": "last-wednesdays-with-john-francis-jul-29-2026",
+    "description": "It's that time again-- Time to join the yaught rockin' John Francis and his merry bunch for the last Wednesday of the month at La Reina!  There will be songs; there will be mezcal; there will be a bunch of Santa Fe transplants in cowboy boots who are a little bit mean.",
     "source": "Santa Fe Reporter",
     "subArtists": [
       {
@@ -1373,30 +1881,42 @@
     "artist": "DJ OPTAMYSTIK",
     "venue": "Cowgirl",
     "date": "2026-07-31T01:00:00.000Z",
+    "sourceEventId": 4838504,
+    "sourceEventSlug": "dj-optamystik-jul-30-2026",
+    "description": "The most positive beats in town every Thursday.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-08-01T00:00:00.000Z",
+    "sourceEventId": 4753768,
+    "sourceEventSlug": "david-wood-jul-31-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Santa Fe Cumbiero",
     "venue": "SWAN Park",
     "date": "2026-08-02T00:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462544?tc=lensic360",
+    "sourceEventId": 4835872,
+    "sourceEventSlug": "santa-fe-cumbiero-aug-1-2026",
+    "description": "Lensic 360's Summer Scene rambles on with Frontera Bugalú, Radio Malilla and DJ Luz Skylarker—and this cumbia-focused evening is free and in a nice park. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "4Gqev5RBXz7j5ady7ntvm6",
       "77P0W9ZBXd4iF5tF7aluv7",
       "0wBfdFWuY9ESwKb5cLWyHc"
     ],
+    "spotifyId": "3BSU30rjvfGFXdrfOR7g5z",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba30bc6e12ab8f5c98ba53d09",
     "genres": [
       "cumbia",
@@ -1407,30 +1927,43 @@
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-08-03T00:00:00.000Z",
+    "sourceEventId": 4835591,
+    "sourceEventSlug": "doug-montgomery-aug-2-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Santa Fe Grass",
     "venue": "Santa Fe Brewing Company",
     "date": "2026-08-03T22:20:00.000Z",
+    "listingUrl": " https://santafebrewing.com/taproom/beer-hall/",
+    "sourceEventId": 4809582,
+    "sourceEventSlug": "santa-fe-grass-aug-3-2026",
+    "description": "<p>Live traditional and contemporary bluegrass music. </p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "The Brothers Comatose",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-03T23:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462645?tc=lensic360",
+    "sourceEventId": 4835875,
+    "sourceEventSlug": "the-brothers-comatose-aug-3-2026",
+    "description": "Americana, bluegrass and folk-rock join forces (as they tend to do) when these West Coasters take over the Plaza for a free Summer Scene Show. Squash Blossom Boys open.",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "0y8e8muEHphzSaE7kDiYvn",
       "3wShyyPO8fob86VMwkZOCt",
       "7gBvhUjKGik8Z6ywWvH1cJ"
     ],
+    "spotifyId": "7oKVYDiVZxglvgEW2zHcAD",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd72d9238eabc945716da2137",
     "genres": [
       "bluegrass",
@@ -1442,30 +1975,42 @@
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-08-04T00:00:00.000Z",
+    "sourceEventId": 4835592,
+    "sourceEventSlug": "doug-montgomery-aug-3-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
     "venue": "TerraCotta Wine Bistro",
     "date": "2026-08-04T00:30:00.000Z",
+    "sourceEventId": 4832359,
+    "sourceEventSlug": "darin-savage-aug-3-2026",
+    "description": "Darin Savage plays Spanish guitar every Monday evening. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Bobby Alu",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-05T00:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462646?tc=lensic360",
+    "sourceEventId": 4835879,
+    "sourceEventSlug": "bobby-alu-aug-4-2026",
+    "description": "The Samoan/Australian singer-songwriter comes to town by way of uke-ular power, which is to say he's all about the ukulele when he's droppin' tropical folk, reggae and Polynesian jamz. Part of the Santa Fe Summer Scene. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "73Sl9vnn0GKqM0P4Aceb1r",
       "3TbII1ufokybEMe488YOvM",
       "1mreV6riDZi2aAfFztC8np"
     ],
+    "spotifyId": "1ZkjRupjk0iaff7ame7kZc",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba12e93b08704ea32fe287f5e",
     "genres": [
       "surf rock"
@@ -1475,12 +2020,17 @@
     "artist": "Black Moth Super Rainbow",
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-08-05T00:30:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/459360?tc=lensic360",
+    "sourceEventId": 4835882,
+    "sourceEventSlug": "black-moth-super-rainbow-aug-4-2026",
+    "description": "The Pennsylvania indie-pysch champs (and synth aficionados) come to everybody's favorite Midtown venue. Heads up? This will likely sell out as we get closer to the show. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "3d2IeXv14uLNn8LyBAuOEI",
       "72U9iUryrmKLgXTGXjOb9J",
       "70PEZ5qdaO5on2NvyA3Rok"
     ],
+    "spotifyId": "4UHzJP2iKVf0RhKIv7ZE2l",
     "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46c16ceedabc9ce0e1a362d1929",
     "genres": [
       "neo-psychedelic",
@@ -1491,12 +2041,17 @@
     "artist": "Eagles of Death Metal",
     "venue": "The Bridge @ SF Brewing Co.",
     "date": "2026-08-06T00:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/459359?tc=lensic360",
+    "sourceEventId": 4835889,
+    "sourceEventSlug": "eagles-of-death-metal-aug-5-2026",
+    "description": "Rock and freaking roll, man. The kind with big-ass guitars and all the emotions and super-sweet drums and guitars and bigness that such a genre entails.",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "19mRNWlmHCKIlBT8WOCaXQ",
       "3B7mbMbbcuKdfWssAcyvG8",
       "684VXujwkA962eZmEJN05N"
     ],
+    "spotifyId": "02uYdhMhCgdB49hZlYRm9o",
     "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46cb527d08497ff51fbbd3b0e0b",
     "genres": [
       "stoner rock",
@@ -1507,12 +2062,17 @@
     "artist": "Los Straitjackets",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-07T00:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462647?tc=lensic360",
+    "sourceEventId": 4835893,
+    "sourceEventSlug": "los-straitjackets-aug-6-2026",
+    "description": "Surfy guitar riffage by way of Link Wray and The Ventures, but also luchadore masks. Part of the Santa Fe Summer Scene series from Lensic 360—and free! ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "45PmtkNbgCun4GPphHVzvi",
       "5p2HBJhp9jM5dhVTjunF6a",
       "6Pc50RJY1VmPT8AowAvQwE"
     ],
+    "spotifyId": "5a1rrmsSJwko0HqT6HvteB",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1aa6bf26b3afc9c1d098d2b0",
     "genres": [
       "surf rock",
@@ -1524,48 +2084,128 @@
     "artist": "Don Was & the Pan-Detroit Ensemble",
     "venue": "The Bridge @ SF Brewing Co.",
     "date": "2026-08-07T01:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/460759?tc=lensic360",
+    "sourceEventId": 4835895,
+    "sourceEventSlug": "don-was-the-pan-detroit-ensemble-aug-6-2026",
+    "description": "Jazzy jazz and bluesy blues come together for some of that good ol' jump, jive and wailin'. Jam band fands? Take note. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "3ogbdxSy8mT5zCkxifYu9K",
       "3s1uOFKUwnuPVPFAGVCEsA",
       "1nRcZ8paEupSa6OG3wZEzf"
     ],
+    "spotifyId": "0spS7DwPZZQ1XvhW8z3Mey",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27372d971ffb8b1350eeaf636d5"
   },
   {
     "artist": "DJ OPTAMYSTIK",
     "venue": "Cowgirl",
     "date": "2026-08-07T01:00:00.000Z",
+    "sourceEventId": 4838505,
+    "sourceEventSlug": "dj-optamystik-aug-6-2026",
+    "description": "The most positive beats in town every Thursday.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-08-08T00:00:00.000Z",
+    "sourceEventId": 4753769,
+    "sourceEventSlug": "david-wood-aug-7-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Wonderful Fantastic Hip-Hop Festival",
     "venue": "Railyard Plaza",
     "date": "2026-08-08T00:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "listingUrl": "https://tickets.lensic360.org/tickets/462650?tc=lensic360",
+    "sourceEventId": 4835898,
+    "sourceEventSlug": "wonderful-fantastic-hip-hop-festival-aug-7-2026",
+    "description": "<p>Local multi-hyphenate Raashan Ahmad presides over his annual ode to hip-hop's genesis and enduring excellence with performances from Souls of Mischief, Brother Ali and Slum Village. Honestly? This lineup is INSANE and the show is free. Thanks, Raashan and Lensic 360!</p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0PV1TFUMTBrDETzW6KQulB",
+      "2eNSieyqDoZMa3yOSagR4q",
+      "0VuzA7lyIFn1VzinsOak8J",
+      "42uXDKUhyAt5Exe1G5pKWJ",
+      "06tMxo0sySSq4SkIS3xUsc",
+      "1nRrJHvBAnZ9DQK0QJsYDT",
+      "7sZCAHP2duHwr5M5K7lHsb",
+      "2KBo6O5rkNdtYT3wYjkEkq",
+      "3ZUgG228RG5bbRGsF3OzDg"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb77f22a53b5c7965572c5480c",
+    "genres": [
+      "jazz rap",
+      "old school hip hop",
+      "underground hip hop"
+    ],
+    "subArtists": [
+      {
+        "name": "Souls of Mischief",
+        "spotifyId": "5Rzqmz1zAszembFHGZQuAt",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb77f22a53b5c7965572c5480c",
+        "genres": [
+          "jazz rap",
+          "old school hip hop"
+        ],
+        "trackIds": [
+          "0PV1TFUMTBrDETzW6KQulB",
+          "2eNSieyqDoZMa3yOSagR4q",
+          "0VuzA7lyIFn1VzinsOak8J"
+        ]
+      },
+      {
+        "name": "Brother Ali",
+        "spotifyId": "6CsleyOZtyt16saX8WhzDx",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb63ed92a9f979d3e88f371bdf",
+        "genres": [
+          "underground hip hop"
+        ],
+        "trackIds": [
+          "42uXDKUhyAt5Exe1G5pKWJ",
+          "06tMxo0sySSq4SkIS3xUsc",
+          "1nRrJHvBAnZ9DQK0QJsYDT"
+        ]
+      },
+      {
+        "name": "Slum Village",
+        "spotifyId": "1020a42xVklY6c56imNcaa",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd3e282b54f0709be5376764a",
+        "genres": [
+          "jazz rap"
+        ],
+        "trackIds": [
+          "7sZCAHP2duHwr5M5K7lHsb",
+          "2KBo6O5rkNdtYT3wYjkEkq",
+          "3ZUgG228RG5bbRGsF3OzDg"
+        ]
+      }
+    ]
   },
   {
     "artist": "Banshee Tree",
     "venue": "Reunity Resources",
     "date": "2026-08-08T23:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462738?tc=lensic360",
+    "sourceEventId": 4835901,
+    "sourceEventSlug": "banshee-tree-aug-8-2026",
+    "description": "This-here Denver band blends jazz, electro swing and pysch-rock into this almost bluegrassy-but-also-its-own-thing kind of thing. Part of the Summer Scene series. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "42X2sF885dznN3m4xx1ItT",
       "4QKPvZjJAFb3kw93q19SlG",
       "1PIgPavjixDf6agaJPqsUR"
     ],
+    "spotifyId": "6GhdWNGnfgaz7cwSHn08Lp",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7c10e4f8e36d9e14b31c721f",
     "genres": [
       "electro swing"
@@ -1575,30 +2215,43 @@
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-08-10T00:00:00.000Z",
+    "sourceEventId": 4835593,
+    "sourceEventSlug": "doug-montgomery-aug-9-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Santa Fe Grass",
     "venue": "Santa Fe Brewing Company",
     "date": "2026-08-10T22:20:00.000Z",
+    "listingUrl": " https://santafebrewing.com/taproom/beer-hall/",
+    "sourceEventId": 4809583,
+    "sourceEventSlug": "santa-fe-grass-aug-10-2026",
+    "description": "<p>Live traditional and contemporary bluegrass music. </p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Monsieur Periné",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-11T00:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462740?tc=lensic360",
+    "sourceEventId": 4835905,
+    "sourceEventSlug": "monsieur-perine-aug-10-2026",
+    "description": "<p>Pop and jazz merges with Latin American styles like cumbia, salsa and more for another free Plaza show from the Colombian duo of Monsieur Periné and the Lensic 360 folks. Santa Fe's Christina Gomez y los Cuates opens. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "3lfjd8A0DkB84yrvjzkbry",
       "5reQI13tWWYDLMrGcUF4Mk",
       "3TjJq3dLUien8DfEpxr52i"
     ],
+    "spotifyId": "36KsCCwgI0Dep97yVJWmkK",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba05e0d3f615af0b664cf607b",
     "genres": [
       "colombian pop",
@@ -1610,30 +2263,42 @@
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-08-11T00:00:00.000Z",
+    "sourceEventId": 4835594,
+    "sourceEventSlug": "doug-montgomery-aug-10-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
     "venue": "TerraCotta Wine Bistro",
     "date": "2026-08-11T00:30:00.000Z",
+    "sourceEventId": 4832360,
+    "sourceEventSlug": "darin-savage-aug-10-2026",
+    "description": "Darin Savage plays Spanish guitar every Monday evening. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Gary Farmer and the Troublemakers",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-12T00:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462741?tc=lensic360",
+    "sourceEventId": 4835908,
+    "sourceEventSlug": "gary-farmer-and-the-troublemakers-aug-11-2026",
+    "description": "He might be Canadian-born, but Farmer has lived in Santa Fe so long that we're claiming him as a hometown hero. Find Farmer and friends digging into the blues on the Plaza. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "4jfFCrPt6SMHAJYva4OUEk",
       "28BIVJlBWQhgKZKOdfDbYA",
       "1RB45q5WTitlyZLp595H6p"
     ],
+    "spotifyId": "10Jd7rGaSiMwzSvfuOxssI",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273f77e44167d7cc0590196ef93",
     "genres": [
       "native american music"
@@ -1643,12 +2308,17 @@
     "artist": "Widowspeak",
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-08-12T00:30:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/457570?tc=lensic360",
+    "sourceEventId": 4835934,
+    "sourceEventSlug": "widowspeak-aug-11-2026",
+    "description": "Rock and pop by way of Tom Petty and the Stones, sure, but also weirdos like Yo La Tengo and Cat Power. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "0etKjdwsCnwtj6dB4iEZn8",
       "2vL3NFV79S9LvAnWAI6MMQ",
       "48bePG5thRkA5xttNPRB8c"
     ],
+    "spotifyId": "5ZW7HlSuZz8ng2X21cXbdP",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebffce0e0fc0c2c1e811e48602",
     "genres": [
       "dream pop",
@@ -1659,102 +2329,156 @@
     "artist": "DJ OPTAMYSTIK",
     "venue": "Cowgirl",
     "date": "2026-08-14T01:00:00.000Z",
+    "sourceEventId": 4838506,
+    "sourceEventSlug": "dj-optamystik-aug-13-2026",
+    "description": "The most positive beats in town every Thursday.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "IndigenousWays Festival",
     "venue": "Railyard Plaza",
     "date": "2026-08-15T00:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462742?tc=lensic360",
+    "sourceEventId": 4835937,
+    "sourceEventSlug": "indigenousways-festival-aug-14-2026",
+    "description": "Keith Secola, Levi Platero and Sage Bond come together to celebrate Indigenous art and music at this free and family-friendly Railyard event. Think blues and rock and stuff. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-08-15T00:00:00.000Z",
+    "sourceEventId": 4753770,
+    "sourceEventSlug": "david-wood-aug-14-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-08-17T00:00:00.000Z",
+    "sourceEventId": 4835595,
+    "sourceEventSlug": "doug-montgomery-aug-16-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Santa Fe Grass",
     "venue": "Santa Fe Brewing Company",
     "date": "2026-08-17T22:20:00.000Z",
+    "listingUrl": " https://santafebrewing.com/taproom/beer-hall/",
+    "sourceEventId": 4809584,
+    "sourceEventSlug": "santa-fe-grass-aug-17-2026",
+    "description": "<p>Live traditional and contemporary bluegrass music. </p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Tropidelic & The Boomroots",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-18T00:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "sourceEventId": 4835940,
+    "sourceEventSlug": "tropidelic-the-boomroots-aug-17-2026",
+    "description": "The free Santa Fe Summer Scene series keeps scene-ing and summer-ing with performances from hip-hop/rock/reggae/funk act Tropidelic and Santa Fe's Boomroots. ",
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "hip-hop/rock/reggae/funk act Tropidelic"
+      },
+      {
+        "name": "Santa Fe's Boomroots"
+      }
+    ]
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-08-18T00:00:00.000Z",
+    "sourceEventId": 4835596,
+    "sourceEventSlug": "doug-montgomery-aug-17-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
     "venue": "TerraCotta Wine Bistro",
     "date": "2026-08-18T00:30:00.000Z",
+    "sourceEventId": 4832361,
+    "sourceEventSlug": "darin-savage-aug-17-2026",
+    "description": "Darin Savage plays Spanish guitar every Monday evening. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Manzanares",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-19T00:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462745?tc=lensic360",
+    "sourceEventId": 4835943,
+    "sourceEventSlug": "manzanares-aug-18-2026",
+    "description": "If we're talkin' hometown heroes, the convo should surely include David and Michael Manzanares, whose eponymous band so seamlessly brings together rock and Latin sounds that we've all been pretty into it for, like, forever. Simpatico opens. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "78okb4I5MHt9Pkj4By52li",
       "1hIbRfZ8QZmUcqBrbO0pku",
       "45yOoRo9JIZJoXIrkMurun"
     ],
+    "spotifyId": "6iE10VwauqgA3pIyEQiMMI",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737af98928cd5afc6dc8d73188"
   },
   {
     "artist": "DK Harrell",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-21T00:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462746?tc=lensic360",
+    "sourceEventId": 4835945,
+    "sourceEventSlug": "dk-harrell-aug-20-2026",
+    "description": "If you like the blues (by which we mean the music, not feeling sad), look no further than songwriter/singer/shredder Harrell. Turquoise Steel opens. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "DJ OPTAMYSTIK",
     "venue": "Cowgirl",
     "date": "2026-08-21T01:00:00.000Z",
+    "sourceEventId": 4838507,
+    "sourceEventSlug": "dj-optamystik-aug-20-2026",
+    "description": "The most positive beats in town every Thursday.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Bill Callahan",
     "venue": "The Bridge @ SF Brewing Co.",
     "date": "2026-08-21T01:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/461672?tc=lensic360",
+    "sourceEventId": 4835947,
+    "sourceEventSlug": "bill-callahan-aug-20-2026",
+    "description": "The show with Callahan (aka/fka Smog) proved so popular in the ticket sale window that Lensic 360 brass had to move it to a bigger venue. For the record, that venue is The Bridge and the style is DIY and lo-fi indie rock. It's honestly so so good what this dude does. Producer/performer Frances Chang opens the show. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "3KZRkM7Uv0F2oCTUHAvv0a",
       "7ydapdmQ4oivP54X29q7Af",
       "0do3zfmbVl5DiGxUXrbhrT"
     ],
+    "spotifyId": "7gqsi6aBSkRMJoL9psKqMr",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb2f538487b6868a97f5a7fb",
     "genres": [
       "alt country"
@@ -1764,12 +2488,17 @@
     "artist": "Fantastic Negrito",
     "venue": "Railyard Plaza",
     "date": "2026-08-22T00:00:00.000Z",
+    "listingUrl": "https://www.fantasticnegrito.com/about",
+    "sourceEventId": 4835949,
+    "sourceEventSlug": "fantastic-negrito-aug-21-2026",
+    "description": "The Oakland singer-songwriter returns for what is starting to feel almost like an annual Santa Fe appearance. This one's for fans of soul, R&amp;B and roots and blues and Grammy winners who are also apparently super-nice dudes. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "5fW9gRfANuXLNgopaNTrHi",
       "01Cr7MlISmoh8gMlZBjpko",
       "6kgGjdcT7Brz9XPxLus88M"
     ],
+    "spotifyId": "5QXLMdpKeByOo5ypH9gT13",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebea8881cbd85a6f4fb22db65b",
     "genres": [
       "southern gothic",
@@ -1782,36 +2511,50 @@
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-08-22T00:00:00.000Z",
+    "sourceEventId": 4753771,
+    "sourceEventSlug": "david-wood-aug-21-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Lisa Morales",
     "venue": "Reunity Resources",
     "date": "2026-08-23T01:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462750?tc=lensic360",
+    "sourceEventId": 4835950,
+    "sourceEventSlug": "lisa-morales-aug-22-2026",
+    "description": "Austinite Morales comes to the farm with her mix of Mexican- and American-inspired ranchera, rock, folk and Americana. Part of the free Summer Scene series. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "6j8aIZfPZvMLtj8G8Hljft",
       "1dLSYH04jSwGxpNLBXiCdB",
       "2OCQJwElp7D6lqHEdLQVD3"
     ],
+    "spotifyId": "22HF78UQSmSTNtv4bsfUAI",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebed0c526bb5a1f0b8929988b7"
   },
   {
     "artist": "Gov't Mule",
     "venue": "The Bridge @ SF Brewing Co.",
     "date": "2026-08-23T01:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/461236?tc=lensic360",
+    "sourceEventId": 4835953,
+    "sourceEventSlug": "gov-t-mule-aug-22-2026",
+    "description": "If you don't know who this band is by now, the show is probably not for you. As for everyone else living with Warren Haynes reverence? Your ship has come in. Please note there are multiple ticket tiers, parking options and more vie the Lensic 360 website (click that \"website\" button above). ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "3lzYx9dpCNw6CkttQe6SlE",
       "1b2S3hshRyAQw26g5ZwAUv",
       "4Q8JkGO6EnyAz0GHugMigw"
     ],
+    "spotifyId": "5zoKOcTDI9EMOhGNaxL708",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb689718b5c2ec46488718f4f5",
     "genres": [
       "jam band",
@@ -1825,12 +2568,17 @@
     "artist": "Yung Bae",
     "venue": "Meow Wolf",
     "date": "2026-08-23T02:30:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462807?tc=lensic360",
+    "sourceEventId": 4838380,
+    "sourceEventSlug": "yung-bae-aug-22-2026",
+    "description": "Producer/performer Yung Bae pulls from his extensive catalog of dance jamz that feature the likes of funk, hip-hop and disco—plus influences like video games. anime and being a little weird. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "2LXfEAOEhhNupDM01ZLOQe",
       "3rc3BWLhFGj5ewNLJaOUAQ",
       "4jkQZNP7o8T7xuTs9EQu7Y"
     ],
+    "spotifyId": "30FDJPN3RtwJZ20g5YGCRX",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb6eafd8abb52917d2d52b3b67",
     "genres": [
       "vaporwave",
@@ -1842,60 +2590,117 @@
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-08-24T00:00:00.000Z",
+    "sourceEventId": 4835597,
+    "sourceEventSlug": "doug-montgomery-aug-23-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Pepper and The Movement",
     "venue": "The Bridge at Santa Fe Brewing Co.",
     "date": "2026-08-24T01:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "listingUrl": "https://tickets.lensic360.org/tickets/460050?tc=lensic360",
+    "sourceEventId": 4838385,
+    "sourceEventSlug": "pepper-and-the-movement-aug-23-2026",
+    "description": "Pepper and The Movement are two different bands, btw, and not, as we thought, the name of one band. Cool? Cool. The former blends reggae and rock with punk-ish leanings, while the latter is all about alt.reggae. Word. ",
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "punk-ish leanings"
+      },
+      {
+        "name": "while the latter is all about alt"
+      }
+    ]
   },
   {
     "artist": "Santa Fe Grass",
     "venue": "Santa Fe Brewing Company",
     "date": "2026-08-24T22:20:00.000Z",
+    "listingUrl": " https://santafebrewing.com/taproom/beer-hall/",
+    "sourceEventId": 4809585,
+    "sourceEventSlug": "santa-fe-grass-aug-24-2026",
+    "description": "<p>Live traditional and contemporary bluegrass music. </p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Iguanas w/Mineral Hill",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-24T23:00:00.000Z",
-    "source": "Santa Fe Reporter"
+    "listingUrl": "https://tickets.lensic360.org/tickets/462751?tc=lensic360",
+    "sourceEventId": 4838450,
+    "sourceEventSlug": "iguanas-w-mineral-hill-aug-24-2026",
+    "description": "New Orleans roots rock (think Chicano-style rock with R&amp;B vibes and Latin style). If you watched Treme, you likely know 'em. Funky Americana act Mineral Hill opens. Part of the free Summer Scene series from Lensic 360. ",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "4NeCkBpfFUcnbsYebusVIp",
+      "3SXFYyCiLmjsSA5ikmfwr9",
+      "6XBusA8CO9H1xy3BHcxNkx"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe25d73446d19b43da83787a0",
+    "subArtists": [
+      {
+        "name": "amp;B vibes"
+      },
+      {
+        "name": "Latin style",
+        "spotifyId": "5ROQC5YVQeLlQAjxreXCIr",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe25d73446d19b43da83787a0",
+        "trackIds": [
+          "4NeCkBpfFUcnbsYebusVIp",
+          "3SXFYyCiLmjsSA5ikmfwr9",
+          "6XBusA8CO9H1xy3BHcxNkx"
+        ]
+      }
+    ]
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-08-25T00:00:00.000Z",
+    "sourceEventId": 4835598,
+    "sourceEventSlug": "doug-montgomery-aug-24-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
     "venue": "TerraCotta Wine Bistro",
     "date": "2026-08-25T00:30:00.000Z",
+    "sourceEventId": 4832362,
+    "sourceEventSlug": "darin-savage-aug-24-2026",
+    "description": "Darin Savage plays Spanish guitar every Monday evening. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Oh He Dead",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-25T23:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462752?tc=lensic360",
+    "sourceEventId": 4838451,
+    "sourceEventSlug": "oh-he-dead-aug-25-2026",
+    "description": "Oh He Dead brings poppy and funky rocking rock from Washington, DC to the Plaza as part of that honestly pretty damn stacked Summer Scene Series. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "0zaXqaNFolJBALeGGSOelq",
       "1UIz73pbNgwZbLn99iSq0b",
       "2vW1iPJsR3zwxb9m6TvTAY"
     ],
+    "spotifyId": "2nLlWcvMIIGHHnDOQMi0h6",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8f76c60695ee4236b0fa7632",
     "genres": [
       "retro soul"
@@ -1905,6 +2710,9 @@
     "artist": "Last Wednesdays with John Francis",
     "venue": "La Reina",
     "date": "2026-08-27T02:00:00.000Z",
+    "sourceEventId": 4828307,
+    "sourceEventSlug": "last-wednesdays-with-john-francis-aug-26-2026",
+    "description": "It's that time again-- Time to join the yaught rockin' John Francis and his merry bunch for the last Wednesday of the month at La Reina!  There will be songs; there will be mezcal; there will be a bunch of Santa Fe transplants in cowboy boots who are a little bit mean.",
     "source": "Santa Fe Reporter",
     "subArtists": [
       {
@@ -1919,6 +2727,10 @@
     "artist": "Jay Boy Adams and Zenobia w/Bill Hearne",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-27T23:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462753?tc=lensic360",
+    "sourceEventId": 4838453,
+    "sourceEventSlug": "jay-boy-adams-and-zenobia-w-bill-hearne-aug-27-2026",
+    "description": "Jay Boy Adams &amp; Zenobia do the blues/rock/soul/Americana thing while country flat-pickin' legend Bill Hearne kicks things off with his everyone-loves-him vibe. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "3YpNm6q0gteD6R8gpm49Af",
@@ -1954,18 +2766,26 @@
     "artist": "DJ OPTAMYSTIK",
     "venue": "Cowgirl",
     "date": "2026-08-28T01:00:00.000Z",
+    "sourceEventId": 4838508,
+    "sourceEventSlug": "dj-optamystik-aug-27-2026",
+    "description": "The most positive beats in town every Thursday.",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "St. Paul and the Broken Bones",
     "venue": "Railyard Plaza",
     "date": "2026-08-29T00:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462774?tc=lensic360",
+    "sourceEventId": 4838461,
+    "sourceEventSlug": "st-paul-and-the-broken-bones-aug-28-2026",
+    "description": "The Alabama soul band also likes kickin' out R&amp;B and psych-funk sounds and Sacramento singer-songwriter Tré Burt opens yet another Summer Scene show from Lensic 360 (they've presented soooo many great shows this year). ",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1RmJJPvyMSszOQHJ4s03A2",
       "4lhhYqzREcts4uOOqWHjRJ",
       "2eM4Ew20VXdjBhm6a6Cs9l"
     ],
+    "spotifyId": "4fXkvh05wFhuH77MfD4m9o",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe25488bca4236e5ae6d5feb8",
     "genres": [
       "retro soul"
@@ -1975,62 +2795,62 @@
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-08-29T00:00:00.000Z",
+    "sourceEventId": 4753772,
+    "sourceEventSlug": "david-wood-aug-28-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-08-31T00:00:00.000Z",
+    "sourceEventId": 4835599,
+    "sourceEventSlug": "doug-montgomery-aug-30-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Santa Fe Grass",
     "venue": "Santa Fe Brewing Company",
     "date": "2026-08-31T22:20:00.000Z",
+    "listingUrl": " https://santafebrewing.com/taproom/beer-hall/",
+    "sourceEventId": 4809586,
+    "sourceEventSlug": "santa-fe-grass-aug-31-2026",
+    "description": "<p>Live traditional and contemporary bluegrass music. </p>",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "Sinister Surfer and Strange Magic",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-31T23:00:00.000Z",
+    "listingUrl": "https://tickets.lensic360.org/tickets/462777?tc=lensic360",
+    "sourceEventId": 4838478,
+    "sourceEventSlug": "mama-manana-showcase-sinister-surfer-and-strange-magic-aug-31-2026",
+    "description": "Local record label Mama Mañana presents two of the finest acts from its roster, including the psych-surf sounds of Sinister Surfer and the poppy indie excellence of Strange Magic, both from ABQ.",
     "source": "Santa Fe Reporter",
     "trackIds": [
-      "5iUa13sA7ERnOGSl5IRM2Q",
-      "19eh4VjhCKgbeZ9yRXygtz",
-      "0TDMW2afzkYOlthLOkr6vt",
       "3wBSwnLJQfmLGiYQ2jF3FS",
       "0rtbXJV7J0aHT9HWQISY26",
       "1VPa2UPP9K3XADyyM6jqux"
     ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba2a65cdcfb9f406ae6e274dd",
-    "genres": [
-      "surf rock"
-    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb55e86c6f07c20693c1a98f23",
     "subArtists": [
       {
-        "name": "Sinister Surfer",
-        "spotifyId": "6R8y9IL7ld882MjAHhbbJC",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba2a65cdcfb9f406ae6e274dd",
-        "genres": [
-          "surf rock"
-        ],
-        "trackIds": [
-          "5iUa13sA7ERnOGSl5IRM2Q",
-          "19eh4VjhCKgbeZ9yRXygtz",
-          "0TDMW2afzkYOlthLOkr6vt"
-        ]
+        "name": "Sinister Surfer"
       },
       {
         "name": "Strange Magic",
@@ -2048,618 +2868,825 @@
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-09-01T00:00:00.000Z",
+    "sourceEventId": 4835600,
+    "sourceEventSlug": "doug-montgomery-aug-31-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Darin Savage",
     "venue": "TerraCotta Wine Bistro",
     "date": "2026-09-01T00:30:00.000Z",
+    "sourceEventId": 4832363,
+    "sourceEventSlug": "darin-savage-aug-31-2026",
+    "description": "Darin Savage plays Spanish guitar every Monday evening. ",
     "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-09-05T00:00:00.000Z",
+    "sourceEventId": 4753773,
+    "sourceEventSlug": "david-wood-sep-4-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-09-07T00:00:00.000Z",
+    "sourceEventId": 4835601,
+    "sourceEventSlug": "doug-montgomery-sep-6-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-09-08T00:00:00.000Z",
+    "sourceEventId": 4835602,
+    "sourceEventSlug": "doug-montgomery-sep-7-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-09-12T00:00:00.000Z",
+    "sourceEventId": 4753774,
+    "sourceEventSlug": "david-wood-sep-11-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-09-14T00:00:00.000Z",
+    "sourceEventId": 4835603,
+    "sourceEventSlug": "doug-montgomery-sep-13-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-09-15T00:00:00.000Z",
+    "sourceEventId": 4835604,
+    "sourceEventSlug": "doug-montgomery-sep-14-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-09-19T00:00:00.000Z",
+    "sourceEventId": 4753775,
+    "sourceEventSlug": "david-wood-sep-18-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-09-21T00:00:00.000Z",
+    "sourceEventId": 4835605,
+    "sourceEventSlug": "doug-montgomery-sep-20-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-09-22T00:00:00.000Z",
+    "sourceEventId": 4835606,
+    "sourceEventSlug": "doug-montgomery-sep-21-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-09-26T00:00:00.000Z",
+    "sourceEventId": 4753776,
+    "sourceEventSlug": "david-wood-sep-25-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-09-28T00:00:00.000Z",
+    "sourceEventId": 4835607,
+    "sourceEventSlug": "doug-montgomery-sep-27-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-09-29T00:00:00.000Z",
+    "sourceEventId": 4835608,
+    "sourceEventSlug": "doug-montgomery-sep-28-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-10-03T00:00:00.000Z",
+    "sourceEventId": 4753777,
+    "sourceEventSlug": "david-wood-oct-2-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-10-05T00:00:00.000Z",
+    "sourceEventId": 4835609,
+    "sourceEventSlug": "doug-montgomery-oct-4-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-10-06T00:00:00.000Z",
+    "sourceEventId": 4835610,
+    "sourceEventSlug": "doug-montgomery-oct-5-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-10-10T00:00:00.000Z",
+    "sourceEventId": 4753778,
+    "sourceEventSlug": "david-wood-oct-9-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-10-12T00:00:00.000Z",
+    "sourceEventId": 4835611,
+    "sourceEventSlug": "doug-montgomery-oct-11-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-10-13T00:00:00.000Z",
+    "sourceEventId": 4835612,
+    "sourceEventSlug": "doug-montgomery-oct-12-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-10-17T00:00:00.000Z",
+    "sourceEventId": 4753779,
+    "sourceEventSlug": "david-wood-oct-16-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-10-19T00:00:00.000Z",
+    "sourceEventId": 4835613,
+    "sourceEventSlug": "doug-montgomery-oct-18-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-10-20T00:00:00.000Z",
+    "sourceEventId": 4835614,
+    "sourceEventSlug": "doug-montgomery-oct-19-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-10-24T00:00:00.000Z",
+    "sourceEventId": 4753780,
+    "sourceEventSlug": "david-wood-oct-23-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-10-26T00:00:00.000Z",
+    "sourceEventId": 4835615,
+    "sourceEventSlug": "doug-montgomery-oct-25-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-10-27T00:00:00.000Z",
+    "sourceEventId": 4835616,
+    "sourceEventSlug": "doug-montgomery-oct-26-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-10-31T00:00:00.000Z",
+    "sourceEventId": 4753781,
+    "sourceEventSlug": "david-wood-oct-30-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-11-02T01:00:00.000Z",
+    "sourceEventId": 4835617,
+    "sourceEventSlug": "doug-montgomery-nov-1-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-11-03T01:00:00.000Z",
+    "sourceEventId": 4835618,
+    "sourceEventSlug": "doug-montgomery-nov-2-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-11-07T01:00:00.000Z",
+    "sourceEventId": 4753782,
+    "sourceEventSlug": "david-wood-nov-6-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-11-09T01:00:00.000Z",
+    "sourceEventId": 4835619,
+    "sourceEventSlug": "doug-montgomery-nov-8-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-11-10T01:00:00.000Z",
+    "sourceEventId": 4835620,
+    "sourceEventSlug": "doug-montgomery-nov-9-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-11-14T01:00:00.000Z",
+    "sourceEventId": 4753783,
+    "sourceEventSlug": "david-wood-nov-13-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-11-16T01:00:00.000Z",
+    "sourceEventId": 4835621,
+    "sourceEventSlug": "doug-montgomery-nov-15-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-11-17T01:00:00.000Z",
+    "sourceEventId": 4835622,
+    "sourceEventSlug": "doug-montgomery-nov-16-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-11-21T01:00:00.000Z",
+    "sourceEventId": 4753784,
+    "sourceEventSlug": "david-wood-nov-20-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-11-23T01:00:00.000Z",
+    "sourceEventId": 4835623,
+    "sourceEventSlug": "doug-montgomery-nov-22-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-11-24T01:00:00.000Z",
+    "sourceEventId": 4835624,
+    "sourceEventSlug": "doug-montgomery-nov-23-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-11-28T01:00:00.000Z",
+    "sourceEventId": 4753785,
+    "sourceEventSlug": "david-wood-nov-27-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-11-30T01:00:00.000Z",
+    "sourceEventId": 4835625,
+    "sourceEventSlug": "doug-montgomery-nov-29-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-12-01T01:00:00.000Z",
+    "sourceEventId": 4835626,
+    "sourceEventSlug": "doug-montgomery-nov-30-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-12-05T01:00:00.000Z",
+    "sourceEventId": 4753786,
+    "sourceEventSlug": "david-wood-dec-4-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-12-07T01:00:00.000Z",
+    "sourceEventId": 4835627,
+    "sourceEventSlug": "doug-montgomery-dec-6-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-12-08T01:00:00.000Z",
+    "sourceEventId": 4835628,
+    "sourceEventSlug": "doug-montgomery-dec-7-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-12-12T01:00:00.000Z",
+    "sourceEventId": 4753787,
+    "sourceEventSlug": "david-wood-dec-11-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-12-14T01:00:00.000Z",
+    "sourceEventId": 4835629,
+    "sourceEventSlug": "doug-montgomery-dec-13-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-12-15T01:00:00.000Z",
+    "sourceEventId": 4835630,
+    "sourceEventSlug": "doug-montgomery-dec-14-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-12-19T01:00:00.000Z",
+    "sourceEventId": 4753788,
+    "sourceEventSlug": "david-wood-dec-18-2026",
+    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
       "3P4yu8mQSlgSUxREFD41WR"
     ],
+    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-12-21T01:00:00.000Z",
+    "sourceEventId": 4835631,
+    "sourceEventSlug": "doug-montgomery-dec-20-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-12-22T01:00:00.000Z",
+    "sourceEventId": 4835632,
+    "sourceEventSlug": "doug-montgomery-dec-21-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-12-28T01:00:00.000Z",
+    "sourceEventId": 4835633,
+    "sourceEventSlug": "doug-montgomery-dec-27-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-12-29T01:00:00.000Z",
+    "sourceEventId": 4835634,
+    "sourceEventSlug": "doug-montgomery-dec-28-2026",
+    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
       "1MdZe7hHi3yKBkrtuFTVcl",
       "5al9F47JyTCZnBy5kz4gHM",
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
+    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
@@ -2667,12 +3694,14 @@
     "venue": "Plaza Park",
     "date": "2026-06-17T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43190956-rare-of-breed-at-plaza-park",
+    "listingUrl": "https://www.songkick.com/concerts/43190956-rare-of-breed-at-plaza-park",
     "source": "Songkick",
     "trackIds": [
       "4hh1SUEZijW1rPvof8RnCv",
       "1D3fFUTObiGfY3Ajam2XHx",
       "4KkAwbrvXDd0s721ufEmFj"
     ],
+    "spotifyId": "3GdRdoJomMK2f8xGjEZbHH",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebbf4fbdb800bb53fd1598621f",
     "genres": [
       "christian hip hop",
@@ -2686,6 +3715,7 @@
     "venue": "Teatro Paraguas",
     "date": "2026-06-18T01:30:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43193636-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193636-mina-fajardo-at-teatro-paraguas",
     "source": "Songkick",
     "trackIds": [
       "4RVmThKCzpzXn1hCatSsP6",
@@ -2735,6 +3765,7 @@
     "venue": "Dragon Room Bar",
     "date": "2026-06-17T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217016-jesus-bas-at-dragon-room-bar",
+    "listingUrl": "https://www.songkick.com/concerts/43217016-jesus-bas-at-dragon-room-bar",
     "source": "Songkick"
   },
   {
@@ -2742,12 +3773,14 @@
     "venue": "Meow Wolf",
     "date": "2026-06-19T02:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/42983092-searows-at-meow-wolf",
+    "listingUrl": "https://www.songkick.com/concerts/42983092-searows-at-meow-wolf",
     "source": "Songkick",
     "trackIds": [
       "5swZvDSi78Znk4rlmwHNnj",
       "7fhAjbHrzGknwQkGIzJHVk",
       "5RXjt2s4HBJw3TcaAzwSrD"
     ],
+    "spotifyId": "0nugNBwdWaptgIAsEtx1It",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb14229bdbda79ace871ef7bf2"
   },
   {
@@ -2755,12 +3788,14 @@
     "venue": "Foster's 1881",
     "date": "2026-06-20T01:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43188498-katsuk-at-fosters-1881",
+    "listingUrl": "https://www.songkick.com/concerts/43188498-katsuk-at-fosters-1881",
     "source": "Songkick",
     "trackIds": [
       "2t0xFKbOCmitR3wdd1XOIi",
       "20gdkTK87W0HOl5YoWIrrP",
       "6zGE5rGnZqPCU98iQohCnb"
     ],
+    "spotifyId": "2WWr8hd2729jAq7t044wY1",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273604772c1c96b1bdaadf148ce"
   },
   {
@@ -2768,6 +3803,7 @@
     "venue": "La Boca",
     "date": "2026-06-19T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217018-jesus-bas-at-la-boca",
+    "listingUrl": "https://www.songkick.com/concerts/43217018-jesus-bas-at-la-boca",
     "source": "Songkick"
   },
   {
@@ -2775,6 +3811,7 @@
     "venue": "Dragon Room Bar",
     "date": "2026-06-24T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217020-jesus-bas-at-dragon-room-bar",
+    "listingUrl": "https://www.songkick.com/concerts/43217020-jesus-bas-at-dragon-room-bar",
     "source": "Songkick"
   },
   {
@@ -2782,6 +3819,7 @@
     "venue": "Santa Fe Railyard Plaza",
     "date": "2026-06-25T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43212695-heartbyrne-at-santa-fe-railyard-plaza",
+    "listingUrl": "https://www.songkick.com/concerts/43212695-heartbyrne-at-santa-fe-railyard-plaza",
     "source": "Songkick"
   },
   {
@@ -2789,6 +3827,7 @@
     "venue": "Santa Fe Brewing Company",
     "date": "2026-06-27T01:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43203256-turnover-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43203256-turnover-at-santa-fe-brewing-company",
     "source": "Songkick",
     "trackIds": [
       "3vkj94FiLgUz3ysZcmIXPx",
@@ -2843,6 +3882,7 @@
     "venue": "La Boca",
     "date": "2026-06-26T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217021-jesus-bas-at-la-boca",
+    "listingUrl": "https://www.songkick.com/concerts/43217021-jesus-bas-at-la-boca",
     "source": "Songkick"
   },
   {
@@ -2850,12 +3890,14 @@
     "venue": "The Bridge at Santa Fe Brewing Company",
     "date": "2026-06-28T01:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43123617-polish-ambassador-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43123617-polish-ambassador-at-bridge-at-santa-fe-brewing-company",
     "source": "Songkick",
     "trackIds": [
       "68MsVSVZO8eSPdqPfhG83A",
       "3fDYjf2WbXy7LzrwFeRzIU",
       "3lwLjFfQSGFK2pxTKNvPI0"
     ],
+    "spotifyId": "2dI9IuajQnLR5dLxHjTTqU",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9b089175056ac1fbc164c46f"
   },
   {
@@ -2863,12 +3905,14 @@
     "venue": "St. Francis Auditorium, New Mexico Museum of Art",
     "date": "2026-06-28T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43145924-brett-dennen-at-st-francis-auditorium-new-mexico-museum-of-art",
+    "listingUrl": "https://www.songkick.com/concerts/43145924-brett-dennen-at-st-francis-auditorium-new-mexico-museum-of-art",
     "source": "Songkick",
     "trackIds": [
       "1N4GXAzVrcDeMWy7sUQaHf",
       "0ioDZn2JL53ictGJMMkETC",
       "0kgxYCZuYLlibZWnIvHrvL"
     ],
+    "spotifyId": "0FC1LIeQXKib0jOwZqeIwT",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb4353d27614b23bae6b2aea0c"
   },
   {
@@ -2876,6 +3920,7 @@
     "venue": "Teatro Paraguas",
     "date": "2026-07-02T01:30:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43193637-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193637-mina-fajardo-at-teatro-paraguas",
     "source": "Songkick",
     "trackIds": [
       "4RVmThKCzpzXn1hCatSsP6",
@@ -2925,6 +3970,7 @@
     "venue": "Dragon Room Bar",
     "date": "2026-07-01T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217022-jesus-bas-at-dragon-room-bar",
+    "listingUrl": "https://www.songkick.com/concerts/43217022-jesus-bas-at-dragon-room-bar",
     "source": "Songkick"
   },
   {
@@ -2932,6 +3978,7 @@
     "venue": "La Boca",
     "date": "2026-07-03T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217024-jesus-bas-at-la-boca",
+    "listingUrl": "https://www.songkick.com/concerts/43217024-jesus-bas-at-la-boca",
     "source": "Songkick"
   },
   {
@@ -2939,6 +3986,7 @@
     "venue": "Overlook Park",
     "date": "2026-07-05T01:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43234233-matchbox-twenty-too-at-overlook-park",
+    "listingUrl": "https://www.songkick.com/concerts/43234233-matchbox-twenty-too-at-overlook-park",
     "source": "Songkick"
   },
   {
@@ -2946,12 +3994,14 @@
     "venue": "Meow Wolf",
     "date": "2026-07-09T02:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
+    "listingUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
     "source": "Songkick",
     "trackIds": [
       "5ZGM626be3ItMW4UPjfqdY",
       "1CHL6sjDwpivvA4LE0lsww",
       "1iMOLNyzKtIMucwZzQSjZi"
     ],
+    "spotifyId": "6bUJpbekaIlq2fT5FMV2mQ",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb78eb659fbba3b198cc2f4160",
     "genres": [
       "garage rock",
@@ -2965,12 +4015,14 @@
     "venue": "Meow Wolf",
     "date": "2026-07-09T02:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
+    "listingUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
     "source": "Songkick",
     "trackIds": [
       "7lHGsPvsdeSD1tRm0faS1o",
       "3criOyPqWwtt5cUAcDCq6J",
       "1z3y0dcgWonv5eZJmkN05r"
     ],
+    "spotifyId": "5LtAyeDVOVcydj65LvgICY",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb62a4b98bc97a9b5534cd1321",
     "genres": [
       "garage rock",
@@ -2983,12 +4035,14 @@
     "venue": "Meow Wolf",
     "date": "2026-07-09T02:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
+    "listingUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
     "source": "Songkick",
     "trackIds": [
       "5p31gXMyrLUtvDbYIiSaBm",
       "4ZBf9RlEUr86x0lfa8c3sV",
       "4RpYDETtHvEOQAglR6OvPe"
     ],
+    "spotifyId": "61WE20UoQujMRZqzTOq3sI",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb85fa0ce7125cddd2031f6c76",
     "genres": [
       "shoegaze"
@@ -2999,6 +4053,7 @@
     "venue": "Teatro Paraguas",
     "date": "2026-07-09T01:30:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43193638-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193638-mina-fajardo-at-teatro-paraguas",
     "source": "Songkick",
     "trackIds": [
       "4RVmThKCzpzXn1hCatSsP6",
@@ -3048,6 +4103,7 @@
     "venue": "Dragon Room Bar",
     "date": "2026-07-08T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217025-jesus-bas-at-dragon-room-bar",
+    "listingUrl": "https://www.songkick.com/concerts/43217025-jesus-bas-at-dragon-room-bar",
     "source": "Songkick"
   },
   {
@@ -3055,12 +4111,14 @@
     "venue": "Meow Wolf House of Eternal Return",
     "date": "2026-07-11T02:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43194667-koji-aiken-at-meow-wolf-house-of-eternal-return",
+    "listingUrl": "https://www.songkick.com/concerts/43194667-koji-aiken-at-meow-wolf-house-of-eternal-return",
     "source": "Songkick",
     "trackIds": [
       "6rD4MHVZYYKplXGVO6C7qy",
       "0dWyiShx09WD8CgxqZh4c5",
       "0m2YCXCL1WRLsfvYvLtof4"
     ],
+    "spotifyId": "6iaQv5y48B4A3Ad8Fx9aWn",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebbf788e1649b19be8f7e2d0e2",
     "genres": [
       "stutter house",
@@ -3072,6 +4130,7 @@
     "venue": "La Boca",
     "date": "2026-07-10T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217026-jesus-bas-at-la-boca",
+    "listingUrl": "https://www.songkick.com/concerts/43217026-jesus-bas-at-la-boca",
     "source": "Songkick"
   },
   {
@@ -3079,12 +4138,14 @@
     "venue": "The Bridge at Santa Fe Brewing Company",
     "date": "2026-07-12T01:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43145150-kurt-vile-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43145150-kurt-vile-at-bridge-at-santa-fe-brewing-company",
     "source": "Songkick",
     "trackIds": [
       "0aW3FQZlYWyj1gTn7mlc8t",
       "21CU5fG0Pp0LUbXRDG1d48",
       "562yKTMPiyCsZrzjXzUzSF"
     ],
+    "spotifyId": "5gspAQIAH8nJUrMYgXjCJ2",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8e479fc57372737933ff77b2"
   },
   {
@@ -3092,12 +4153,14 @@
     "venue": "Hilton Santa Fe Buffalo Thunder",
     "date": "2026-07-11T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43229915-foghat-at-hilton-santa-fe-buffalo-thunder",
+    "listingUrl": "https://www.songkick.com/concerts/43229915-foghat-at-hilton-santa-fe-buffalo-thunder",
     "source": "Songkick",
     "trackIds": [
       "4MYb7NWLwXNDB7bYs3HeX8",
       "5aYVqxyetmT5OYmvZCA90X",
       "48MQDFkvHlGnRQyUx6ZXVe"
     ],
+    "spotifyId": "6x33CmZWo2Ve4hxYl2Craq",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc99812527711745e4e0bf29c",
     "genres": [
       "classic rock",
@@ -3109,12 +4172,14 @@
     "venue": "Reunity Farms",
     "date": "2026-07-11T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43257869-max-gomez-at-reunity-farms",
+    "listingUrl": "https://www.songkick.com/concerts/43257869-max-gomez-at-reunity-farms",
     "source": "Songkick",
     "trackIds": [
       "4KGeSK35AEwinM77n6h52q",
       "2x2aTcPu4UQA6JckyV8Esc",
       "5jtHlZuDNl3HCWb2cDqy77"
     ],
+    "spotifyId": "5nm8ML0WhLsR8eJ5PobwyN",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0ba6295d8a378ca26bae6015",
     "genres": [
       "americana"
@@ -3125,12 +4190,14 @@
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-07-13T22:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43070607-justin-payne-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43070607-justin-payne-at-tumbleroot-brewery-and-distillery",
     "source": "Songkick",
     "trackIds": [
       "4o8goNKUaLWNiX0NN1WTHj",
       "11PlOBRQZGij71WmsIVQC4",
       "5hEXSSBy7bVEVw510JEGo6"
     ],
+    "spotifyId": "4214RcInTQbwWxOcsWr1hW",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d2b43ca3d9818c6baf04d57f",
     "genres": [
       "americana",
@@ -3142,12 +4209,14 @@
     "venue": "The Bridge at Santa Fe Brewing Company",
     "date": "2026-07-14T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43187988-houndmouth-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43187988-houndmouth-at-bridge-at-santa-fe-brewing-company",
     "source": "Songkick",
     "trackIds": [
       "2MQhTbX792AT6YyzwLz9dt",
       "5n4ukKmCn7OEgQVC4kxu6y",
       "2TmqE1B16v0H6BLbBz38ob"
     ],
+    "spotifyId": "7EGwUS3c5dXduO4sMyLWC5",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9d60565c6405a35d5854b70d"
   },
   {
@@ -3155,12 +4224,14 @@
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-07-15T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43218164-dylan-leblanc-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43218164-dylan-leblanc-at-tumbleroot-brewery-and-distillery",
     "source": "Songkick",
     "trackIds": [
       "2zEByOH565rMCSacbB56Pd",
       "0SaaTLWDZAiaDLDbCq5znv",
       "3xLN3ZZ5BK3Og5wZ2WgObG"
     ],
+    "spotifyId": "60rNO7ymhlxcYxrdkDYq1k",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8a27703d943c683757092f35",
     "genres": [
       "americana"
@@ -3171,6 +4242,7 @@
     "venue": "Teatro Paraguas",
     "date": "2026-07-16T01:30:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43193639-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193639-mina-fajardo-at-teatro-paraguas",
     "source": "Songkick",
     "trackIds": [
       "4RVmThKCzpzXn1hCatSsP6",
@@ -3220,6 +4292,7 @@
     "venue": "Dragon Room Bar",
     "date": "2026-07-15T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217028-jesus-bas-at-dragon-room-bar",
+    "listingUrl": "https://www.songkick.com/concerts/43217028-jesus-bas-at-dragon-room-bar",
     "source": "Songkick"
   },
   {
@@ -3227,12 +4300,14 @@
     "venue": "The Bridge at Santa Fe Brewing Company",
     "date": "2026-07-17T01:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43148078-james-mcmurtry-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43148078-james-mcmurtry-at-bridge-at-santa-fe-brewing-company",
     "source": "Songkick",
     "trackIds": [
       "2sKMKKLObm8wq7YTeB6Yxd",
       "6biQrLq3oML4mvr9RZ8ZFD",
       "5ygzu1GVY7wnjOvvvfamJ0"
     ],
+    "spotifyId": "52BKc9OtCbQstAAPTIvLGH",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebcdb24f2ab31c0739c346dacf",
     "genres": [
       "alt country",
@@ -3248,12 +4323,14 @@
     "venue": "Lensic Performing Arts Center",
     "date": "2026-07-18T01:30:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43148082-chris-botti-at-lensic-performing-arts-center",
+    "listingUrl": "https://www.songkick.com/concerts/43148082-chris-botti-at-lensic-performing-arts-center",
     "source": "Songkick",
     "trackIds": [
       "1kTZPhmN8PW3KrXahh8rs8",
       "5AbTdTkrWyTlnguWH6J2fD",
       "4V5874YanN9HS4fbTnwiQs"
     ],
+    "spotifyId": "3eFo5fMv53RYZBYlvT5Z6a",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb3536f18a4d9fe29772335ea3",
     "genres": [
       "smooth jazz",
@@ -3265,6 +4342,7 @@
     "venue": "La Boca",
     "date": "2026-07-17T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217029-jesus-bas-at-la-boca",
+    "listingUrl": "https://www.songkick.com/concerts/43217029-jesus-bas-at-la-boca",
     "source": "Songkick"
   },
   {
@@ -3272,12 +4350,14 @@
     "venue": "San Miguel Chapel",
     "date": "2026-07-19T01:30:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43148089-mary-gauthier-at-san-miguel-chapel",
+    "listingUrl": "https://www.songkick.com/concerts/43148089-mary-gauthier-at-san-miguel-chapel",
     "source": "Songkick",
     "trackIds": [
       "6684GUHy1jpyhJVzpz5OFr",
       "276N2R4cVkJYp6vWECAlWm",
       "4s9Q3d4I8QcdcYGHqmqq4V"
     ],
+    "spotifyId": "4SK1IgkcWWc5HC1TOBq1VS",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9d87eb01be131943865a735e",
     "genres": [
       "americana",
@@ -3291,12 +4371,14 @@
     "venue": "The Bridge at Santa Fe Brewing Company",
     "date": "2026-07-23T01:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43080152-old-97s-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43080152-old-97s-at-bridge-at-santa-fe-brewing-company",
     "source": "Songkick",
     "trackIds": [
       "6Tc3cyJ9JGNVnlxCxL67rp",
       "2m5ItG3IIMsaGYJjZOvUoE",
       "2S6yBUXa5KddBV0CqBkcP1"
     ],
+    "spotifyId": "27AzFtMZhRN78bAMPntbpF",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebf1ddbf901b0581a473305e4c",
     "genres": [
       "alt country",
@@ -3308,12 +4390,14 @@
     "venue": "The Bridge at Santa Fe Brewing Company",
     "date": "2026-07-23T01:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43080152-old-97s-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43080152-old-97s-at-bridge-at-santa-fe-brewing-company",
     "source": "Songkick",
     "trackIds": [
       "5T7ZTI47ewvq66rpX5bj5S",
       "0uD6bj0fgJRk2Jas7opwPN",
       "2iedbVlqr2NVlQwjxMxRLT"
     ],
+    "spotifyId": "66NY7M7uxuzISHBID7J1Bv",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2739c0b600d4b8ae25a23964b9e",
     "genres": [
       "americana",
@@ -3326,6 +4410,7 @@
     "venue": "Teatro Paraguas",
     "date": "2026-07-23T01:30:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43193641-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193641-mina-fajardo-at-teatro-paraguas",
     "source": "Songkick",
     "trackIds": [
       "4RVmThKCzpzXn1hCatSsP6",
@@ -3375,6 +4460,7 @@
     "venue": "Dragon Room Bar",
     "date": "2026-07-22T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217030-jesus-bas-at-dragon-room-bar",
+    "listingUrl": "https://www.songkick.com/concerts/43217030-jesus-bas-at-dragon-room-bar",
     "source": "Songkick"
   },
   {
@@ -3382,6 +4468,7 @@
     "venue": "La Boca",
     "date": "2026-07-24T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217033-jesus-bas-at-la-boca",
+    "listingUrl": "https://www.songkick.com/concerts/43217033-jesus-bas-at-la-boca",
     "source": "Songkick"
   },
   {
@@ -3389,6 +4476,7 @@
     "venue": "Teatro Paraguas",
     "date": "2026-07-30T01:30:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43193642-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193642-mina-fajardo-at-teatro-paraguas",
     "source": "Songkick",
     "trackIds": [
       "4RVmThKCzpzXn1hCatSsP6",
@@ -3438,6 +4526,7 @@
     "venue": "Dragon Room Bar",
     "date": "2026-07-29T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217034-jesus-bas-at-dragon-room-bar",
+    "listingUrl": "https://www.songkick.com/concerts/43217034-jesus-bas-at-dragon-room-bar",
     "source": "Songkick"
   },
   {
@@ -3445,12 +4534,14 @@
     "venue": "The Bridge at Santa Fe Brewing Company",
     "date": "2026-07-31T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43077612-beths-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43077612-beths-at-bridge-at-santa-fe-brewing-company",
     "source": "Songkick",
     "trackIds": [
       "1bPcxJHusTrlr2Kj4kjK7e",
       "6CWDUTWFZW9P9wNkGqg0U5",
       "5bS7ajbQ4ZZDksu9ryAvXu"
     ],
+    "spotifyId": "7DjwIxbe8kpw4pqnzAMoin",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb26b0d0de46b77e23675281",
     "genres": [
       "indie rock",
@@ -3462,12 +4553,14 @@
     "venue": "Santa Fe Brewing Company",
     "date": "2026-08-01T01:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43272476-beach-bunny-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43272476-beach-bunny-at-santa-fe-brewing-company",
     "source": "Songkick",
     "trackIds": [
       "3frZl6bno6us1TLjr6PZ4h",
       "7fKqzZlS2em2fwDkKvSJZA",
       "1CQYKndmQR1bMvOSZrq2Lq"
     ],
+    "spotifyId": "2vnB6tuQMaQpORiRdvXF9H",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc76f04ab8987c4fb298abb3c"
   },
   {
@@ -3475,6 +4568,7 @@
     "venue": "La Boca",
     "date": "2026-07-31T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43217036-jesus-bas-at-la-boca",
+    "listingUrl": "https://www.songkick.com/concerts/43217036-jesus-bas-at-la-boca",
     "source": "Songkick"
   },
   {
@@ -3482,12 +4576,14 @@
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-08-05T02:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43148115-black-moth-super-rainbow-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43148115-black-moth-super-rainbow-at-tumbleroot-brewery-and-distillery",
     "source": "Songkick",
     "trackIds": [
       "3d2IeXv14uLNn8LyBAuOEI",
       "72U9iUryrmKLgXTGXjOb9J",
       "70PEZ5qdaO5on2NvyA3Rok"
     ],
+    "spotifyId": "4UHzJP2iKVf0RhKIv7ZE2l",
     "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46c16ceedabc9ce0e1a362d1929",
     "genres": [
       "neo-psychedelic",
@@ -3499,6 +4595,7 @@
     "venue": "The Bridge at Santa Fe Brewing Company",
     "date": "2026-08-06T01:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43124843-eagles-of-death-metal-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43124843-eagles-of-death-metal-at-bridge-at-santa-fe-brewing-company",
     "source": "Songkick",
     "trackIds": [
       "19mRNWlmHCKIlBT8WOCaXQ",
@@ -3545,6 +4642,7 @@
     "venue": "Teatro Paraguas",
     "date": "2026-08-06T01:30:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43193643-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193643-mina-fajardo-at-teatro-paraguas",
     "source": "Songkick",
     "trackIds": [
       "4RVmThKCzpzXn1hCatSsP6",
@@ -3594,6 +4692,7 @@
     "venue": "The Bridge at Santa Fe Brewing Company",
     "date": "2026-08-06T00:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43207218-don-was-and-the-pan-detroit-ensemble-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43207218-don-was-and-the-pan-detroit-ensemble-at-bridge-at-santa-fe-brewing-company",
     "source": "Songkick"
   },
   {
@@ -3601,12 +4700,14 @@
     "venue": "Buffalo Thunder Resort & Casino",
     "date": "2026-08-09T02:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43148125-queensryche-at-buffalo-thunder-resort-and-casino",
+    "listingUrl": "https://www.songkick.com/concerts/43148125-queensryche-at-buffalo-thunder-resort-and-casino",
     "source": "Songkick",
     "trackIds": [
       "75gfxIedwH7j2s5nc7JgWh",
       "2KtqjclZVtEm5K0LTmNdPI",
       "0U2TocFjqul3sis3sE5jZl"
     ],
+    "spotifyId": "2OgUPVlWYgGBGMefZgGvCO",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb6cdde60b6c8838aeb82dfb41",
     "genres": [
       "progressive metal",
@@ -3622,12 +4723,14 @@
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-08-12T01:30:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
     "source": "Songkick",
     "trackIds": [
       "0etKjdwsCnwtj6dB4iEZn8",
       "2vL3NFV79S9LvAnWAI6MMQ",
       "48bePG5thRkA5xttNPRB8c"
     ],
+    "spotifyId": "5ZW7HlSuZz8ng2X21cXbdP",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebffce0e0fc0c2c1e811e48602",
     "genres": [
       "dream pop",
@@ -3639,12 +4742,14 @@
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-08-12T01:30:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
     "source": "Songkick",
     "trackIds": [
       "37piAuK1WhsQDLJ8hmDDSW",
       "3hVq9e2hA3J0NZmlXqTl0B",
       "609jfTPcX5w8YnpW2Sf9JI"
     ],
+    "spotifyId": "7jadGvdBDPrM4fNOukfDny",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebfe0cbe07c7915a5d7420fb6b"
   },
   {
@@ -3652,12 +4757,14 @@
     "venue": "Marigold Room",
     "date": "2026-08-13T01:00:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43111798-soft-palms-at-marigold-room",
+    "listingUrl": "https://www.songkick.com/concerts/43111798-soft-palms-at-marigold-room",
     "source": "Songkick",
     "trackIds": [
       "05s1RKoZ5JNuaSDB1hp9Yv",
       "1pWtC2kjZoUipQrHU49rSM",
       "3yvCKCykDXuRrlOCZwniKT"
     ],
+    "spotifyId": "4PmRvPxX5xKA5zg4gmh4wR",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb057fd1454058de189d9b9b3b"
   },
   {
@@ -3665,6 +4772,7 @@
     "venue": "Teatro Paraguas",
     "date": "2026-08-13T01:30:00.000Z",
     "ticketUrl": "https://www.songkick.com/concerts/43193644-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193644-mina-fajardo-at-teatro-paraguas",
     "source": "Songkick",
     "trackIds": [
       "4RVmThKCzpzXn1hCatSsP6",

@@ -832,7 +832,7 @@ body {
   height: 260px;
   position: relative;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   display: flex;
   align-items: flex-end;
   padding: 32px;
@@ -1136,4 +1136,115 @@ footer {
 .footer-note {
   color: var(--text-muted);
   opacity: 0.7;
+}
+
+/* Big Play Button in Modal Header */
+.modal-play-btn {
+  position: absolute;
+  bottom: 24px;
+  right: 32px;
+  width: 56px;
+  height: 56px;
+  background-color: var(--primary-green);
+  color: var(--bg-black);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  z-index: 2;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5), 0 0 12px rgba(29, 185, 84, 0.4);
+  transition: var(--transition-fast);
+}
+.modal-play-btn:hover {
+  transform: scale(1.06);
+  background-color: var(--primary-green-hover);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6), 0 0 20px rgba(29, 185, 84, 0.6);
+}
+.modal-play-btn i {
+  margin-left: 4px;
+}
+
+/* Share success button state */
+.btn-success-feedback {
+  background-color: rgba(29, 185, 84, 0.1) !important;
+  border-color: var(--primary-green) !important;
+  color: var(--primary-green) !important;
+}
+
+/* Mobile-Friendly Modal Layout overrides */
+@media (max-width: 640px) {
+  .modal-overlay {
+    padding: 8px;
+  }
+  .modal-container {
+    max-height: 100vh;
+    height: 100%;
+    border-radius: 12px;
+  }
+  .modal-header {
+    height: 180px;
+    padding: 20px 16px;
+    background-position: center center;
+  }
+  .modal-header-text h2 {
+    font-size: 1.6rem;
+  }
+  .modal-body {
+    padding: 20px 16px;
+  }
+  .close-modal-btn {
+    top: 12px;
+    right: 12px;
+    width: 36px;
+    height: 36px;
+    font-size: 1.4rem;
+  }
+  .modal-play-btn {
+    bottom: 16px;
+    right: 16px;
+    width: 48px;
+    height: 48px;
+    font-size: 1.25rem;
+  }
+  .performer-card {
+    padding: 12px;
+    gap: 12px;
+  }
+  .performer-avatar {
+    width: 48px;
+    height: 48px;
+  }
+  .performer-name {
+    font-size: 1rem;
+  }
+  .details-card {
+    padding: 16px;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Modal Description Styling */
+.show-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  background-color: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+.show-description p {
+  margin-bottom: 12px;
+}
+.show-description p:last-child {
+  margin-bottom: 0;
+}
+.show-description a {
+  color: var(--primary-green);
+  text-decoration: underline;
+  font-weight: 500;
 }

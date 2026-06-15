@@ -103,6 +103,20 @@ export class PlaylistUpdater {
             }
           }
           
+          // If we couldn't find the main artist on Spotify and it wasn't split by name separators,
+          // let's try to extract sub-artists from the description of the event.
+          if (splitArtists.length <= 1) {
+            const parentConcerts = validConcerts.filter(c => c.artist.toLowerCase().trim() === artist.toLowerCase().trim());
+            const parentWithDesc = parentConcerts.find(c => c.description);
+            if (parentWithDesc && parentWithDesc.description) {
+              const extracted = this.extractArtistsFromDescription(parentWithDesc.description);
+              if (extracted.length > 0) {
+                console.log(`  - Found festival/showcase: "${artist}". Extracted lineup from description: ${extracted.join(', ')}`);
+                splitArtists = extracted;
+              }
+            }
+          }
+          
           if (splitArtists.length > 1) {
             console.log(`  - Combined name not found on Spotify. Splitting into: ${splitArtists.join(', ')}`);
             const subArtistsList: any[] = [];
@@ -182,6 +196,7 @@ export class PlaylistUpdater {
         validConcerts.forEach(c => {
           if (c.artist.toLowerCase().trim() === artist.toLowerCase().trim()) {
             c.trackIds = topTracks;
+            c.spotifyId = artistId || undefined;
             if (imageUrl) c.artistImageUrl = imageUrl;
             if (artistResult?.genres && artistResult.genres.length > 0) {
               c.genres = artistResult.genres;
@@ -262,6 +277,55 @@ export class PlaylistUpdater {
     }
 
     return true;
+  }
+
+  /**
+   * Parse description to extract artist names (useful for festivals or showcases)
+   */
+  private extractArtistsFromDescription(description: string): string[] {
+    if (!description) return [];
+    
+    // Clean HTML tags first
+    const cleanText = description.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+    
+    const patterns = [
+      /performances from\s+([^.]+)/i,
+      /performances by\s+([^.]+)/i,
+      /performance by\s+([^.]+)/i,
+      /featuring\s+([^.]+)/i,
+      /features\s+([^.]+)/i,
+      /with guest\s+([^.]+)/i,
+      /with guests\s+([^.]+)/i,
+      /with\s+([^.]+)/i,
+      /live music by\s+([^.]+)/i,
+      /music by\s+([^.]+)/i,
+      /lineup includes:\s+([^.]+)/i,
+      /lineup:\s+([^.]+)/i,
+      /line-up:\s+([^.]+)/i
+    ];
+    
+    for (const pattern of patterns) {
+      const match = cleanText.match(pattern);
+      if (match && match[1]) {
+        // Split matched string by common separators like comma, "and", "&"
+        const listStr = match[1].split(/,|and|&/i);
+        const extracted = listStr
+          .map(s => s.trim())
+          // Filter out words that are too short or common filler words
+          .filter(s => s.length > 2 && !/^(the|with|also|special|guests|local|artists)$/i.test(s))
+          .map(s => {
+             // Clean trailing/leading non-alphanumeric punctuation
+             return s.replace(/^[^a-zA-Z0-9]+|[^a-zA-Z0-9]+$/g, '').trim();
+          })
+          .filter(s => s.length > 2);
+          
+        if (extracted.length > 0) {
+          return extracted;
+        }
+      }
+    }
+    
+    return [];
   }
 
   private deduplicateArtists(artists: string[]): string[] {

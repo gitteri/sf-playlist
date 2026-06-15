@@ -51,6 +51,9 @@
         </div>
         
         <div class="sidebar-footer">
+          <button class="btn btn-secondary" id="btn-load-playlist" style="display: none; margin-bottom: 12px;">
+            <i class="fa-solid fa-list"></i> Back to Playlist
+          </button>
           <a href="https://open.spotify.com/playlist/7IhapNTY8GMvqflSaVyQfP" target="_blank" rel="noopener noreferrer" class="btn btn-spotify" id="btn-open-spotify">
             <i class="fa-brands fa-spotify"></i> Open Spotify App
           </a>
@@ -179,6 +182,11 @@
         <div class="modal-split-layout">
           <!-- Left modal panel: Lineup & Artists -->
           <div class="modal-main-content">
+            <div id="modal-description-container" style="display: none; margin-bottom: 28px;">
+              <h3 class="section-title">About the Show</h3>
+              <div class="show-description" id="modal-description"></div>
+            </div>
+            
             <h3 class="section-title">Full Lineup</h3>
             <div class="lineup-list" id="modal-lineup-list">
               <!-- Dynamically populated with individual cards for each performer -->
@@ -216,6 +224,12 @@
               <a id="modal-btn-tickets" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-spotify">
                 <i class="fa-solid fa-ticket"></i> Buy Tickets
               </a>
+              <a id="modal-btn-listing" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> View Details
+              </a>
+              <button id="modal-btn-share" class="btn btn-secondary">
+                <i class="fa-solid fa-share-nodes"></i> Share Show
+              </button>
               <a id="modal-btn-directions" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
                 <i class="fa-solid fa-diamond-turn-right"></i> Get Directions
               </a>

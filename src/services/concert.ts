@@ -95,6 +95,10 @@ export class ConcertService {
           venue: event._source.venue.name,
           date: new Date(event._source.starttime),
           ticketUrl: event._source.ticketurl || undefined,
+          listingUrl: event._source.moreinfo || undefined,
+          sourceEventId: event._source.id || undefined,
+          sourceEventSlug: event._source.slug || undefined,
+          description: event._source.description || undefined,
           source: 'Santa Fe Reporter'
         });
       }
@@ -126,8 +130,15 @@ export class ConcertService {
    * @returns Cleaned artist name
    */
   private cleanArtistName(eventName: string): string {
-    // Remove common prefixes/suffixes
+    // If the name contains a colon, the text on the left is likely event details/category, not the band
     let name = eventName.trim();
+    if (name.includes(':')) {
+      const parts = name.split(':');
+      const rightPart = parts.slice(1).join(':').trim();
+      if (rightPart.length > 0) {
+        name = rightPart;
+      }
+    }
     
     // Common patterns to remove: "Live Music:", "Concert:", etc.
     const prefixesToRemove = [

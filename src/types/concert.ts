@@ -10,6 +10,11 @@ export interface Concert {
   venue: string;
   date: Date;
   ticketUrl?: string;
+  listingUrl?: string;
+  sourceEventId?: string | number;
+  sourceEventSlug?: string;
+  description?: string;
+  spotifyId?: string;
   source: string;
   trackIds?: string[];
   artistImageUrl?: string;

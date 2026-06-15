@@ -44,6 +44,7 @@ let emptyState;
 let resultsCount;
 let clearFiltersBtn;
 let emptyResetBtn;
+let loadPlaylistBtn;
 
 // Playbar Elements
 let bottomPlaybar;
@@ -65,7 +66,13 @@ let modalDetailDate;
 let modalDetailTime;
 let modalDetailSources;
 let modalTicketsBtn;
+let modalListingBtn;
+let modalShareBtn;
+let modalHeaderPlayBtn;
 let modalDirectionsBtn;
+let modalDescriptionContainer;
+let modalDescription;
+let isResettingPlayer = false;
 
 // Month Names Helper
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -122,6 +129,7 @@ function init() {
   resultsCount = document.getElementById('results-count');
   clearFiltersBtn = document.getElementById('clear-filters-btn');
   emptyResetBtn = document.getElementById('empty-reset-btn');
+  loadPlaylistBtn = document.getElementById('btn-load-playlist');
 
   bottomPlaybar = document.getElementById('bottom-playbar');
   playbarArtist = document.getElementById('playbar-artist');
@@ -141,7 +149,12 @@ function init() {
   modalDetailTime = document.getElementById('modal-detail-time');
   modalDetailSources = document.getElementById('modal-detail-sources');
   modalTicketsBtn = document.getElementById('modal-btn-tickets');
+  modalListingBtn = document.getElementById('modal-btn-listing');
+  modalShareBtn = document.getElementById('modal-btn-share');
+  modalHeaderPlayBtn = document.getElementById('modal-header-play-btn');
   modalDirectionsBtn = document.getElementById('modal-btn-directions');
+  modalDescriptionContainer = document.getElementById('modal-description-container');
+  modalDescription = document.getElementById('modal-description');
 
   setupEventListeners();
   fetchConcerts();
@@ -180,6 +193,9 @@ async function fetchConcerts() {
     
     // Initial apply
     applyFilters();
+    
+    // Check if direct link hash is present
+    checkUrlHash();
     
     // After rendering, if we already received a track event before the JSON loaded, trigger it now
     if (currentTrackId) {
@@ -233,11 +249,16 @@ function groupConcerts(rawList) {
       trackIds: item.trackIds || []
     };
     
+    const hasSubArtists = item.subArtists && item.subArtists.length > 0;
+    const isRealPerformer = item.spotifyId || !hasSubArtists;
+    
     if (matched) {
-      // 1. Add performer if not already listed
-      const exists = matched.performers.some(p => p.name.toLowerCase() === item.artist.toLowerCase());
-      if (!exists) {
-        matched.performers.push(performerInfo);
+      // 1. Add performer if not already listed and is a real performer (not a festival name)
+      if (isRealPerformer) {
+        const exists = matched.performers.some(p => p.name.toLowerCase() === item.artist.toLowerCase());
+        if (!exists) {
+          matched.performers.push(performerInfo);
+        }
       }
       
       // 2. Combine track IDs
@@ -258,6 +279,24 @@ function groupConcerts(rawList) {
       // 5. Keep ticket link
       if (!matched.ticketUrl && item.ticketUrl) {
         matched.ticketUrl = item.ticketUrl;
+      }
+      
+      // Keep listing link
+      if (!matched.listingUrl && item.listingUrl) {
+        matched.listingUrl = item.listingUrl;
+      }
+      
+      // Keep description if not already present
+      if (!matched.description && item.description) {
+        matched.description = item.description;
+      }
+      
+      // Keep source event details for deep linking
+      if (!matched.sourceEventId && item.sourceEventId) {
+        matched.sourceEventId = item.sourceEventId;
+      }
+      if (!matched.sourceEventSlug && item.sourceEventSlug) {
+        matched.sourceEventSlug = item.sourceEventSlug;
       }
       
       // 6. Record source
@@ -284,30 +323,48 @@ function groupConcerts(rawList) {
         });
       }
     } else {
+      // Create a stable deterministic ID based on headliner name, venue, and date
+      const cleanArtist = item.artist.toLowerCase().replace(/[^a-z0-9]/g, '').substring(0, 15);
+      const cleanVenue = item.venue.toLowerCase().replace(/[^a-z0-9]/g, '').substring(0, 15);
+      const showTime = new Date(item.date).getTime();
+      const showId = `show-${cleanArtist}-${cleanVenue}-${showTime}`;
+
       // Create new show group
       const newGroup = {
-        id: `show-${Math.random().toString(36).substr(2, 9)}`,
+        id: showId,
         artist: item.artist, // headliner
         venue: item.venue,
         date: item.date,
+        description: item.description,
         ticketUrl: item.ticketUrl,
+        listingUrl: item.listingUrl,
+        sourceEventId: item.sourceEventId,
+        sourceEventSlug: item.sourceEventSlug,
         artistImageUrl: item.artistImageUrl,
         trackIds: item.trackIds || [],
         genres: item.genres || [],
         sources: [item.source],
-        performers: [performerInfo]
+        performers: []
       };
+      
+      // Only push headliner if it's a real performer
+      if (isRealPerformer) {
+        newGroup.performers.push(performerInfo);
+      }
       
       // Unpack subArtists if present
       if (item.subArtists) {
         item.subArtists.forEach(sub => {
-          newGroup.performers.push({
-            name: sub.name,
-            spotifyId: sub.spotifyId ? true : false,
-            artistImageUrl: sub.artistImageUrl,
-            genres: sub.genres || [],
-            trackIds: sub.trackIds || []
-          });
+          const subExists = newGroup.performers.some(p => p.name.toLowerCase() === sub.name.toLowerCase());
+          if (!subExists) {
+            newGroup.performers.push({
+              name: sub.name,
+              spotifyId: sub.spotifyId ? true : false,
+              artistImageUrl: sub.artistImageUrl,
+              genres: sub.genres || [],
+              trackIds: sub.trackIds || []
+            });
+          }
           if (sub.genres) {
             newGroup.genres = [...new Set([...newGroup.genres, ...sub.genres])];
           }
@@ -444,7 +501,11 @@ function renderConcerts() {
     
     // Generate co-headliners/support tag text
     let supportText = '';
-    if (show.performers.length > 1) {
+    const isFestival = !show.performers.some(p => p.name.toLowerCase() === show.artist.toLowerCase());
+    if (isFestival && show.performers.length > 0) {
+      const acts = show.performers.map(p => p.name);
+      supportText = `<p class="co-headliners-subtext" title="${acts.join(', ')}">${acts.join(', ')}</p>`;
+    } else if (show.performers.length > 1) {
       const coActs = show.performers.slice(1).map(p => p.name);
       supportText = `<p class="co-headliners-subtext" title="w/ ${coActs.join(', ')}">w/ ${coActs.join(', ')}</p>`;
     }
@@ -536,7 +597,7 @@ function applyFilters() {
   
   filteredConcerts = groupedConcerts.filter(show => {
     // 1. Search filter (match headliner, support performers, venue, or genres)
-    const performerMatch = show.performers.some(p => p.name.toLowerCase().includes(searchQuery));
+    const performerMatch = show.artist.toLowerCase().includes(searchQuery) || show.performers.some(p => p.name.toLowerCase().includes(searchQuery));
     const genreMatchText = show.genres ? show.genres.some(g => g.toLowerCase().includes(searchQuery)) : false;
     const venueMatchText = show.venue.toLowerCase().includes(searchQuery);
     const matchesSearch = searchQuery === '' || performerMatch || genreMatchText || venueMatchText;
@@ -623,6 +684,16 @@ function playTrackOnSpotify(trackId) {
   if (embedController && trackId) {
     console.log(`Commanding Spotify Player to play: ${trackId}`);
     embedController.loadUri(`spotify:track:${trackId}`);
+    // Trigger playback programmatically after a brief load delay
+    setTimeout(() => {
+      if (embedController) {
+        embedController.play();
+      }
+    }, 150);
+    // Show the "Back to Playlist" button since we are playing a single track
+    if (loadPlaylistBtn) {
+      loadPlaylistBtn.style.display = 'inline-flex';
+    }
   } else {
     console.warn('Spotify Embed controller is not ready or trackId is missing');
   }
@@ -648,6 +719,16 @@ function openShowDetailsModal(show) {
   if (modalVenueInfo) modalVenueInfo.innerHTML = `<i class="fa-solid fa-location-dot"></i> ${show.venue}`;
   if (modalDateString) modalDateString.textContent = formattedDate;
   
+  // Populate description
+  if (modalDescriptionContainer && modalDescription) {
+    if (show.description) {
+      modalDescription.innerHTML = show.description;
+      modalDescriptionContainer.style.display = 'block';
+    } else {
+      modalDescriptionContainer.style.display = 'none';
+    }
+  }
+  
   if (modalHeaderBanner) {
     if (show.artistImageUrl) {
       modalHeaderBanner.style.backgroundImage = `url('${show.artistImageUrl}')`;
@@ -659,7 +740,21 @@ function openShowDetailsModal(show) {
   // Sidebar info
   if (modalDetailDate) modalDetailDate.textContent = dateObj.toLocaleDateString([], { year: 'numeric', month: 'long', day: 'numeric' });
   if (modalDetailTime) modalDetailTime.textContent = formattedTime;
-  if (modalDetailSources) modalDetailSources.textContent = show.sources.join(', ');
+  if (modalDetailSources) {
+    modalDetailSources.innerHTML = show.sources.map(source => {
+      if (source === 'Songkick') {
+        const url = show.ticketUrl || show.listingUrl || 'https://www.songkick.com';
+        return `<a href="${url}" target="_blank" rel="noopener noreferrer" style="color: var(--primary-green); text-decoration: underline; font-weight: 600;">Songkick</a>`;
+      } else if (source === 'Santa Fe Reporter') {
+        let url = 'https://www.sfreporter.com/calendar/';
+        if (show.sourceEventId) {
+          url = `https://www.sfreporter.com/calendar/#!/details/${show.sourceEventSlug || 'event'}/${show.sourceEventId}`;
+        }
+        return `<a href="${url}" target="_blank" rel="noopener noreferrer" style="color: var(--primary-green); text-decoration: underline; font-weight: 600;">Santa Fe Reporter</a>`;
+      }
+      return source;
+    }).join(', ');
+  }
   
   // Action Buttons
   if (modalTicketsBtn) {
@@ -668,6 +763,31 @@ function openShowDetailsModal(show) {
       modalTicketsBtn.style.display = 'inline-flex';
     } else {
       modalTicketsBtn.style.display = 'none';
+    }
+  }
+  
+  if (modalListingBtn) {
+    if (show.listingUrl) {
+      modalListingBtn.href = show.listingUrl;
+      modalListingBtn.style.display = 'inline-flex';
+    } else if (show.ticketUrl) {
+      // Fallback to ticketUrl if no explicit listingUrl
+      modalListingBtn.href = show.ticketUrl;
+      modalListingBtn.style.display = 'inline-flex';
+    } else {
+      modalListingBtn.style.display = 'none';
+    }
+  }
+  
+  // Big Play Button in header
+  if (modalHeaderPlayBtn) {
+    if (show.trackIds && show.trackIds.length > 0) {
+      modalHeaderPlayBtn.style.display = 'flex';
+      modalHeaderPlayBtn.onclick = () => {
+        playShowTracks(show.id);
+      };
+    } else {
+      modalHeaderPlayBtn.style.display = 'none';
     }
   }
   
@@ -729,6 +849,11 @@ function openShowDetailsModal(show) {
     showModal.style.display = 'flex';
   }
   document.body.style.overflow = 'hidden'; // Lock background scroll
+  
+  // Update URL hash without scroll jump
+  if (window.location.hash !== `#${show.id}`) {
+    history.replaceState(null, null, `#${show.id}`);
+  }
 }
 
 // Close Modal helper
@@ -737,6 +862,91 @@ function closeModal() {
     showModal.style.display = 'none';
   }
   document.body.style.overflow = ''; // Unlock background scroll
+  
+  // Clear URL hash without scroll jump
+  if (window.location.hash) {
+    history.replaceState(null, null, window.location.pathname + window.location.search);
+  }
+}
+
+// Reset player back to weekly playlist
+function loadWeeklyPlaylist() {
+  if (embedController) {
+    console.log('Loading Weekly Playlist...');
+    isResettingPlayer = true;
+    embedController.loadUri('spotify:playlist:7IhapNTY8GMvqflSaVyQfP');
+    currentTrackId = null;
+    clearHighlightState();
+    if (loadPlaylistBtn) {
+      loadPlaylistBtn.style.display = 'none';
+    }
+    
+    // Clear flag after transition delay
+    setTimeout(() => {
+      isResettingPlayer = false;
+    }, 1500);
+  }
+}
+
+// Share event helper
+function shareShow(show) {
+  const shareUrl = `${window.location.origin}${window.location.pathname}#${show.id}`;
+  const dateObj = new Date(show.date);
+  const formattedDate = dateObj.toLocaleDateString([], {
+    weekday: 'short',
+    month: 'short',
+    day: 'numeric'
+  });
+  
+  const title = `${show.artist} @ ${show.venue}`;
+  const text = `Check out ${show.artist} live at ${show.venue} in Santa Fe on ${formattedDate}!`;
+  
+  if (navigator.share) {
+    navigator.share({
+      title: title,
+      text: text,
+      url: shareUrl
+    }).then(() => {
+      console.log('Shared successfully');
+    }).catch(err => {
+      if (err.name !== 'AbortError') {
+        console.error('Web Share failed:', err);
+        fallbackCopyToClipboard(shareUrl);
+      }
+    });
+  } else {
+    fallbackCopyToClipboard(shareUrl);
+  }
+}
+
+function fallbackCopyToClipboard(shareUrl) {
+  navigator.clipboard.writeText(shareUrl).then(() => {
+    if (modalShareBtn) {
+      const originalHtml = modalShareBtn.innerHTML;
+      modalShareBtn.innerHTML = `<i class="fa-solid fa-check" style="color: var(--primary-green);"></i> Link Copied!`;
+      modalShareBtn.classList.add('btn-success-feedback');
+      
+      setTimeout(() => {
+        modalShareBtn.innerHTML = originalHtml;
+        modalShareBtn.classList.remove('btn-success-feedback');
+      }, 2000);
+    }
+  }).catch(err => {
+    console.error('Failed to copy share link: ', err);
+    alert(`Copy this link to share the show: ${shareUrl}`);
+  });
+}
+
+// Check Url hash to auto-open modal
+function checkUrlHash() {
+  const hash = window.location.hash;
+  if (hash && hash.startsWith('#show-')) {
+    const showId = hash.substring(1);
+    const matchedShow = groupedConcerts.find(g => g.id === showId);
+    if (matchedShow) {
+      openShowDetailsModal(matchedShow);
+    }
+  }
 }
 
 // Spotify IFrame API Callback hook
@@ -755,7 +965,18 @@ window.onSpotifyIframeApiReady = (IFrameAPI) => {
     
     // Listen for playback state changes
     EmbedController.addListener('playback_update', e => {
+      if (isResettingPlayer) {
+        clearHighlightState();
+        return;
+      }
+      
       const data = e.data;
+      
+      // Auto-hide load playlist button if user plays the weekly playlist inside the player
+      if (data && data.contextURI && data.contextURI.includes('7IhapNTY8GMvqflSaVyQfP')) {
+        if (loadPlaylistBtn) loadPlaylistBtn.style.display = 'none';
+      }
+      
       if (data && data.playingURI) {
         const trackUri = data.playingURI;
         const trackId = trackUri.split(':').pop();
@@ -918,10 +1139,24 @@ function setupEventListeners() {
   
   // Keyboard ESC to close modal
   document.addEventListener('keydown', (e) => {
-    if (e.key['Escape']) {
+    if (e.key === 'Escape') {
       closeModal();
     }
   });
+  
+  // Share button click handler
+  if (modalShareBtn) {
+    modalShareBtn.addEventListener('click', () => {
+      if (activeShowGroup) {
+        shareShow(activeShowGroup);
+      }
+    });
+  }
+
+  // Load playlist button click handler
+  if (loadPlaylistBtn) {
+    loadPlaylistBtn.addEventListener('click', loadWeeklyPlaylist);
+  }
   
   // Playbar details click handler
   if (playbarDetailsBtn) {
@@ -931,6 +1166,9 @@ function setupEventListeners() {
       }
     });
   }
+  
+  // Listen for hash changes to support back/forward navigation
+  window.addEventListener('hashchange', checkUrlHash);
 }
 
 // Explicitly register inline event handlers on the window to prevent ReferenceErrors
