@@ -775,7 +775,8 @@ function openShowDetailsModal(show) {
     if (show.artistImageUrl) {
       modalHeaderBanner.style.backgroundImage = `url('${show.artistImageUrl}')`;
     } else {
-      modalHeaderBanner.style.backgroundImage = "linear-gradient(135deg, #1f1f2e 0%, #0d0d13 100%)";
+      const modalGradient = getDeterministicGradient(show.artist);
+      modalHeaderBanner.style.backgroundImage = modalGradient;
     }
   }
   
