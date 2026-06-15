@@ -55,14 +55,24 @@ export class PlaylistUpdater {
       let addedArtists = 0;
       let addedTracks = 0;
       let trackIds: string[] = [];
+      let unknownArtists: string[] = [];
       
       // Find artists on Spotify and get their top tracks
       for (const artist of allArtists) {
         console.log(`Processing artist: ${artist}`);
         
-        const artistId = await this.spotifyService.searchArtist(artist);
+        let artistId = await this.spotifyService.searchArtist(artist);
+        if (!artistId) {
+          const cleanedArtist = this.cleanArtist(artist);
+          if (cleanedArtist !== artist) {
+            console.log(`  - Trying cleaned artist name: "${cleanedArtist}"`);
+            artistId = await this.spotifyService.searchArtist(cleanedArtist);
+          }
+        }
+        
         if (!artistId) {
           console.log(`  - Could not find artist "${artist}" on Spotify, skipping`);
+          unknownArtists.push(artist);
           continue;
         }
         
@@ -89,6 +99,7 @@ export class PlaylistUpdater {
         
         if (success) {
           console.log(`Successfully updated playlist with ${addedTracks} tracks from ${addedArtists} artists`);
+          console.log('Unknown artists:', `${unknownArtists.join('\n')}`);
         } else {
           console.error('Failed to update playlist');
         }
@@ -127,4 +138,30 @@ export class PlaylistUpdater {
     
     return deduplicated;
   }
-} 
+
+  /**
+   * Clean up artist name by removing prefixes
+   * @param artist Original artist name
+   * @returns Cleaned artist name
+   */
+  private cleanArtist(artist: string): string {
+    // TODO: Update this list with actual prefixes to be removed
+    const prefixesToRemove = [
+      'Lensic 360 Presents: ',
+      'Aprés Music Series: ',
+      'Patio Music Series: ',
+      'Santa Fe Summer Scene: ',
+      'An Evening with... ',
+    ];
+
+    let cleanedArtist = artist.trim();
+    for (const prefix of prefixesToRemove) {
+      if (cleanedArtist.toLowerCase().startsWith(prefix.toLowerCase())) {
+        cleanedArtist = cleanedArtist.slice(prefix.length).trim();
+        break;
+      }
+    }
+    
+    return cleanedArtist;
+  }
+}

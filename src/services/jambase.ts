@@ -9,37 +9,10 @@ export class JamBaseService {
    * @returns Array of artist names
    */
   async fetchConcerts(): Promise<string[]> {
-    try {
-      // Construct query parameters
-      const params = new URLSearchParams({
-        'action': 'jb_get_concerts_finder_results',
-        'form_data[location]': 'Santa Fe, NM, USA',
-        'form_data[lat]': '35.6546',
-        'form_data[lng]': '-105.9965',
-        'form_data[radius]': '20',
-        'form_data[date-first]': this.formatDateYYYYMMDD(new Date()),
-        'form_data[date-last]': this.formatDateYYYYMMDD(this.addYearsToDate(new Date(), 2)),
-        'form_data[date-preset]': 'all',
-        'form_data[band-filter]': 'all',
-        'form_data[newly-announced]': '',
-        'form_data[type-filter]': ''
-      });
-      
-      const response = await axios.get<JamBaseResponse>(`${this.apiUrl}?${params.toString()}`);
-      
-      if (!response.data.success || !response.data.data.results.chunked) {
-        console.error('Error in JamBase response format');
-        return [];
-      }
-      
-      // Extract all artist names from the chunked response
-      const artists = this.extractArtists(response.data);
-      
-      return [...new Set(artists)]; // Remove duplicates
-    } catch (error) {
-      console.error('Error fetching JamBase concert data:', error);
-      return [];
-    }
+    // Note: JamBase public endpoints now return 403 Forbidden due to Cloudflare protection.
+    // We log a message and return an empty array.
+    console.log('JamBase: Scraping skipped because JamBase endpoints are protected by Cloudflare (403).');
+    return [];
   }
   
   /**

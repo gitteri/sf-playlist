@@ -4,8 +4,99 @@ import * as fs from 'fs';
 import * as path from 'path';
 import http from 'http';
 import url from 'url';
+import stringSimilarity from 'string-similarity';
 
 dotenv.config();
+
+class FuzzyMatcher {
+  private static readonly SIMILARITY_THRESHOLD = 0.85;
+  private static readonly WORD_MATCH_THRESHOLD = 0.85;
+  private static readonly MIN_WORDS_FOR_PARTIAL = 3; // Minimum words needed for partial matching
+
+  static isMatch(searchTerm: string, target: string): boolean {
+    // Normalize strings
+    const normalizedSearch = searchTerm.toLowerCase().trim();
+    const normalizedTarget = target.toLowerCase().trim();
+
+    // Exact match
+    if (normalizedSearch === normalizedTarget) {
+      return true;
+    }
+
+    // Split into words and remove common words
+    const searchWords = this.normalizeWords(normalizedSearch);
+    const targetWords = this.normalizeWords(normalizedTarget);
+
+    // If search term is longer than target, it's not a match
+    if (searchWords.length > targetWords.length) {
+      return false;
+    }
+
+    // If search term is significantly shorter than target, require higher similarity
+    if (targetWords.length > searchWords.length * 2) {
+      return false;
+    }
+
+    // Check if search term is a subset of target
+    if (this.isSubset(searchWords, targetWords)) {
+      // For subset matches, require at least 3 words or high similarity
+      if (searchWords.length >= this.MIN_WORDS_FOR_PARTIAL) {
+        return true;
+      }
+      // For shorter subsets, require higher similarity
+      const similarity = stringSimilarity.compareTwoStrings(normalizedSearch, normalizedTarget);
+      return similarity >= 0.9;
+    }
+
+    // Overall string similarity using Dice's Coefficient
+    const similarity = stringSimilarity.compareTwoStrings(normalizedSearch, normalizedTarget);
+    if (similarity >= this.SIMILARITY_THRESHOLD) {
+      return true;
+    }
+
+    // Word-level matching with stricter requirements
+    const matchingWords = searchWords.filter(word => 
+      targetWords.some(targetWord => {
+        const wordSimilarity = stringSimilarity.compareTwoStrings(word, targetWord);
+        return wordSimilarity >= this.SIMILARITY_THRESHOLD;
+      })
+    );
+
+    // Require more matching words for shorter search terms
+    const requiredMatches = Math.max(
+      Math.ceil(searchWords.length * this.WORD_MATCH_THRESHOLD),
+      searchWords.length >= 3 ? 3 : searchWords.length
+    );
+
+    return matchingWords.length >= requiredMatches;
+  }
+
+  private static normalizeWords(text: string): string[] {
+    return text
+      .replace(/[&|and]/gi, '')
+      .replace(/\s+/g, ' ')
+      .split(' ')
+      .filter(word => word.length > 0);
+  }
+
+  private static isSubset(searchWords: string[], targetWords: string[]): boolean {
+    // Check if all search words appear in target in the same order
+    let targetIndex = 0;
+    for (const searchWord of searchWords) {
+      let found = false;
+      while (targetIndex < targetWords.length) {
+        if (stringSimilarity.compareTwoStrings(searchWord, targetWords[targetIndex]) >= 0.9) {
+          found = true;
+          targetIndex++;
+          break;
+        }
+        targetIndex++;
+      }
+      if (!found) return false;
+    }
+    return true;
+  }
+}
 
 export class SpotifyService {
   private spotifyApi: SpotifyWebApi;
@@ -188,10 +279,10 @@ export class SpotifyService {
   async searchArtist(artistName: string): Promise<string | null> {
     return this.withRetry(async () => {
       try {
-        const response = await this.spotifyApi.searchArtists(artistName, { limit: 5 });
+        const response = await this.spotifyApi.searchArtists(artistName, { limit: 10 });
         
         if (response.body.artists && response.body.artists.items.length > 0) {
-          // Look for exact name match (case insensitive)
+          // First try exact match
           const exactMatch = response.body.artists.items.find(
             artist => artist.name.toLowerCase() === artistName.toLowerCase()
           );
@@ -200,19 +291,14 @@ export class SpotifyService {
             return exactMatch.id;
           }
 
-          // If no exact match, look for close match where artist name contains search term
-          // and search term contains at least 95% of artist name
-          const searchTermWords = artistName.toLowerCase().split(' ');
-          const closeMatch = response.body.artists.items.find(artist => {
-            const artistNameWords = artist.name.toLowerCase().split(' ');
-            const matchingWords = searchTermWords.filter(word => 
-              artistNameWords.some(artistWord => artistWord.includes(word))
-            );
-            return matchingWords.length >= searchTermWords.length * 0.95;
-          });
+          // Then try fuzzy matching
+          const fuzzyMatch = response.body.artists.items.find(artist => 
+            FuzzyMatcher.isMatch(artistName, artist.name)
+          );
 
-          if (closeMatch) {
-            return closeMatch.id;
+          if (fuzzyMatch) {
+            console.log(`Found fuzzy match: "${fuzzyMatch.name}" for search term "${artistName}"`);
+            return fuzzyMatch.id;
           }
         }
         
