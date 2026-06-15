@@ -77,6 +77,25 @@ let isResettingPlayer = false;
 // Month Names Helper
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
+// Generate deterministic premium gradients for placeholders based on string hashing
+function getDeterministicGradient(str) {
+  const gradients = [
+    'linear-gradient(135deg, #0d6b2c 0%, #1db954 100%)', // Spotify Green
+    'linear-gradient(135deg, #3c096c 0%, #7b2cbf 100%)', // Deep Purple
+    'linear-gradient(135deg, #b91d47 0%, #ff527b 100%)', // Neon Pink
+    'linear-gradient(135deg, #162447 0%, #1f4068 100%)', // Midnight Blue
+    'linear-gradient(135deg, #dc2f02 0%, #e85d04 100%)', // Vibrant Orange
+    'linear-gradient(135deg, #0077b6 0%, #00b4d8 100%)'  // Bright Teal
+  ];
+  
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = str.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  const index = Math.abs(hash) % gradients.length;
+  return gradients[index];
+}
+
 // Map raw Spotify sub-genres & keywords to major categories
 function getMajorGenres(show) {
   const majorGenres = new Set();
@@ -526,9 +545,11 @@ function renderConcerts() {
     // Source Badges
     const sourcesLabel = show.sources.map(s => s === 'Santa Fe Reporter' ? 'SFR' : s).join(' + ');
     
+    const cardGradient = getDeterministicGradient(show.artist);
+    
     // Card structure
     card.innerHTML = `
-      <div class="card-bg-image" ${show.artistImageUrl ? `style="background-image: url('${show.artistImageUrl}')"` : ''}>
+      <div class="card-bg-image" ${show.artistImageUrl ? `style="background-image: url('${show.artistImageUrl}')"` : `style="background-image: ${cardGradient}"`}>
         ${!show.artistImageUrl ? `<div class="card-bg-placeholder"><i class="fa-solid fa-music"></i></div>` : ''}
       </div>
       <div class="card-overlay"></div>
@@ -852,9 +873,10 @@ function openShowDetailsModal(show) {
         `;
       }
       
+      const performerGradient = getDeterministicGradient(perf.name);
       card.innerHTML = `
-        <div class="performer-avatar" ${perf.artistImageUrl ? `style="background-image: url('${perf.artistImageUrl}')"` : ''}>
-          ${!perf.artistImageUrl ? `<i class="fa-solid fa-user" style="color: rgba(255, 255, 255, 0.25); font-size: 1.2rem;"></i>` : ''}
+        <div class="performer-avatar" ${perf.artistImageUrl ? `style="background-image: url('${perf.artistImageUrl}')"` : `style="background-image: ${performerGradient}"`}>
+          ${!perf.artistImageUrl ? `<i class="fa-solid fa-user" style="color: rgba(255, 255, 255, 0.45); font-size: 1.2rem;"></i>` : ''}
         </div>
         <div class="performer-info">
           <h4 class="performer-name">${perf.name}</h4>
