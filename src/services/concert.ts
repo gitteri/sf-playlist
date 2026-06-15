@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { EventResponse } from '../types/event';
+import { Concert } from '../types/concert';
 
 export class ConcertService {
   private apiUrl = 'https://calendar.sfreporter.com/santa-fe-reporter/search.json';
@@ -58,6 +59,51 @@ export class ConcertService {
       throw error;
     }
   }
+
+  /**
+   * Fetch all upcoming music events with full details (Concert objects)
+   * @returns Array of Concert objects
+   */
+  async fetchAllConcerts(): Promise<Concert[]> {
+    try {
+      const firstPageResponse = await axios.get<EventResponse>(`${this.apiUrl}?page=1&ongoing=true`);
+      const totalPages = firstPageResponse.data.pages;
+      
+      let allEvents = [...firstPageResponse.data.events];
+      
+      if (totalPages > 1) {
+        for (let page = 2; page <= totalPages; page++) {
+          try {
+            const res = await axios.get<EventResponse>(`${this.apiUrl}?page=${page}&ongoing=true`);
+            allEvents = [...allEvents, ...res.data.events];
+          } catch (err: any) {
+            console.error(`Error fetching ConcertService page ${page}:`, err.message);
+          }
+        }
+      }
+      
+      const musicEvents = allEvents.filter(event => 
+        event._source.categories.some(category => category.name === "Music")
+      );
+      
+      const concerts: Concert[] = [];
+      for (const event of musicEvents) {
+        const rawName = event._source.name;
+        const cleanedName = this.cleanArtistName(rawName);
+        concerts.push({
+          artist: cleanedName,
+          venue: event._source.venue.name,
+          date: new Date(event._source.starttime),
+          ticketUrl: event._source.ticketurl || undefined,
+          source: 'Santa Fe Reporter'
+        });
+      }
+      return concerts;
+    } catch (error) {
+      console.error('Error fetching all concerts from ConcertService:', error);
+      return [];
+    }
+  }
   
   /**
    * Extract music artists from event response
@@ -91,6 +137,10 @@ export class ConcertService {
       /^Performance by\s*/i,
       /^featuring\s*/i,
       /^Featuring\s*/i,
+      /^TGIF Music Series:\s*/i,
+      /^Summer Sunday ft\s*/i,
+      /^Boxcar Live Presents:\s*/i,
+      /^Mama Mañana Showcase:\s*/i,
     ];
     
     for (const prefix of prefixesToRemove) {

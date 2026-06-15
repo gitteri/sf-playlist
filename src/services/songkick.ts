@@ -1,6 +1,7 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import { SongkickArtist, SongkickConcert } from '../types/songkick';
+import { Concert } from '../types/concert';
 
 export class SongkickService {
   private santaFeUrl = 'https://www.songkick.com/metro-areas/90736-us-santa-fe';
@@ -22,6 +23,73 @@ export class SongkickService {
       return artists;
     } catch (error) {
       console.error('Error fetching from SongKick:', error);
+      return [];
+    }
+  }
+
+  /**
+   * Fetch upcoming concerts from Songkick with full details (Concert objects)
+   * @returns Array of Concert objects
+   */
+  async fetchConcerts(): Promise<Concert[]> {
+    try {
+      console.log('Fetching structured concert data from SongKick...');
+      const response = await axios.get(this.santaFeUrl, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        }
+      });
+      const $ = cheerio.load(response.data);
+      const concerts: Concert[] = [];
+
+      $('li.event-listings-element').each((_, element) => {
+        try {
+          const datetimeStr = $(element).find('time').attr('datetime');
+          const date = datetimeStr ? new Date(datetimeStr) : new Date();
+          const venue = $(element).find('a.venue-link').text().trim() || 'Unknown Venue';
+          
+          const relativeTicketUrl = $(element).find('a.event-link').attr('href') || '';
+          const ticketUrl = relativeTicketUrl ? `https://www.songkick.com${relativeTicketUrl}` : undefined;
+
+          // Extract headliner(s)
+          const headlinerText = $(element).find('p.artists strong').text().trim();
+          const artistsList: string[] = [];
+          if (headlinerText) {
+            headlinerText.split(', ').forEach(a => {
+              if (a.trim()) {
+                const cleaned = this.cleanArtistName(a.trim());
+                if (cleaned) artistsList.push(cleaned);
+              }
+            });
+          }
+
+          // Extract supporting acts
+          $(element).find('p.artists .support').each((_, supportElement) => {
+            const supportText = $(supportElement).text().trim();
+            if (supportText) {
+              const cleaned = this.cleanArtistName(supportText);
+              if (cleaned) artistsList.push(cleaned);
+            }
+          });
+
+          // Add a Concert entry for each artist in this show
+          artistsList.forEach(artist => {
+            concerts.push({
+              artist,
+              venue,
+              date,
+              ticketUrl,
+              source: 'Songkick'
+            });
+          });
+        } catch (error) {
+          console.error('Error extracting concert info from Songkick element:', error);
+        }
+      });
+
+      return concerts;
+    } catch (error) {
+      console.error('Error fetching structured concerts from Songkick:', error);
       return [];
     }
   }
@@ -116,9 +184,9 @@ export class SongkickService {
     // Try to detect and filter out non-artist names
     const nonArtistPatterns = [
       /^\d+$/, // Just numbers
-      /^(Mon|Tue|Wed|Thu|Fri|Sat|Sun)/, // Days of the week
-      /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)/, // Months
-      /^From/, // Date ranges
+      /^(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\b/i, // Days of the week
+      /^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b/i, // Months
+      /^From\b/i, // Date ranges
       /^[0-9]+ Upcoming/i, // Count of events
       /Santa Fe/i, // Location references
       /^Tourbox/i,

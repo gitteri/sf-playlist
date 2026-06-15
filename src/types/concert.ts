@@ -4,6 +4,7 @@ export interface Concert {
   date: Date;
   ticketUrl?: string;
   source: string;
+  trackIds?: string[];
 }
 
 export interface Venue {

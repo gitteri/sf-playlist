@@ -2,6 +2,9 @@ import { ConcertService } from './concert';
 import { SpotifyService } from './spotify';
 import { JamBaseService } from './jambase';
 import { SongkickService } from './songkick';
+import { Concert } from '../types/concert';
+import * as fs from 'fs';
+import * as path from 'path';
 
 export class PlaylistUpdater {
   private concertService: ConcertService;
@@ -28,22 +31,24 @@ export class PlaylistUpdater {
    */
   async updatePlaylist(): Promise<void> {
     try {
-      // Fetch artists from all sources
+      // Fetch structured concerts from all sources
       console.log('Fetching upcoming music events from Santa Fe Reporter...');
-      const sfReporterArtists = await this.concertService.fetchAllMusicArtists();
-      
-      console.log('Fetching upcoming concert events from JamBase...');
-      const jambaseArtists = await this.jambaseService.fetchConcerts();
+      const sfReporterConcerts = await this.concertService.fetchAllConcerts();
       
       console.log('Fetching upcoming concert events from SongKick...');
-      const songkickArtists = await this.songkickService.fetchArtists();
+      const songkickConcerts = await this.songkickService.fetchConcerts();
       
-      // Combine and deduplicate artists from all sources
-      const allArtists = this.deduplicateArtists([
-        ...jambaseArtists, 
-        ...songkickArtists,
-        ...sfReporterArtists
-      ]);
+      // Combine all concerts
+      const allConcerts = [
+        ...sfReporterConcerts,
+        ...songkickConcerts
+      ];
+      
+      // Filter out non-artist events
+      const validConcerts = allConcerts.filter(c => this.isArtist(c.artist));
+      
+      // Extract and deduplicate artist names for Spotify search
+      const allArtists = this.deduplicateArtists(validConcerts.map(c => c.artist));
       
       if (allArtists.length === 0) {
         console.log('No music events found');
@@ -71,6 +76,60 @@ export class PlaylistUpdater {
         }
         
         if (!artistId) {
+          // Try splitting co-headliners/support acts if the combined name wasn't found
+          const separators = [/\s+\/\/\s+/, /\s+\/\s+/, /\s+w\/\s+/i, /\s+with\s+/i, /\s+feat\.?\s+/i, /\s+ft\.?\s+/i, /\s+and\s+/i, /\s+&\s+/];
+          let splitArtists: string[] = [];
+          
+          for (const separator of separators) {
+            if (separator.test(artist)) {
+              // Special rule: if separator is "and" or "&", check if the right side starts with "the" (case-insensitive)
+              // this prevents splitting single bands like "Randolph and the Variants" or "Florence and the Machine"
+              if (separator.source.includes('and') || separator.source.includes('&')) {
+                const parts = artist.split(separator);
+                if (parts.length > 1) {
+                  const rightSide = parts[1].trim().toLowerCase();
+                  if (rightSide.startsWith('the ') || rightSide.startsWith('the\t')) {
+                    console.log(`  - Combined name "${artist}" contains "${separator.source.includes('and') ? 'and' : '&'} The", treating as a single band name and skipping split.`);
+                    continue; // Skip splitting for this separator
+                  }
+                }
+              }
+              
+              splitArtists = artist.split(separator).map(s => s.trim()).filter(s => s.length > 0);
+              break; // Use the first separator that matches
+            }
+          }
+          
+          if (splitArtists.length > 1) {
+            console.log(`  - Combined name not found on Spotify. Splitting into: ${splitArtists.join(', ')}`);
+            for (const subArtist of splitArtists) {
+              const subCleaned = this.cleanArtist(subArtist);
+              let subArtistId = await this.spotifyService.searchArtist(subCleaned);
+              
+              if (subArtistId) {
+                const topTracks = await this.spotifyService.getArtistTopTracks(subArtistId, 3);
+                if (topTracks.length > 0) {
+                  console.log(`    - Found ${topTracks.length} tracks for split artist "${subArtist}"`);
+                  trackIds = [...trackIds, ...topTracks];
+                  addedArtists++;
+                  addedTracks += topTracks.length;
+                  
+                  // Associate track IDs with the parent concert
+                  validConcerts.forEach(c => {
+                    if (c.artist.toLowerCase().trim() === artist.toLowerCase().trim()) {
+                      if (!c.trackIds) c.trackIds = [];
+                      c.trackIds = [...c.trackIds, ...topTracks];
+                    }
+                  });
+                }
+              } else {
+                console.log(`    - Could not find split artist "${subArtist}" on Spotify`);
+                unknownArtists.push(subArtist);
+              }
+            }
+            continue; // Skip the rest of the main loop for the combined name
+          }
+          
           console.log(`  - Could not find artist "${artist}" on Spotify, skipping`);
           unknownArtists.push(artist);
           continue;
@@ -86,7 +145,18 @@ export class PlaylistUpdater {
         trackIds = [...trackIds, ...topTracks];
         addedArtists++;
         addedTracks += topTracks.length;
+
+        // Associate track IDs with the concert
+        validConcerts.forEach(c => {
+          if (c.artist.toLowerCase().trim() === artist.toLowerCase().trim()) {
+            c.trackIds = topTracks;
+          }
+        });
       }
+
+      // Write to JSON for the website (now including all resolved Spotify track IDs)
+      console.log(`Writing ${validConcerts.length} concerts to docs/concerts.json...`);
+      this.writeConcertsToJSON(validConcerts);
 
       // Clear existing playlist
       console.log('Clearing existing playlist...');
@@ -124,13 +194,47 @@ export class PlaylistUpdater {
    * @param artists Array of artist names that may contain duplicates
    * @returns Deduplicated array of artist names
    */
+  /**
+   * Check if a name represents a real music artist, filtering out generic event names
+   */
+  private isArtist(name: string): boolean {
+    const lower = name.toLowerCase().trim();
+    if (!lower) return false;
+
+    // List of blacklisted substrings or exact matches
+    const blacklistPatterns = [
+      /open mic/i,
+      /karaoke/i,
+      /singles mingle/i,
+      /listening party/i,
+      /family-friendly rave/i,
+      /season finale/i,
+      /music series/i,
+      /summer scene/i,
+      /summer sundaze/i,
+      /summer series/i,
+      /pride concert/i,
+      /father's day concert/i,
+      /songwriters? circle/i,
+      /songwriters? showcase/i,
+    ];
+
+    for (const pattern of blacklistPatterns) {
+      if (pattern.test(lower)) {
+        return false;
+      }
+    }
+
+    return true;
+  }
+
   private deduplicateArtists(artists: string[]): string[] {
     const seen = new Set<string>();
     const deduplicated: string[] = [];
     
     for (const artist of artists) {
       const lowerCaseArtist = artist.toLowerCase().trim();
-      if (!seen.has(lowerCaseArtist) && lowerCaseArtist) {
+      if (!seen.has(lowerCaseArtist) && lowerCaseArtist && this.isArtist(artist)) {
         seen.add(lowerCaseArtist);
         deduplicated.push(artist);
       }
@@ -152,6 +256,10 @@ export class PlaylistUpdater {
       'Patio Music Series: ',
       'Santa Fe Summer Scene: ',
       'An Evening with... ',
+      'TGIF Music Series: ',
+      'Summer Sunday ft ',
+      'Boxcar Live Presents: ',
+      'Mama Mañana Showcase: ',
     ];
 
     let cleanedArtist = artist.trim();
@@ -163,5 +271,22 @@ export class PlaylistUpdater {
     }
     
     return cleanedArtist;
+  }
+
+  /**
+   * Write concerts list to a JSON file for the website
+   */
+  private writeConcertsToJSON(concerts: Concert[]): void {
+    try {
+      const docsDir = path.join(process.cwd(), 'docs');
+      if (!fs.existsSync(docsDir)) {
+        fs.mkdirSync(docsDir, { recursive: true });
+      }
+      const outputPath = path.join(docsDir, 'concerts.json');
+      fs.writeFileSync(outputPath, JSON.stringify(concerts, null, 2), 'utf8');
+      console.log(`Successfully wrote concerts JSON to: ${outputPath}`);
+    } catch (error) {
+      console.error('Error writing concerts JSON file:', error);
+    }
   }
 }

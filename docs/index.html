@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santa Fe Concert Board & Playlist</title>
+  <meta name="description" content="Discover upcoming concerts and live music events in Santa Fe, NM and stream the curated Spotify playlist.">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow-bg"></div>
+  <div class="glow-bg-2"></div>
+  
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <i class="fa-solid fa-guitar logo-icon"></i>
+        <h1>Santa Fe <span>Concert Board</span></h1>
+      </div>
+      <p class="subtitle">Your weekly guide to live music in Santa Fe, NM. Hand-curated & automatically updated on Spotify.</p>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <!-- Left Panel: Spotify Playlist -->
+    <section class="spotify-panel" aria-label="Spotify Player">
+      <div class="glass-card spotify-card">
+        <div class="card-header">
+          <i class="fa-brands fa-spotify spotify-icon"></i>
+          <h2>Weekly Playlist</h2>
+        </div>
+        <p class="card-desc">Listen to top tracks from the artists playing in town this week.</p>
+        
+        <!-- Embedded Spotify Player -->
+        <div class="spotify-player-container">
+          <div id="spotify-embed-iframe"></div>
+        </div>
+        
+        <div class="playlist-action">
+          <a href="https://open.spotify.com/playlist/7IhapNTY8GMvqflSaVyQfP" target="_blank" rel="noopener noreferrer" class="btn btn-spotify" id="btn-open-spotify">
+            <i class="fa-brands fa-spotify"></i> Open in Spotify
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Right Panel: Concert Listings -->
+    <section class="concerts-panel" aria-label="Concert Listings">
+      <!-- Control Bar: Search & Filters -->
+      <div class="glass-card controls-card">
+        <div class="controls-grid">
+          <!-- Search -->
+          <div class="control-group search-group">
+            <label for="search-input"><i class="fa-solid fa-magnifying-glass"></i> Search</label>
+            <input type="text" id="search-input" placeholder="Search artists, venues...">
+          </div>
+
+          <!-- Date Filter -->
+          <div class="control-group">
+            <label for="date-filter"><i class="fa-solid fa-calendar-days"></i> When</label>
+            <select id="date-filter">
+              <option value="all">Any Date</option>
+              <option value="today">Tonight</option>
+              <option value="week">Next 7 Days</option>
+              <option value="month">This Month</option>
+            </select>
+          </div>
+
+          <!-- Source Filter -->
+          <div class="control-group">
+            <label for="source-filter"><i class="fa-solid fa-circle-info"></i> Source</label>
+            <select id="source-filter">
+              <option value="all">All Sources</option>
+              <option value="Santa Fe Reporter">Santa Fe Reporter</option>
+              <option value="Songkick">Songkick</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="results-meta">
+          <span id="results-count">Showing 0 concerts</span>
+          <button id="clear-filters-btn" class="btn-text" style="display: none;">Clear Filters</button>
+        </div>
+      </div>
+
+      <!-- Now Playing Banner -->
+      <div id="now-playing-banner" class="glass-card now-playing-card" style="display: none; margin-bottom: 24px;">
+        <div class="now-playing-content">
+          <div class="now-playing-glow-pulse"></div>
+          <div class="now-playing-disc-container">
+            <i class="fa-solid fa-compact-disc fa-spin now-playing-icon"></i>
+          </div>
+          <div class="now-playing-text-info">
+            <span class="now-playing-label"><span class="pulse-dot"></span> NOW PLAYING ON SPOTIFY</span>
+            <h4 id="now-playing-artist">Artist Name</h4>
+            <p id="now-playing-details">Playing at Venue on Date</p>
+          </div>
+          <a id="now-playing-btn-tickets" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" style="display: none;">
+            <i class="fa-solid fa-ticket"></i> Get Tickets
+          </a>
+        </div>
+      </div>
+
+      <!-- Concert Cards Grid -->
+      <div class="concert-grid" id="concert-grid">
+        <!-- Loader -->
+        <div class="loader-container" id="loader">
+          <div class="spinner"></div>
+          <p>Loading upcoming concerts...</p>
+        </div>
+        <!-- Cards will be dynamically inserted here -->
+      </div>
+      
+      <!-- Empty State -->
+      <div class="empty-state" id="empty-state" style="display: none;">
+        <i class="fa-solid fa-calendar-xmark empty-icon"></i>
+        <h3>No Concerts Found</h3>
+        <p>Try adjusting your search terms or filters to find upcoming events.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2026 Santa Fe Concert Board. Powered by Santa Fe Reporter, Songkick, and Spotify.</p>
+      <p class="footer-note">Updated weekly. Make sure to check venue websites for showtimes and ticket availability.</p>
+    </div>
+  </footer>
+
+  <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+  <script src="app.js"></script>
+</body>
+</html>
