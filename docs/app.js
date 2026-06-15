@@ -14,6 +14,25 @@ const activeFilters = {
   genres: [] // Array of selected genre strings for multi-toggle
 };
 
+// Major Genre Classification Maps
+const GENRE_MAP = {
+  'Rock / Alternative': [
+    'rock', 'indie', 'alternative', 'punk', 'metal', 'grunge', 'post-punk', 'shoegaze', 'surf', 'garage', 'psych', 'hardcore'
+  ],
+  'Folk / Country / Bluegrass': [
+    'folk', 'country', 'bluegrass', 'americana', 'red dirt', 'alt-country', 'alt country', 'singer-songwriter', 'acoustic', 'traditional', 'western', 'roots', 'cowboy'
+  ],
+  'Jazz / Blues / Funk': [
+    'jazz', 'blues', 'funk', 'soul', 'r&b', 'gospel', 'swing', 'fusion', 'motown', 'brass', 'big band'
+  ],
+  'Pop / Electronic / Hip Hop': [
+    'pop', 'electronic', 'dance', 'edm', 'techno', 'house', 'hip hop', 'rap', 'trap', 'reggaeton', 'latin pop', 'disco', 'synth', 'dj', 'mix'
+  ],
+  'Classical / World / Latin': [
+    'classical', 'orchestra', 'symphony', 'string', 'latin', 'cumbia', 'mariachi', 'reggae', 'ska', 'world', 'flamenco', 'baroque', 'folklorico', 'choral', 'opera'
+  ]
+};
+
 // DOM Elements (assigned on init)
 let searchInput;
 let venueFilter;
@@ -50,6 +69,45 @@ let modalDirectionsBtn;
 
 // Month Names Helper
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+// Map raw Spotify sub-genres & keywords to major categories
+function getMajorGenres(show) {
+  const majorGenres = new Set();
+  
+  if (show.genres && show.genres.length > 0) {
+    show.genres.forEach(g => {
+      const lower = g.toLowerCase();
+      
+      for (const [major, keywords] of Object.entries(GENRE_MAP)) {
+        const matches = keywords.some(keyword => lower.includes(keyword));
+        if (matches) {
+          majorGenres.add(major);
+        }
+      }
+    });
+  }
+  
+  // Fallbacks if no major genres matched or if there are no genres
+  if (majorGenres.size === 0) {
+    const textToScan = `${show.artist} ${show.venue}`.toLowerCase();
+    
+    if (textToScan.includes('string') || textToScan.includes('quartet') || textToScan.includes('classical') || textToScan.includes('baroque') || textToScan.includes('mariachi') || textToScan.includes('cumbia') || textToScan.includes('quintet') || textToScan.includes('orchestra') || textToScan.includes('flamenco') || textToScan.includes('symphony')) {
+      majorGenres.add('Classical / World / Latin');
+    } else if (textToScan.includes('blues') || textToScan.includes('jazz') || textToScan.includes('funk') || textToScan.includes('soul') || textToScan.includes('brass') || textToScan.includes('trio')) {
+      majorGenres.add('Jazz / Blues / Funk');
+    } else if (textToScan.includes('bluegrass') || textToScan.includes('country') || textToScan.includes('folk') || textToScan.includes('acoustic') || textToScan.includes('traditional') || textToScan.includes('western') || textToScan.includes('roots') || textToScan.includes('americana')) {
+      majorGenres.add('Folk / Country / Bluegrass');
+    } else if (textToScan.includes('rock') || textToScan.includes('metal') || textToScan.includes('punk') || textToScan.includes('indie')) {
+      majorGenres.add('Rock / Alternative');
+    } else if (textToScan.includes('dj') || textToScan.includes('electronic') || textToScan.includes('rap') || textToScan.includes('hip-hop') || textToScan.includes('hip hop') || textToScan.includes('dance') || textToScan.includes('disco') || textToScan.includes('rave')) {
+      majorGenres.add('Pop / Electronic / Hip Hop');
+    } else {
+      majorGenres.add('Local / Other');
+    }
+  }
+  
+  return Array.from(majorGenres);
+}
 
 // Initialize DOM elements and check ready state
 function init() {
@@ -279,43 +337,46 @@ function populateVenueFilter() {
   });
 }
 
-// Extract and Populate Genre Filter Pills
+// Extract and Populate Genre Filter Pills (using Mapped Major Categories)
 function populateGenrePills() {
   if (!genrePillsContainer) return;
-  const genreCounts = {};
   
-  // Count genres
-  groupedConcerts.forEach(g => {
-    if (g.genres) {
-      g.genres.forEach(genre => {
-        const lower = genre.toLowerCase().trim();
-        // Ignore generic genres to keep the filter relevant
-        if (['rock', 'pop', 'indie', 'folk', 'singer-songwriter', 'alternative', 'country', 'bluegrass', 'jazz', 'blues', 'punk', 'electronic', 'americana', 'hip hop', 'soul', 'metal'].includes(lower) || lower.length > 2) {
-          genreCounts[genre] = (genreCounts[genre] || 0) + 1;
-        }
-      });
-    }
-  });
-  
-  // Sort genres by frequency
-  const sortedGenres = Object.keys(genreCounts).sort((a, b) => genreCounts[b] - genreCounts[a]);
-  
-  // Select top 16 genres
-  const topGenres = sortedGenres.slice(0, 16);
+  // Mapped categories with their icons
+  const categories = [
+    { name: 'Rock / Alternative', icon: 'fa-guitar' },
+    { name: 'Folk / Country / Bluegrass', icon: 'fa-mountain' },
+    { name: 'Jazz / Blues / Funk', icon: 'fa-music' },
+    { name: 'Pop / Electronic / Hip Hop', icon: 'fa-headphones' },
+    { name: 'Classical / World / Latin', icon: 'fa-globe' },
+    { name: 'Local / Other', icon: 'fa-compact-disc' }
+  ];
   
   genrePillsContainer.innerHTML = '';
   
-  topGenres.forEach(genre => {
-    const button = document.createElement('button');
-    button.className = 'pill';
-    button.setAttribute('data-genre', genre);
-    button.textContent = `${genre.charAt(0).toUpperCase() + genre.slice(1)} (${genreCounts[genre]})`;
+  categories.forEach(cat => {
+    // Count shows in this category
+    const count = groupedConcerts.filter(show => {
+      const majors = getMajorGenres(show);
+      return majors.includes(cat.name);
+    }).length;
     
-    button.addEventListener('click', () => {
-      toggleGenreFilter(genre, button);
-    });
-    
-    genrePillsContainer.appendChild(button);
+    if (count > 0) {
+      const button = document.createElement('button');
+      button.className = 'pill';
+      button.setAttribute('data-genre', cat.name);
+      button.innerHTML = `<i class="fa-solid ${cat.icon}" style="margin-right: 6px; font-size: 0.8rem;"></i>${cat.name.split(' / ')[0]} (${count})`;
+      
+      // Highlight if active
+      if (activeFilters.genres.includes(cat.name)) {
+        button.classList.add('active');
+      }
+      
+      button.addEventListener('click', () => {
+        toggleGenreFilter(cat.name, button);
+      });
+      
+      genrePillsContainer.appendChild(button);
+    }
   });
 }
 
@@ -388,12 +449,13 @@ function renderConcerts() {
       supportText = `<p class="co-headliners-subtext" title="w/ ${coActs.join(', ')}">w/ ${coActs.join(', ')}</p>`;
     }
     
-    // Generate genre tag HTML (first 2 genres)
+    // Generate genre tag HTML using the clean major genre categories
     let genreTagsHtml = '';
-    if (show.genres && show.genres.length > 0) {
+    const showMajorGenres = getMajorGenres(show);
+    if (showMajorGenres && showMajorGenres.length > 0) {
       genreTagsHtml = `
         <div class="card-genre-tags">
-          ${show.genres.slice(0, 2).map(g => `<span class="card-genre-tag">${g}</span>`).join('')}
+          ${showMajorGenres.slice(0, 2).map(g => `<span class="card-genre-tag">${g.split(' / ')[0]}</span>`).join('')}
         </div>
       `;
     }
@@ -498,10 +560,11 @@ function applyFilters() {
         showDate >= today;
     }
     
-    // 4. Genre Pills Filter
+    // 4. Genre Pills Filter (Matches mapped major categories)
     let matchesGenres = true;
     if (genresVal.length > 0) {
-      matchesGenres = show.genres ? show.genres.some(g => genresVal.includes(g)) : false;
+      const showMajorGenres = getMajorGenres(show);
+      matchesGenres = showMajorGenres.some(g => genresVal.includes(g));
     }
     
     return matchesSearch && matchesVenue && matchesDate && matchesGenres;
@@ -621,7 +684,7 @@ function openShowDetailsModal(show) {
       const card = document.createElement('div');
       card.className = 'performer-card';
       
-      // Genres HTML
+      // Genres HTML (Displays raw Spotify genres for detail, very informative)
       let genresHtml = '';
       if (perf.genres && perf.genres.length > 0) {
         genresHtml = `
@@ -850,7 +913,7 @@ function setupEventListeners() {
   
   // Keyboard ESC to close modal
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
+    if (e.key['Escape']) {
       closeModal();
     }
   });
