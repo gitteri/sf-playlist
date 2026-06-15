@@ -1,27 +1,5 @@
 [
   {
-    "artist": "Zach Aaron",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-06-14T23:00:00.000Z",
-    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events/#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-6b97f410-657f-4c66-8748-2d3428f21794",
-    "sourceEventId": 4843484,
-    "sourceEventSlug": "zach-aaron-jun-14-2026",
-    "description": "An Americana singer-songwriter. ",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "5TsolHsXhl5hx91t4OTjgg",
-      "1LSRYJ9vAjqLzHr2xkVV8M",
-      "6bfuEjT69kbM3VE9MgJ6gg"
-    ],
-    "spotifyId": "41Tb9oRP77iJ5r9I2XbyFh",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebfee684cb2a825e3eab607908",
-    "genres": [
-      "texas country",
-      "red dirt",
-      "alt country"
-    ]
-  },
-  {
     "artist": "Smoking Toad",
     "venue": "Social Kitchen & Bar",
     "date": "2026-06-15T00:00:00.000Z",
@@ -45,58 +23,6 @@
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
-  },
-  {
-    "artist": "eclectic electric music by outer monkeys",
-    "venue": "Nuckolls Brewery",
-    "date": "2026-06-15T00:00:00.000Z",
-    "sourceEventId": 4845384,
-    "description": "<p>Announcing <strong><em>outer monkeys</em></strong><em>, </em>an eclectic collab between singer Hannah Loomis and guitarist Ross Hamlin! Join us for our first show, Sunday June 14, 6-8pm @ Nuckolls Brewing in the Railyard. Free admission. Covering Lenny Kravitz, Prince, Pretenders, Amy Winehouse + more, plus originals with pop, jazz, R&amp;B, + rock influences</p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "42O3gSOikiyvWC9zuCFETr",
-      "2iNnc7Mri9zwcKNaokk5zo",
-      "2T6GZ5swwPreQyL3OZQ63X"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273c2972eb6a045e09402fd64d5",
-    "subArtists": [
-      {
-        "name": "pop"
-      },
-      {
-        "name": "jazz",
-        "spotifyId": "5J2yd9qX9G0bdHZzg5LN3m",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273c2972eb6a045e09402fd64d5",
-        "trackIds": [
-          "42O3gSOikiyvWC9zuCFETr",
-          "2iNnc7Mri9zwcKNaokk5zo",
-          "2T6GZ5swwPreQyL3OZQ63X"
-        ]
-      },
-      {
-        "name": "amp;B"
-      },
-      {
-        "name": "rock influences"
-      }
-    ]
-  },
-  {
-    "artist": "Sara Douga",
-    "venue": "La Reina",
-    "date": "2026-06-15T02:00:00.000Z",
-    "listingUrl": "https://elreycourt.com/event/sara-douga?gclid=CjwKCAjwidXQBhAZEiwA4egw6OwYEcVkc_VjnxZA3Jpw23PfhxvO9cTvNG-LWS-_2zS9TukLZTUPlRoCYSsQAvD_BwE&gad_source=1",
-    "sourceEventId": 4837743,
-    "sourceEventSlug": "sara-douga-jun-14-2026-8-00pm",
-    "description": "Songwriter Sara Douga will be performing her country tunes at La Reina for an intimate night of Americana and margaritas.",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "4xJDKlFEiO8GSgeKoZwdGW",
-      "353NJIigFmLfti14KbEoz1",
-      "4Ecy61WXJjPATqFxWPnZBa"
-    ],
-    "spotifyId": "14WmvI716VLBUPwNqiLZzA",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe694dec8a5237cd3d8b3914a"
   },
   {
     "artist": "Don Curry",
@@ -169,9 +95,10 @@
     "description": "A singer-songwriter with an award or two under his belt. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
-      "5TLBt3CzZOVPiWEU2fUnZe"
+      "5lQD8H7poACiGta7pDGUx1"
     ],
-    "spotifyId": "4iydAEyDXQXcLbKb411r3V"
+    "spotifyId": "5v2OClfpWhgwg5JTnmxtU1",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc317abdb5548c096f7af31bb"
   },
   {
     "artist": "Johnny Lloyd & Co.",
@@ -770,7 +697,10 @@
     "trackIds": [
       "6FAnxR1DS28Igf3MOhPsXV",
       "4g8h8YDgIkPiVLJUfZf6xK",
-      "6MaOTWofqLDcgTwyZijWWB"
+      "6MaOTWofqLDcgTwyZijWWB",
+      "4ioYiHLjvY56KtWToYZ4ad",
+      "4UCPGgekfUyLmJOukhcoH5",
+      "0qH8O6LA8LPpj3er1dwYKK"
     ],
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2733792b16218895ff9e69e1166",
     "genres": [
@@ -803,7 +733,12 @@
       {
         "name": "harpsichord",
         "spotifyId": "34DnI8qQXptP7t0Ptnmmce",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273f0333b408a0886cc1cef8165"
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273f0333b408a0886cc1cef8165",
+        "trackIds": [
+          "4ioYiHLjvY56KtWToYZ4ad",
+          "4UCPGgekfUyLmJOukhcoH5",
+          "0qH8O6LA8LPpj3er1dwYKK"
+        ]
       }
     ]
   },
@@ -2843,14 +2778,30 @@
     "description": "Local record label Mama Mañana presents two of the finest acts from its roster, including the psych-surf sounds of Sinister Surfer and the poppy indie excellence of Strange Magic, both from ABQ.",
     "source": "Santa Fe Reporter",
     "trackIds": [
+      "5iUa13sA7ERnOGSl5IRM2Q",
+      "19eh4VjhCKgbeZ9yRXygtz",
+      "0TDMW2afzkYOlthLOkr6vt",
       "3wBSwnLJQfmLGiYQ2jF3FS",
       "0rtbXJV7J0aHT9HWQISY26",
       "1VPa2UPP9K3XADyyM6jqux"
     ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb55e86c6f07c20693c1a98f23",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba2a65cdcfb9f406ae6e274dd",
+    "genres": [
+      "surf rock"
+    ],
     "subArtists": [
       {
-        "name": "Sinister Surfer"
+        "name": "Sinister Surfer",
+        "spotifyId": "6R8y9IL7ld882MjAHhbbJC",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba2a65cdcfb9f406ae6e274dd",
+        "genres": [
+          "surf rock"
+        ],
+        "trackIds": [
+          "5iUa13sA7ERnOGSl5IRM2Q",
+          "19eh4VjhCKgbeZ9yRXygtz",
+          "0TDMW2afzkYOlthLOkr6vt"
+        ]
       },
       {
         "name": "Strange Magic",
