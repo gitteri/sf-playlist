@@ -183,7 +183,7 @@ async function fetchConcerts() {
     
     // After rendering, if we already received a track event before the JSON loaded, trigger it now
     if (currentTrackId) {
-      highlightActiveConcertByTrack(currentTrackId);
+      highlightActiveConcertByTrack(currentTrackId, true);
     }
   } catch (error) {
     console.error('Error fetching concert data:', error);
@@ -767,12 +767,16 @@ window.onSpotifyIframeApiReady = (IFrameAPI) => {
           if (data.isPaused) {
             clearHighlightState();
           } else {
-            highlightActiveConcertByTrack(trackId);
+            // New track starting: scroll to and highlight card
+            highlightActiveConcertByTrack(trackId, true);
           }
-        } else if (data.isPaused) {
-          clearHighlightState();
         } else {
-          highlightActiveConcertByTrack(trackId);
+          if (data.isPaused) {
+            clearHighlightState();
+          } else {
+            // Same track: keep highlight active without stealing user scroll focus
+            highlightActiveConcertByTrack(trackId, false);
+          }
         }
       } else {
         clearHighlightState();
@@ -784,7 +788,7 @@ window.onSpotifyIframeApiReady = (IFrameAPI) => {
 };
 
 // Find and highlight active concert card on the page based on playing track ID
-function highlightActiveConcertByTrack(trackId) {
+function highlightActiveConcertByTrack(trackId, shouldScroll = false) {
   // Clear any existing highlighted card classes
   document.querySelectorAll('.concert-card.currently-playing').forEach(el => {
     el.classList.remove('currently-playing');
@@ -799,7 +803,6 @@ function highlightActiveConcertByTrack(trackId) {
   const matchedShow = groupedConcerts.find(g => g.trackIds && g.trackIds.includes(trackId));
   
   if (matchedShow) {
-    console.log(`Track match found! Active event: "${matchedShow.artist}"`);
     activeShowGroup = matchedShow;
     
     // 1. Update bottom playbar details
@@ -842,12 +845,14 @@ function highlightActiveConcertByTrack(trackId) {
     if (cardElement) {
       cardElement.classList.add('currently-playing');
       
-      // Scroll to it smoothly if not currently in view
-      cardElement.scrollIntoView({
-        behavior: 'smooth',
-        block: 'center',
-        inline: 'nearest'
-      });
+      // Scroll to it smoothly only when explicitly requested
+      if (shouldScroll) {
+        cardElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center',
+          inline: 'nearest'
+        });
+      }
     }
   } else {
     // Active track does not belong to any upcoming show
