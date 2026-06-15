@@ -25,11 +25,20 @@ const GENRE_MAP = {
   'Jazz / Blues / Funk': [
     'jazz', 'blues', 'funk', 'soul', 'r&b', 'gospel', 'swing', 'fusion', 'motown', 'brass', 'big band'
   ],
-  'Pop / Electronic / Hip Hop': [
-    'pop', 'electronic', 'dance', 'edm', 'techno', 'house', 'hip hop', 'rap', 'trap', 'reggaeton', 'latin pop', 'disco', 'synth', 'dj', 'mix'
+  'Electronic / EDM / DJ': [
+    'edm', 'electronic', 'techno', 'house', 'dance', 'dj', 'remix', 'vinyl', 'beats', 'synth', 'disco', 'trance', 'dubstep', 'rave', 'mix'
   ],
-  'Classical / World / Latin': [
-    'classical', 'orchestra', 'symphony', 'string', 'latin', 'cumbia', 'mariachi', 'reggae', 'ska', 'world', 'flamenco', 'baroque', 'folklorico', 'choral', 'opera'
+  'Hip Hop / Rap': [
+    'hip hop', 'hip-hop', 'rap', 'trap', 'drill', 'boom bap'
+  ],
+  'Pop': [
+    'pop', 'synthpop', 'reggaeton', 'pop rap'
+  ],
+  'Reggae / Latin / World': [
+    'reggae', 'ska', 'cumbia', 'latin', 'mariachi', 'salsa', 'world', 'afrobeat', 'flamenco', 'folklorico', 'bossa nova'
+  ],
+  'Classical': [
+    'classical', 'orchestra', 'symphony', 'string', 'chamber', 'opera', 'baroque', 'choral', 'quartet', 'quintet'
   ]
 };
 
@@ -115,18 +124,24 @@ function getMajorGenres(show) {
   
   // Fallbacks if no major genres matched or if there are no genres
   if (majorGenres.size === 0) {
-    const textToScan = `${show.artist} ${show.venue}`.toLowerCase();
+    const textToScan = `${show.artist} ${show.venue} ${show.description || ''}`.toLowerCase();
     
-    if (textToScan.includes('string') || textToScan.includes('quartet') || textToScan.includes('classical') || textToScan.includes('baroque') || textToScan.includes('mariachi') || textToScan.includes('cumbia') || textToScan.includes('quintet') || textToScan.includes('orchestra') || textToScan.includes('flamenco') || textToScan.includes('symphony')) {
-      majorGenres.add('Classical / World / Latin');
+    if (textToScan.includes('string') || textToScan.includes('quartet') || textToScan.includes('classical') || textToScan.includes('baroque') || textToScan.includes('quintet') || textToScan.includes('orchestra') || textToScan.includes('symphony') || textToScan.includes('chamber') || textToScan.includes('opera')) {
+      majorGenres.add('Classical');
+    } else if (textToScan.includes('reggae') || textToScan.includes('ska') || textToScan.includes('cumbia') || textToScan.includes('latin') || textToScan.includes('mariachi') || textToScan.includes('salsa') || textToScan.includes('flamenco') || textToScan.includes('world') || textToScan.includes('afrobeat')) {
+      majorGenres.add('Reggae / Latin / World');
     } else if (textToScan.includes('blues') || textToScan.includes('jazz') || textToScan.includes('funk') || textToScan.includes('soul') || textToScan.includes('brass') || textToScan.includes('trio')) {
       majorGenres.add('Jazz / Blues / Funk');
-    } else if (textToScan.includes('bluegrass') || textToScan.includes('country') || textToScan.includes('folk') || textToScan.includes('acoustic') || textToScan.includes('traditional') || textToScan.includes('western') || textToScan.includes('roots') || textToScan.includes('americana')) {
+    } else if (textToScan.includes('bluegrass') || textToScan.includes('country') || textToScan.includes('folk') || textToScan.includes('acoustic') || textToScan.includes('traditional') || textToScan.includes('western') || textToScan.includes('roots') || textToScan.includes('americana') || textToScan.includes('grass')) {
       majorGenres.add('Folk / Country / Bluegrass');
     } else if (textToScan.includes('rock') || textToScan.includes('metal') || textToScan.includes('punk') || textToScan.includes('indie')) {
       majorGenres.add('Rock / Alternative');
-    } else if (textToScan.includes('dj') || textToScan.includes('electronic') || textToScan.includes('rap') || textToScan.includes('hip-hop') || textToScan.includes('hip hop') || textToScan.includes('dance') || textToScan.includes('disco') || textToScan.includes('rave')) {
-      majorGenres.add('Pop / Electronic / Hip Hop');
+    } else if (textToScan.includes('dj') || textToScan.includes('electronic') || textToScan.includes('edm') || textToScan.includes('dance') || textToScan.includes('disco') || textToScan.includes('rave') || textToScan.includes('remix') || textToScan.includes('vinyl') || textToScan.includes('beats')) {
+      majorGenres.add('Electronic / EDM / DJ');
+    } else if (textToScan.includes('rap') || textToScan.includes('hip-hop') || textToScan.includes('hip hop') || textToScan.includes('trap')) {
+      majorGenres.add('Hip Hop / Rap');
+    } else if (textToScan.includes('pop')) {
+      majorGenres.add('Pop');
     } else {
       majorGenres.add('Other');
     }
@@ -422,8 +437,11 @@ function populateGenrePills() {
     { name: 'Rock / Alternative', icon: 'fa-guitar' },
     { name: 'Folk / Country / Bluegrass', icon: 'fa-mountain' },
     { name: 'Jazz / Blues / Funk', icon: 'fa-music' },
-    { name: 'Pop / Electronic / Hip Hop', icon: 'fa-headphones' },
-    { name: 'Classical / World / Latin', icon: 'fa-globe' },
+    { name: 'Electronic / EDM / DJ', icon: 'fa-headphones' },
+    { name: 'Hip Hop / Rap', icon: 'fa-microphone' },
+    { name: 'Pop', icon: 'fa-star' },
+    { name: 'Reggae / Latin / World', icon: 'fa-globe' },
+    { name: 'Classical', icon: 'fa-landmark' },
     { name: 'Other', icon: 'fa-compact-disc' }
   ];
   
