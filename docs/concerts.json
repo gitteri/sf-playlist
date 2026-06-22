@@ -1,1030 +1,5 @@
 [
   {
-    "artist": "Smoking Toad",
-    "venue": "Social Kitchen & Bar",
-    "date": "2026-06-15T00:00:00.000Z",
-    "listingUrl": "https://www.socialkitchensf.com/",
-    "sourceEventId": 4838468,
-    "description": "<p>Catch the unique sounds of Smoking Toad, a Santa Fe-based Americana and country band led by Liam Downey, as they bring an electrifying blend of rock, blues, and R&amp;B to select nights. </p>",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "Doug Montgomery",
-    "venue": "Rio Chama Steakhouse",
-    "date": "2026-06-15T00:00:00.000Z",
-    "sourceEventId": 4835577,
-    "sourceEventSlug": "doug-montgomery-jun-14-2026",
-    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "1MdZe7hHi3yKBkrtuFTVcl",
-      "5al9F47JyTCZnBy5kz4gHM",
-      "64rhgVMNnl4n5TVjGeHDJw"
-    ],
-    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
-  },
-  {
-    "artist": "Don Curry",
-    "venue": "Cowgirl",
-    "date": "2026-06-15T22:00:00.000Z",
-    "listingUrl": "https://cowgirlsantafe.com/music/",
-    "sourceEventId": 4843492,
-    "sourceEventSlug": "don-curry-jun-15-2026",
-    "description": "An afternoon of spicy, deep-flavored rock.",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "Santa Fe Grass",
-    "venue": "Santa Fe Brewing Company",
-    "date": "2026-06-15T22:20:00.000Z",
-    "listingUrl": " https://santafebrewing.com/taproom/beer-hall/",
-    "sourceEventId": 4809575,
-    "sourceEventSlug": "santa-fe-grass-jun-15-2026",
-    "description": "<p>Live traditional and contemporary bluegrass music. </p>",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "Eastwood & Holly",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-06-15T23:00:00.000Z",
-    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events/#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-ffb917e0-a352-4439-8b4a-03c81cc3105f",
-    "sourceEventId": 4843486,
-    "sourceEventSlug": "eastwood-holly-jun-15-2026",
-    "description": "<p>A three-piece indie-folk band from Fort Collins, Colorado.</p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "44uU2aojdKE5ZcqYdLSex5",
-      "1mTylOf9mbZJblTkvzwJAr",
-      "0LHUlWBPRTZJyARNQokkd9"
-    ],
-    "spotifyId": "3iyNkncezKr61GX7GVMHvN",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1272bdbd3509fcf9c1f49b24"
-  },
-  {
-    "artist": "Doug Montgomery",
-    "venue": "Rio Chama Steakhouse",
-    "date": "2026-06-16T00:00:00.000Z",
-    "sourceEventId": 4835578,
-    "sourceEventSlug": "doug-montgomery-jun-15-2026",
-    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "1MdZe7hHi3yKBkrtuFTVcl",
-      "5al9F47JyTCZnBy5kz4gHM",
-      "64rhgVMNnl4n5TVjGeHDJw"
-    ],
-    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
-  },
-  {
-    "artist": "Darin Savage",
-    "venue": "TerraCotta Wine Bistro",
-    "date": "2026-06-16T00:30:00.000Z",
-    "sourceEventId": 4832352,
-    "sourceEventSlug": "darin-savage-jun-15-2026",
-    "description": "Darin Savage plays Spanish guitar every Monday evening. ",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "Jeff Mann",
-    "venue": "Cowgirl",
-    "date": "2026-06-16T22:00:00.000Z",
-    "sourceEventId": 4843497,
-    "sourceEventSlug": "jeff-mann-jun-16-2026",
-    "description": "A singer-songwriter with an award or two under his belt. ",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "5TLBt3CzZOVPiWEU2fUnZe"
-    ],
-    "spotifyId": "4iydAEyDXQXcLbKb411r3V"
-  },
-  {
-    "artist": "Johnny Lloyd & Co.",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-06-16T23:00:00.000Z",
-    "listingUrl": "https://www.facebook.com/share/1CrctnCgAn/",
-    "sourceEventId": 4795695,
-    "description": "<p>Enjoy Americana tunes with Johnny Lloyd &amp; Co. on the patio at Tumbleroot Brewery.</p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0izT445qsXGB2LsdUJgdCn",
-      "6OSL1RHhkkTIjghTc0xXFk",
-      "7vjrklFWm0WCZXf3rr8qRw"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0cf39bb6ce504ab8e8c2c81c",
-    "subArtists": [
-      {
-        "name": "Johnny Lloyd",
-        "spotifyId": "2e3MqeCoPC7BSElTEf0y89",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0cf39bb6ce504ab8e8c2c81c",
-        "trackIds": [
-          "0izT445qsXGB2LsdUJgdCn",
-          "6OSL1RHhkkTIjghTc0xXFk",
-          "7vjrklFWm0WCZXf3rr8qRw"
-        ]
-      },
-      {
-        "name": "Co."
-      }
-    ]
-  },
-  {
-    "artist": "Gus Miller / Rachel Cole",
-    "venue": "La Reina",
-    "date": "2026-06-17T02:00:00.000Z",
-    "listingUrl": "https://elreycourt.com/event/gus-miller-rachel-cole?gclid=CjwKCAjwidXQBhAZEiwA4egw6OwYEcVkc_VjnxZA3Jpw23PfhxvO9cTvNG-LWS-_2zS9TukLZTUPlRoCYSsQAvD_BwE&gad_source=1",
-    "sourceEventId": 4837751,
-    "sourceEventSlug": "gus-miller-rachel-cole-jun-16-2026",
-    "description": "Austin-based Bluegrass / alt country act Gus Miller and Americana/roots artist Rachel Cole will be playing La Reina. Looks like another fantastic time at everyones favorite Cowboy dress-up saloon.",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "4ABshobXQSd761AQ4t5u6s",
-      "4g6flgWxvxgTUgod6NX09q",
-      "05YpYVT7jXIZuet0LVXCi2"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2732b6a10869f536ce2bb65767e",
-    "subArtists": [
-      {
-        "name": "Gus Miller"
-      },
-      {
-        "name": "Rachel Cole",
-        "spotifyId": "3I7276JRy2r0RnruMqX6SS",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2732b6a10869f536ce2bb65767e",
-        "trackIds": [
-          "4ABshobXQSd761AQ4t5u6s",
-          "4g6flgWxvxgTUgod6NX09q",
-          "05YpYVT7jXIZuet0LVXCi2"
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "Grant Knoxlyn",
-    "venue": "Cowgirl",
-    "date": "2026-06-17T22:00:00.000Z",
-    "sourceEventId": 4850038,
-    "sourceEventSlug": "grant-knoxlyn-jun-17-2026",
-    "description": "Nashville-infused folk/Americana. ",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "22ihuNNUR2SLA84KtYOhso",
-      "7MWjDwkSYPJMoMFtvwlBv9",
-      "37fngt1KA7SeMUBrqMJkos"
-    ],
-    "spotifyId": "2CGJgkLXDucGKT7YrfRfY3",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8b7a0e8e33b99ab935c2b8fc"
-  },
-  {
-    "artist": "Thurman Love",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-06-17T23:00:00.000Z",
-    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-584a6240-0531-447f-83a8-b9cb87e552e2",
-    "sourceEventId": 4849976,
-    "sourceEventSlug": "thurman-love-jun-17-2026",
-    "description": "<p>Thurman Love has a new EP <em>FolkHub</em>, and he's pretty psyched to share the tunes on the Tumbleroot patio. </p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "3m61dkDuCQyqwOJdZFmLe6",
-      "6BBpF5KouJ3XlRIbd8HlkQ",
-      "3kWfd94q7zffIcdIHrrlbC"
-    ],
-    "spotifyId": "7lyzioP0SvPdtJPgpqBjdw",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0893cdd5fc5e5c68a559a611"
-  },
-  {
-    "artist": "Second Chances Band",
-    "venue": "Social Kitchen & Bar",
-    "date": "2026-06-18T00:00:00.000Z",
-    "listingUrl": "https://www.socialkitchensf.com/Events/",
-    "sourceEventId": 4838258,
-    "description": "<p>An unforgettable evening of live country music, good vibes, and great company.</p>",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
-    "venue": "Remix Audio Bar",
-    "date": "2026-06-18T00:00:00.000Z",
-    "listingUrl": "https://www.rmxaudiobar.com/",
-    "sourceEventId": 4851974,
-    "sourceEventSlug": "remix-wednesdays-feat-dj-stranger-vinyl-set-jun-17-2026",
-    "description": "<p>Enjoy \"Night Snacks with a Soundtrack\" at Remix Audio Bar with  DJ Stranger curating an all vinyl hip hop set.  Try our in house made ice cream for dessert. </p>",
-    "source": "Santa Fe Reporter",
-    "subArtists": [
-      {
-        "name": "Remix Wednesdays"
-      },
-      {
-        "name": "DJ Stranger Vinyl Set"
-      }
-    ]
-  },
-  {
-    "artist": "Swing & Sway the Night Away",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-06-18T01:00:00.000Z",
-    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-12260062-a937-4a39-8580-1ae8c888f3b7",
-    "sourceEventId": 4849981,
-    "sourceEventSlug": "swing-sway-the-night-away-jun-17-2026",
-    "description": "Swing those mid-week blues away with the help of the Santa Fe Great Big Jazz Band. ",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "5Ea38RCmV570c6Sj4EUqIq",
-      "0s4GCRjHuBh86j5AMnBn9c",
-      "6VKViODSQDgDmgpuTsChdZ"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb70a9c7b5ec217f00e40431ad",
-    "genres": [
-      "french rap",
-      "french r&b"
-    ],
-    "subArtists": [
-      {
-        "name": "Swing",
-        "spotifyId": "0OQMxt6l70FM2YlLwYDiEn",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb70a9c7b5ec217f00e40431ad",
-        "genres": [
-          "french rap",
-          "french r&b"
-        ],
-        "trackIds": [
-          "5Ea38RCmV570c6Sj4EUqIq",
-          "0s4GCRjHuBh86j5AMnBn9c",
-          "6VKViODSQDgDmgpuTsChdZ"
-        ]
-      },
-      {
-        "name": "Sway the Night Away"
-      }
-    ]
-  },
-  {
-    "artist": "The Lowtimers / Tommy Luke",
-    "venue": "La Reina",
-    "date": "2026-06-18T02:00:00.000Z",
-    "listingUrl": "https://elreycourt.com/event/the-lowtimers-tommy-luke?gclid=CjwKCAjwidXQBhAZEiwA4egw6OwYEcVkc_VjnxZA3Jpw23PfhxvO9cTvNG-LWS-_2zS9TukLZTUPlRoCYSsQAvD_BwE&gad_source=1",
-    "sourceEventId": 4837834,
-    "sourceEventSlug": "the-lowtimers-tommy-luke-jun-17-2026-7-00pm",
-    "description": "More Americana for the patrons of La Reina!  Grab your hat, your boots and ready yourself for a couple classy cocktails.",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0FTLfh1awFJWM8gSsuXJ5o",
-      "2SXHQgtrrByir0a4R8P0cG",
-      "4nwCoP2p1sa1nb2rUVeluL",
-      "0SSbLSj9DLTaWsVORlyIoF",
-      "1k3qMKP7YJMJs91cKby6H5",
-      "5w9WEOWGBei8NuDUHHlJPF"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb071a018f3e5921e85290095f",
-    "subArtists": [
-      {
-        "name": "The Lowtimers",
-        "spotifyId": "2f41SnzTlJJ5rCBIez98ix",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb071a018f3e5921e85290095f",
-        "trackIds": [
-          "0FTLfh1awFJWM8gSsuXJ5o",
-          "2SXHQgtrrByir0a4R8P0cG",
-          "4nwCoP2p1sa1nb2rUVeluL"
-        ]
-      },
-      {
-        "name": "Tommy Luke",
-        "spotifyId": "15Ggv1jCuM8depJaYWCdkm",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb15f4b2a04353116f6a125846",
-        "trackIds": [
-          "0SSbLSj9DLTaWsVORlyIoF",
-          "1k3qMKP7YJMJs91cKby6H5",
-          "5w9WEOWGBei8NuDUHHlJPF"
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "DJ ICKYMAC",
-    "venue": "Farafina",
-    "date": "2026-06-18T02:00:00.000Z",
-    "sourceEventId": 4851133,
-    "description": "<p>Reggae, dancehall, afrobeat and reggaeton.</p>",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "The Lowtimers / Tommy Luke",
-    "venue": "El Rey Court ",
-    "date": "2026-06-18T02:00:00.000Z",
-    "sourceEventId": 4836188,
-    "description": "<p>The Lowtimers are a west-coast Americana band rooted in the road-worn songwriting of Austin Smith and Mark Tegio. Tommy Luke’s songs carry the dusty, well-worn sounds of western music. </p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0FTLfh1awFJWM8gSsuXJ5o",
-      "2SXHQgtrrByir0a4R8P0cG",
-      "4nwCoP2p1sa1nb2rUVeluL",
-      "0SSbLSj9DLTaWsVORlyIoF",
-      "1k3qMKP7YJMJs91cKby6H5",
-      "5w9WEOWGBei8NuDUHHlJPF"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb071a018f3e5921e85290095f",
-    "subArtists": [
-      {
-        "name": "The Lowtimers",
-        "spotifyId": "2f41SnzTlJJ5rCBIez98ix",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb071a018f3e5921e85290095f",
-        "trackIds": [
-          "0FTLfh1awFJWM8gSsuXJ5o",
-          "2SXHQgtrrByir0a4R8P0cG",
-          "4nwCoP2p1sa1nb2rUVeluL"
-        ]
-      },
-      {
-        "name": "Tommy Luke",
-        "spotifyId": "15Ggv1jCuM8depJaYWCdkm",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb15f4b2a04353116f6a125846",
-        "trackIds": [
-          "0SSbLSj9DLTaWsVORlyIoF",
-          "1k3qMKP7YJMJs91cKby6H5",
-          "5w9WEOWGBei8NuDUHHlJPF"
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "Bill Hearne",
-    "venue": "Cowgirl",
-    "date": "2026-06-18T22:00:00.000Z",
-    "sourceEventId": 4840912,
-    "sourceEventSlug": "bill-hearne-jun-18-2026",
-    "description": "<p>Share happy hour with Santa Fe's own musical legend Bill Hearne. </p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "6Plwc7hs7t0hmF5hMAaJMV",
-      "15L35gGagO5SZuZjKmACSH",
-      "7E23il0kqPQOgEvJ30gsdx"
-    ],
-    "spotifyId": "29JEPgxSlt5lTvqT2f1BOk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2735cdda90a98e1efba114c45ff"
-  },
-  {
-    "artist": "Bread and Beats",
-    "venue": "Vital Spaces",
-    "date": "2026-06-18T23:00:00.000Z",
-    "listingUrl": "vitalspaces.org",
-    "sourceEventId": 4848028,
-    "description": "<p>Enjoy some delicious scratch made sourdough bread, tea, friends, and music on vinyl. This session's featured vinyl is \"Promises\" by Floating Points, Pharoah Sanders and the London Symphony Orchestra.</p><p><br></p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "52VIdyKqp1pJRSyUQaxKUA",
-      "7wWw7hBmErNg9u5w6Xx0vy",
-      "40W8Mm9t3ZO1iNQlls35lL"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/a94fb066d16bf8bafed754f62c5b746357b661e6",
-    "genres": [
-      "soft rock",
-      "yacht rock"
-    ],
-    "subArtists": [
-      {
-        "name": "Bread",
-        "spotifyId": "70ZTdbPEcEugBNay4MvxfL",
-        "artistImageUrl": "https://i.scdn.co/image/a94fb066d16bf8bafed754f62c5b746357b661e6",
-        "genres": [
-          "soft rock",
-          "yacht rock"
-        ],
-        "trackIds": [
-          "52VIdyKqp1pJRSyUQaxKUA",
-          "7wWw7hBmErNg9u5w6Xx0vy",
-          "40W8Mm9t3ZO1iNQlls35lL"
-        ]
-      },
-      {
-        "name": "Beats"
-      }
-    ]
-  },
-  {
-    "artist": "Bob Maus",
-    "venue": "Eldorado Hotel and Spa",
-    "date": "2026-06-19T00:00:00.000Z",
-    "listingUrl": "https://www.reverbnation.com/bobmaus/song/34523171-bob-maus-live-performance-demo",
-    "sourceEventId": 4848626,
-    "description": "<p>Maus plays blues, soul and pop on piano and vocals. </p>",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "JJ Slater",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-06-19T00:00:00.000Z",
-    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-5a9a2b3a-2d01-4b77-9dc0-b119e1abe4be",
-    "sourceEventId": 4849987,
-    "sourceEventSlug": "jj-slater-jun-18-2026",
-    "description": "<p>A New England-based Americana and blues singer-songwriter.</p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "5rDKoclY0LKzXq7FvK61S7",
-      "0VHNl0ermDGgYh1yLH8rkE",
-      "6eFt85TM4kGlsxwHxl1hhS"
-    ],
-    "spotifyId": "0ewR6eRfZ68HojjOTn91Ba",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba5642715408db4c9cbbfd802"
-  },
-  {
-    "artist": "Vincent Neil Emerson",
-    "venue": "Railyard Plaza",
-    "date": "2026-06-19T01:00:00.000Z",
-    "listingUrl": "https://tickets.lensic360.org/tickets/462163?tc=lensic360",
-    "sourceEventId": 4835896,
-    "sourceEventSlug": "vincent-neil-emerson-jun-18-2026",
-    "description": "Texan Americana songwriter Vincent Neil Emerson is playing at the Santa Fe Railyard as part of Lensic 360's summer o' fun!  Opening the outdoor bash is JD Nash &amp; The Rash of Cash.  It's gonna be a smash well worth crashing!",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "3hQ51c9dPj9FcSdOHhrfkq",
-      "0tIRswIxHkAXTF0cx2Eodb",
-      "43b4N2ag6il5TtZ7z4ORc9"
-    ],
-    "spotifyId": "2TbbmB7fmmCN7rlOt1wHlC",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1d19db14c3adf476fe5874a9",
-    "genres": [
-      "alt country",
-      "americana",
-      "outlaw country",
-      "red dirt",
-      "honky tonk"
-    ]
-  },
-  {
-    "artist": "The Pre Game Thursday Nights",
-    "venue": "Cowgirl",
-    "date": "2026-06-19T01:00:00.000Z",
-    "sourceEventId": 4848635,
-    "description": "<p>DJ Optamystik taking requests and mixing all your favorites from oldies to today's hits mixing up all genres.</p>",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "DJ OPTAMYSTIK",
-    "venue": "Cowgirl",
-    "date": "2026-06-19T01:00:00.000Z",
-    "sourceEventId": 4838498,
-    "sourceEventSlug": "dj-optamystik-jun-18-2026",
-    "description": "The most positive beats in town every Thursday.",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "David Geist Music Experience",
-    "venue": "Osteria D'Assisi",
-    "date": "2026-06-19T01:00:00.000Z",
-    "sourceEventId": 4838554,
-    "sourceEventSlug": "david-geist-music-experience-jun-18-2026",
-    "description": "<p>Tony-award winning pianist /vocalist performs an evening of Broadway, pop, and originals in a gorgeous setting!</p>",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "Garry Blackchild",
-    "venue": "The Mine Shaft Tavern",
-    "date": "2026-06-19T01:00:00.000Z",
-    "sourceEventId": 4850093,
-    "sourceEventSlug": "garry-blackchild-jun-18-2026-5-00pm",
-    "description": "<p>An Afro-Indigenous country-blues artist whose 'Rebel Folk' sound blends Southwestern grit with Southern roots. His music channels the spirit and stories of life in New Mexico.</p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "21yHvVotcKaclhKxy15oQE",
-      "22XK2RztNhWi4KkN7w2tli",
-      "7pHoJZdrORq7QeBmpR0YK1"
-    ],
-    "spotifyId": "5oxGamQviaoYWHBjm3Ikau",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27342a64c00f10746253717ba16",
-    "genres": [
-      "alt country"
-    ]
-  },
-  {
-    "artist": "Calder Allen",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-06-19T01:30:00.000Z",
-    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-9a1d0292-b2af-408c-91ed-f224129fd889",
-    "sourceEventId": 4849990,
-    "sourceEventSlug": "calder-allen-jun-18-2026",
-    "description": "<p>A fifth-generation Texan whose roots run deep in the state, giving life to his his Americana/folk repertoire.</p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0xy3JGKV6Csj7d1CtE6NsG",
-      "2ghHBq7WcaUyRkLcKh6h8l",
-      "276ZfAgAGiqQqF1Iub8adH"
-    ],
-    "spotifyId": "1XlVbGlQaBoESaJ43y2sCD",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc4a45f0e840b74b85c5e87d9"
-  },
-  {
-    "artist": "Searows",
-    "venue": "Meow Wolf",
-    "date": "2026-06-19T02:30:00.000Z",
-    "ticketUrl": "https://tickets.lensic360.org/tickets/456866?tc=lensic360",
-    "sourceEventId": 4835899,
-    "sourceEventSlug": "searows-jun-18-2026",
-    "description": "The project of singer-songwriter Alex Duckart, Searows is bringing moody tunes to Meow Wolf for a night of folklore-inspired indie.  ",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "5swZvDSi78Znk4rlmwHNnj",
-      "7fhAjbHrzGknwQkGIzJHVk",
-      "5RXjt2s4HBJw3TcaAzwSrD"
-    ],
-    "spotifyId": "0nugNBwdWaptgIAsEtx1It",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb14229bdbda79ace871ef7bf2"
-  },
-  {
-    "artist": "Strangers From Afar",
-    "venue": "The Mine Shaft Tavern",
-    "date": "2026-06-19T23:00:00.000Z",
-    "sourceEventId": 4848047,
-    "description": "<p>Original music from a Madrid alt-rock duo. </p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "1eVXg13nNHBHMniWaH9QKv",
-      "3msJioN2G3Vrcfjc4RgHhN",
-      "1zQJzAHDpzc9wGzPaSS0BC"
-    ],
-    "spotifyId": "38eB62uUrJvaBU2ufWDSeb",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d8a2c279630e9d4006814aa7"
-  },
-  {
-    "artist": "Duodiaz",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-06-19T23:00:00.000Z",
-    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-97b064b6-190e-44f4-a63f-f2ca0b64654a",
-    "sourceEventId": 4849997,
-    "sourceEventSlug": "duodiaz-jun-19-2026",
-    "description": "You heard 'em...your favorite standards and jazz arrangements. ",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "The Flatcar Series",
-    "venue": "Nuckolls Brewing Co.",
-    "date": "2026-06-19T23:15:00.000Z",
-    "sourceEventId": 4848048,
-    "description": "<p>An unforgettable evening filled with live music, delectable food and refreshing drinks in the iconic Santa Fe Railyard. Don't miss this opportunity to be a part of the thriving music community in Santa Fe.</p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "4OPh20gSFeDunvGutWIFVl",
-      "5EpT8WZZJpNvklVxX3IAbc",
-      "3ALAtsoSWR69bBb3Eqk5lO"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2738ec6cb3b171b65f8be33aeaf",
-    "subArtists": [
-      {
-        "name": "live music",
-        "spotifyId": "2WrC1IQgDsMNS4WelQfNNE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2738ec6cb3b171b65f8be33aeaf",
-        "trackIds": [
-          "4OPh20gSFeDunvGutWIFVl",
-          "5EpT8WZZJpNvklVxX3IAbc",
-          "3ALAtsoSWR69bBb3Eqk5lO"
-        ]
-      },
-      {
-        "name": "delectable food"
-      },
-      {
-        "name": "refreshing drinks in the iconic Santa Fe Railyard"
-      }
-    ]
-  },
-  {
-    "artist": "Artisan String Quartet",
-    "venue": "First Presbyterian Church",
-    "date": "2026-06-19T23:30:00.000Z",
-    "listingUrl": "https://fpcsantafe.org/",
-    "sourceEventId": 4842171,
-    "sourceEventSlug": "tgif-music-series-artisan-string-quartet-jun-19-2026",
-    "description": "<p>The Artisan String Quartet perform compositions that are TBA.</p>",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "El Brujo Trio",
-    "venue": "Social Kitchen & Bar",
-    "date": "2026-06-20T00:00:00.000Z",
-    "listingUrl": "https://www.socialkitchensf.com/",
-    "sourceEventId": 4838308,
-    "description": "<p>Experience the magic with a Nuevo Flamenco acoustic trio.</p>",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "David Wood",
-    "venue": "Eldorado Hotel and Spa",
-    "date": "2026-06-20T00:00:00.000Z",
-    "sourceEventId": 4753762,
-    "sourceEventSlug": "david-wood-jun-19-2026",
-    "description": "<p>David Wood plays the American Songbook on grand piano every Friday evening. </p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "1TSxPd7NMBDjxjFXN8mcQn",
-      "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
-    ],
-    "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
-  },
-  {
-    "artist": "Sir Woman",
-    "venue": "Railyard Plaza",
-    "date": "2026-06-20T01:00:00.000Z",
-    "listingUrl": "https://tickets.lensic360.org/tickets/462173?tc=lensic360",
-    "sourceEventId": 4835902,
-    "sourceEventSlug": "sir-woman-jun-19-2026",
-    "description": "If you've seen any of Sir Woman's shows in the past, you probably already know that the Texas funk outfit is as charismatic as they are musically competent.  These guys are a hell of a ride live if you got your dancin' boots on.  ABQ's own Sweet Roll will be opening up the show.",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "6q8nlNnBLSAn5tU6tH9Zlz",
-      "62gJ9HMWJdiOTWB3rwrTBL",
-      "0zUz3MpYkz9KWuTMNfyv6P"
-    ],
-    "spotifyId": "3H03S3ZtyYLdzsk6EYndUL",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9096b9b9f923bb35b3413ec6",
-    "genres": [
-      "pop soul"
-    ]
-  },
-  {
-    "artist": "Cynical Bird",
-    "venue": "The Mine Shaft Tavern",
-    "date": "2026-06-20T01:00:00.000Z",
-    "sourceEventId": 4850095,
-    "sourceEventSlug": "cynical-bird-jun-19-2026-6-00pm",
-    "description": "<p>Rock/folk/Americana. </p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "4jrdnlrqKKYYspbh1fGsL4",
-      "0HH2YsUol3RfT0ZYUnqavb",
-      "2NjuyulNkIIqXYN5SzYA7W"
-    ],
-    "spotifyId": "5SwAxpgegLSfmdAE6cee3R",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2730d3a59a216cac65968ec91b9"
-  },
-  {
-    "artist": "One Last Funky Dollar",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-06-20T01:30:00.000Z",
-    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-6a947863-34a4-4aea-b525-0222b07837c8",
-    "sourceEventId": 4850001,
-    "sourceEventSlug": "one-last-funky-dollar-jun-19-2026",
-    "description": "<p>One Last Funky Dollar is a speciality show presented by One More Silver Dollar featuring the Burque Horns. Its a funky soul dance party featuring the music of Aretha, Otis, Pickett, Dr John and many more funky favorites.</p>",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "Pollo Frito",
-    "venue": "Cowgirl",
-    "date": "2026-06-20T02:00:00.000Z",
-    "sourceEventId": 4850040,
-    "sourceEventSlug": "pollo-frito-jun-19-2026",
-    "description": "If their New Orleans funk is as good as the New Orleans fried chicken, then we're all in for a treat. ",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "2h1wEdcOohrWQ8yF1Bp4KT",
-      "1hKzT1zsDKFqqFaLugXHBt",
-      "5nyuqr96Szc7z88YYJ2Ocq"
-    ],
-    "spotifyId": "1dWKDCP00wfyjjcGmzRjYI",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737462ed19dcf531e131e0faa1"
-  },
-  {
-    "artist": "The high Baroque",
-    "venue": "New Mexico School for the Arts",
-    "date": "2026-06-20T18:00:00.000Z",
-    "listingUrl": "https://www.severallfriends.org/",
-    "sourceEventId": 4848119,
-    "sourceEventSlug": "baroque-at-altitude-the-high-baroque-at-7-000-ft-jun-20-2026",
-    "description": "<p>Music of Bach, Leclair, and Handel featuring Jennifer Perez, soprano; Stephen Redfield, violin and Kathleen McIntosh, harpsichord. Admission is by donation; suggested donation $20. No reservations needed.</p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "6FAnxR1DS28Igf3MOhPsXV",
-      "4g8h8YDgIkPiVLJUfZf6xK",
-      "6MaOTWofqLDcgTwyZijWWB",
-      "4ioYiHLjvY56KtWToYZ4ad",
-      "4UCPGgekfUyLmJOukhcoH5",
-      "0qH8O6LA8LPpj3er1dwYKK"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2733792b16218895ff9e69e1166",
-    "genres": [
-      "baroque"
-    ],
-    "subArtists": [
-      {
-        "name": "Jennifer Perez",
-        "spotifyId": "31vyNfijTIv1zfLQt1DnBF"
-      },
-      {
-        "name": "soprano; Stephen Redfield"
-      },
-      {
-        "name": "violin"
-      },
-      {
-        "name": "Kathleen McIntosh",
-        "spotifyId": "2CQPsJOInIbVURj5JIJso1",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2733792b16218895ff9e69e1166",
-        "genres": [
-          "baroque"
-        ],
-        "trackIds": [
-          "6FAnxR1DS28Igf3MOhPsXV",
-          "4g8h8YDgIkPiVLJUfZf6xK",
-          "6MaOTWofqLDcgTwyZijWWB"
-        ]
-      },
-      {
-        "name": "harpsichord",
-        "spotifyId": "34DnI8qQXptP7t0Ptnmmce",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273f0333b408a0886cc1cef8165",
-        "trackIds": [
-          "4ioYiHLjvY56KtWToYZ4ad",
-          "4UCPGgekfUyLmJOukhcoH5",
-          "0qH8O6LA8LPpj3er1dwYKK"
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "DB Gomez Duo",
-    "venue": "Cowgirl",
-    "date": "2026-06-20T19:00:00.000Z",
-    "sourceEventId": 4850053,
-    "sourceEventSlug": "db-gomez-duo-jun-20-2026",
-    "description": "An Americana and bluegrass duo.",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "Sudan Archives",
-    "venue": "Railyard Plaza",
-    "date": "2026-06-20T20:00:00.000Z",
-    "listingUrl": "https://tickets.lensic360.org/tickets/462174?tc=lensic360",
-    "sourceEventId": 4835907,
-    "sourceEventSlug": "juneteenth-celebration-sudan-archives-jun-20-2026",
-    "description": "Strings shredder Sudan Archives will be lighting up the Railyard as part of a celebration of Juneteenth!  Note that the show is on the 20th not the actual holiday.",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "3XqP0HAPdDN3Lkdoufds20",
-      "6CNIrZlW3GjsMpYdVcgvvV",
-      "62wAc90VNxtcNJQJrPaeJQ"
-    ],
-    "spotifyId": "2MPHBxznH1fj59jbOWY38u",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0937734c7a4d13d8ef02e2f7",
-    "genres": [
-      "alternative r&b",
-      "indie soul"
-    ]
-  },
-  {
-    "artist": "The Jakes",
-    "venue": "The Mine Shaft Tavern",
-    "date": "2026-06-20T21:00:00.000Z",
-    "sourceEventId": 4850103,
-    "sourceEventSlug": "the-jakes-jun-20-2026-3-00pm",
-    "description": "Are The Jakes more or less than Less Than Jake? You be the judge. ",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "Bob Maus - Blues Soul Pop",
-    "venue": "Inn & Spa at Loretto",
-    "date": "2026-06-21T00:00:00.000Z",
-    "listingUrl": "https://www.reverbnation.com/bobmaus/song/34523171-bob-maus-live-performance-demo",
-    "sourceEventId": 4794560,
-    "description": "<p>Maus plays blues, soul and pop on piano and vocals. </p>",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "Blue Midnight",
-    "venue": "The Mine Shaft Tavern",
-    "date": "2026-06-21T01:00:00.000Z",
-    "sourceEventId": 4850110,
-    "sourceEventSlug": "blue-midnight-jun-20-2026-6-00pm",
-    "description": "An expounding on the midnight blues.",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "1iY9n8a04FMbR4PicBq8nU",
-      "1X84VaxOZGSqILdcqDJVMP",
-      "5V0B6L518cRmFyTIp3ekeM"
-    ],
-    "spotifyId": "6czyqWtxj2PB60bn5rEuuk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273df7fcf496916c67c8351cb71"
-  },
-  {
-    "artist": "The Chameleons",
-    "venue": "Farafina",
-    "date": "2026-06-21T01:00:00.000Z",
-    "sourceEventId": 4848096,
-    "description": "<p>A unique blend of jazz, latin and blues. </p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "3LvrEG9IQehvPxLDmIqjH8",
-      "262mPGjCFLQoHE38LYHiCJ",
-      "4Uv6BVQUcdxUkIRDAQ7a7l"
-    ],
-    "spotifyId": "4HLWX9kzfraiCsTvrxJEXm",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebb24ba09a762dfce961c60d81",
-    "genres": [
-      "post-punk",
-      "gothic rock",
-      "darkwave",
-      "deathrock",
-      "new wave",
-      "cold wave"
-    ]
-  },
-  {
-    "artist": "AJW Presents iNK oN pAPER & Kodama Trio",
-    "venue": "Entropy Gallery",
-    "date": "2026-06-21T01:30:00.000Z",
-    "listingUrl": "https://avantjazzworkshop.com/AJWseries.html",
-    "sourceEventId": 4849058,
-    "description": "<p><strong></strong></p><p>Avant Jazz Workshop presents a birthday celebration of Milton Villarrubia III with two of his favorite groups iNK oN pAPER and The Kodama Trio.</p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "2xLqRx8FMK12Jkv6QqxzcE",
-      "1I4RnCGYbYZs9qgdw7feVQ",
-      "1Rpi2WKolQVJUfXjsfBJ1G"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2730e48bd0cd3d028201187f5a8",
-    "subArtists": [
-      {
-        "name": "AJW Presents iNK oN pAPER"
-      },
-      {
-        "name": "Kodama Trio",
-        "spotifyId": "7LTXSvNncFimzcFkkNrioe",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2730e48bd0cd3d028201187f5a8",
-        "trackIds": [
-          "2xLqRx8FMK12Jkv6QqxzcE",
-          "1I4RnCGYbYZs9qgdw7feVQ",
-          "1Rpi2WKolQVJUfXjsfBJ1G"
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "Band of Enchantment",
-    "venue": "Paradiso",
-    "date": "2026-06-21T01:30:00.000Z",
-    "ticketUrl": "https://tickets.holdmyticket.com/tickets/463044",
-    "sourceEventId": 4848092,
-    "description": "<p><strong>An evening of swinging favorites. Featuring original musical arrangements by writer and bandleader Robert Beasley, this 14-piece jazz orchestra will keep your toe tapping all evening, or dancing.</strong></p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "subArtists": [
-      {
-        "name": "original musical arrangements by writer"
-      },
-      {
-        "name": "leader Robert Beasley"
-      },
-      {
-        "name": "this 14-piece jazz orchestra will keep your toe tapping all evening"
-      },
-      {
-        "name": "or dancing"
-      }
-    ]
-  },
-  {
-    "artist": "Randolph and the Variants",
-    "venue": "Cowgirl",
-    "date": "2026-06-21T02:00:00.000Z",
-    "sourceEventId": 4850057,
-    "sourceEventSlug": "randolph-and-the-variants-jun-20-2026",
-    "description": "<p>A variety of crowd pleasing country, blues, rock 'n' roll covers, and original tracks.</p>",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "The Ron Crowder Band",
-    "venue": "Cowgirl",
-    "date": "2026-06-21T18:00:00.000Z",
-    "listingUrl": "https://cowgirlsantafe.com/music/",
-    "sourceEventId": 4840915,
-    "sourceEventSlug": "the-ron-crowder-band-jun-21-2026",
-    "description": "Bring your dancing shoes for this award winning pop, rock and funk performance. ",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "Casey James Brooks",
-    "venue": "The Mine Shaft Tavern",
-    "date": "2026-06-21T19:00:00.000Z",
-    "sourceEventId": 4850117,
-    "sourceEventSlug": "casey-james-brooks-jun-21-2026",
-    "description": "A singer-songwriter with three names. ",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0z2WXMiBS62H8qqsgNSrp8",
-      "2qiDS4LphQu1shXPdCn5UY",
-      "6WGYeDSCqtvR8AhceFNp7B"
-    ],
-    "spotifyId": "2buFZfeZ4VcWWFXfhpnNW9",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc89221998d9c70d029fa2472"
-  },
-  {
-    "artist": "Silver Sky Blues Band",
-    "venue": "The Mine Shaft Tavern",
-    "date": "2026-06-21T21:00:00.000Z",
-    "sourceEventId": 4850119,
-    "sourceEventSlug": "silver-sky-blues-band-jun-21-2026-3-00pm",
-    "description": "Blues.",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "DJ Pygar",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-06-21T23:00:00.000Z",
-    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-8b6542ab-323e-4513-96cb-88ae19b154e0",
-    "sourceEventId": 4850003,
-    "sourceEventSlug": "dj-pygar-jun-21-2026",
-    "description": "Don't let the end of the weekend bring you down—DJ Pygar is here to transport you into the cosmos with his Dutch-infused intergalactic beats.",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "Doug Montgomery",
-    "venue": "Rio Chama Steakhouse",
-    "date": "2026-06-22T00:00:00.000Z",
-    "sourceEventId": 4835579,
-    "sourceEventSlug": "doug-montgomery-jun-21-2026",
-    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "1MdZe7hHi3yKBkrtuFTVcl",
-      "5al9F47JyTCZnBy5kz4gHM",
-      "64rhgVMNnl4n5TVjGeHDJw"
-    ],
-    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
-  },
-  {
-    "artist": "Smooth & Suavecito",
-    "venue": "Social Kitchen & Bar",
-    "date": "2026-06-22T00:00:00.000Z",
-    "listingUrl": "https://www.socialkitchensf.com/",
-    "sourceEventId": 4838287,
-    "description": "<p>Two powerhouse bands that ignite the stage with Latin rock, Chicano funk and timeless old-school classics. </p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "7jJPmrB7baCiyfY44AhrFa",
-      "1cH5ljMHc9kVaUcd8TDQRf",
-      "0ndGo6Y6ngw33sCjJFsTl4",
-      "6vnnplhIUCr1RuDaHY6Gu3",
-      "0gYmFPIfSFXKmFZtqrnub7",
-      "2lvlNTAmxNg6uCA9PHyBTf"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d3c955f5cc71aaf9619b280c",
-    "genres": [
-      "baltimore club",
-      "jersey club"
-    ],
-    "subArtists": [
-      {
-        "name": "Smooth",
-        "spotifyId": "4KKNSSNfectr01qLAy2wEc",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d3c955f5cc71aaf9619b280c",
-        "genres": [
-          "baltimore club",
-          "jersey club"
-        ],
-        "trackIds": [
-          "7jJPmrB7baCiyfY44AhrFa",
-          "1cH5ljMHc9kVaUcd8TDQRf",
-          "0ndGo6Y6ngw33sCjJFsTl4"
-        ]
-      },
-      {
-        "name": "Suavecito",
-        "spotifyId": "3zr8FJ1UqyZJcXE0dwQN4D",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737497f27bb5d97c78dbf9dc84",
-        "trackIds": [
-          "6vnnplhIUCr1RuDaHY6Gu3",
-          "0gYmFPIfSFXKmFZtqrnub7",
-          "2lvlNTAmxNg6uCA9PHyBTf"
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "Trow Browne",
-    "venue": "Cowgirl",
-    "date": "2026-06-22T01:00:00.000Z",
-    "sourceEventId": 4850065,
-    "sourceEventSlug": "trow-browne-jun-21-2026",
-    "description": "This guy has a whole bag of Americana tricks.",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "Chessa Peak",
-    "venue": "Cowgirl",
-    "date": "2026-06-22T22:00:00.000Z",
-    "sourceEventId": 4850068,
-    "sourceEventSlug": "chessa-peak-jun-22-2026",
-    "description": "<p>Instead of blue crabs, Chessa Peak brings a collection folk, blues, rock, Americana tunes to the C-girl stage. </p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "6bkvR1J2ijLMLvxhAMKZgf",
-      "0gvNB7eN98ovsApmfQVyWY",
-      "0MorKC1NHqpUzvXDZPUdwn"
-    ],
-    "spotifyId": "4d4jkY0neGqawQF3EvHJRf",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebcdc65fcce6057fd697c49b95"
-  },
-  {
     "artist": "Santa Fe Grass",
     "venue": "Santa Fe Brewing Company",
     "date": "2026-06-22T22:20:00.000Z",
@@ -1078,9 +53,9 @@
     "description": "<p>Amy Mann + expectoration + Americana/folk = Amy Coffman. </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
-      "30BJd40WXUOEQSb6lNreAe",
       "7AmgGDFrm2vQN3tTsSc45B",
-      "0GkzqJHf9FZsY6MjExbX7W"
+      "30BJd40WXUOEQSb6lNreAe",
+      "07kfHocdpimKJjsDZ7ikx4"
     ],
     "spotifyId": "3DCk6poKoiJVXlAyOe1YLE",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bc77c9502e9fcbf8f29f9e40"
@@ -1099,14 +74,14 @@
       "1ZnzjMoPth88sUTwNG93jX",
       "3xHRXEPJwuVfQ5uwYIrFba",
       "19VcFPSYSW2LmMhQeIFsKe",
-      "3rsTiJX6zWbNVWL5y635Om",
       "5KsY0gYpM0R42CbfVs5ep8",
+      "3rsTiJX6zWbNVWL5y635Om",
       "29jkvHNa1oDCzflezEooBk",
       "2GVWntL8kc0BaIpQ6F5rqS",
-      "5OfpfMYe7t9hDTtGJGn7tq",
+      "0WjEPavRpyRCbE7v1I4oCP",
       "2vXko2Xl6b97IxNPa5J6sI",
-      "09gvWkdphq01GEbjpXwYgK",
-      "0zhSEGTG3QJeAca1pWGBEE"
+      "0entyPWf4G81x7ZLLNaAIW",
+      "09gvWkdphq01GEbjpXwYgK"
     ],
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273906a00488c76ba8147fb7f06",
     "genres": [
@@ -1140,8 +115,8 @@
         ],
         "trackIds": [
           "19VcFPSYSW2LmMhQeIFsKe",
-          "3rsTiJX6zWbNVWL5y635Om",
-          "5KsY0gYpM0R42CbfVs5ep8"
+          "5KsY0gYpM0R42CbfVs5ep8",
+          "3rsTiJX6zWbNVWL5y635Om"
         ]
       },
       {
@@ -1154,7 +129,7 @@
         "trackIds": [
           "29jkvHNa1oDCzflezEooBk",
           "2GVWntL8kc0BaIpQ6F5rqS",
-          "5OfpfMYe7t9hDTtGJGn7tq"
+          "0WjEPavRpyRCbE7v1I4oCP"
         ]
       },
       {
@@ -1163,8 +138,79 @@
         "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273b518e77250ba9c7c8748e270",
         "trackIds": [
           "2vXko2Xl6b97IxNPa5J6sI",
-          "09gvWkdphq01GEbjpXwYgK",
-          "0zhSEGTG3QJeAca1pWGBEE"
+          "0entyPWf4G81x7ZLLNaAIW",
+          "09gvWkdphq01GEbjpXwYgK"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-06-24T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853538,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
         ]
       }
     ]
@@ -1186,6 +232,15 @@
         "name": "DJ Stranger Vinyl Set"
       }
     ]
+  },
+  {
+    "artist": "Second Chances Band",
+    "venue": "Social Kitchen & Bar",
+    "date": "2026-06-25T00:00:00.000Z",
+    "listingUrl": "https://www.socialkitchensf.com/Events/",
+    "sourceEventId": 4853573,
+    "description": "<p>An unforgettable evening of live country music, good vibes, and great company.</p>",
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Last Wednesdays with John Francis",
@@ -1221,6 +276,25 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2735cdda90a98e1efba114c45ff"
   },
   {
+    "artist": "Bob Maus",
+    "venue": "Eldorado Hotel and Spa",
+    "date": "2026-06-26T00:00:00.000Z",
+    "listingUrl": "https://www.reverbnation.com/bobmaus/song/34523171-bob-maus-live-performance-demo",
+    "sourceEventId": 4853652,
+    "description": "<p>Maus plays blues, soul and pop on piano and vocals. </p>",
+    "source": "Santa Fe Reporter"
+  },
+  {
+    "artist": "SAR Music",
+    "venue": "School for Advanced Research",
+    "date": "2026-06-26T00:00:00.000Z",
+    "ticketUrl": "https://sarweb.org/date/round-mountain/",
+    "listingUrl": "https://sarweb.org/date/round-mountain/",
+    "sourceEventId": 4853209,
+    "description": "<p>This summer, the heart of the SAR campus turns into an outdoor cocktail lounge and live music venue for Music at Dusk starting off with the original world folk music of Round Mountain.</p><p><br></p>",
+    "source": "Santa Fe Reporter"
+  },
+  {
     "artist": "Locals Night + Folk Jam",
     "venue": "La Reina",
     "date": "2026-06-26T01:00:00.000Z",
@@ -1231,6 +305,61 @@
     "source": "Santa Fe Reporter"
   },
   {
+    "artist": "Folk Jam with Queen Bee Music Association",
+    "venue": "El Rey Court",
+    "date": "2026-06-26T01:00:00.000Z",
+    "ticketUrl": "https://www.queenbeemusicassociation.org/community-programs",
+    "listingUrl": "https://www.queenbeemusicassociation.org/community-programs",
+    "sourceEventId": 4853260,
+    "description": "<p>A folk jam open to all levels and all instruments.</p>",
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Folk Jam"
+      },
+      {
+        "name": "Queen Bee Music Association"
+      }
+    ]
+  },
+  {
+    "artist": "Caleb & Company",
+    "venue": "Unit B by Chocolate Maven",
+    "date": "2026-06-26T01:00:00.000Z",
+    "ticketUrl": "https://tickets.venuepilot.com/e/caleb-company-2026-06-25-unit-b-santa-fe-ad5a23",
+    "listingUrl": "https://www.unitbsantafe.com/",
+    "sourceEventId": 4855457,
+    "description": "<p><em>Caleb &amp; Company</em> plays a wide variety of music spanning from Ray Charles to Radiohead. So no matter who you've been listening to lately, there will be something for you. </p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "3O30gAfom0QGgts47I2jQ1",
+      "6uie49Ul2wKawsbIGc8MYb",
+      "3zDQrzqq3PPRnuylK7VojP"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d58c04b131ccfb4be222747d",
+    "genres": [
+      "musicals"
+    ],
+    "subArtists": [
+      {
+        "name": "Caleb"
+      },
+      {
+        "name": "Company",
+        "spotifyId": "5bse9w1FhvHOjwC110JLe5",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d58c04b131ccfb4be222747d",
+        "genres": [
+          "musicals"
+        ],
+        "trackIds": [
+          "3O30gAfom0QGgts47I2jQ1",
+          "6uie49Ul2wKawsbIGc8MYb",
+          "3zDQrzqq3PPRnuylK7VojP"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "Heartbyrne",
     "venue": "Railyard Plaza",
     "date": "2026-06-26T01:00:00.000Z",
@@ -1238,6 +367,14 @@
     "sourceEventId": 4835939,
     "sourceEventSlug": "heartbyrne-jun-25-2026",
     "description": "Talking Heads and David Byrne cover act Heartbyrne will be playing the Railyard as part of Lensic360's summerific concert series. Show up to this one and you will surely be up all night.",
+    "source": "Santa Fe Reporter"
+  },
+  {
+    "artist": "The Pre Game Thursday Nights",
+    "venue": "Cowgirl",
+    "date": "2026-06-26T01:00:00.000Z",
+    "sourceEventId": 4853656,
+    "description": "<p>DJ Optamystik taking requests and mixing all your favorites from oldies to today's hits mixing up all genres.</p>",
     "source": "Santa Fe Reporter"
   },
   {
@@ -1260,6 +397,40 @@
     "source": "Santa Fe Reporter"
   },
   {
+    "artist": "The Desperados",
+    "venue": "SANTA FE TEAHOUSE & BISTRO ",
+    "date": "2026-06-26T22:00:00.000Z",
+    "sourceEventId": 4853347,
+    "description": "<p>Experience classic country favorites and timeless western sounds with Desperados during Après Music at The Santa Fe Teahouse.</p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "54FcoaV60w56CP2r2R9pR3",
+      "6hyvRWCr221WzbO5vrRnTy",
+      "7tTYaI672u5CFTGS3GVmRK"
+    ],
+    "spotifyId": "5GGQ6DC5DjsqihtSnmrDty",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb6a58fe0fce8d49070fa6ffee",
+    "genres": [
+      "rockabilly",
+      "psychobilly"
+    ]
+  },
+  {
+    "artist": "The High Desert Playboys",
+    "venue": "SANTA FE TEAHOUSE & BISTRO ",
+    "date": "2026-06-26T22:00:00.000Z",
+    "sourceEventId": 4853346,
+    "description": "<p>Blending western swing, country, and Americana influences, the band brings lively musicianship and timeless songs to one of Santa Fe's favorite gathering places. It's the perfect soundtrack for an afternoon spent relaxing on our year-round patio after exploring Canyon Road.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "6TLlyiIkfxYyjdLvyF3AKr",
+      "0AzSElRKNeY5IT3ysTGqhA",
+      "18vLgYfajFN5KguciUKmSo"
+    ],
+    "spotifyId": "6fowadpYGZgpR6O62pOoOB",
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273e62d725f88a0d205f5bcf094"
+  },
+  {
     "artist": "Bryan Hutchinson, piano",
     "venue": "First Presbyterian Church",
     "date": "2026-06-26T23:30:00.000Z",
@@ -1268,6 +439,54 @@
     "sourceEventSlug": "tgif-music-series-bryan-hutchinson-piano-jun-26-2026",
     "description": "<p>Bryan Hutchinson performs de Falla, Granados and Chopin on piano. </p>",
     "source": "Santa Fe Reporter"
+  },
+  {
+    "artist": "Smooth & Suavecito",
+    "venue": "Social Kitchen & Bar",
+    "date": "2026-06-27T00:00:00.000Z",
+    "listingUrl": "https://www.socialkitchensf.com/",
+    "sourceEventId": 4838290,
+    "description": "<p>Two powerhouse bands that ignite the stage with Latin rock, Chicano funk, and timeless old-school classics. </p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "7jJPmrB7baCiyfY44AhrFa",
+      "1cH5ljMHc9kVaUcd8TDQRf",
+      "0ndGo6Y6ngw33sCjJFsTl4",
+      "6vnnplhIUCr1RuDaHY6Gu3",
+      "6wczJ09sVBBM2SlkfABi4X",
+      "0gYmFPIfSFXKmFZtqrnub7"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d3c955f5cc71aaf9619b280c",
+    "genres": [
+      "baltimore club",
+      "jersey club"
+    ],
+    "subArtists": [
+      {
+        "name": "Smooth",
+        "spotifyId": "4KKNSSNfectr01qLAy2wEc",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d3c955f5cc71aaf9619b280c",
+        "genres": [
+          "baltimore club",
+          "jersey club"
+        ],
+        "trackIds": [
+          "7jJPmrB7baCiyfY44AhrFa",
+          "1cH5ljMHc9kVaUcd8TDQRf",
+          "0ndGo6Y6ngw33sCjJFsTl4"
+        ]
+      },
+      {
+        "name": "Suavecito",
+        "spotifyId": "3zr8FJ1UqyZJcXE0dwQN4D",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737497f27bb5d97c78dbf9dc84",
+        "trackIds": [
+          "6vnnplhIUCr1RuDaHY6Gu3",
+          "6wczJ09sVBBM2SlkfABi4X",
+          "0gYmFPIfSFXKmFZtqrnub7"
+        ]
+      }
+    ]
   },
   {
     "artist": "David Wood",
@@ -1280,7 +499,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -1297,7 +516,7 @@
     "trackIds": [
       "3vkj94FiLgUz3ysZcmIXPx",
       "0Wl2RALqRacaIJhnlRHK8J",
-      "7itGQJ2FJZPl3VPD7x4vJw"
+      "08So6XATkbLYP26vn6AjaM"
     ],
     "spotifyId": "0gLjJuczGWhqKVMmVpIT52",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb848d27ab5fb5fa7bf05c3f15",
@@ -1305,6 +524,117 @@
       "midwest emo",
       "dream pop",
       "pop punk"
+    ]
+  },
+  {
+    "artist": "Hillary Smith Sings Jazz",
+    "venue": "Paradiso",
+    "date": "2026-06-27T01:30:00.000Z",
+    "ticketUrl": "https://tickets.holdmyticket.com/tickets/463045",
+    "sourceEventId": 4853352,
+    "description": "<p>ABQ's Queen of Soul Hillary Smith sings jazz with Alex Murzyn on saxophone, John Funkhouser on piano, Gordon Johnson on bass and Rich Malloy on drums. </p>",
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Alex Murzyn on saxophone"
+      },
+      {
+        "name": "John Funkhouser on piano"
+      },
+      {
+        "name": "Gordon Johnson on bass"
+      },
+      {
+        "name": "Rich Malloy on drums"
+      }
+    ]
+  },
+  {
+    "artist": "Betty Benedeadly & Friends | Mystic Residency",
+    "venue": "The Mystic Santa Fe, Cerrillos Road, Santa Fe, NM, USA",
+    "date": "2026-06-27T02:00:00.000Z",
+    "ticketUrl": "https://www.eventbrite.com/e/1987953796319",
+    "listingUrl": "https://www.eventbrite.com/e/1987944734214/?aff=oddtdtcreator",
+    "sourceEventId": 4853353,
+    "description": "<p>Madrid-based Benedeadly serves up psychedelic spaghetti western and freak folk with her full band, joined each month by a rotating cast of special guests and opening sets from visiting friends and kindred artists.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "2nRcvB2vIoEsYx7kTJpa0z",
+      "0BGtQMcpJOW7MEUUMBKICi",
+      "42E6hHZ4FIYBOynFjo07Yy"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebf75efc31fed5129e242d543a",
+    "subArtists": [
+      {
+        "name": "Betty Benedeadly",
+        "spotifyId": "5XfYpSX5Dc49RmB9JMUI8C",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebf75efc31fed5129e242d543a",
+        "trackIds": [
+          "2nRcvB2vIoEsYx7kTJpa0z",
+          "0BGtQMcpJOW7MEUUMBKICi",
+          "42E6hHZ4FIYBOynFjo07Yy"
+        ]
+      },
+      {
+        "name": "Friends | Mystic Residency"
+      }
+    ]
+  },
+  {
+    "artist": "Rolas Cumbiamberas",
+    "venue": "Lady Duff's Lounge",
+    "date": "2026-06-27T02:00:00.000Z",
+    "listingUrl": "https://www.hotelglorietasantafe.com/hotelglorietaevents",
+    "sourceEventId": 4853354,
+    "description": "<p>Deep cut cumbias y más with DJ Luz Skylarker. </p>",
+    "source": "Santa Fe Reporter"
+  },
+  {
+    "artist": "The High Desert Playboys",
+    "venue": "SANTA FE TEAHOUSE & BISTRO ",
+    "date": "2026-06-27T22:00:00.000Z",
+    "sourceEventId": 4853593,
+    "description": "<p>Blending western swing, country, and Americana influences, the band brings lively musicianship and timeless songs to one of Santa Fe's favorite gathering places. It's the perfect soundtrack for an afternoon spent relaxing on our year-round patio after exploring Canyon Road.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "6TLlyiIkfxYyjdLvyF3AKr",
+      "0AzSElRKNeY5IT3ysTGqhA",
+      "18vLgYfajFN5KguciUKmSo"
+    ],
+    "spotifyId": "6fowadpYGZgpR6O62pOoOB",
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273e62d725f88a0d205f5bcf094"
+  },
+  {
+    "artist": "Bob Maus - Blues Soul Pop",
+    "venue": "Inn & Spa at Loretto",
+    "date": "2026-06-28T00:00:00.000Z",
+    "listingUrl": "https://www.reverbnation.com/bobmaus/song/34523171-bob-maus-live-performance-demo",
+    "sourceEventId": 4854116,
+    "description": "<p>Maus plays blues, soul and pop on piano and vocals. </p>",
+    "source": "Santa Fe Reporter"
+  },
+  {
+    "artist": "PRIDE {after dark} Featuring Tracy Young",
+    "venue": "Meow Wolf",
+    "date": "2026-06-28T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/pride26/",
+    "listingUrl": "https://hrasantafe.org/pride-2026/",
+    "sourceEventId": 4853600,
+    "description": "<p>Get ready to turn up the energy for PRIDE {after dark}, one of the most electrifying nights of PRIDE Santa Fe 2026 featuring an immersive, late-night dance experience where music, art, and queer joy collide.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "an immersive"
+      },
+      {
+        "name": "late-night dance experience where music"
+      },
+      {
+        "name": "art"
+      },
+      {
+        "name": "queer joy collide"
+      }
     ]
   },
   {
@@ -1326,6 +656,22 @@
     "sourceEventSlug": "summer-sunday-ft-carson-barry-trio-jun-28-2026",
     "description": "La Reina is bringing their signature cocktails outdoors alongside some pop-up pizza from Tender Fire as part of their Summer Sundays series!  Music starts at 5 thanks to the Carson Barry Trio.",
     "source": "Santa Fe Reporter"
+  },
+  {
+    "artist": "Johnny Lloyd",
+    "venue": "Upper Crust Pizza (Eldorado)",
+    "date": "2026-06-29T00:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/17EGMWXo4b/",
+    "sourceEventId": 4775669,
+    "description": "Americana tunes and pizza. ",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0izT445qsXGB2LsdUJgdCn",
+      "6OSL1RHhkkTIjghTc0xXFk",
+      "7vjrklFWm0WCZXf3rr8qRw"
+    ],
+    "spotifyId": "2e3MqeCoPC7BSElTEf0y89",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0cf39bb6ce504ab8e8c2c81c"
   },
   {
     "artist": "Doug Montgomery",
@@ -1369,6 +715,24 @@
     "source": "Santa Fe Reporter"
   },
   {
+    "artist": "Exotica Tiki Night with DJ Future Babel",
+    "venue": "Tumbleroot Brewery & Distillery",
+    "date": "2026-06-30T23:00:00.000Z",
+    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-17b84e87-0c5f-469e-ab7f-1402bd0f40d7",
+    "sourceEventId": 4853281,
+    "sourceEventSlug": "exotica-tiki-night-with-dj-future-babel-jun-30-2026",
+    "description": "<p>Experience the ritual of Tiki as you embark on a musical odyssey that blends Hawaiian Classics, Surf Rock, Bossa Nova, Reggae, Latin Dance, and Beachwave. Sip handcrafted Polynesian cocktails and devour island-inspired eats while the sun sets amid flaming tiki torches – the ultimate Tuesday painkiller.</p><br><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Exotica Tiki Night"
+      },
+      {
+        "name": "DJ Future Babel"
+      }
+    ]
+  },
+  {
     "artist": "Relaay",
     "venue": "THE PLAZA",
     "date": "2026-07-01T00:00:00.000Z",
@@ -1378,12 +742,83 @@
     "description": "<p>Louisville-based indie pop duo Relaay will be playing The Plaza with Luke McMurray Nutting.  </p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
-      "1wRjjybwHp8RwlJK1LlgaK",
-      "16oNPQ2sVbzZyAscp4SFHD",
-      "0x18q7L6pDUnRpZ1bIv8B5"
+      "7pszVZuEEYTdsLfgBz6RVW",
+      "1vepEvQhnXMZ6tx5Qf7vNv",
+      "5QQwbPE0WjPcLDmLQ0B99m"
     ],
-    "spotifyId": "66tdy2Pn0JQDzaJFp74vya",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb768aac12e80d71cd3f9e2c0c"
+    "spotifyId": "5BvJI3v0HXd9musbXnU0cw",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb81ded05e7c785859d2404129"
+  },
+  {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-07-01T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853539,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
@@ -1439,7 +874,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -1495,6 +930,77 @@
     "source": "Santa Fe Reporter"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-07-08T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853540,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-07-09T00:00:00.000Z",
@@ -1532,7 +1038,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -1589,6 +1095,77 @@
     "source": "Santa Fe Reporter"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-07-15T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853541,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-07-16T00:00:00.000Z",
@@ -1626,7 +1203,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -1683,6 +1260,77 @@
     "source": "Santa Fe Reporter"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-07-22T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853542,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-07-23T00:00:00.000Z",
@@ -1720,7 +1368,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -1777,6 +1425,77 @@
     "source": "Santa Fe Reporter"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-07-29T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853543,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
     "venue": "Remix Audio Bar",
     "date": "2026-07-30T00:00:00.000Z",
@@ -1831,7 +1550,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -1847,14 +1566,13 @@
     "source": "Santa Fe Reporter",
     "trackIds": [
       "4Gqev5RBXz7j5ady7ntvm6",
-      "77P0W9ZBXd4iF5tF7aluv7",
-      "0wBfdFWuY9ESwKb5cLWyHc"
+      "0wBfdFWuY9ESwKb5cLWyHc",
+      "5D0OwDOTYIBxDkoPwFffC0"
     ],
     "spotifyId": "3BSU30rjvfGFXdrfOR7g5z",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba30bc6e12ab8f5c98ba53d09",
     "genres": [
-      "cumbia",
-      "cuarteto"
+      "cumbia"
     ]
   },
   {
@@ -1972,6 +1690,77 @@
     ]
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-08-05T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853544,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "Eagles of Death Metal",
     "venue": "The Bridge @ SF Brewing Co.",
     "date": "2026-08-06T00:00:00.000Z",
@@ -1983,7 +1772,7 @@
     "trackIds": [
       "19mRNWlmHCKIlBT8WOCaXQ",
       "3B7mbMbbcuKdfWssAcyvG8",
-      "684VXujwkA962eZmEJN05N"
+      "3NA45jwwGH28LsHthauYK0"
     ],
     "spotifyId": "02uYdhMhCgdB49hZlYRm9o",
     "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46cb527d08497ff51fbbd3b0e0b",
@@ -2051,7 +1840,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -2219,6 +2008,24 @@
     "source": "Santa Fe Reporter"
   },
   {
+    "artist": "Exotica Tiki Night with DJ Future Babel",
+    "venue": "Tumbleroot Brewery & Distillery",
+    "date": "2026-08-11T23:00:00.000Z",
+    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-7f9deee1-05a7-4248-9c33-1cfa82f28060",
+    "sourceEventId": 4853285,
+    "sourceEventSlug": "exotica-tiki-night-with-dj-future-babel-aug-11-2026",
+    "description": "<p>Experience the ritual of Tiki as you embark on a musical odyssey that blends Hawaiian Classics, Surf Rock, Bossa Nova, Reggae, Latin Dance, and Beachwave. Sip handcrafted Polynesian cocktails and devour island-inspired eats while the sun sets amid flaming tiki torches – the ultimate Tuesday painkiller.</p><br><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Exotica Tiki Night"
+      },
+      {
+        "name": "DJ Future Babel"
+      }
+    ]
+  },
+  {
     "artist": "Gary Farmer and the Troublemakers",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-12T00:00:00.000Z",
@@ -2230,7 +2037,7 @@
     "trackIds": [
       "4jfFCrPt6SMHAJYva4OUEk",
       "28BIVJlBWQhgKZKOdfDbYA",
-      "1RB45q5WTitlyZLp595H6p"
+      "2JMSq6IwpAkskyfQgTuHIt"
     ],
     "spotifyId": "10Jd7rGaSiMwzSvfuOxssI",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273f77e44167d7cc0590196ef93",
@@ -2257,6 +2064,77 @@
     "genres": [
       "dream pop",
       "chillwave"
+    ]
+  },
+  {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-08-12T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853545,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
     ]
   },
   {
@@ -2289,7 +2167,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -2377,7 +2255,78 @@
       "45yOoRo9JIZJoXIrkMurun"
     ],
     "spotifyId": "6iE10VwauqgA3pIyEQiMMI",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737af98928cd5afc6dc8d73188"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273f588d8e866085ea8b475aa4c"
+  },
+  {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-08-19T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853546,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
   },
   {
     "artist": "DK Harrell",
@@ -2452,7 +2401,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -2574,8 +2523,8 @@
     "description": "New Orleans roots rock (think Chicano-style rock with R&amp;B vibes and Latin style). If you watched Treme, you likely know 'em. Funky Americana act Mineral Hill opens. Part of the free Summer Scene series from Lensic 360. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
-      "4NeCkBpfFUcnbsYebusVIp",
       "3SXFYyCiLmjsSA5ikmfwr9",
+      "4NeCkBpfFUcnbsYebusVIp",
       "6XBusA8CO9H1xy3BHcxNkx"
     ],
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe25d73446d19b43da83787a0",
@@ -2588,8 +2537,8 @@
         "spotifyId": "5ROQC5YVQeLlQAjxreXCIr",
         "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe25d73446d19b43da83787a0",
         "trackIds": [
-          "4NeCkBpfFUcnbsYebusVIp",
           "3SXFYyCiLmjsSA5ikmfwr9",
+          "4NeCkBpfFUcnbsYebusVIp",
           "6XBusA8CO9H1xy3BHcxNkx"
         ]
       }
@@ -2632,12 +2581,83 @@
     "trackIds": [
       "0zaXqaNFolJBALeGGSOelq",
       "1UIz73pbNgwZbLn99iSq0b",
-      "2vW1iPJsR3zwxb9m6TvTAY"
+      "0pdrgewjqn00cp9nLA3cbH"
     ],
     "spotifyId": "2nLlWcvMIIGHHnDOQMi0h6",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8f76c60695ee4236b0fa7632",
     "genres": [
       "retro soul"
+    ]
+  },
+  {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-08-26T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853547,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
     ]
   },
   {
@@ -2736,7 +2756,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -2782,7 +2802,7 @@
       "0TDMW2afzkYOlthLOkr6vt",
       "3wBSwnLJQfmLGiYQ2jF3FS",
       "0rtbXJV7J0aHT9HWQISY26",
-      "1VPa2UPP9K3XADyyM6jqux"
+      "5bGXemkhRQHaLjDIfXGtYu"
     ],
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba2a65cdcfb9f406ae6e274dd",
     "genres": [
@@ -2809,7 +2829,7 @@
         "trackIds": [
           "3wBSwnLJQfmLGiYQ2jF3FS",
           "0rtbXJV7J0aHT9HWQISY26",
-          "1VPa2UPP9K3XADyyM6jqux"
+          "5bGXemkhRQHaLjDIfXGtYu"
         ]
       }
     ]
@@ -2840,6 +2860,77 @@
     "source": "Santa Fe Reporter"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-09-02T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853548,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-09-05T00:00:00.000Z",
@@ -2850,7 +2941,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -2888,6 +2979,77 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-09-09T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853549,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-09-12T00:00:00.000Z",
@@ -2898,7 +3060,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -2936,6 +3098,77 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-09-16T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853550,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-09-19T00:00:00.000Z",
@@ -2946,7 +3179,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -2984,6 +3217,77 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-09-23T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853551,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-09-26T00:00:00.000Z",
@@ -2994,7 +3298,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -3032,6 +3336,77 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-09-30T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853552,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-10-03T00:00:00.000Z",
@@ -3042,7 +3417,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -3080,6 +3455,77 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-10-07T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853553,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-10-10T00:00:00.000Z",
@@ -3090,7 +3536,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -3128,6 +3574,77 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-10-14T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853554,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-10-17T00:00:00.000Z",
@@ -3138,7 +3655,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -3176,6 +3693,77 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-10-21T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853555,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-10-24T00:00:00.000Z",
@@ -3186,7 +3774,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -3224,6 +3812,95 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "Exotica Tiki Night with DJ Future Babel",
+    "venue": "Tumbleroot Brewery & Distillery",
+    "date": "2026-10-27T23:00:00.000Z",
+    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-71d2a36b-9fe3-4acc-9a39-41541490a862",
+    "sourceEventId": 4853303,
+    "sourceEventSlug": "exotica-tiki-night-with-dj-future-babel-oct-27-2026",
+    "description": "<p>Experience the ritual of Tiki as you embark on a musical odyssey that blends Hawaiian Classics, Surf Rock, Bossa Nova, Reggae, Latin Dance, and Beachwave. Sip handcrafted Polynesian cocktails and devour island-inspired eats while the sun sets amid flaming tiki torches – the ultimate Tuesday painkiller.</p><br><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Exotica Tiki Night"
+      },
+      {
+        "name": "DJ Future Babel"
+      }
+    ]
+  },
+  {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-10-28T02:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853556,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-10-31T00:00:00.000Z",
@@ -3234,7 +3911,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -3272,6 +3949,77 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-11-04T03:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853557,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-11-07T01:00:00.000Z",
@@ -3282,7 +4030,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -3320,6 +4068,77 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-11-11T03:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853558,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-11-14T01:00:00.000Z",
@@ -3330,7 +4149,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -3368,6 +4187,77 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-11-18T03:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853559,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-11-21T01:00:00.000Z",
@@ -3378,7 +4268,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -3416,6 +4306,77 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-11-25T03:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853560,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-11-28T01:00:00.000Z",
@@ -3426,7 +4387,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -3464,6 +4425,77 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-12-02T03:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853561,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-12-05T01:00:00.000Z",
@@ -3474,7 +4506,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -3512,6 +4544,77 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-12-09T03:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853562,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-12-12T01:00:00.000Z",
@@ -3522,7 +4625,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -3560,6 +4663,77 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-12-16T03:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853563,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "David Wood",
     "venue": "Eldorado Hotel and Spa",
     "date": "2026-12-19T01:00:00.000Z",
@@ -3570,7 +4744,7 @@
     "trackIds": [
       "1TSxPd7NMBDjxjFXN8mcQn",
       "6KZQvY7rQyW5iCxIA9ECAu",
-      "3P4yu8mQSlgSUxREFD41WR"
+      "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
@@ -3608,6 +4782,77 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-12-23T03:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853564,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+    "genres": [
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
+    ],
+    "subArtists": [
+      {
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
+        "trackIds": [
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
+        ]
+      },
+      {
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
+        "genres": [
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
+        ],
+        "trackIds": [
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
+        ]
+      }
+    ]
+  },
+  {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-12-28T01:00:00.000Z",
@@ -3640,102 +4885,74 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
-    "artist": "Mina Fajardo and Chuscales",
-    "venue": "Teatro Paraguas",
-    "date": "2026-06-18T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43193636-mina-fajardo-at-teatro-paraguas",
-    "listingUrl": "https://www.songkick.com/concerts/43193636-mina-fajardo-at-teatro-paraguas",
-    "source": "Songkick",
+    "artist": "The Tuesday Downtown Blues Jam",
+    "venue": "Evangelo's ",
+    "date": "2026-12-30T03:00:00.000Z",
+    "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
+    "sourceEventId": 4853565,
+    "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
+    "source": "Santa Fe Reporter",
     "trackIds": [
-      "4RVmThKCzpzXn1hCatSsP6",
-      "1Qvam2fv4uTCpXAZNaOu2q",
-      "0RljIRAhI5Ki4opxkvFjoa",
-      "2cJWU90x1NlPNKWOS3lHyQ",
-      "2Buj0g77kPF0r345PkzAo2",
-      "31JmoseHvyHLQYEfMmwh0j"
+      "0SoWAjgu4jJ1PLtei3CNez",
+      "6Eb0wxxAgDfFAKyTdcVpXh",
+      "2BNQHenBc9Nzu59ErG0k6t",
+      "2q4rjDy9WhaN3o9MvDbO21",
+      "66TRwr5uJwPt15mfFkzhbi",
+      "6ATrsVaZT7XjkCynxM8cTS",
+      "77uktQePd9IdeMPVWlu1cO",
+      "2xsfwyT49o2OCoPieXMxQC",
+      "0VNZynSjhpNMXHCJUvuQiT"
     ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
     "genres": [
-      "flamenco pop",
-      "flamenco"
+      "cantopop",
+      "chinese rock",
+      "c-pop",
+      "mandopop"
     ],
     "subArtists": [
       {
-        "name": "Mina Fajardo",
-        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-        "genres": [
-          "flamenco pop",
-          "flamenco"
-        ],
+        "name": "a little honky-tonk"
+      },
+      {
+        "name": "rock",
+        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
         "trackIds": [
-          "4RVmThKCzpzXn1hCatSsP6",
-          "1Qvam2fv4uTCpXAZNaOu2q",
-          "0RljIRAhI5Ki4opxkvFjoa"
+          "0SoWAjgu4jJ1PLtei3CNez",
+          "6Eb0wxxAgDfFAKyTdcVpXh",
+          "2BNQHenBc9Nzu59ErG0k6t"
         ]
       },
       {
-        "name": "Chuscales",
-        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "name": "soul",
+        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
+        "trackIds": [
+          "2q4rjDy9WhaN3o9MvDbO21",
+          "66TRwr5uJwPt15mfFkzhbi",
+          "6ATrsVaZT7XjkCynxM8cTS"
+        ]
+      },
+      {
+        "name": "by players from Albuquerque to Taos"
+      },
+      {
+        "name": "beyond",
+        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
         "genres": [
-          "flamenco"
+          "cantopop",
+          "chinese rock",
+          "c-pop",
+          "mandopop"
         ],
         "trackIds": [
-          "2cJWU90x1NlPNKWOS3lHyQ",
-          "2Buj0g77kPF0r345PkzAo2",
-          "31JmoseHvyHLQYEfMmwh0j"
+          "77uktQePd9IdeMPVWlu1cO",
+          "2xsfwyT49o2OCoPieXMxQC",
+          "0VNZynSjhpNMXHCJUvuQiT"
         ]
       }
-    ]
-  },
-  {
-    "artist": "Jesus Bas",
-    "venue": "Dragon Room Bar",
-    "date": "2026-06-17T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43217016-jesus-bas-at-dragon-room-bar",
-    "listingUrl": "https://www.songkick.com/concerts/43217016-jesus-bas-at-dragon-room-bar",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Searows",
-    "venue": "Meow Wolf",
-    "date": "2026-06-19T02:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/42983092-searows-at-meow-wolf",
-    "listingUrl": "https://www.songkick.com/concerts/42983092-searows-at-meow-wolf",
-    "source": "Songkick",
-    "trackIds": [
-      "5swZvDSi78Znk4rlmwHNnj",
-      "7fhAjbHrzGknwQkGIzJHVk",
-      "5RXjt2s4HBJw3TcaAzwSrD"
-    ],
-    "spotifyId": "0nugNBwdWaptgIAsEtx1It",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb14229bdbda79ace871ef7bf2"
-  },
-  {
-    "artist": "Jesus Bas",
-    "venue": "La Boca",
-    "date": "2026-06-19T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43217018-jesus-bas-at-la-boca",
-    "listingUrl": "https://www.songkick.com/concerts/43217018-jesus-bas-at-la-boca",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Johnny Bell",
-    "venue": "Santa Fe Noise Ordinance",
-    "date": "2026-06-22T01:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43273485-johnny-bell-at-santa-fe-noise-ordinance",
-    "listingUrl": "https://www.songkick.com/concerts/43273485-johnny-bell-at-santa-fe-noise-ordinance",
-    "source": "Songkick",
-    "trackIds": [
-      "2WxPCilH08ttH6jDtpXOfq",
-      "5en5TzTJ60Xpn7gE1HGlXu",
-      "0VFFCDogGPEmYVflOyfEn0"
-    ],
-    "spotifyId": "0TecByQRspSF15IxkCCd4I",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1bf0e018af9edd058a2d16de",
-    "genres": [
-      "rockabilly"
     ]
   },
   {
@@ -3753,61 +4970,6 @@
     "ticketUrl": "https://www.songkick.com/concerts/43212695-heartbyrne-at-santa-fe-railyard-plaza",
     "listingUrl": "https://www.songkick.com/concerts/43212695-heartbyrne-at-santa-fe-railyard-plaza",
     "source": "Songkick"
-  },
-  {
-    "artist": "Turnover and Narrow Head",
-    "venue": "Santa Fe Brewing Company",
-    "date": "2026-06-27T01:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43203256-turnover-at-santa-fe-brewing-company",
-    "listingUrl": "https://www.songkick.com/concerts/43203256-turnover-at-santa-fe-brewing-company",
-    "source": "Songkick",
-    "trackIds": [
-      "3vkj94FiLgUz3ysZcmIXPx",
-      "0Wl2RALqRacaIJhnlRHK8J",
-      "7itGQJ2FJZPl3VPD7x4vJw",
-      "69jVsEla1GaZYEzinH4kDb",
-      "3C7Qjn5zpc6xJ81pamYWtJ",
-      "7jd5bSsJ3pdPVDU7PdFVJL"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb848d27ab5fb5fa7bf05c3f15",
-    "genres": [
-      "midwest emo",
-      "dream pop",
-      "pop punk",
-      "shoegaze",
-      "post-grunge"
-    ],
-    "subArtists": [
-      {
-        "name": "Turnover",
-        "spotifyId": "0gLjJuczGWhqKVMmVpIT52",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb848d27ab5fb5fa7bf05c3f15",
-        "genres": [
-          "midwest emo",
-          "dream pop",
-          "pop punk"
-        ],
-        "trackIds": [
-          "3vkj94FiLgUz3ysZcmIXPx",
-          "0Wl2RALqRacaIJhnlRHK8J",
-          "7itGQJ2FJZPl3VPD7x4vJw"
-        ]
-      },
-      {
-        "name": "Narrow Head",
-        "spotifyId": "4g6ODwOQYRZLsP89kEoBIu",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe9c0358d8615d9ffcc799ba0",
-        "genres": [
-          "shoegaze",
-          "post-grunge"
-        ],
-        "trackIds": [
-          "69jVsEla1GaZYEzinH4kDb",
-          "3C7Qjn5zpc6xJ81pamYWtJ",
-          "7jd5bSsJ3pdPVDU7PdFVJL"
-        ]
-      }
-    ]
   },
   {
     "artist": "Jesus Bas",
@@ -3926,10 +5088,7 @@
       "0VFFCDogGPEmYVflOyfEn0"
     ],
     "spotifyId": "0TecByQRspSF15IxkCCd4I",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1bf0e018af9edd058a2d16de",
-    "genres": [
-      "rockabilly"
-    ]
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1bf0e018af9edd058a2d16de"
   },
   {
     "artist": "Jesus Bas",
@@ -3970,7 +5129,7 @@
     "trackIds": [
       "7lHGsPvsdeSD1tRm0faS1o",
       "3criOyPqWwtt5cUAcDCq6J",
-      "1z3y0dcgWonv5eZJmkN05r"
+      "57QZeBhHRLiWhIpjHvKtND"
     ],
     "spotifyId": "5LtAyeDVOVcydj65LvgICY",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb62a4b98bc97a9b5534cd1321",
@@ -4091,8 +5250,8 @@
     "listingUrl": "https://www.songkick.com/concerts/43145150-kurt-vile-at-bridge-at-santa-fe-brewing-company",
     "source": "Songkick",
     "trackIds": [
-      "0aW3FQZlYWyj1gTn7mlc8t",
       "21CU5fG0Pp0LUbXRDG1d48",
+      "0aW3FQZlYWyj1gTn7mlc8t",
       "562yKTMPiyCsZrzjXzUzSF"
     ],
     "spotifyId": "5gspAQIAH8nJUrMYgXjCJ2",
@@ -4253,8 +5412,8 @@
     "listingUrl": "https://www.songkick.com/concerts/43148078-james-mcmurtry-at-bridge-at-santa-fe-brewing-company",
     "source": "Songkick",
     "trackIds": [
-      "2sKMKKLObm8wq7YTeB6Yxd",
       "6biQrLq3oML4mvr9RZ8ZFD",
+      "2sKMKKLObm8wq7YTeB6Yxd",
       "5ygzu1GVY7wnjOvvvfamJ0"
     ],
     "spotifyId": "52BKc9OtCbQstAAPTIvLGH",
@@ -4345,7 +5504,7 @@
     "trackIds": [
       "5T7ZTI47ewvq66rpX5bj5S",
       "0uD6bj0fgJRk2Jas7opwPN",
-      "2iedbVlqr2NVlQwjxMxRLT"
+      "2aKyY2uv2k1K2yunwJ6pyc"
     ],
     "spotifyId": "66NY7M7uxuzISHBID7J1Bv",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2739c0b600d4b8ae25a23964b9e",
@@ -4480,25 +5639,6 @@
     "source": "Songkick"
   },
   {
-    "artist": "The Beths",
-    "venue": "The Bridge at Santa Fe Brewing Company",
-    "date": "2026-07-31T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43077612-beths-at-bridge-at-santa-fe-brewing-company",
-    "listingUrl": "https://www.songkick.com/concerts/43077612-beths-at-bridge-at-santa-fe-brewing-company",
-    "source": "Songkick",
-    "trackIds": [
-      "1bPcxJHusTrlr2Kj4kjK7e",
-      "6CWDUTWFZW9P9wNkGqg0U5",
-      "5bS7ajbQ4ZZDksu9ryAvXu"
-    ],
-    "spotifyId": "7DjwIxbe8kpw4pqnzAMoin",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb26b0d0de46b77e23675281",
-    "genres": [
-      "indie rock",
-      "power pop"
-    ]
-  },
-  {
     "artist": "Beach Bunny",
     "venue": "Santa Fe Brewing Company",
     "date": "2026-08-01T01:00:00.000Z",
@@ -4512,6 +5652,25 @@
     ],
     "spotifyId": "2vnB6tuQMaQpORiRdvXF9H",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc76f04ab8987c4fb298abb3c"
+  },
+  {
+    "artist": "The Beths",
+    "venue": "The Bridge at Santa Fe Brewing Company",
+    "date": "2026-07-31T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43077612-beths-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43077612-beths-at-bridge-at-santa-fe-brewing-company",
+    "source": "Songkick",
+    "trackIds": [
+      "6CWDUTWFZW9P9wNkGqg0U5",
+      "1bPcxJHusTrlr2Kj4kjK7e",
+      "5bS7ajbQ4ZZDksu9ryAvXu"
+    ],
+    "spotifyId": "7DjwIxbe8kpw4pqnzAMoin",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb26b0d0de46b77e23675281",
+    "genres": [
+      "indie rock",
+      "power pop"
+    ]
   },
   {
     "artist": "Jesus Bas",
@@ -4550,7 +5709,7 @@
     "trackIds": [
       "19mRNWlmHCKIlBT8WOCaXQ",
       "3B7mbMbbcuKdfWssAcyvG8",
-      "684VXujwkA962eZmEJN05N",
+      "3NA45jwwGH28LsHthauYK0",
       "2qPsFrbn4G1ytL3YmBFhxf",
       "7fBGO13V5jWSKzXWPP4Kus",
       "5AzXD4JyNAUTqPyoy16teD"
@@ -4572,7 +5731,7 @@
         "trackIds": [
           "19mRNWlmHCKIlBT8WOCaXQ",
           "3B7mbMbbcuKdfWssAcyvG8",
-          "684VXujwkA962eZmEJN05N"
+          "3NA45jwwGH28LsHthauYK0"
         ]
       },
       {
@@ -4681,9 +5840,226 @@
       "0VFFCDogGPEmYVflOyfEn0"
     ],
     "spotifyId": "0TecByQRspSF15IxkCCd4I",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1bf0e018af9edd058a2d16de",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1bf0e018af9edd058a2d16de"
+  },
+  {
+    "artist": "Widowspeak",
+    "venue": "Tumbleroot Brewery & Distillery",
+    "date": "2026-08-12T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
+    "source": "Songkick",
+    "trackIds": [
+      "0etKjdwsCnwtj6dB4iEZn8",
+      "2vL3NFV79S9LvAnWAI6MMQ",
+      "48bePG5thRkA5xttNPRB8c"
+    ],
+    "spotifyId": "5ZW7HlSuZz8ng2X21cXbdP",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebffce0e0fc0c2c1e811e48602",
     "genres": [
-      "rockabilly"
+      "dream pop",
+      "chillwave"
+    ]
+  },
+  {
+    "artist": "Dead Gowns",
+    "venue": "Tumbleroot Brewery & Distillery",
+    "date": "2026-08-12T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
+    "source": "Songkick",
+    "trackIds": [
+      "37piAuK1WhsQDLJ8hmDDSW",
+      "609jfTPcX5w8YnpW2Sf9JI",
+      "3hVq9e2hA3J0NZmlXqTl0B"
+    ],
+    "spotifyId": "7jadGvdBDPrM4fNOukfDny",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebfe0cbe07c7915a5d7420fb6b"
+  },
+  {
+    "artist": "Soft Palms",
+    "venue": "Marigold Room",
+    "date": "2026-08-13T01:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43111798-soft-palms-at-marigold-room",
+    "listingUrl": "https://www.songkick.com/concerts/43111798-soft-palms-at-marigold-room",
+    "source": "Songkick",
+    "trackIds": [
+      "05s1RKoZ5JNuaSDB1hp9Yv",
+      "1pWtC2kjZoUipQrHU49rSM",
+      "3eBK0q7TW9LtC9Fw1XjaEj"
+    ],
+    "spotifyId": "4PmRvPxX5xKA5zg4gmh4wR",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb057fd1454058de189d9b9b3b"
+  },
+  {
+    "artist": "Mina Fajardo and Chuscales",
+    "venue": "Teatro Paraguas",
+    "date": "2026-08-13T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43193644-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193644-mina-fajardo-at-teatro-paraguas",
+    "source": "Songkick",
+    "trackIds": [
+      "4RVmThKCzpzXn1hCatSsP6",
+      "1Qvam2fv4uTCpXAZNaOu2q",
+      "0RljIRAhI5Ki4opxkvFjoa",
+      "2cJWU90x1NlPNKWOS3lHyQ",
+      "2Buj0g77kPF0r345PkzAo2",
+      "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Black Joe Lewis",
+    "venue": "Tumbleroot Brewery & Distillery",
+    "date": "2026-08-14T02:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43197581-black-joe-lewis-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43197581-black-joe-lewis-at-tumbleroot-brewery-and-distillery",
+    "source": "Songkick",
+    "trackIds": [
+      "1CcUlfuFva1OyoGFHyJBJp",
+      "0BSX4C0HjsV8vcMOD3Jh7q",
+      "7gDBDCgpXyhlagafOwWprz"
+    ],
+    "spotifyId": "4hFguSNiDDWFzkdaxoBYF7",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb548ddeb7de4b23a9abf9abb3",
+    "genres": [
+      "modern blues"
+    ]
+  },
+  {
+    "artist": "Jeff Ruby",
+    "venue": "Tumbleroot Brewery & Distillery",
+    "date": "2026-08-16T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43247641-jeff-ruby-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43247641-jeff-ruby-at-tumbleroot-brewery-and-distillery",
+    "source": "Songkick",
+    "trackIds": [
+      "2D2BLPHl1kbOlHGcE2t2cW",
+      "3EQEUsIq9XudG0AZ8YqRBx",
+      "47fVvNSSO37USLAQiUUnjc"
+    ],
+    "spotifyId": "7pjhNqmOJNezR9pW3dYLyD",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb048630e44ea770906b674799"
+  },
+  {
+    "artist": "Mina Fajardo and Chuscales",
+    "venue": "Teatro Paraguas",
+    "date": "2026-08-20T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43193645-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193645-mina-fajardo-at-teatro-paraguas",
+    "source": "Songkick",
+    "trackIds": [
+      "4RVmThKCzpzXn1hCatSsP6",
+      "1Qvam2fv4uTCpXAZNaOu2q",
+      "0RljIRAhI5Ki4opxkvFjoa",
+      "2cJWU90x1NlPNKWOS3lHyQ",
+      "2Buj0g77kPF0r345PkzAo2",
+      "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Bill Callahan",
+    "venue": "The Bridge at Santa Fe Brewing Company",
+    "date": "2026-08-20T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43160049-bill-callahan-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43160049-bill-callahan-at-bridge-at-santa-fe-brewing-company",
+    "source": "Songkick",
+    "trackIds": [
+      "3KZRkM7Uv0F2oCTUHAvv0a",
+      "7ydapdmQ4oivP54X29q7Af",
+      "0do3zfmbVl5DiGxUXrbhrT"
+    ],
+    "spotifyId": "7gqsi6aBSkRMJoL9psKqMr",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb2f538487b6868a97f5a7fb",
+    "genres": [
+      "alt country"
+    ]
+  },
+  {
+    "artist": "Tracy Lawrence",
+    "venue": "Buffalo Thunder Resort & Casino",
+    "date": "2026-08-22T02:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43203261-tracy-lawrence-at-buffalo-thunder-resort-and-casino",
+    "listingUrl": "https://www.songkick.com/concerts/43203261-tracy-lawrence-at-buffalo-thunder-resort-and-casino",
+    "source": "Songkick",
+    "trackIds": [
+      "2TIEeLrOQrGnO2D2OeDDJu",
+      "1Mew3ipJFmRpSj83LRyxod",
+      "7cxOL3nvmqd6w811wOlWT1"
+    ],
+    "spotifyId": "2BQVRw9md4UKcGUrDXABCD",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba90ba2a80781238c8dc268d8",
+    "genres": [
+      "country",
+      "classic country",
+      "traditional country"
     ]
   }
 ]
