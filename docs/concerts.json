@@ -2522,25 +2522,12 @@
     "sourceEventSlug": "iguanas-w-mineral-hill-aug-24-2026",
     "description": "New Orleans roots rock (think Chicano-style rock with R&amp;B vibes and Latin style). If you watched Treme, you likely know 'em. Funky Americana act Mineral Hill opens. Part of the free Summer Scene series from Lensic 360. ",
     "source": "Santa Fe Reporter",
-    "trackIds": [
-      "3SXFYyCiLmjsSA5ikmfwr9",
-      "4NeCkBpfFUcnbsYebusVIp",
-      "6XBusA8CO9H1xy3BHcxNkx"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe25d73446d19b43da83787a0",
     "subArtists": [
       {
         "name": "amp;B vibes"
       },
       {
-        "name": "Latin style",
-        "spotifyId": "5ROQC5YVQeLlQAjxreXCIr",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe25d73446d19b43da83787a0",
-        "trackIds": [
-          "3SXFYyCiLmjsSA5ikmfwr9",
-          "4NeCkBpfFUcnbsYebusVIp",
-          "6XBusA8CO9H1xy3BHcxNkx"
-        ]
+        "name": "Latin style"
       }
     ]
   },
