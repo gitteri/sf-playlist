@@ -1,15 +1,5 @@
 [
   {
-    "artist": "Smoking Toad",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-06-22T23:00:00.000Z",
-    "listingUrl": "https://www.tumblerootbreweryanddistillery.com/events#calendar-6537eb74-c800-416b-ab0d-b905b0e18edc-event-e699b0a4-0225-4830-9d61-a6434d9d7de2",
-    "sourceEventId": 4850016,
-    "sourceEventSlug": "smoking-toad-jun-22-2026",
-    "description": "<p>Smoking Toad plays a funky blend of rock 'n' roll, blues and R&amp;B, including both original tunes and covers of artists such as Lou Reed, James Brown, Jimi Hendrix, Buddy Miles, Lynyrd Skynyrd, and Taj Mahal.</p>",
-    "source": "Santa Fe Reporter"
-  },
-  {
     "artist": "Doug Montgomery",
     "venue": "Rio Chama Steakhouse",
     "date": "2026-06-23T00:00:00.000Z",
@@ -24,15 +14,6 @@
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
-  },
-  {
-    "artist": "Darin Savage",
-    "venue": "TerraCotta Wine Bistro",
-    "date": "2026-06-23T00:30:00.000Z",
-    "sourceEventId": 4832353,
-    "sourceEventSlug": "darin-savage-jun-22-2026",
-    "description": "Darin Savage plays Spanish guitar every Monday evening. ",
-    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Amy Coffman",
@@ -220,7 +201,25 @@
     "listingUrl": "https://sarweb.org/date/round-mountain/",
     "sourceEventId": 4853209,
     "description": "<p>This summer, the heart of the SAR campus turns into an outdoor cocktail lounge and live music venue for Music at Dusk starting off with the original world folk music of Round Mountain.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "4Z3GBOT7rDBk1jIZJ0X6d5",
+      "2GzwwcWPRIZiPHM0xQK7f1",
+      "5oLuIZgzZstd4YS7FYUofv"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27395096af7d1a32ec49e4e5aa6",
+    "subArtists": [
+      {
+        "name": "Round Mountain",
+        "spotifyId": "0y5zwrsIqJFPyenvYImJMH",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27395096af7d1a32ec49e4e5aa6",
+        "trackIds": [
+          "4Z3GBOT7rDBk1jIZJ0X6d5",
+          "2GzwwcWPRIZiPHM0xQK7f1",
+          "5oLuIZgzZstd4YS7FYUofv"
+        ]
+      }
+    ]
   },
   {
     "artist": "Locals Night + Folk Jam",
@@ -311,7 +310,12 @@
     "date": "2026-06-26T01:00:00.000Z",
     "sourceEventId": 4853656,
     "description": "<p>DJ Optamystik taking requests and mixing all your favorites from oldies to today's hits mixing up all genres.</p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "DJ Optamystik"
+      }
+    ]
   },
   {
     "artist": "DJ OPTAMYSTIK",
@@ -374,7 +378,12 @@
     "sourceEventId": 4842173,
     "sourceEventSlug": "tgif-music-series-bryan-hutchinson-piano-jun-26-2026",
     "description": "<p>Bryan Hutchinson performs de Falla, Granados and Chopin on piano. </p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Bryan Hutchinson"
+      }
+    ]
   },
   {
     "artist": "Smooth",
@@ -430,11 +439,77 @@
     "ticketUrl": "https://tickets.holdmyticket.com/tickets/463045",
     "sourceEventId": 4853352,
     "description": "<p>ABQ's Queen of Soul Hillary Smith sings jazz with Alex Murzyn on saxophone, John Funkhouser on piano, Gordon Johnson on bass and Rich Malloy on drums. </p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "19qEkGwPEFj1EKbAJ1yit9",
+      "6PLhPp2IE1z40q1dtO8WlR",
+      "1Z1tL750OT7J9OOtXoyVCj",
+      "4wVFlRemSqZFLsHkDy2zxq",
+      "5hwpHJ9BSVJw9Zx14N0Q6S",
+      "6Mo2m9fTxwbdBbabjxTM7r",
+      "33G7HjzcoqtAuevQjXzIKq",
+      "1UTa1aTOlUMk4clztGFOrW",
+      "5ZX5ypXqVBLQB4dg5I9PMj",
+      "51O77CapGRa0bhg3KTJzXf",
+      "0Uo3FNIgHCzINAMHnUqG69",
+      "2YeMX86l2XuL45VspwVvbN"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27361f28737e93448e27ce0824f",
+    "genres": [
+      "jazz ballads"
+    ],
+    "subArtists": [
+      {
+        "name": "Hillary Smith",
+        "spotifyId": "1Yy8TYDcutF60eKqdmaYv0",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27361f28737e93448e27ce0824f",
+        "trackIds": [
+          "19qEkGwPEFj1EKbAJ1yit9",
+          "6PLhPp2IE1z40q1dtO8WlR",
+          "1Z1tL750OT7J9OOtXoyVCj"
+        ]
+      },
+      {
+        "name": "Alex Murzyn",
+        "spotifyId": "7bQdQQJOETWktiHiICE28F",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273e4a5d62fb44db57aaa875d9f",
+        "genres": [
+          "jazz ballads"
+        ],
+        "trackIds": [
+          "4wVFlRemSqZFLsHkDy2zxq",
+          "5hwpHJ9BSVJw9Zx14N0Q6S",
+          "6Mo2m9fTxwbdBbabjxTM7r"
+        ]
+      },
+      {
+        "name": "John Funkhouser",
+        "spotifyId": "1B6GExAdYTpCYsVLSVex5z",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273e3d035d611e361725aaaf70a",
+        "trackIds": [
+          "33G7HjzcoqtAuevQjXzIKq",
+          "1UTa1aTOlUMk4clztGFOrW",
+          "5ZX5ypXqVBLQB4dg5I9PMj"
+        ]
+      },
+      {
+        "name": "Gordon Johnson",
+        "spotifyId": "2ujdIioC8FZ6wK1dzDXgsF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27398512fa2b94da26a02370823",
+        "trackIds": [
+          "51O77CapGRa0bhg3KTJzXf",
+          "0Uo3FNIgHCzINAMHnUqG69",
+          "2YeMX86l2XuL45VspwVvbN"
+        ]
+      },
+      {
+        "name": "Rich Malloy"
+      }
+    ]
   },
   {
     "artist": "Betty Benedeadly",
-    "venue": "The Mystic Santa Fe, Cerrillos Road, Santa Fe, NM, USA",
+    "venue": "The Mystic",
     "date": "2026-06-27T02:00:00.000Z",
     "ticketUrl": "https://www.eventbrite.com/e/1987953796319",
     "listingUrl": "https://www.eventbrite.com/e/1987944734214/?aff=oddtdtcreator",
@@ -456,7 +531,12 @@
     "listingUrl": "https://www.hotelglorietasantafe.com/hotelglorietaevents",
     "sourceEventId": 4853354,
     "description": "<p>Deep cut cumbias y más with DJ Luz Skylarker. </p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "DJ Luz Skylarker"
+      }
+    ]
   },
   {
     "artist": "The High Desert Playboys",
@@ -480,7 +560,12 @@
     "listingUrl": "https://www.reverbnation.com/bobmaus/song/34523171-bob-maus-live-performance-demo",
     "sourceEventId": 4854116,
     "description": "<p>Maus plays blues, soul and pop on piano and vocals. </p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Bob Maus"
+      }
+    ]
   },
   {
     "artist": "PRIDE {after dark} Featuring Tracy Young",
@@ -490,7 +575,31 @@
     "listingUrl": "https://hrasantafe.org/pride-2026/",
     "sourceEventId": 4853600,
     "description": "<p>Get ready to turn up the energy for PRIDE {after dark}, one of the most electrifying nights of PRIDE Santa Fe 2026 featuring an immersive, late-night dance experience where music, art, and queer joy collide.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "5XXaUQiNgqrf5jQMfpQpyw",
+      "6w9FwcNjOhcispHsDlzv5Q",
+      "5cgtaI5S7Kh4yrsOJUnHBz"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb64e0d7468c14fac81d3db8d8",
+    "genres": [
+      "tribal house"
+    ],
+    "subArtists": [
+      {
+        "name": "Tracy Young",
+        "spotifyId": "2rlC9S7Iw4cwxup4LyOWQy",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb64e0d7468c14fac81d3db8d8",
+        "genres": [
+          "tribal house"
+        ],
+        "trackIds": [
+          "5XXaUQiNgqrf5jQMfpQpyw",
+          "6w9FwcNjOhcispHsDlzv5Q",
+          "5cgtaI5S7Kh4yrsOJUnHBz"
+        ]
+      }
+    ]
   },
   {
     "artist": "The Ron Crowder Band",
@@ -1336,7 +1445,66 @@
     "sourceEventId": 4835898,
     "sourceEventSlug": "wonderful-fantastic-hip-hop-festival-aug-7-2026",
     "description": "<p>Local multi-hyphenate Raashan Ahmad presides over his annual ode to hip-hop's genesis and enduring excellence with performances from Souls of Mischief, Brother Ali and Slum Village. Honestly? This lineup is INSANE and the show is free. Thanks, Raashan and Lensic 360!</p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "0PV1TFUMTBrDETzW6KQulB",
+      "2eNSieyqDoZMa3yOSagR4q",
+      "0VuzA7lyIFn1VzinsOak8J",
+      "42uXDKUhyAt5Exe1G5pKWJ",
+      "06tMxo0sySSq4SkIS3xUsc",
+      "1nRrJHvBAnZ9DQK0QJsYDT",
+      "7sZCAHP2duHwr5M5K7lHsb",
+      "2KBo6O5rkNdtYT3wYjkEkq",
+      "3ZUgG228RG5bbRGsF3OzDg"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb77f22a53b5c7965572c5480c",
+    "genres": [
+      "jazz rap",
+      "old school hip hop",
+      "underground hip hop"
+    ],
+    "subArtists": [
+      {
+        "name": "Souls of Mischief",
+        "spotifyId": "5Rzqmz1zAszembFHGZQuAt",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb77f22a53b5c7965572c5480c",
+        "genres": [
+          "jazz rap",
+          "old school hip hop"
+        ],
+        "trackIds": [
+          "0PV1TFUMTBrDETzW6KQulB",
+          "2eNSieyqDoZMa3yOSagR4q",
+          "0VuzA7lyIFn1VzinsOak8J"
+        ]
+      },
+      {
+        "name": "Brother Ali",
+        "spotifyId": "6CsleyOZtyt16saX8WhzDx",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb63ed92a9f979d3e88f371bdf",
+        "genres": [
+          "underground hip hop"
+        ],
+        "trackIds": [
+          "42uXDKUhyAt5Exe1G5pKWJ",
+          "06tMxo0sySSq4SkIS3xUsc",
+          "1nRrJHvBAnZ9DQK0QJsYDT"
+        ]
+      },
+      {
+        "name": "Slum Village",
+        "spotifyId": "1020a42xVklY6c56imNcaa",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd3e282b54f0709be5376764a",
+        "genres": [
+          "jazz rap"
+        ],
+        "trackIds": [
+          "7sZCAHP2duHwr5M5K7lHsb",
+          "2KBo6O5rkNdtYT3wYjkEkq",
+          "3ZUgG228RG5bbRGsF3OzDg"
+        ]
+      }
+    ]
   },
   {
     "artist": "Banshee Tree",
@@ -1512,7 +1680,67 @@
     "sourceEventId": 4835937,
     "sourceEventSlug": "indigenousways-festival-aug-14-2026",
     "description": "Keith Secola, Levi Platero and Sage Bond come together to celebrate Indigenous art and music at this free and family-friendly Railyard event. Think blues and rock and stuff. ",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "11bbzZXXlHYIm6gKtDDt1P",
+      "4xfDyZkTjflaY3DVpyfy6G",
+      "2L7OYacN0N2DjWOhVB2XKU",
+      "2ZvoRKyodKcHT46jiON1r5",
+      "6n2Q7jkqrjx3L2JnP3ZyOS",
+      "1L1GAASzfHR1lKGBVeocCR",
+      "3HskbnqHSaYEAjIAuDpvi2",
+      "0q5jLRM57iWjgqMUkwebj2",
+      "0hSab3upmfMyx648C7KKNP"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb630d34be105fa2f310b7e11d",
+    "genres": [
+      "native american music",
+      "blues rock",
+      "blues"
+    ],
+    "subArtists": [
+      {
+        "name": "Keith Secola",
+        "spotifyId": "0aum4YUifChcnJyUmzGeOd",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb630d34be105fa2f310b7e11d",
+        "genres": [
+          "native american music"
+        ],
+        "trackIds": [
+          "11bbzZXXlHYIm6gKtDDt1P",
+          "4xfDyZkTjflaY3DVpyfy6G",
+          "2L7OYacN0N2DjWOhVB2XKU"
+        ]
+      },
+      {
+        "name": "Levi Platero",
+        "spotifyId": "38Xs4OaJQSTApdDjXrXfIX",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebef58fa41e032d4b4107167a0",
+        "genres": [
+          "native american music",
+          "blues rock",
+          "blues"
+        ],
+        "trackIds": [
+          "2ZvoRKyodKcHT46jiON1r5",
+          "6n2Q7jkqrjx3L2JnP3ZyOS",
+          "1L1GAASzfHR1lKGBVeocCR"
+        ]
+      },
+      {
+        "name": "Sage Bond",
+        "spotifyId": "2sfaJTKm8h748A1cNlZeZV",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebbc730352fbd7f172738b085e",
+        "genres": [
+          "native american music"
+        ],
+        "trackIds": [
+          "3HskbnqHSaYEAjIAuDpvi2",
+          "0q5jLRM57iWjgqMUkwebj2",
+          "0hSab3upmfMyx648C7KKNP"
+        ]
+      }
+    ]
   },
   {
     "artist": "David Wood",
@@ -1635,7 +1863,34 @@
     "sourceEventId": 4835945,
     "sourceEventSlug": "dk-harrell-aug-20-2026",
     "description": "If you like the blues (by which we mean the music, not feeling sad), look no further than songwriter/singer/shredder Harrell. Turquoise Steel opens. ",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "6yDxt1kXjggMO4TFYxQfVi",
+      "7Eks90sec4CaJCiD5kK1iG",
+      "1oSZVuLeN9EFW3L4K4ygFh"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0a39ca0833bee3022dac9c47",
+    "genres": [
+      "blues rock"
+    ],
+    "subArtists": [
+      {
+        "name": "DK Harrell"
+      },
+      {
+        "name": "Turquoise Steel",
+        "spotifyId": "4ULJRHYFwd02rdOecRAa00",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0a39ca0833bee3022dac9c47",
+        "genres": [
+          "blues rock"
+        ],
+        "trackIds": [
+          "6yDxt1kXjggMO4TFYxQfVi",
+          "7Eks90sec4CaJCiD5kK1iG",
+          "1oSZVuLeN9EFW3L4K4ygFh"
+        ]
+      }
+    ]
   },
   {
     "artist": "Bill Callahan",
@@ -1824,7 +2079,38 @@
     "sourceEventId": 4838450,
     "sourceEventSlug": "iguanas-w-mineral-hill-aug-24-2026",
     "description": "New Orleans roots rock (think Chicano-style rock with R&amp;B vibes and Latin style). If you watched Treme, you likely know 'em. Funky Americana act Mineral Hill opens. Part of the free Summer Scene series from Lensic 360. ",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "trackIds": [
+      "6CCMVcxgL7GnLhlE5Y2rWc",
+      "4XI03FbXwRenFaBZrk0pz5",
+      "4QrpXXPY9X3AGZuGQxJnRF",
+      "6mK0yvHmiIzVPFzTjB9d1l",
+      "3xAqJMqQAEXOhtmZYoisb2",
+      "2suBCHgJMjgPtZlFcZBJAY"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebafd670f2344bcb8a700c633a",
+    "subArtists": [
+      {
+        "name": "Iguanas",
+        "spotifyId": "0ZiHGgyk4exvGf6JmJvRhn",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebafd670f2344bcb8a700c633a",
+        "trackIds": [
+          "6CCMVcxgL7GnLhlE5Y2rWc",
+          "4XI03FbXwRenFaBZrk0pz5",
+          "4QrpXXPY9X3AGZuGQxJnRF"
+        ]
+      },
+      {
+        "name": "Mineral Hill",
+        "spotifyId": "3NbQZfU2YhqA58mKB3x4BD",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb2105faf80a11270204918ab0",
+        "trackIds": [
+          "6mK0yvHmiIzVPFzTjB9d1l",
+          "3xAqJMqQAEXOhtmZYoisb2",
+          "2suBCHgJMjgPtZlFcZBJAY"
+        ]
+      }
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -3016,1113 +3302,6 @@
     "source": "Santa Fe Reporter"
   },
   {
-    "artist": "Jesus Bas",
-    "venue": "Dragon Room Bar",
-    "date": "2026-06-24T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43217020-jesus-bas-at-dragon-room-bar",
-    "listingUrl": "https://www.songkick.com/concerts/43217020-jesus-bas-at-dragon-room-bar",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Heartbyrne",
-    "venue": "Santa Fe Railyard Plaza",
-    "date": "2026-06-25T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43212695-heartbyrne-at-santa-fe-railyard-plaza",
-    "listingUrl": "https://www.songkick.com/concerts/43212695-heartbyrne-at-santa-fe-railyard-plaza",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Jesus Bas",
-    "venue": "La Boca",
-    "date": "2026-06-26T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43217021-jesus-bas-at-la-boca",
-    "listingUrl": "https://www.songkick.com/concerts/43217021-jesus-bas-at-la-boca",
-    "source": "Songkick"
-  },
-  {
-    "artist": "The Polish Ambassador",
-    "venue": "The Bridge at Santa Fe Brewing Co.",
-    "date": "2026-06-28T01:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43123617-polish-ambassador-at-bridge-at-santa-fe-brewing-company",
-    "listingUrl": "https://www.songkick.com/concerts/43123617-polish-ambassador-at-bridge-at-santa-fe-brewing-company",
-    "source": "Songkick",
-    "trackIds": [
-      "68MsVSVZO8eSPdqPfhG83A",
-      "3fDYjf2WbXy7LzrwFeRzIU",
-      "3lwLjFfQSGFK2pxTKNvPI0"
-    ],
-    "spotifyId": "2dI9IuajQnLR5dLxHjTTqU",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9b089175056ac1fbc164c46f"
-  },
-  {
-    "artist": "Brett Dennen",
-    "venue": "St. Francis Auditorium, New Mexico Museum of Art",
-    "date": "2026-06-28T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43145924-brett-dennen-at-st-francis-auditorium-new-mexico-museum-of-art",
-    "listingUrl": "https://www.songkick.com/concerts/43145924-brett-dennen-at-st-francis-auditorium-new-mexico-museum-of-art",
-    "source": "Songkick",
-    "trackIds": [
-      "1N4GXAzVrcDeMWy7sUQaHf",
-      "0ioDZn2JL53ictGJMMkETC",
-      "0kgxYCZuYLlibZWnIvHrvL"
-    ],
-    "spotifyId": "0FC1LIeQXKib0jOwZqeIwT",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb4353d27614b23bae6b2aea0c"
-  },
-  {
-    "artist": "Mina Fajardo and Chuscales",
-    "venue": "Teatro Paraguas",
-    "date": "2026-07-02T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43193637-mina-fajardo-at-teatro-paraguas",
-    "listingUrl": "https://www.songkick.com/concerts/43193637-mina-fajardo-at-teatro-paraguas",
-    "source": "Songkick",
-    "trackIds": [
-      "4RVmThKCzpzXn1hCatSsP6",
-      "1Qvam2fv4uTCpXAZNaOu2q",
-      "0RljIRAhI5Ki4opxkvFjoa",
-      "2cJWU90x1NlPNKWOS3lHyQ",
-      "2Buj0g77kPF0r345PkzAo2",
-      "31JmoseHvyHLQYEfMmwh0j"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-    "genres": [
-      "flamenco pop",
-      "flamenco"
-    ],
-    "subArtists": [
-      {
-        "name": "Mina Fajardo",
-        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-        "genres": [
-          "flamenco pop",
-          "flamenco"
-        ],
-        "trackIds": [
-          "4RVmThKCzpzXn1hCatSsP6",
-          "1Qvam2fv4uTCpXAZNaOu2q",
-          "0RljIRAhI5Ki4opxkvFjoa"
-        ]
-      },
-      {
-        "name": "Chuscales",
-        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
-        "genres": [
-          "flamenco"
-        ],
-        "trackIds": [
-          "2cJWU90x1NlPNKWOS3lHyQ",
-          "2Buj0g77kPF0r345PkzAo2",
-          "31JmoseHvyHLQYEfMmwh0j"
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "Jesus Bas",
-    "venue": "Dragon Room Bar",
-    "date": "2026-07-01T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43217022-jesus-bas-at-dragon-room-bar",
-    "listingUrl": "https://www.songkick.com/concerts/43217022-jesus-bas-at-dragon-room-bar",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Canyon Road Summer Walk Series 2026",
-    "venue": "Unknown Venue",
-    "date": "2026-07-01T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/festivals/3791579-canyon-road-summer-walk-series/id/43273489-canyon-road-summer-walk-series-2026",
-    "listingUrl": "https://www.songkick.com/festivals/3791579-canyon-road-summer-walk-series/id/43273489-canyon-road-summer-walk-series-2026",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Johnny Bell",
-    "venue": "Unknown Venue",
-    "date": "2026-07-01T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/festivals/3791579-canyon-road-summer-walk-series/id/43273489-canyon-road-summer-walk-series-2026",
-    "listingUrl": "https://www.songkick.com/festivals/3791579-canyon-road-summer-walk-series/id/43273489-canyon-road-summer-walk-series-2026",
-    "source": "Songkick",
-    "trackIds": [
-      "2WxPCilH08ttH6jDtpXOfq",
-      "5en5TzTJ60Xpn7gE1HGlXu",
-      "0VFFCDogGPEmYVflOyfEn0"
-    ],
-    "spotifyId": "0TecByQRspSF15IxkCCd4I",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1bf0e018af9edd058a2d16de"
-  },
-  {
-    "artist": "Jesus Bas",
-    "venue": "La Boca",
-    "date": "2026-07-03T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43217024-jesus-bas-at-la-boca",
-    "listingUrl": "https://www.songkick.com/concerts/43217024-jesus-bas-at-la-boca",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Wavves",
-    "venue": "Meow Wolf",
-    "date": "2026-07-09T02:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
-    "listingUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
-    "source": "Songkick",
-    "trackIds": [
-      "5ZGM626be3ItMW4UPjfqdY",
-      "1CHL6sjDwpivvA4LE0lsww",
-      "1iMOLNyzKtIMucwZzQSjZi"
-    ],
-    "spotifyId": "6bUJpbekaIlq2fT5FMV2mQ",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb78eb659fbba3b198cc2f4160",
-    "genres": [
-      "garage rock",
-      "surf rock",
-      "noise rock",
-      "indie punk"
-    ]
-  },
-  {
-    "artist": "Bass Drum of Death",
-    "venue": "Meow Wolf",
-    "date": "2026-07-09T02:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
-    "listingUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
-    "source": "Songkick",
-    "trackIds": [
-      "7lHGsPvsdeSD1tRm0faS1o",
-      "3criOyPqWwtt5cUAcDCq6J",
-      "57QZeBhHRLiWhIpjHvKtND"
-    ],
-    "spotifyId": "5LtAyeDVOVcydj65LvgICY",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb62a4b98bc97a9b5534cd1321",
-    "genres": [
-      "garage rock",
-      "surf rock",
-      "indie punk"
-    ]
-  },
-  {
-    "artist": "Worlds Worst",
-    "venue": "Meow Wolf",
-    "date": "2026-07-09T02:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
-    "listingUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
-    "source": "Songkick",
-    "trackIds": [
-      "5p31gXMyrLUtvDbYIiSaBm",
-      "4ZBf9RlEUr86x0lfa8c3sV",
-      "4RpYDETtHvEOQAglR6OvPe"
-    ],
-    "spotifyId": "61WE20UoQujMRZqzTOq3sI",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb85fa0ce7125cddd2031f6c76",
-    "genres": [
-      "shoegaze"
-    ]
-  },
-  {
-    "artist": "Mina Fajardo and Chuscales",
-    "venue": "Teatro Paraguas",
-    "date": "2026-07-09T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43193638-mina-fajardo-at-teatro-paraguas",
-    "listingUrl": "https://www.songkick.com/concerts/43193638-mina-fajardo-at-teatro-paraguas",
-    "source": "Songkick",
-    "trackIds": [
-      "4RVmThKCzpzXn1hCatSsP6",
-      "1Qvam2fv4uTCpXAZNaOu2q",
-      "0RljIRAhI5Ki4opxkvFjoa",
-      "2cJWU90x1NlPNKWOS3lHyQ",
-      "2Buj0g77kPF0r345PkzAo2",
-      "31JmoseHvyHLQYEfMmwh0j"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-    "genres": [
-      "flamenco pop",
-      "flamenco"
-    ],
-    "subArtists": [
-      {
-        "name": "Mina Fajardo",
-        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-        "genres": [
-          "flamenco pop",
-          "flamenco"
-        ],
-        "trackIds": [
-          "4RVmThKCzpzXn1hCatSsP6",
-          "1Qvam2fv4uTCpXAZNaOu2q",
-          "0RljIRAhI5Ki4opxkvFjoa"
-        ]
-      },
-      {
-        "name": "Chuscales",
-        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
-        "genres": [
-          "flamenco"
-        ],
-        "trackIds": [
-          "2cJWU90x1NlPNKWOS3lHyQ",
-          "2Buj0g77kPF0r345PkzAo2",
-          "31JmoseHvyHLQYEfMmwh0j"
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "Jesus Bas",
-    "venue": "Dragon Room Bar",
-    "date": "2026-07-08T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43217025-jesus-bas-at-dragon-room-bar",
-    "listingUrl": "https://www.songkick.com/concerts/43217025-jesus-bas-at-dragon-room-bar",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Koji Aiken",
-    "venue": "Meow Wolf",
-    "date": "2026-07-11T02:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43194667-koji-aiken-at-meow-wolf-house-of-eternal-return",
-    "listingUrl": "https://www.songkick.com/concerts/43194667-koji-aiken-at-meow-wolf-house-of-eternal-return",
-    "source": "Songkick",
-    "trackIds": [
-      "6rD4MHVZYYKplXGVO6C7qy",
-      "0dWyiShx09WD8CgxqZh4c5",
-      "0m2YCXCL1WRLsfvYvLtof4"
-    ],
-    "spotifyId": "6iaQv5y48B4A3Ad8Fx9aWn",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebbf788e1649b19be8f7e2d0e2",
-    "genres": [
-      "stutter house",
-      "drum and bass"
-    ]
-  },
-  {
-    "artist": "Jesus Bas",
-    "venue": "La Boca",
-    "date": "2026-07-10T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43217026-jesus-bas-at-la-boca",
-    "listingUrl": "https://www.songkick.com/concerts/43217026-jesus-bas-at-la-boca",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Kurt Vile",
-    "venue": "The Bridge at Santa Fe Brewing Co.",
-    "date": "2026-07-12T01:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43145150-kurt-vile-at-bridge-at-santa-fe-brewing-company",
-    "listingUrl": "https://www.songkick.com/concerts/43145150-kurt-vile-at-bridge-at-santa-fe-brewing-company",
-    "source": "Songkick",
-    "trackIds": [
-      "21CU5fG0Pp0LUbXRDG1d48",
-      "0aW3FQZlYWyj1gTn7mlc8t",
-      "562yKTMPiyCsZrzjXzUzSF"
-    ],
-    "spotifyId": "5gspAQIAH8nJUrMYgXjCJ2",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8e479fc57372737933ff77b2"
-  },
-  {
-    "artist": "Foghat",
-    "venue": "Buffalo Thunder Resort & Casino",
-    "date": "2026-07-11T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43229915-foghat-at-hilton-santa-fe-buffalo-thunder",
-    "listingUrl": "https://www.songkick.com/concerts/43229915-foghat-at-hilton-santa-fe-buffalo-thunder",
-    "source": "Songkick",
-    "trackIds": [
-      "4MYb7NWLwXNDB7bYs3HeX8",
-      "5aYVqxyetmT5OYmvZCA90X",
-      "48MQDFkvHlGnRQyUx6ZXVe"
-    ],
-    "spotifyId": "6x33CmZWo2Ve4hxYl2Craq",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc99812527711745e4e0bf29c",
-    "genres": [
-      "classic rock",
-      "southern rock"
-    ]
-  },
-  {
-    "artist": "Max Gomez",
-    "venue": "Reunity Resources",
-    "date": "2026-07-11T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43257869-max-gomez-at-reunity-farms",
-    "listingUrl": "https://www.songkick.com/concerts/43257869-max-gomez-at-reunity-farms",
-    "source": "Songkick",
-    "trackIds": [
-      "4KGeSK35AEwinM77n6h52q",
-      "2x2aTcPu4UQA6JckyV8Esc",
-      "5jtHlZuDNl3HCWb2cDqy77"
-    ],
-    "spotifyId": "5nm8ML0WhLsR8eJ5PobwyN",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0ba6295d8a378ca26bae6015",
-    "genres": [
-      "americana"
-    ]
-  },
-  {
-    "artist": "Justin Payne",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-07-13T22:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43070607-justin-payne-at-tumbleroot-brewery-and-distillery",
-    "listingUrl": "https://www.songkick.com/concerts/43070607-justin-payne-at-tumbleroot-brewery-and-distillery",
-    "source": "Songkick",
-    "trackIds": [
-      "4o8goNKUaLWNiX0NN1WTHj",
-      "11PlOBRQZGij71WmsIVQC4",
-      "5hEXSSBy7bVEVw510JEGo6"
-    ],
-    "spotifyId": "4214RcInTQbwWxOcsWr1hW",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d2b43ca3d9818c6baf04d57f",
-    "genres": [
-      "americana",
-      "outlaw country"
-    ]
-  },
-  {
-    "artist": "Houndmouth",
-    "venue": "The Bridge at Santa Fe Brewing Co.",
-    "date": "2026-07-14T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43187988-houndmouth-at-bridge-at-santa-fe-brewing-company",
-    "listingUrl": "https://www.songkick.com/concerts/43187988-houndmouth-at-bridge-at-santa-fe-brewing-company",
-    "source": "Songkick",
-    "trackIds": [
-      "2MQhTbX792AT6YyzwLz9dt",
-      "5n4ukKmCn7OEgQVC4kxu6y",
-      "2TmqE1B16v0H6BLbBz38ob"
-    ],
-    "spotifyId": "7EGwUS3c5dXduO4sMyLWC5",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9d60565c6405a35d5854b70d"
-  },
-  {
-    "artist": "Dylan LeBlanc",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-07-15T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43218164-dylan-leblanc-at-tumbleroot-brewery-and-distillery",
-    "listingUrl": "https://www.songkick.com/concerts/43218164-dylan-leblanc-at-tumbleroot-brewery-and-distillery",
-    "source": "Songkick",
-    "trackIds": [
-      "2zEByOH565rMCSacbB56Pd",
-      "0SaaTLWDZAiaDLDbCq5znv",
-      "3xLN3ZZ5BK3Og5wZ2WgObG"
-    ],
-    "spotifyId": "60rNO7ymhlxcYxrdkDYq1k",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8a27703d943c683757092f35",
-    "genres": [
-      "americana"
-    ]
-  },
-  {
-    "artist": "Mina Fajardo and Chuscales",
-    "venue": "Teatro Paraguas",
-    "date": "2026-07-16T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43193639-mina-fajardo-at-teatro-paraguas",
-    "listingUrl": "https://www.songkick.com/concerts/43193639-mina-fajardo-at-teatro-paraguas",
-    "source": "Songkick",
-    "trackIds": [
-      "4RVmThKCzpzXn1hCatSsP6",
-      "1Qvam2fv4uTCpXAZNaOu2q",
-      "0RljIRAhI5Ki4opxkvFjoa",
-      "2cJWU90x1NlPNKWOS3lHyQ",
-      "2Buj0g77kPF0r345PkzAo2",
-      "31JmoseHvyHLQYEfMmwh0j"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-    "genres": [
-      "flamenco pop",
-      "flamenco"
-    ],
-    "subArtists": [
-      {
-        "name": "Mina Fajardo",
-        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-        "genres": [
-          "flamenco pop",
-          "flamenco"
-        ],
-        "trackIds": [
-          "4RVmThKCzpzXn1hCatSsP6",
-          "1Qvam2fv4uTCpXAZNaOu2q",
-          "0RljIRAhI5Ki4opxkvFjoa"
-        ]
-      },
-      {
-        "name": "Chuscales",
-        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
-        "genres": [
-          "flamenco"
-        ],
-        "trackIds": [
-          "2cJWU90x1NlPNKWOS3lHyQ",
-          "2Buj0g77kPF0r345PkzAo2",
-          "31JmoseHvyHLQYEfMmwh0j"
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "Jesus Bas",
-    "venue": "Dragon Room Bar",
-    "date": "2026-07-15T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43217028-jesus-bas-at-dragon-room-bar",
-    "listingUrl": "https://www.songkick.com/concerts/43217028-jesus-bas-at-dragon-room-bar",
-    "source": "Songkick"
-  },
-  {
-    "artist": "James McMurtry",
-    "venue": "The Bridge at Santa Fe Brewing Co.",
-    "date": "2026-07-17T01:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43148078-james-mcmurtry-at-bridge-at-santa-fe-brewing-company",
-    "listingUrl": "https://www.songkick.com/concerts/43148078-james-mcmurtry-at-bridge-at-santa-fe-brewing-company",
-    "source": "Songkick",
-    "trackIds": [
-      "6biQrLq3oML4mvr9RZ8ZFD",
-      "2sKMKKLObm8wq7YTeB6Yxd",
-      "5ygzu1GVY7wnjOvvvfamJ0"
-    ],
-    "spotifyId": "52BKc9OtCbQstAAPTIvLGH",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebcdb24f2ab31c0739c346dacf",
-    "genres": [
-      "alt country",
-      "americana",
-      "outlaw country",
-      "red dirt",
-      "texas country",
-      "roots rock"
-    ]
-  },
-  {
-    "artist": "Chris Botti",
-    "venue": "Lensic Performing Arts Center",
-    "date": "2026-07-18T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43148082-chris-botti-at-lensic-performing-arts-center",
-    "listingUrl": "https://www.songkick.com/concerts/43148082-chris-botti-at-lensic-performing-arts-center",
-    "source": "Songkick",
-    "trackIds": [
-      "1kTZPhmN8PW3KrXahh8rs8",
-      "5AbTdTkrWyTlnguWH6J2fD",
-      "4V5874YanN9HS4fbTnwiQs"
-    ],
-    "spotifyId": "3eFo5fMv53RYZBYlvT5Z6a",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb3536f18a4d9fe29772335ea3",
-    "genres": [
-      "smooth jazz",
-      "jazz"
-    ]
-  },
-  {
-    "artist": "Jesus Bas",
-    "venue": "La Boca",
-    "date": "2026-07-17T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43217029-jesus-bas-at-la-boca",
-    "listingUrl": "https://www.songkick.com/concerts/43217029-jesus-bas-at-la-boca",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Mary Gauthier",
-    "venue": "San Miguel Chapel",
-    "date": "2026-07-19T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43148089-mary-gauthier-at-san-miguel-chapel",
-    "listingUrl": "https://www.songkick.com/concerts/43148089-mary-gauthier-at-san-miguel-chapel",
-    "source": "Songkick",
-    "trackIds": [
-      "6684GUHy1jpyhJVzpz5OFr",
-      "276N2R4cVkJYp6vWECAlWm",
-      "4s9Q3d4I8QcdcYGHqmqq4V"
-    ],
-    "spotifyId": "4SK1IgkcWWc5HC1TOBq1VS",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9d87eb01be131943865a735e",
-    "genres": [
-      "americana",
-      "alt country",
-      "folk",
-      "singer-songwriter"
-    ]
-  },
-  {
-    "artist": "Old 97's",
-    "venue": "The Bridge at Santa Fe Brewing Co.",
-    "date": "2026-07-23T01:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43080152-old-97s-at-bridge-at-santa-fe-brewing-company",
-    "listingUrl": "https://www.songkick.com/concerts/43080152-old-97s-at-bridge-at-santa-fe-brewing-company",
-    "source": "Songkick",
-    "trackIds": [
-      "6Tc3cyJ9JGNVnlxCxL67rp",
-      "2m5ItG3IIMsaGYJjZOvUoE",
-      "2S6yBUXa5KddBV0CqBkcP1"
-    ],
-    "spotifyId": "27AzFtMZhRN78bAMPntbpF",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebf1ddbf901b0581a473305e4c",
-    "genres": [
-      "alt country",
-      "americana"
-    ]
-  },
-  {
-    "artist": "River Shook",
-    "venue": "The Bridge at Santa Fe Brewing Co.",
-    "date": "2026-07-23T01:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43080152-old-97s-at-bridge-at-santa-fe-brewing-company",
-    "listingUrl": "https://www.songkick.com/concerts/43080152-old-97s-at-bridge-at-santa-fe-brewing-company",
-    "source": "Songkick",
-    "trackIds": [
-      "5T7ZTI47ewvq66rpX5bj5S",
-      "0uD6bj0fgJRk2Jas7opwPN",
-      "2aKyY2uv2k1K2yunwJ6pyc"
-    ],
-    "spotifyId": "66NY7M7uxuzISHBID7J1Bv",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2739c0b600d4b8ae25a23964b9e",
-    "genres": [
-      "americana",
-      "alt country",
-      "outlaw country"
-    ]
-  },
-  {
-    "artist": "Mina Fajardo and Chuscales",
-    "venue": "Teatro Paraguas",
-    "date": "2026-07-23T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43193641-mina-fajardo-at-teatro-paraguas",
-    "listingUrl": "https://www.songkick.com/concerts/43193641-mina-fajardo-at-teatro-paraguas",
-    "source": "Songkick",
-    "trackIds": [
-      "4RVmThKCzpzXn1hCatSsP6",
-      "1Qvam2fv4uTCpXAZNaOu2q",
-      "0RljIRAhI5Ki4opxkvFjoa",
-      "2cJWU90x1NlPNKWOS3lHyQ",
-      "2Buj0g77kPF0r345PkzAo2",
-      "31JmoseHvyHLQYEfMmwh0j"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-    "genres": [
-      "flamenco pop",
-      "flamenco"
-    ],
-    "subArtists": [
-      {
-        "name": "Mina Fajardo",
-        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-        "genres": [
-          "flamenco pop",
-          "flamenco"
-        ],
-        "trackIds": [
-          "4RVmThKCzpzXn1hCatSsP6",
-          "1Qvam2fv4uTCpXAZNaOu2q",
-          "0RljIRAhI5Ki4opxkvFjoa"
-        ]
-      },
-      {
-        "name": "Chuscales",
-        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
-        "genres": [
-          "flamenco"
-        ],
-        "trackIds": [
-          "2cJWU90x1NlPNKWOS3lHyQ",
-          "2Buj0g77kPF0r345PkzAo2",
-          "31JmoseHvyHLQYEfMmwh0j"
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "Jesus Bas",
-    "venue": "Dragon Room Bar",
-    "date": "2026-07-22T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43217030-jesus-bas-at-dragon-room-bar",
-    "listingUrl": "https://www.songkick.com/concerts/43217030-jesus-bas-at-dragon-room-bar",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Jesus Bas",
-    "venue": "La Boca",
-    "date": "2026-07-24T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43217033-jesus-bas-at-la-boca",
-    "listingUrl": "https://www.songkick.com/concerts/43217033-jesus-bas-at-la-boca",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Mina Fajardo and Chuscales",
-    "venue": "Teatro Paraguas",
-    "date": "2026-07-30T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43193642-mina-fajardo-at-teatro-paraguas",
-    "listingUrl": "https://www.songkick.com/concerts/43193642-mina-fajardo-at-teatro-paraguas",
-    "source": "Songkick",
-    "trackIds": [
-      "4RVmThKCzpzXn1hCatSsP6",
-      "1Qvam2fv4uTCpXAZNaOu2q",
-      "0RljIRAhI5Ki4opxkvFjoa",
-      "2cJWU90x1NlPNKWOS3lHyQ",
-      "2Buj0g77kPF0r345PkzAo2",
-      "31JmoseHvyHLQYEfMmwh0j"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-    "genres": [
-      "flamenco pop",
-      "flamenco"
-    ],
-    "subArtists": [
-      {
-        "name": "Mina Fajardo",
-        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-        "genres": [
-          "flamenco pop",
-          "flamenco"
-        ],
-        "trackIds": [
-          "4RVmThKCzpzXn1hCatSsP6",
-          "1Qvam2fv4uTCpXAZNaOu2q",
-          "0RljIRAhI5Ki4opxkvFjoa"
-        ]
-      },
-      {
-        "name": "Chuscales",
-        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
-        "genres": [
-          "flamenco"
-        ],
-        "trackIds": [
-          "2cJWU90x1NlPNKWOS3lHyQ",
-          "2Buj0g77kPF0r345PkzAo2",
-          "31JmoseHvyHLQYEfMmwh0j"
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "Jesus Bas",
-    "venue": "Dragon Room Bar",
-    "date": "2026-07-29T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43217034-jesus-bas-at-dragon-room-bar",
-    "listingUrl": "https://www.songkick.com/concerts/43217034-jesus-bas-at-dragon-room-bar",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Beach Bunny",
-    "venue": "The Bridge at Santa Fe Brewing Co.",
-    "date": "2026-08-01T01:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43272476-beach-bunny-at-santa-fe-brewing-company",
-    "listingUrl": "https://www.songkick.com/concerts/43272476-beach-bunny-at-santa-fe-brewing-company",
-    "source": "Songkick",
-    "trackIds": [
-      "3frZl6bno6us1TLjr6PZ4h",
-      "7fKqzZlS2em2fwDkKvSJZA",
-      "1CQYKndmQR1bMvOSZrq2Lq"
-    ],
-    "spotifyId": "2vnB6tuQMaQpORiRdvXF9H",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc76f04ab8987c4fb298abb3c"
-  },
-  {
-    "artist": "The Beths",
-    "venue": "The Bridge at Santa Fe Brewing Co.",
-    "date": "2026-07-31T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43077612-beths-at-bridge-at-santa-fe-brewing-company",
-    "listingUrl": "https://www.songkick.com/concerts/43077612-beths-at-bridge-at-santa-fe-brewing-company",
-    "source": "Songkick",
-    "trackIds": [
-      "6CWDUTWFZW9P9wNkGqg0U5",
-      "1bPcxJHusTrlr2Kj4kjK7e",
-      "5bS7ajbQ4ZZDksu9ryAvXu"
-    ],
-    "spotifyId": "7DjwIxbe8kpw4pqnzAMoin",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb26b0d0de46b77e23675281",
-    "genres": [
-      "indie rock",
-      "power pop"
-    ]
-  },
-  {
-    "artist": "Jesus Bas",
-    "venue": "La Boca",
-    "date": "2026-07-31T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43217036-jesus-bas-at-la-boca",
-    "listingUrl": "https://www.songkick.com/concerts/43217036-jesus-bas-at-la-boca",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Black Moth Super Rainbow",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-08-05T02:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43148115-black-moth-super-rainbow-at-tumbleroot-brewery-and-distillery",
-    "listingUrl": "https://www.songkick.com/concerts/43148115-black-moth-super-rainbow-at-tumbleroot-brewery-and-distillery",
-    "source": "Songkick",
-    "trackIds": [
-      "3d2IeXv14uLNn8LyBAuOEI",
-      "72U9iUryrmKLgXTGXjOb9J",
-      "70PEZ5qdaO5on2NvyA3Rok"
-    ],
-    "spotifyId": "4UHzJP2iKVf0RhKIv7ZE2l",
-    "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46c16ceedabc9ce0e1a362d1929",
-    "genres": [
-      "neo-psychedelic",
-      "space rock"
-    ]
-  },
-  {
-    "artist": "Eagles of Death Metal and Headsend",
-    "venue": "The Bridge at Santa Fe Brewing Co.",
-    "date": "2026-08-06T01:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43124843-eagles-of-death-metal-at-bridge-at-santa-fe-brewing-company",
-    "listingUrl": "https://www.songkick.com/concerts/43124843-eagles-of-death-metal-at-bridge-at-santa-fe-brewing-company",
-    "source": "Songkick",
-    "trackIds": [
-      "19mRNWlmHCKIlBT8WOCaXQ",
-      "3B7mbMbbcuKdfWssAcyvG8",
-      "3NA45jwwGH28LsHthauYK0",
-      "2qPsFrbn4G1ytL3YmBFhxf",
-      "7fBGO13V5jWSKzXWPP4Kus",
-      "5AzXD4JyNAUTqPyoy16teD"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46cb527d08497ff51fbbd3b0e0b",
-    "genres": [
-      "stoner rock",
-      "garage rock"
-    ],
-    "subArtists": [
-      {
-        "name": "Eagles of Death Metal",
-        "spotifyId": "02uYdhMhCgdB49hZlYRm9o",
-        "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46cb527d08497ff51fbbd3b0e0b",
-        "genres": [
-          "stoner rock",
-          "garage rock"
-        ],
-        "trackIds": [
-          "19mRNWlmHCKIlBT8WOCaXQ",
-          "3B7mbMbbcuKdfWssAcyvG8",
-          "3NA45jwwGH28LsHthauYK0"
-        ]
-      },
-      {
-        "name": "Headsend",
-        "spotifyId": "3Q9ixqkrzaQW2lFDSe8il1",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb61831236672eee9984631c21",
-        "trackIds": [
-          "2qPsFrbn4G1ytL3YmBFhxf",
-          "7fBGO13V5jWSKzXWPP4Kus",
-          "5AzXD4JyNAUTqPyoy16teD"
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "Mina Fajardo and Chuscales",
-    "venue": "Teatro Paraguas",
-    "date": "2026-08-06T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43193643-mina-fajardo-at-teatro-paraguas",
-    "listingUrl": "https://www.songkick.com/concerts/43193643-mina-fajardo-at-teatro-paraguas",
-    "source": "Songkick",
-    "trackIds": [
-      "4RVmThKCzpzXn1hCatSsP6",
-      "1Qvam2fv4uTCpXAZNaOu2q",
-      "0RljIRAhI5Ki4opxkvFjoa",
-      "2cJWU90x1NlPNKWOS3lHyQ",
-      "2Buj0g77kPF0r345PkzAo2",
-      "31JmoseHvyHLQYEfMmwh0j"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-    "genres": [
-      "flamenco pop",
-      "flamenco"
-    ],
-    "subArtists": [
-      {
-        "name": "Mina Fajardo",
-        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-        "genres": [
-          "flamenco pop",
-          "flamenco"
-        ],
-        "trackIds": [
-          "4RVmThKCzpzXn1hCatSsP6",
-          "1Qvam2fv4uTCpXAZNaOu2q",
-          "0RljIRAhI5Ki4opxkvFjoa"
-        ]
-      },
-      {
-        "name": "Chuscales",
-        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
-        "genres": [
-          "flamenco"
-        ],
-        "trackIds": [
-          "2cJWU90x1NlPNKWOS3lHyQ",
-          "2Buj0g77kPF0r345PkzAo2",
-          "31JmoseHvyHLQYEfMmwh0j"
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "Don Was & the Pan Detroit Ensemble",
-    "venue": "The Bridge at Santa Fe Brewing Co.",
-    "date": "2026-08-06T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43207218-don-was-and-the-pan-detroit-ensemble-at-bridge-at-santa-fe-brewing-company",
-    "listingUrl": "https://www.songkick.com/concerts/43207218-don-was-and-the-pan-detroit-ensemble-at-bridge-at-santa-fe-brewing-company",
-    "source": "Songkick"
-  },
-  {
-    "artist": "Queensrÿche",
-    "venue": "Buffalo Thunder Resort & Casino",
-    "date": "2026-08-09T02:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43148125-queensryche-at-buffalo-thunder-resort-and-casino",
-    "listingUrl": "https://www.songkick.com/concerts/43148125-queensryche-at-buffalo-thunder-resort-and-casino",
-    "source": "Songkick",
-    "trackIds": [
-      "75gfxIedwH7j2s5nc7JgWh",
-      "2KtqjclZVtEm5K0LTmNdPI",
-      "0U2TocFjqul3sis3sE5jZl"
-    ],
-    "spotifyId": "2OgUPVlWYgGBGMefZgGvCO",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb6cdde60b6c8838aeb82dfb41",
-    "genres": [
-      "progressive metal",
-      "glam metal",
-      "metal",
-      "heavy metal",
-      "hard rock",
-      "progressive rock"
-    ]
-  },
-  {
-    "artist": "Johnny Bell",
-    "venue": "Hecho A Mano",
-    "date": "2026-08-09T17:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43273487-johnny-bell-at-hecho-a-mano",
-    "listingUrl": "https://www.songkick.com/concerts/43273487-johnny-bell-at-hecho-a-mano",
-    "source": "Songkick",
-    "trackIds": [
-      "2WxPCilH08ttH6jDtpXOfq",
-      "5en5TzTJ60Xpn7gE1HGlXu",
-      "0VFFCDogGPEmYVflOyfEn0"
-    ],
-    "spotifyId": "0TecByQRspSF15IxkCCd4I",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1bf0e018af9edd058a2d16de"
-  },
-  {
-    "artist": "Widowspeak",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-08-12T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
-    "listingUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
-    "source": "Songkick",
-    "trackIds": [
-      "0etKjdwsCnwtj6dB4iEZn8",
-      "2vL3NFV79S9LvAnWAI6MMQ",
-      "48bePG5thRkA5xttNPRB8c"
-    ],
-    "spotifyId": "5ZW7HlSuZz8ng2X21cXbdP",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebffce0e0fc0c2c1e811e48602",
-    "genres": [
-      "dream pop",
-      "chillwave"
-    ]
-  },
-  {
-    "artist": "Dead Gowns",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-08-12T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
-    "listingUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
-    "source": "Songkick",
-    "trackIds": [
-      "37piAuK1WhsQDLJ8hmDDSW",
-      "609jfTPcX5w8YnpW2Sf9JI",
-      "3hVq9e2hA3J0NZmlXqTl0B"
-    ],
-    "spotifyId": "7jadGvdBDPrM4fNOukfDny",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebfe0cbe07c7915a5d7420fb6b"
-  },
-  {
-    "artist": "Soft Palms",
-    "venue": "Hotel Glorieta",
-    "date": "2026-08-13T01:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43111798-soft-palms-at-marigold-room",
-    "listingUrl": "https://www.songkick.com/concerts/43111798-soft-palms-at-marigold-room",
-    "source": "Songkick",
-    "trackIds": [
-      "05s1RKoZ5JNuaSDB1hp9Yv",
-      "1pWtC2kjZoUipQrHU49rSM",
-      "3eBK0q7TW9LtC9Fw1XjaEj"
-    ],
-    "spotifyId": "4PmRvPxX5xKA5zg4gmh4wR",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb057fd1454058de189d9b9b3b"
-  },
-  {
-    "artist": "Mina Fajardo and Chuscales",
-    "venue": "Teatro Paraguas",
-    "date": "2026-08-13T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43193644-mina-fajardo-at-teatro-paraguas",
-    "listingUrl": "https://www.songkick.com/concerts/43193644-mina-fajardo-at-teatro-paraguas",
-    "source": "Songkick",
-    "trackIds": [
-      "4RVmThKCzpzXn1hCatSsP6",
-      "1Qvam2fv4uTCpXAZNaOu2q",
-      "0RljIRAhI5Ki4opxkvFjoa",
-      "2cJWU90x1NlPNKWOS3lHyQ",
-      "2Buj0g77kPF0r345PkzAo2",
-      "31JmoseHvyHLQYEfMmwh0j"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-    "genres": [
-      "flamenco pop",
-      "flamenco"
-    ],
-    "subArtists": [
-      {
-        "name": "Mina Fajardo",
-        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-        "genres": [
-          "flamenco pop",
-          "flamenco"
-        ],
-        "trackIds": [
-          "4RVmThKCzpzXn1hCatSsP6",
-          "1Qvam2fv4uTCpXAZNaOu2q",
-          "0RljIRAhI5Ki4opxkvFjoa"
-        ]
-      },
-      {
-        "name": "Chuscales",
-        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
-        "genres": [
-          "flamenco"
-        ],
-        "trackIds": [
-          "2cJWU90x1NlPNKWOS3lHyQ",
-          "2Buj0g77kPF0r345PkzAo2",
-          "31JmoseHvyHLQYEfMmwh0j"
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "Black Joe Lewis",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-08-14T02:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43197581-black-joe-lewis-at-tumbleroot-brewery-and-distillery",
-    "listingUrl": "https://www.songkick.com/concerts/43197581-black-joe-lewis-at-tumbleroot-brewery-and-distillery",
-    "source": "Songkick",
-    "trackIds": [
-      "1CcUlfuFva1OyoGFHyJBJp",
-      "0BSX4C0HjsV8vcMOD3Jh7q",
-      "7gDBDCgpXyhlagafOwWprz"
-    ],
-    "spotifyId": "4hFguSNiDDWFzkdaxoBYF7",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb548ddeb7de4b23a9abf9abb3",
-    "genres": [
-      "modern blues"
-    ]
-  },
-  {
-    "artist": "Jeff Ruby",
-    "venue": "Tumbleroot Brewery & Distillery",
-    "date": "2026-08-16T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43247641-jeff-ruby-at-tumbleroot-brewery-and-distillery",
-    "listingUrl": "https://www.songkick.com/concerts/43247641-jeff-ruby-at-tumbleroot-brewery-and-distillery",
-    "source": "Songkick",
-    "trackIds": [
-      "2D2BLPHl1kbOlHGcE2t2cW",
-      "3EQEUsIq9XudG0AZ8YqRBx",
-      "47fVvNSSO37USLAQiUUnjc"
-    ],
-    "spotifyId": "7pjhNqmOJNezR9pW3dYLyD",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb048630e44ea770906b674799"
-  },
-  {
-    "artist": "Mina Fajardo and Chuscales",
-    "venue": "Teatro Paraguas",
-    "date": "2026-08-20T01:30:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43193645-mina-fajardo-at-teatro-paraguas",
-    "listingUrl": "https://www.songkick.com/concerts/43193645-mina-fajardo-at-teatro-paraguas",
-    "source": "Songkick",
-    "trackIds": [
-      "4RVmThKCzpzXn1hCatSsP6",
-      "1Qvam2fv4uTCpXAZNaOu2q",
-      "0RljIRAhI5Ki4opxkvFjoa",
-      "2cJWU90x1NlPNKWOS3lHyQ",
-      "2Buj0g77kPF0r345PkzAo2",
-      "31JmoseHvyHLQYEfMmwh0j"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-    "genres": [
-      "flamenco pop",
-      "flamenco"
-    ],
-    "subArtists": [
-      {
-        "name": "Mina Fajardo",
-        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
-        "genres": [
-          "flamenco pop",
-          "flamenco"
-        ],
-        "trackIds": [
-          "4RVmThKCzpzXn1hCatSsP6",
-          "1Qvam2fv4uTCpXAZNaOu2q",
-          "0RljIRAhI5Ki4opxkvFjoa"
-        ]
-      },
-      {
-        "name": "Chuscales",
-        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
-        "genres": [
-          "flamenco"
-        ],
-        "trackIds": [
-          "2cJWU90x1NlPNKWOS3lHyQ",
-          "2Buj0g77kPF0r345PkzAo2",
-          "31JmoseHvyHLQYEfMmwh0j"
-        ]
-      }
-    ]
-  },
-  {
-    "artist": "Bill Callahan",
-    "venue": "The Bridge at Santa Fe Brewing Co.",
-    "date": "2026-08-20T00:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43160049-bill-callahan-at-bridge-at-santa-fe-brewing-company",
-    "listingUrl": "https://www.songkick.com/concerts/43160049-bill-callahan-at-bridge-at-santa-fe-brewing-company",
-    "source": "Songkick",
-    "trackIds": [
-      "3KZRkM7Uv0F2oCTUHAvv0a",
-      "7ydapdmQ4oivP54X29q7Af",
-      "0do3zfmbVl5DiGxUXrbhrT"
-    ],
-    "spotifyId": "7gqsi6aBSkRMJoL9psKqMr",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb2f538487b6868a97f5a7fb",
-    "genres": [
-      "alt country"
-    ]
-  },
-  {
-    "artist": "Tracy Lawrence",
-    "venue": "Buffalo Thunder Resort & Casino",
-    "date": "2026-08-22T02:00:00.000Z",
-    "ticketUrl": "https://www.songkick.com/concerts/43203261-tracy-lawrence-at-buffalo-thunder-resort-and-casino",
-    "listingUrl": "https://www.songkick.com/concerts/43203261-tracy-lawrence-at-buffalo-thunder-resort-and-casino",
-    "source": "Songkick",
-    "trackIds": [
-      "2TIEeLrOQrGnO2D2OeDDJu",
-      "1Mew3ipJFmRpSj83LRyxod",
-      "7cxOL3nvmqd6w811wOlWT1"
-    ],
-    "spotifyId": "2BQVRw9md4UKcGUrDXABCD",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba90ba2a80781238c8dc268d8",
-    "genres": [
-      "country",
-      "classic country",
-      "traditional country"
-    ]
-  },
-  {
     "artist": "Eliana Joy",
     "venue": "Hotel Glorieta",
     "date": "2026-06-26T01:00:00.000Z",
@@ -4142,7 +3321,12 @@
     "sourceEventId": "67826573-7f3b-4d81-8f60-c9d824f5188b",
     "sourceEventSlug": "rolas-cumbiamberas-x-agave-sin-fronteras",
     "description": "Deep cut cumbias y más w/ Luz Skylarker! Featuring cocktail and flight specials all evening by Laika Spirits. Agave Sin Fronteras is Santa Fe’s first multi-day festival dedicated to agave spirits, culture, education, and hospitality. Bringing together producers, bartenders, educators, importers, and enthusiasts for four days of seminars, cocktail events, tastings, and community gatherings in Santa Fe, New Mexico. “Sin Fronteras” reflects the festival’s spirit of collaboration and cultural exchange within the agave community.Anchored by the Grand Tasting at Joe’s Tequila Bar on Saturday, June 27, this festival celebrates tequila, mezcal, sotol, raicilla, bacanora, and independent agave spirits through fun, interesting, and educational community-oriented events.",
-    "source": "Hotel Glorieta"
+    "source": "Hotel Glorieta",
+    "subArtists": [
+      {
+        "name": "Luz Skylarker"
+      }
+    ]
   },
   {
     "artist": "Pool Party",
@@ -4461,7 +3645,41 @@
     "sourceEventId": "019dff89-ac0e-bbd3-7b54-82c601d520cc__6ca9dcee-9054-36ef-e8ea-cbe19ce9a6ed",
     "sourceEventSlug": "amtrac",
     "description": "AMTRAC · Civilian World",
-    "source": "Meow Wolf"
+    "source": "Meow Wolf",
+    "trackIds": [
+      "1eCbYVNIkLFf54XkKWN6uf",
+      "0LRDr7rhv07TA2rz7c3sEP",
+      "32v4XcJEaB3c3NbETfJ3uV"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb85194d88093071e726cef400",
+    "genres": [
+      "melodic house",
+      "nu disco",
+      "deep house"
+    ],
+    "subArtists": [
+      {
+        "name": "Aimie Jane"
+      },
+      {
+        "name": "AMTRAC",
+        "spotifyId": "3ifxHfYz2pqHku0bwx8H5J",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb85194d88093071e726cef400",
+        "genres": [
+          "melodic house",
+          "nu disco",
+          "deep house"
+        ],
+        "trackIds": [
+          "1eCbYVNIkLFf54XkKWN6uf",
+          "0LRDr7rhv07TA2rz7c3sEP",
+          "32v4XcJEaB3c3NbETfJ3uV"
+        ]
+      },
+      {
+        "name": "Civilian World"
+      }
+    ]
   },
   {
     "artist": "Travel Kit",
@@ -4490,7 +3708,31 @@
     "sourceEventId": "019d4636-21a7-c447-0938-aeeeccf5a1df__8e82dfa7-e4a5-5cb9-b1f3-2a5e08e6ec23",
     "sourceEventSlug": "pride26",
     "description": "Get ready to turn up the energy for **PRIDE {after dark}**, one of the most electrifying nights of **PRIDE Santa Fe 2026**! Join us at **Meow Wolf** for an immersive, late-night dance experience where music, art, and queer joy collide. Step into a world of vibrant visuals and unforgettable beats as we transform Meow Wolf into a full-on Pride dance floor. Expect high-energy vibes, dazzling performances, and a community ready to celebrate loudly, proudly, and unapologetically. Whether you’re dancing all night or soaking in the scene, this is the place to be after dark. Headlining the night is internationally acclaimed DJ and producer: About Tracy Young A powerhouse in the global dance music scene, Tracy Young is a Grammy Award-winning DJ, producer, and remixer known for her genre-defining sound and electrifying sets. She has worked with some of the biggest names in music—including Madonna, Beyoncé, Cher, and Rihanna—and has been a staple in clubs and festivals around the world for decades. A proud member of the LGBTQ+ community, Tracy has long been a champion of queer spaces, using her music to bring people together on dance floors across the globe. Her ability to blend house, pop, and high-energy beats creates an unforgettable experience that keeps crowds moving all night long. **Come dance, celebrate, and experience PRIDE after dark like never before.**",
-    "source": "Meow Wolf"
+    "source": "Meow Wolf",
+    "trackIds": [
+      "5XXaUQiNgqrf5jQMfpQpyw",
+      "6w9FwcNjOhcispHsDlzv5Q",
+      "5cgtaI5S7Kh4yrsOJUnHBz"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb64e0d7468c14fac81d3db8d8",
+    "genres": [
+      "tribal house"
+    ],
+    "subArtists": [
+      {
+        "name": "Tracy Young",
+        "spotifyId": "2rlC9S7Iw4cwxup4LyOWQy",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb64e0d7468c14fac81d3db8d8",
+        "genres": [
+          "tribal house"
+        ],
+        "trackIds": [
+          "5XXaUQiNgqrf5jQMfpQpyw",
+          "6w9FwcNjOhcispHsDlzv5Q",
+          "5cgtaI5S7Kh4yrsOJUnHBz"
+        ]
+      }
+    ]
   },
   {
     "artist": "Wavves",
@@ -4819,7 +4061,25 @@
     "sourceEventId": "019dff8b-866f-5f7b-9a23-3db0959bcdeb__6a4936c4-281b-b0fc-6b99-b39e7e162996",
     "sourceEventSlug": "whippedcream",
     "description": "Spinning on ice isn’t the only thing WHIPPED CREAM’s turning heads on. Once a competitive figure skater, Toronto-born Caroline Cecil knows how to bewitch a crowd. Channeling her passion for music both on and off the ice, WHIPPED CREAM–drawn to cinematic soundscapes and deep bass textures–transitioned into production to fully realize her creative vision. Paving her own lane unlike any other with influences from the likes of Hans Zimmer to Skrillex, WHIPPED CREAM is formulating her own sound, while expressing through dynamic live performances, an incomparable energy. Never not creating, WHIPPED CREAM is not just a producer and DJ, but a songwriter and vocalist as well. Fusing her passion and love for hip-hop, cinema, electronica and more, she impressively navigates these genres fluidly, truly invoking a feeling like no other. Her passionate approach to music has earned widespread recognition. WHIPPED CREAM was unanimously selected by the Apple Music Canada team as April 2026’s ‘Up Next’ artist, making her the first dance artist ever to be featured in the ‘Up Next’ Canada program, while Spotify Canada also tapped WHIPPED CREAM as its RADAR Canada feature artist for April 2026, promoting the news on billboards in Toronto. Elsewhere earlier this year she played at Rolling Stone Canada’s exclusive party at the Winter Olympics in Milan, Italy, a full-circle moment for the once competitive figure skater. With standout live appearances at Coachella, Lollapalooza, and Tomorrowland, WHIPPED CREAM has solidified her reputation as a must-see live act. Highlights from 2025 included performances at Fireside Festival, Beyond Wonderland, Tecate Pal Norte, Ubbi Dubbi Festival, and Tomorrowland, with 2026 set to bring major appearances at Fvded in the Park, Festival d'été de Québec (FEQ), and Bass Canyon-The Gorge, alongside a fall headlining run. Whether you’re watching her perform or streaming her music, WHIPPED CREAM is here to provide a high-energy, thought provoking feeling appealing to any music and art lover. Your producer’s favorite producer is now in session. WHIPPED CREAM’s official debut album HOME WAS ALWAYS ME arrives April 30 via Monstercat. A string of singles have been released ahead of the album including the latest “2 u” which makes a play with bouncy 90’s nostalgia, the groundbreaking and tone-setting track “it’s time to go home,” and the electrifying “stranger,” a standout with over 2.3 million streams on Spotify in its first two months out. ‘stranger’ hit Spotify’s Viral Top 50 charts in US and Canada and is currently in rotation on SiriusXM’s BPM, reaching the Top 20 in April ‘26.",
-    "source": "Meow Wolf"
+    "source": "Meow Wolf",
+    "trackIds": [
+      "7rIncPcHyKmnsZgyvGhoDw",
+      "3jMeoTAxDrZfkVxMmWcWCg",
+      "5fu8pfEsXXA9mY0F9grAce"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd27d3a00b8270e82f2e81814",
+    "subArtists": [
+      {
+        "name": "WHIPPED CREAM",
+        "spotifyId": "5CMaNobmJYgXcfiT0zYOwi",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd27d3a00b8270e82f2e81814",
+        "trackIds": [
+          "7rIncPcHyKmnsZgyvGhoDw",
+          "3jMeoTAxDrZfkVxMmWcWCg",
+          "5fu8pfEsXXA9mY0F9grAce"
+        ]
+      }
+    ]
   },
   {
     "artist": "Rob AD",
@@ -4830,7 +4090,25 @@
     "sourceEventId": "019dff8b-866f-5f7b-9a23-3db0959bcdeb__6a4936c4-281b-b0fc-6b99-b39e7e162996",
     "sourceEventSlug": "whippedcream",
     "description": "Spinning on ice isn’t the only thing WHIPPED CREAM’s turning heads on. Once a competitive figure skater, Toronto-born Caroline Cecil knows how to bewitch a crowd. Channeling her passion for music both on and off the ice, WHIPPED CREAM–drawn to cinematic soundscapes and deep bass textures–transitioned into production to fully realize her creative vision. Paving her own lane unlike any other with influences from the likes of Hans Zimmer to Skrillex, WHIPPED CREAM is formulating her own sound, while expressing through dynamic live performances, an incomparable energy. Never not creating, WHIPPED CREAM is not just a producer and DJ, but a songwriter and vocalist as well. Fusing her passion and love for hip-hop, cinema, electronica and more, she impressively navigates these genres fluidly, truly invoking a feeling like no other. Her passionate approach to music has earned widespread recognition. WHIPPED CREAM was unanimously selected by the Apple Music Canada team as April 2026’s ‘Up Next’ artist, making her the first dance artist ever to be featured in the ‘Up Next’ Canada program, while Spotify Canada also tapped WHIPPED CREAM as its RADAR Canada feature artist for April 2026, promoting the news on billboards in Toronto. Elsewhere earlier this year she played at Rolling Stone Canada’s exclusive party at the Winter Olympics in Milan, Italy, a full-circle moment for the once competitive figure skater. With standout live appearances at Coachella, Lollapalooza, and Tomorrowland, WHIPPED CREAM has solidified her reputation as a must-see live act. Highlights from 2025 included performances at Fireside Festival, Beyond Wonderland, Tecate Pal Norte, Ubbi Dubbi Festival, and Tomorrowland, with 2026 set to bring major appearances at Fvded in the Park, Festival d'été de Québec (FEQ), and Bass Canyon-The Gorge, alongside a fall headlining run. Whether you’re watching her perform or streaming her music, WHIPPED CREAM is here to provide a high-energy, thought provoking feeling appealing to any music and art lover. Your producer’s favorite producer is now in session. WHIPPED CREAM’s official debut album HOME WAS ALWAYS ME arrives April 30 via Monstercat. A string of singles have been released ahead of the album including the latest “2 u” which makes a play with bouncy 90’s nostalgia, the groundbreaking and tone-setting track “it’s time to go home,” and the electrifying “stranger,” a standout with over 2.3 million streams on Spotify in its first two months out. ‘stranger’ hit Spotify’s Viral Top 50 charts in US and Canada and is currently in rotation on SiriusXM’s BPM, reaching the Top 20 in April ‘26.",
-    "source": "Meow Wolf"
+    "source": "Meow Wolf",
+    "trackIds": [
+      "7rIncPcHyKmnsZgyvGhoDw",
+      "3jMeoTAxDrZfkVxMmWcWCg",
+      "5fu8pfEsXXA9mY0F9grAce"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd27d3a00b8270e82f2e81814",
+    "subArtists": [
+      {
+        "name": "WHIPPED CREAM",
+        "spotifyId": "5CMaNobmJYgXcfiT0zYOwi",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd27d3a00b8270e82f2e81814",
+        "trackIds": [
+          "7rIncPcHyKmnsZgyvGhoDw",
+          "3jMeoTAxDrZfkVxMmWcWCg",
+          "5fu8pfEsXXA9mY0F9grAce"
+        ]
+      }
+    ]
   },
   {
     "artist": "Ethan Regan",

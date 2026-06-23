@@ -4,6 +4,8 @@ import { JamBaseService } from './jambase';
 import { SongkickService } from './songkick';
 import { HotelGlorietaService } from './hotelGlorieta';
 import { MeowWolfService } from './meowWolf';
+import { ElReyCourtService } from './elReyCourt';
+import { TheMysticService } from './theMystic';
 import { LlmMatcher } from './llmMatcher';
 import { Concert } from '../types/concert';
 import * as fs from 'fs';
@@ -15,6 +17,8 @@ export class PlaylistUpdater {
   private songkickService: SongkickService;
   private hotelGlorietaService: HotelGlorietaService;
   private meowWolfService: MeowWolfService;
+  private elReyCourtService: ElReyCourtService;
+  private theMysticService: TheMysticService;
   private spotifyService: SpotifyService;
   private llmMatcher: LlmMatcher;
   
@@ -24,6 +28,8 @@ export class PlaylistUpdater {
     this.songkickService = new SongkickService();
     this.hotelGlorietaService = new HotelGlorietaService();
     this.meowWolfService = new MeowWolfService();
+    this.elReyCourtService = new ElReyCourtService();
+    this.theMysticService = new TheMysticService();
     this.spotifyService = new SpotifyService(playlistId);
     this.llmMatcher = new LlmMatcher();
   }
@@ -54,12 +60,20 @@ export class PlaylistUpdater {
       console.log('Fetching upcoming events from Meow Wolf...');
       const meowWolfConcerts = await this.meowWolfService.fetchConcerts();
       
+      console.log('Fetching upcoming events from El Rey Court...');
+      const elReyCourtConcerts = await this.elReyCourtService.fetchConcerts();
+      
+      console.log('Fetching upcoming events from The Mystic...');
+      const theMysticConcerts = await this.theMysticService.fetchConcerts();
+      
       // Combine all concerts
       const allConcerts = [
         ...sfReporterConcerts,
         ...songkickConcerts,
         ...hotelGlorietaConcerts,
-        ...meowWolfConcerts
+        ...meowWolfConcerts,
+        ...elReyCourtConcerts,
+        ...theMysticConcerts
       ];
       
       // Standardize venue names
@@ -162,9 +176,18 @@ export class PlaylistUpdater {
               break; // Use the first separator that matches
             }
           }
+
+          if (splitArtists.length <= 1 && associateConcert?.description) {
+            console.log(`  - Combined name not found on Spotify. Attempting LLM-based artist extraction from description...`);
+            const extracted = await this.llmMatcher.extractArtistsFromDescription(artist, associateConcert.description);
+            if (extracted && extracted.length > 0) {
+              console.log(`  - LLM extracted artist(s): ${extracted.join(', ')}`);
+              splitArtists = extracted;
+            }
+          }
           
-          if (splitArtists.length > 1) {
-            console.log(`  - Combined name not found on Spotify. Splitting into: ${splitArtists.join(', ')}`);
+          if (splitArtists.length > 1 || (splitArtists.length === 1 && splitArtists[0].toLowerCase().trim() !== artist.toLowerCase().trim())) {
+            console.log(`  - Combined name not found on Spotify. Processing extracted/split artists: ${splitArtists.join(', ')}`);
             const subArtistsList: any[] = [];
             for (const subArtist of splitArtists) {
               const subCleaned = this.cleanArtist(subArtist);
@@ -479,6 +502,13 @@ export class PlaylistUpdater {
       return "Evangelo's";
     }
     
+    // The Mystic
+    if (
+      lower.includes('mystic')
+    ) {
+      return 'The Mystic';
+    }
+    
     return name;
   }
 
@@ -555,7 +585,8 @@ export class PlaylistUpdater {
       'el rey court',
       'dragon room',
       'social kitchen',
-      'terracotta'
+      'terracotta',
+      'the mystic'
     ];
     const venueLower = venue.toLowerCase();
     const isSmallVenue = smallVenues.some(sv => venueLower.includes(sv));

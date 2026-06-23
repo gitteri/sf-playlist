@@ -129,4 +129,63 @@ Respond with a JSON object:
       return null;
     }
   }
+
+  /**
+   * Extract performing artist names from a festival's event description
+   */
+  async extractArtistsFromDescription(eventName: string, description: string): Promise<string[] | null> {
+    const isAvailable = await this.initialize();
+    if (!isAvailable || !this.model) return null;
+
+    const prompt = `You are a music booking assistant. Given the title of an event and its description, extract all the performing music artist/band names mentioned.
+Do NOT include the names of presenters, venues, hosts, sponsors, or non-performing individuals.
+Only extract the actual musical acts performing at the event.
+
+Event Title: ${eventName}
+Event Description: ${description}
+
+Respond with a JSON object:
+{
+  "artists": ["Artist Name 1", "Artist Name 2", ...]
 }
+Provide ONLY the JSON response.`;
+
+    try {
+      const response = await axios.post(this.url, {
+        model: this.model,
+        prompt: prompt,
+        stream: false,
+        format: 'json'
+      }, { timeout: 30000 });
+
+      const rawResponse = response.data?.response || '';
+      let cleanedJson = rawResponse.trim();
+
+      // Strip markdown code fences if present
+      const codeBlockRegex = /^```(?:json)?\s*([\s\S]*?)\s*```$/i;
+      const match = cleanedJson.match(codeBlockRegex);
+      if (match) {
+        cleanedJson = match[1].trim();
+      } else {
+        // Fallback: extract substring between first '{' and last '}'
+        const firstBrace = cleanedJson.indexOf('{');
+        const lastBrace = cleanedJson.lastIndexOf('}');
+        if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+          cleanedJson = cleanedJson.substring(firstBrace, lastBrace + 1);
+        }
+      }
+
+      const parsedResult = JSON.parse(cleanedJson);
+      if (Array.isArray(parsedResult.artists)) {
+        return parsedResult.artists
+          .map((a: any) => String(a).trim())
+          .filter((a: string) => a.length > 0);
+      }
+      return null;
+    } catch (err: any) {
+      console.error(`LLM Matcher: Error during artist extraction from description:`, err.message);
+      return null;
+    }
+  }
+}
+

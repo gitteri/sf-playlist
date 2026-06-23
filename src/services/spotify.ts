@@ -277,8 +277,8 @@ export class SpotifyService {
    * @returns Artist ID if found, null otherwise
    */
   async searchArtist(artistName: string): Promise<{ id: string, name: string, popularity: number, imageUrl?: string, genres?: string[] } | null> {
-    return this.withRetry(async () => {
-      try {
+    try {
+      return await this.withRetry(async () => {
         const response = await this.spotifyApi.searchArtists(artistName, { limit: 10 });
         
         if (response.body.artists && response.body.artists.items.length > 0) {
@@ -315,11 +315,11 @@ export class SpotifyService {
         }
         
         return null;
-      } catch (error) {
-        console.error(`Error searching for artist ${artistName}:`, error);
-        return null;
-      }
-    });
+      });
+    } catch (error) {
+      console.error(`Error searching for artist ${artistName}:`, error);
+      return null;
+    }
   }
 
   /**
@@ -328,8 +328,8 @@ export class SpotifyService {
    * @returns Artist details or null
    */
   async getArtistById(artistId: string): Promise<{ id: string, name: string, popularity: number, imageUrl?: string, genres?: string[] } | null> {
-    return this.withRetry(async () => {
-      try {
+    try {
+      return await this.withRetry(async () => {
         const response = await this.spotifyApi.getArtist(artistId);
         const artist = response.body;
         return {
@@ -339,11 +339,11 @@ export class SpotifyService {
           imageUrl: artist.images && artist.images.length > 0 ? artist.images[0].url : undefined,
           genres: artist.genres || []
         };
-      } catch (error) {
-        console.error(`Error getting artist by ID ${artistId}:`, error);
-        return null;
-      }
-    });
+      });
+    } catch (error) {
+      console.error(`Error getting artist by ID ${artistId}:`, error);
+      return null;
+    }
   }
 
   /**
@@ -353,19 +353,19 @@ export class SpotifyService {
    * @returns Array of track IDs
    */
   async getArtistTopTracks(artistId: string, limit: number = 3): Promise<string[]> {
-    return this.withRetry(async () => {
-      try {
+    try {
+      return await this.withRetry(async () => {
         // Using US market as default, can be parameterized later
         const response = await this.spotifyApi.getArtistTopTracks(artistId, 'US');
         
         return response.body.tracks
           .slice(0, limit)
           .map(track => track.id);
-      } catch (error) {
-        console.error(`Error getting top tracks for artist ${artistId}:`, error);
-        return [];
-      }
-    });
+      });
+    } catch (error) {
+      console.error(`Error getting top tracks for artist ${artistId}:`, error);
+      return [];
+    }
   }
 
   /**
@@ -375,17 +375,17 @@ export class SpotifyService {
    * @returns Array of track names
    */
   async getArtistTopTrackNames(artistId: string, limit: number = 3): Promise<string[]> {
-    return this.withRetry(async () => {
-      try {
+    try {
+      return await this.withRetry(async () => {
         const response = await this.spotifyApi.getArtistTopTracks(artistId, 'US');
         return response.body.tracks
           .slice(0, limit)
           .map(track => track.name);
-      } catch (error) {
-        console.error(`Error getting top track names for artist ${artistId}:`, error);
-        return [];
-      }
-    });
+      });
+    } catch (error) {
+      console.error(`Error getting top track names for artist ${artistId}:`, error);
+      return [];
+    }
   }
 
   /**
@@ -396,8 +396,8 @@ export class SpotifyService {
   async addTracksToPlaylist(trackIds: string[]): Promise<boolean> {
     if (trackIds.length === 0) return true;
     
-    return this.withRetry(async () => {
-      try {
+    try {
+      return await this.withRetry(async () => {
         // Add tracks in chunks of 100 (Spotify API limit)
         const chunkSize = 100;
         for (let i = 0; i < trackIds.length; i += chunkSize) {
@@ -412,11 +412,11 @@ export class SpotifyService {
         }
         
         return true;
-      } catch (error) {
-        console.error('Error adding tracks to playlist:', error);
-        return false;
-      }
-    });
+      });
+    } catch (error) {
+      console.error('Error adding tracks to playlist:', error);
+      return false;
+    }
   }
 
   /**
@@ -424,8 +424,8 @@ export class SpotifyService {
    * @returns Whether the operation was successful
    */
   async clearPlaylist(): Promise<boolean> {
-    return this.withRetry(async () => {
-      try {
+    try {
+      return await this.withRetry(async () => {
         // Get all tracks in playlist (with pagination support)
         let allTracks: { uri: string }[] = [];
         let offset = 0;
@@ -469,11 +469,11 @@ export class SpotifyService {
         }
         
         return true;
-      } catch (error) {
-        console.error('Error clearing playlist:', error);
-        return false;
-      }
-    });
+      });
+    } catch (error) {
+      console.error('Error clearing playlist:', error);
+      return false;
+    }
   }
 
   /**
@@ -481,15 +481,15 @@ export class SpotifyService {
    * @returns Playlist details
    */
   async getPlaylistDetails() {
-    return this.withRetry(async () => {
-      try {
+    try {
+      return await this.withRetry(async () => {
         const response = await this.spotifyApi.getPlaylist(this.playlistId);
         return response.body;
-      } catch (error) {
-        console.error('Error fetching playlist details:', error);
-        throw new Error(`Failed to get playlist details for ID: ${this.playlistId}`);
-      }
-    });
+      });
+    } catch (error) {
+      console.error('Error fetching playlist details:', error);
+      throw new Error(`Failed to get playlist details for ID: ${this.playlistId}`);
+    }
   }
   
   /**
