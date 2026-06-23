@@ -58,8 +58,14 @@ export class PlaylistUpdater {
         ...meowWolfConcerts
       ];
       
+      // Standardize venue names
+      const standardizedConcerts = allConcerts.map(c => ({
+        ...c,
+        venue: this.standardizeVenue(c.venue)
+      }));
+      
       // Filter out non-artist events
-      const validConcerts = allConcerts.filter(c => this.isArtist(c.artist));
+      const validConcerts = standardizedConcerts.filter(c => this.isArtist(c.artist));
       
       // Extract and deduplicate artist names for Spotify search
       const allArtists = this.deduplicateArtists(validConcerts.map(c => c.artist));
@@ -385,6 +391,79 @@ export class PlaylistUpdater {
     }
     
     return cleanedArtist;
+  }
+
+  /**
+   * Standardize venue names across all sources
+   */
+  private standardizeVenue(venue: string): string {
+    const name = venue.trim();
+    const lower = name.toLowerCase();
+    
+    if (lower.includes('meow wolf')) {
+      return 'Meow Wolf';
+    }
+    
+    if (
+      lower.includes('glorieta') || 
+      lower.includes('marigold room') || 
+      lower.includes('lady duff')
+    ) {
+      return 'Hotel Glorieta';
+    }
+    
+    // Santa Fe Brewing / The Bridge
+    if (
+      lower.includes('santa fe brewing') || 
+      lower.includes('sf brewing') ||
+      lower.includes('the bridge')
+    ) {
+      return 'The Bridge at Santa Fe Brewing Co.';
+    }
+    
+    // El Rey Court / La Reina
+    if (
+      lower.includes('el rey') || 
+      lower.includes('la reina')
+    ) {
+      return 'El Rey Court';
+    }
+    
+    // Reunity Farms / Reunity Resources
+    if (
+      lower.includes('reunity')
+    ) {
+      return 'Reunity Resources';
+    }
+    
+    // Railyard Plaza / Santa Fe Railyard Plaza
+    if (
+      lower.includes('railyard')
+    ) {
+      return 'Santa Fe Railyard Plaza';
+    }
+    
+    // Santa Fe Plaza / THE PLAZA
+    if (
+      lower.includes('plaza')
+    ) {
+      return 'Santa Fe Plaza';
+    }
+    
+    // Buffalo Thunder
+    if (
+      lower.includes('buffalo thunder')
+    ) {
+      return 'Buffalo Thunder Resort & Casino';
+    }
+    
+    if (
+      lower.includes('evangelo')
+    ) {
+      return "Evangelo's";
+    }
+    
+    return name;
   }
 
   /**
