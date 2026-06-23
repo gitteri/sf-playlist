@@ -1,21 +1,5 @@
 [
   {
-    "artist": "Doug Montgomery",
-    "venue": "Rio Chama Steakhouse",
-    "date": "2026-06-23T00:00:00.000Z",
-    "sourceEventId": 4835580,
-    "sourceEventSlug": "doug-montgomery-jun-22-2026",
-    "description": "<p>Standards, Broadway, originals and much more performed on piano and vocals. </p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "1MdZe7hHi3yKBkrtuFTVcl",
-      "5al9F47JyTCZnBy5kz4gHM",
-      "64rhgVMNnl4n5TVjGeHDJw"
-    ],
-    "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
-  },
-  {
     "artist": "Amy Coffman",
     "venue": "Cowgirl",
     "date": "2026-06-23T22:00:00.000Z",
@@ -29,7 +13,10 @@
       "07kfHocdpimKJjsDZ7ikx4"
     ],
     "spotifyId": "3DCk6poKoiJVXlAyOe1YLE",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bc77c9502e9fcbf8f29f9e40"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bc77c9502e9fcbf8f29f9e40",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "Kontusion // Dispossessed // Dysphotic // Hot Wolf",
@@ -51,8 +38,8 @@
       "2GVWntL8kc0BaIpQ6F5rqS",
       "0WjEPavRpyRCbE7v1I4oCP",
       "2vXko2Xl6b97IxNPa5J6sI",
-      "0entyPWf4G81x7ZLLNaAIW",
-      "09gvWkdphq01GEbjpXwYgK"
+      "09gvWkdphq01GEbjpXwYgK",
+      "0zhSEGTG3QJeAca1pWGBEE"
     ],
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273906a00488c76ba8147fb7f06",
     "genres": [
@@ -109,8 +96,8 @@
         "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273b518e77250ba9c7c8748e270",
         "trackIds": [
           "2vXko2Xl6b97IxNPa5J6sI",
-          "0entyPWf4G81x7ZLLNaAIW",
-          "09gvWkdphq01GEbjpXwYgK"
+          "09gvWkdphq01GEbjpXwYgK",
+          "0zhSEGTG3QJeAca1pWGBEE"
         ]
       }
     ]
@@ -122,7 +109,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853538,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
@@ -140,6 +136,10 @@
       {
         "name": "DJ Stranger Vinyl Set"
       }
+    ],
+    "genres": [
+      "Hip Hop / Rap",
+      "Electronic / EDM / DJ"
     ]
   },
   {
@@ -149,7 +149,10 @@
     "listingUrl": "https://www.socialkitchensf.com/Events/",
     "sourceEventId": 4853573,
     "description": "<p>An unforgettable evening of live country music, good vibes, and great company.</p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "Last Wednesdays with John Francis",
@@ -182,7 +185,10 @@
       "7E23il0kqPQOgEvJ30gsdx"
     ],
     "spotifyId": "29JEPgxSlt5lTvqT2f1BOk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2735cdda90a98e1efba114c45ff"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2735cdda90a98e1efba114c45ff",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "Bob Maus",
@@ -191,7 +197,11 @@
     "listingUrl": "https://www.reverbnation.com/bobmaus/song/34523171-bob-maus-live-performance-demo",
     "sourceEventId": 4853652,
     "description": "<p>Maus plays blues, soul and pop on piano and vocals. </p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Pop"
+    ]
   },
   {
     "artist": "SAR Music",
@@ -219,6 +229,10 @@
           "5oLuIZgzZstd4YS7FYUofv"
         ]
       }
+    ],
+    "genres": [
+      "Folk / Country / Bluegrass",
+      "Reggae / Latin / World"
     ]
   },
   {
@@ -237,6 +251,9 @@
       {
         "name": "Folk Jam"
       }
+    ],
+    "genres": [
+      "Folk / Country / Bluegrass"
     ]
   },
   {
@@ -255,6 +272,9 @@
       {
         "name": "Queen Bee Music Association"
       }
+    ],
+    "genres": [
+      "Folk / Country / Bluegrass"
     ]
   },
   {
@@ -266,32 +286,9 @@
     "sourceEventId": 4855457,
     "description": "<p><em>Caleb &amp; Company</em> plays a wide variety of music spanning from Ray Charles to Radiohead. So no matter who you've been listening to lately, there will be something for you. </p><p><br></p>",
     "source": "Santa Fe Reporter",
-    "trackIds": [
-      "3O30gAfom0QGgts47I2jQ1",
-      "6uie49Ul2wKawsbIGc8MYb",
-      "3zDQrzqq3PPRnuylK7VojP"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d58c04b131ccfb4be222747d",
     "genres": [
-      "musicals"
-    ],
-    "subArtists": [
-      {
-        "name": "Caleb"
-      },
-      {
-        "name": "Company",
-        "spotifyId": "5bse9w1FhvHOjwC110JLe5",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d58c04b131ccfb4be222747d",
-        "genres": [
-          "musicals"
-        ],
-        "trackIds": [
-          "3O30gAfom0QGgts47I2jQ1",
-          "6uie49Ul2wKawsbIGc8MYb",
-          "3zDQrzqq3PPRnuylK7VojP"
-        ]
-      }
+      "Rock / Alternative",
+      "Jazz / Blues / Funk"
     ]
   },
   {
@@ -302,7 +299,10 @@
     "sourceEventId": 4835939,
     "sourceEventSlug": "heartbyrne-jun-25-2026",
     "description": "Talking Heads and David Byrne cover act Heartbyrne will be playing the Railyard as part of Lensic360's summerific concert series. Show up to this one and you will surely be up all night.",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "The Pre Game Thursday Nights",
@@ -315,6 +315,9 @@
       {
         "name": "DJ Optamystik"
       }
+    ],
+    "genres": [
+      "Electronic / EDM / DJ"
     ]
   },
   {
@@ -324,7 +327,10 @@
     "sourceEventId": 4838499,
     "sourceEventSlug": "dj-optamystik-jun-25-2026",
     "description": "The most positive beats in town every Thursday.",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Electronic / EDM / DJ"
+    ]
   },
   {
     "artist": "Vincen Garcia",
@@ -334,7 +340,10 @@
     "sourceEventId": 4835946,
     "sourceEventSlug": "vincen-garcia-jun-25-2026",
     "description": "A Spanish bassist from Valencia, Vincen Garcia is a world renowned jazz and funk musician.  Now, he's bringing his groovy jams to the acoustically-experimental concert hall at Tumbleroot.",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Desperados",
@@ -368,7 +377,10 @@
       "18vLgYfajFN5KguciUKmSo"
     ],
     "spotifyId": "6fowadpYGZgpR6O62pOoOB",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273e62d725f88a0d205f5bcf094"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273e62d725f88a0d205f5bcf094",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "Bryan Hutchinson, piano",
@@ -383,6 +395,9 @@
       {
         "name": "Bryan Hutchinson"
       }
+    ],
+    "genres": [
+      "Classical"
     ]
   },
   {
@@ -392,7 +407,12 @@
     "listingUrl": "https://www.socialkitchensf.com/",
     "sourceEventId": 4838290,
     "description": "<p>Two powerhouse bands that ignite the stage with Latin rock, Chicano funk, and timeless old-school classics. </p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Rock / Alternative",
+      "Jazz / Blues / Funk",
+      "Reggae / Latin / World"
+    ]
   },
   {
     "artist": "David Wood",
@@ -408,7 +428,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Turnover",
@@ -522,7 +545,11 @@
       "42E6hHZ4FIYBOynFjo07Yy"
     ],
     "spotifyId": "5XfYpSX5Dc49RmB9JMUI8C",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebf75efc31fed5129e242d543a"
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebf75efc31fed5129e242d543a",
+    "genres": [
+      "Folk / Country / Bluegrass",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "Rolas Cumbiamberas",
@@ -536,6 +563,9 @@
       {
         "name": "DJ Luz Skylarker"
       }
+    ],
+    "genres": [
+      "Reggae / Latin / World"
     ]
   },
   {
@@ -551,7 +581,10 @@
       "18vLgYfajFN5KguciUKmSo"
     ],
     "spotifyId": "6fowadpYGZgpR6O62pOoOB",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273e62d725f88a0d205f5bcf094"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273e62d725f88a0d205f5bcf094",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "Bob Maus - Blues Soul Pop",
@@ -565,6 +598,10 @@
       {
         "name": "Bob Maus"
       }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Pop"
     ]
   },
   {
@@ -577,9 +614,9 @@
     "description": "<p>Get ready to turn up the energy for PRIDE {after dark}, one of the most electrifying nights of PRIDE Santa Fe 2026 featuring an immersive, late-night dance experience where music, art, and queer joy collide.</p><p><br></p>",
     "source": "Santa Fe Reporter",
     "trackIds": [
-      "5XXaUQiNgqrf5jQMfpQpyw",
       "6w9FwcNjOhcispHsDlzv5Q",
-      "5cgtaI5S7Kh4yrsOJUnHBz"
+      "5XXaUQiNgqrf5jQMfpQpyw",
+      "7vJM76G9iuxUi2ooyGJhOw"
     ],
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb64e0d7468c14fac81d3db8d8",
     "genres": [
@@ -594,9 +631,9 @@
           "tribal house"
         ],
         "trackIds": [
-          "5XXaUQiNgqrf5jQMfpQpyw",
           "6w9FwcNjOhcispHsDlzv5Q",
-          "5cgtaI5S7Kh4yrsOJUnHBz"
+          "5XXaUQiNgqrf5jQMfpQpyw",
+          "7vJM76G9iuxUi2ooyGJhOw"
         ]
       }
     ]
@@ -609,7 +646,12 @@
     "sourceEventId": 4840916,
     "sourceEventSlug": "the-ron-crowder-band-jun-28-2026",
     "description": "Bring your dancing shoes for this award winning pop, rock and funk performance. ",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Pop",
+      "Rock / Alternative",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Carson Barry Trio",
@@ -635,7 +677,10 @@
       "7vjrklFWm0WCZXf3rr8qRw"
     ],
     "spotifyId": "2e3MqeCoPC7BSElTEf0y89",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0cf39bb6ce504ab8e8c2c81c"
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0cf39bb6ce504ab8e8c2c81c",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -651,7 +696,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -667,7 +716,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Darin Savage",
@@ -694,6 +747,12 @@
       {
         "name": "DJ Future Babel"
       }
+    ],
+    "genres": [
+      "Rock / Alternative",
+      "Jazz / Blues / Funk",
+      "Electronic / EDM / DJ",
+      "Reggae / Latin / World"
     ]
   },
   {
@@ -711,7 +770,10 @@
       "5QQwbPE0WjPcLDmLQ0B99m"
     ],
     "spotifyId": "5BvJI3v0HXd9musbXnU0cw",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb81ded05e7c785859d2404129"
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb81ded05e7c785859d2404129",
+    "genres": [
+      "Pop"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -720,7 +782,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853539,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
@@ -738,6 +809,10 @@
       {
         "name": "DJ Stranger Vinyl Set"
       }
+    ],
+    "genres": [
+      "Hip Hop / Rap",
+      "Electronic / EDM / DJ"
     ]
   },
   {
@@ -754,7 +829,10 @@
       "7E23il0kqPQOgEvJ30gsdx"
     ],
     "spotifyId": "29JEPgxSlt5lTvqT2f1BOk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2735cdda90a98e1efba114c45ff"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2735cdda90a98e1efba114c45ff",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "DJ OPTAMYSTIK",
@@ -763,7 +841,10 @@
     "sourceEventId": 4838500,
     "sourceEventSlug": "dj-optamystik-jul-2-2026",
     "description": "The most positive beats in town every Thursday.",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Electronic / EDM / DJ"
+    ]
   },
   {
     "artist": "David Wood",
@@ -779,7 +860,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Stanlie Kee",
@@ -788,7 +872,22 @@
     "sourceEventId": 4386790,
     "sourceEventSlug": "stanlie-kee-and-the-step-in-jul-5-2026",
     "description": "It's not red, yellow, green, orange or pink. It's all blues here. ",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
+  },
+  {
+    "artist": "Flutissimo Flute Choir",
+    "venue": "Santa Fe Public Library",
+    "date": "2026-07-05T23:30:00.000Z",
+    "sourceEventId": 4859246,
+    "sourceEventSlug": "flutissimo-flute-choir-jul-5-2026",
+    "description": "<p>First Presbyterian offers weekly recitals on Friday evenings. These concerts are free and open to all. A freewill offering for the recital fund will be available. Doors open at 5:15.</p>",
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Classical"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -804,7 +903,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -820,7 +923,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Darin Savage",
@@ -838,7 +945,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853540,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
@@ -856,6 +972,10 @@
       {
         "name": "DJ Stranger Vinyl Set"
       }
+    ],
+    "genres": [
+      "Hip Hop / Rap",
+      "Electronic / EDM / DJ"
     ]
   },
   {
@@ -865,7 +985,10 @@
     "sourceEventId": 4838501,
     "sourceEventSlug": "dj-optamystik-jul-9-2026",
     "description": "The most positive beats in town every Thursday.",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Electronic / EDM / DJ"
+    ]
   },
   {
     "artist": "David Wood",
@@ -881,7 +1004,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -897,7 +1023,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Santa Fe Grass",
@@ -907,7 +1037,10 @@
     "sourceEventId": 4809579,
     "sourceEventSlug": "santa-fe-grass-jul-13-2026",
     "description": "<p>Live traditional and contemporary bluegrass music. </p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -923,7 +1056,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Darin Savage",
@@ -932,7 +1069,11 @@
     "sourceEventId": 4832356,
     "sourceEventSlug": "darin-savage-jul-13-2026",
     "description": "Darin Savage plays Spanish guitar every Monday evening. ",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Classical",
+      "Reggae / Latin / World"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -941,7 +1082,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853541,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
@@ -959,6 +1109,10 @@
       {
         "name": "DJ Stranger Vinyl Set"
       }
+    ],
+    "genres": [
+      "Hip Hop / Rap",
+      "Electronic / EDM / DJ"
     ]
   },
   {
@@ -968,7 +1122,10 @@
     "sourceEventId": 4838502,
     "sourceEventSlug": "dj-optamystik-jul-16-2026",
     "description": "The most positive beats in town every Thursday.",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Electronic / EDM / DJ"
+    ]
   },
   {
     "artist": "David Wood",
@@ -984,7 +1141,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -1000,7 +1160,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Santa Fe Grass",
@@ -1010,7 +1174,10 @@
     "sourceEventId": 4809580,
     "sourceEventSlug": "santa-fe-grass-jul-20-2026",
     "description": "<p>Live traditional and contemporary bluegrass music. </p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -1026,7 +1193,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Darin Savage",
@@ -1035,7 +1206,11 @@
     "sourceEventId": 4832357,
     "sourceEventSlug": "darin-savage-jul-20-2026",
     "description": "Darin Savage plays Spanish guitar every Monday evening. ",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Classical",
+      "Reggae / Latin / World"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -1044,7 +1219,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853542,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
@@ -1062,6 +1246,10 @@
       {
         "name": "DJ Stranger Vinyl Set"
       }
+    ],
+    "genres": [
+      "Hip Hop / Rap",
+      "Electronic / EDM / DJ"
     ]
   },
   {
@@ -1071,7 +1259,10 @@
     "sourceEventId": 4838503,
     "sourceEventSlug": "dj-optamystik-jul-23-2026",
     "description": "The most positive beats in town every Thursday.",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Electronic / EDM / DJ"
+    ]
   },
   {
     "artist": "David Wood",
@@ -1087,7 +1278,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -1103,7 +1297,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Santa Fe Grass",
@@ -1113,7 +1311,10 @@
     "sourceEventId": 4809581,
     "sourceEventSlug": "santa-fe-grass-jul-27-2026",
     "description": "<p>Live traditional and contemporary bluegrass music. </p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -1129,7 +1330,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Darin Savage",
@@ -1138,7 +1343,11 @@
     "sourceEventId": 4832358,
     "sourceEventSlug": "darin-savage-jul-27-2026",
     "description": "Darin Savage plays Spanish guitar every Monday evening. ",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Classical",
+      "Reggae / Latin / World"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -1147,7 +1356,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853543,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
@@ -1165,6 +1383,10 @@
       {
         "name": "DJ Stranger Vinyl Set"
       }
+    ],
+    "genres": [
+      "Hip Hop / Rap",
+      "Electronic / EDM / DJ"
     ]
   },
   {
@@ -1191,7 +1413,10 @@
     "sourceEventId": 4838504,
     "sourceEventSlug": "dj-optamystik-jul-30-2026",
     "description": "The most positive beats in town every Thursday.",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Electronic / EDM / DJ"
+    ]
   },
   {
     "artist": "David Wood",
@@ -1207,7 +1432,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Santa Fe Cumbiero",
@@ -1243,7 +1471,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Santa Fe Grass",
@@ -1253,7 +1485,10 @@
     "sourceEventId": 4809582,
     "sourceEventSlug": "santa-fe-grass-aug-3-2026",
     "description": "<p>Live traditional and contemporary bluegrass music. </p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "The Brothers Comatose",
@@ -1291,7 +1526,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Darin Savage",
@@ -1300,7 +1539,11 @@
     "sourceEventId": 4832359,
     "sourceEventSlug": "darin-savage-aug-3-2026",
     "description": "Darin Savage plays Spanish guitar every Monday evening. ",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Classical",
+      "Reggae / Latin / World"
+    ]
   },
   {
     "artist": "Bobby Alu",
@@ -1350,7 +1593,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853544,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "Eagles of Death Metal",
@@ -1410,7 +1662,10 @@
       "1nRcZ8paEupSa6OG3wZEzf"
     ],
     "spotifyId": "3UZweLueIxSfgpLuFfeRYu",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe731c0844a474bf41544afbd"
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe731c0844a474bf41544afbd",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "DJ OPTAMYSTIK",
@@ -1419,7 +1674,10 @@
     "sourceEventId": 4838505,
     "sourceEventSlug": "dj-optamystik-aug-6-2026",
     "description": "The most positive beats in town every Thursday.",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Electronic / EDM / DJ"
+    ]
   },
   {
     "artist": "David Wood",
@@ -1435,7 +1693,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Wonderful Fantastic Hip-Hop Festival",
@@ -1540,7 +1801,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Santa Fe Grass",
@@ -1550,7 +1815,10 @@
     "sourceEventId": 4809583,
     "sourceEventSlug": "santa-fe-grass-aug-10-2026",
     "description": "<p>Live traditional and contemporary bluegrass music. </p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "Monsieur Periné",
@@ -1588,7 +1856,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Darin Savage",
@@ -1597,7 +1869,11 @@
     "sourceEventId": 4832360,
     "sourceEventSlug": "darin-savage-aug-10-2026",
     "description": "Darin Savage plays Spanish guitar every Monday evening. ",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Classical",
+      "Reggae / Latin / World"
+    ]
   },
   {
     "artist": "Exotica Tiki Night with DJ Future Babel",
@@ -1615,6 +1891,12 @@
       {
         "name": "DJ Future Babel"
       }
+    ],
+    "genres": [
+      "Rock / Alternative",
+      "Jazz / Blues / Funk",
+      "Electronic / EDM / DJ",
+      "Reggae / Latin / World"
     ]
   },
   {
@@ -1626,12 +1908,9 @@
     "sourceEventSlug": "gary-farmer-and-the-troublemakers-aug-11-2026",
     "description": "He might be Canadian-born, but Farmer has lived in Santa Fe so long that we're claiming him as a hometown hero. Find Farmer and friends digging into the blues on the Plaza. ",
     "source": "Santa Fe Reporter",
-    "trackIds": [
-      "10pz78PU1AkAdV22il1tNV",
-      "5H9U6d98ytcLKFKSg7sRpm",
-      "3vanpFAH4mqLLS7oHnjZVX"
-    ],
-    "spotifyId": "6hTBv8xAJYD11baaQVEigp"
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Widowspeak",
@@ -1661,7 +1940,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853545,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "DJ OPTAMYSTIK",
@@ -1670,7 +1958,10 @@
     "sourceEventId": 4838506,
     "sourceEventSlug": "dj-optamystik-aug-13-2026",
     "description": "The most positive beats in town every Thursday.",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Electronic / EDM / DJ"
+    ]
   },
   {
     "artist": "IndigenousWays Festival",
@@ -1756,7 +2047,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -1772,7 +2066,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Santa Fe Grass",
@@ -1782,7 +2080,10 @@
     "sourceEventId": 4809584,
     "sourceEventSlug": "santa-fe-grass-aug-17-2026",
     "description": "<p>Live traditional and contemporary bluegrass music. </p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "Tropidelic",
@@ -1818,7 +2119,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Darin Savage",
@@ -1827,7 +2132,11 @@
     "sourceEventId": 4832361,
     "sourceEventSlug": "darin-savage-aug-17-2026",
     "description": "Darin Savage plays Spanish guitar every Monday evening. ",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Classical",
+      "Reggae / Latin / World"
+    ]
   },
   {
     "artist": "Manzanares",
@@ -1844,7 +2153,11 @@
       "45yOoRo9JIZJoXIrkMurun"
     ],
     "spotifyId": "6iE10VwauqgA3pIyEQiMMI",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273f588d8e866085ea8b475aa4c"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273f588d8e866085ea8b475aa4c",
+    "genres": [
+      "Rock / Alternative",
+      "Reggae / Latin / World"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -1853,7 +2166,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853546,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "DK Harrell",
@@ -1919,7 +2241,10 @@
     "sourceEventId": 4838507,
     "sourceEventSlug": "dj-optamystik-aug-20-2026",
     "description": "The most positive beats in town every Thursday.",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Electronic / EDM / DJ"
+    ]
   },
   {
     "artist": "Fantastic Negrito",
@@ -1958,7 +2283,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Lisa Morales",
@@ -1975,7 +2303,12 @@
       "2OCQJwElp7D6lqHEdLQVD3"
     ],
     "spotifyId": "22HF78UQSmSTNtv4bsfUAI",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebed0c526bb5a1f0b8929988b7"
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebed0c526bb5a1f0b8929988b7",
+    "genres": [
+      "Rock / Alternative",
+      "Folk / Country / Bluegrass",
+      "Reggae / Latin / World"
+    ]
   },
   {
     "artist": "Gov't Mule",
@@ -2037,7 +2370,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Pepper",
@@ -2069,7 +2406,10 @@
     "sourceEventId": 4809585,
     "sourceEventSlug": "santa-fe-grass-aug-24-2026",
     "description": "<p>Live traditional and contemporary bluegrass music. </p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "Iguanas w/Mineral Hill",
@@ -2126,7 +2466,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Darin Savage",
@@ -2135,7 +2479,11 @@
     "sourceEventId": 4832362,
     "sourceEventSlug": "darin-savage-aug-24-2026",
     "description": "Darin Savage plays Spanish guitar every Monday evening. ",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Classical",
+      "Reggae / Latin / World"
+    ]
   },
   {
     "artist": "Oh He Dead",
@@ -2164,7 +2512,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853547,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "Last Wednesdays with John Francis",
@@ -2211,7 +2568,10 @@
     "sourceEventId": 4838508,
     "sourceEventSlug": "dj-optamystik-aug-27-2026",
     "description": "The most positive beats in town every Thursday.",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Electronic / EDM / DJ"
+    ]
   },
   {
     "artist": "St. Paul",
@@ -2248,7 +2608,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2264,7 +2627,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Santa Fe Grass",
@@ -2274,7 +2641,10 @@
     "sourceEventId": 4809586,
     "sourceEventSlug": "santa-fe-grass-aug-31-2026",
     "description": "<p>Live traditional and contemporary bluegrass music. </p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "Sinister Surfer",
@@ -2287,8 +2657,8 @@
     "source": "Santa Fe Reporter",
     "trackIds": [
       "5iUa13sA7ERnOGSl5IRM2Q",
-      "19eh4VjhCKgbeZ9yRXygtz",
-      "0TDMW2afzkYOlthLOkr6vt"
+      "0TDMW2afzkYOlthLOkr6vt",
+      "19eh4VjhCKgbeZ9yRXygtz"
     ],
     "spotifyId": "6R8y9IL7ld882MjAHhbbJC",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba2a65cdcfb9f406ae6e274dd",
@@ -2310,7 +2680,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Darin Savage",
@@ -2319,7 +2693,11 @@
     "sourceEventId": 4832363,
     "sourceEventSlug": "darin-savage-aug-31-2026",
     "description": "Darin Savage plays Spanish guitar every Monday evening. ",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "genres": [
+      "Classical",
+      "Reggae / Latin / World"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -2328,7 +2706,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853548,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -2344,7 +2731,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2360,7 +2750,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2376,7 +2770,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -2385,7 +2783,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853549,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -2401,7 +2808,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2417,7 +2827,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2433,7 +2847,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -2442,7 +2860,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853550,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -2458,7 +2885,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2474,7 +2904,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2490,7 +2924,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -2499,7 +2937,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853551,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -2515,7 +2962,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2531,7 +2981,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2547,7 +3001,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -2556,7 +3014,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853552,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -2572,7 +3039,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2588,7 +3058,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2604,7 +3078,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -2613,7 +3091,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853553,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -2629,7 +3116,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2645,7 +3135,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2661,7 +3155,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -2670,7 +3168,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853554,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -2686,7 +3193,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2702,7 +3212,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2718,7 +3232,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -2727,7 +3245,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853555,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -2743,7 +3270,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2759,7 +3289,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2775,7 +3309,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Exotica Tiki Night with DJ Future Babel",
@@ -2793,6 +3331,12 @@
       {
         "name": "DJ Future Babel"
       }
+    ],
+    "genres": [
+      "Rock / Alternative",
+      "Jazz / Blues / Funk",
+      "Electronic / EDM / DJ",
+      "Reggae / Latin / World"
     ]
   },
   {
@@ -2802,7 +3346,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853556,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -2818,7 +3371,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2834,7 +3390,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2850,7 +3410,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -2859,7 +3423,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853557,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -2875,7 +3448,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2891,7 +3467,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2907,7 +3487,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -2916,7 +3500,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853558,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -2932,7 +3525,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2948,7 +3544,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -2964,7 +3564,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -2973,7 +3577,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853559,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -2989,7 +3602,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -3005,7 +3621,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -3021,7 +3641,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -3030,7 +3654,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853560,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -3046,7 +3679,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -3062,7 +3698,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -3078,7 +3718,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -3087,7 +3731,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853561,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -3103,7 +3756,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -3119,7 +3775,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -3135,7 +3795,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -3144,7 +3808,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853562,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -3160,7 +3833,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -3176,7 +3852,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -3192,7 +3872,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -3201,7 +3885,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853563,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "David Wood",
@@ -3217,7 +3910,10 @@
       "5tW9PkGrr5DpDbHRcIO3R5"
     ],
     "spotifyId": "2k7wY774rsXKGMSo5vlOtx",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -3233,7 +3929,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -3249,7 +3949,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -3258,7 +3962,16 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853564,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -3274,7 +3987,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Doug Montgomery",
@@ -3290,7 +4007,11 @@
       "64rhgVMNnl4n5TVjGeHDJw"
     ],
     "spotifyId": "1ng2TUBQyhemZLHnFjypAk",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12",
+    "genres": [
+      "Pop",
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "The Tuesday Downtown Blues Jam",
@@ -3299,7 +4020,1123 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853565,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Brotha Love & The Blueristocrats"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk",
+      "Rock / Alternative"
+    ]
+  },
+  {
+    "artist": "Jesus Bas",
+    "venue": "Dragon Room Bar",
+    "date": "2026-06-24T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43217020-jesus-bas-at-dragon-room-bar",
+    "listingUrl": "https://www.songkick.com/concerts/43217020-jesus-bas-at-dragon-room-bar",
+    "source": "Songkick"
+  },
+  {
+    "artist": "Heartbyrne",
+    "venue": "Santa Fe Railyard Plaza",
+    "date": "2026-06-25T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43212695-heartbyrne-at-santa-fe-railyard-plaza",
+    "listingUrl": "https://www.songkick.com/concerts/43212695-heartbyrne-at-santa-fe-railyard-plaza",
+    "source": "Songkick"
+  },
+  {
+    "artist": "Jesus Bas",
+    "venue": "La Boca",
+    "date": "2026-06-26T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43217021-jesus-bas-at-la-boca",
+    "listingUrl": "https://www.songkick.com/concerts/43217021-jesus-bas-at-la-boca",
+    "source": "Songkick"
+  },
+  {
+    "artist": "The Polish Ambassador",
+    "venue": "The Bridge at Santa Fe Brewing Co.",
+    "date": "2026-06-28T01:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43123617-polish-ambassador-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43123617-polish-ambassador-at-bridge-at-santa-fe-brewing-company",
+    "source": "Songkick",
+    "trackIds": [
+      "68MsVSVZO8eSPdqPfhG83A",
+      "3fDYjf2WbXy7LzrwFeRzIU",
+      "3lwLjFfQSGFK2pxTKNvPI0"
+    ],
+    "spotifyId": "2dI9IuajQnLR5dLxHjTTqU",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9b089175056ac1fbc164c46f"
+  },
+  {
+    "artist": "Brett Dennen",
+    "venue": "St. Francis Auditorium, New Mexico Museum of Art",
+    "date": "2026-06-28T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43145924-brett-dennen-at-st-francis-auditorium-new-mexico-museum-of-art",
+    "listingUrl": "https://www.songkick.com/concerts/43145924-brett-dennen-at-st-francis-auditorium-new-mexico-museum-of-art",
+    "source": "Songkick",
+    "trackIds": [
+      "1N4GXAzVrcDeMWy7sUQaHf",
+      "0ioDZn2JL53ictGJMMkETC",
+      "0kgxYCZuYLlibZWnIvHrvL"
+    ],
+    "spotifyId": "0FC1LIeQXKib0jOwZqeIwT",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb4353d27614b23bae6b2aea0c"
+  },
+  {
+    "artist": "Mina Fajardo and Chuscales",
+    "venue": "Teatro Paraguas",
+    "date": "2026-07-02T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43193637-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193637-mina-fajardo-at-teatro-paraguas",
+    "source": "Songkick",
+    "trackIds": [
+      "4RVmThKCzpzXn1hCatSsP6",
+      "1Qvam2fv4uTCpXAZNaOu2q",
+      "0RljIRAhI5Ki4opxkvFjoa",
+      "2cJWU90x1NlPNKWOS3lHyQ",
+      "2Buj0g77kPF0r345PkzAo2",
+      "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Jesus Bas",
+    "venue": "Dragon Room Bar",
+    "date": "2026-07-01T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43217022-jesus-bas-at-dragon-room-bar",
+    "listingUrl": "https://www.songkick.com/concerts/43217022-jesus-bas-at-dragon-room-bar",
+    "source": "Songkick"
+  },
+  {
+    "artist": "Canyon Road Summer Walk Series 2026",
+    "venue": "Unknown Venue",
+    "date": "2026-07-01T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/festivals/3791579-canyon-road-summer-walk-series/id/43273489-canyon-road-summer-walk-series-2026",
+    "listingUrl": "https://www.songkick.com/festivals/3791579-canyon-road-summer-walk-series/id/43273489-canyon-road-summer-walk-series-2026",
+    "source": "Songkick"
+  },
+  {
+    "artist": "Johnny Bell",
+    "venue": "Unknown Venue",
+    "date": "2026-07-01T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/festivals/3791579-canyon-road-summer-walk-series/id/43273489-canyon-road-summer-walk-series-2026",
+    "listingUrl": "https://www.songkick.com/festivals/3791579-canyon-road-summer-walk-series/id/43273489-canyon-road-summer-walk-series-2026",
+    "source": "Songkick",
+    "trackIds": [
+      "2WxPCilH08ttH6jDtpXOfq",
+      "5en5TzTJ60Xpn7gE1HGlXu",
+      "0VFFCDogGPEmYVflOyfEn0"
+    ],
+    "spotifyId": "0TecByQRspSF15IxkCCd4I",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1bf0e018af9edd058a2d16de"
+  },
+  {
+    "artist": "Jesus Bas",
+    "venue": "La Boca",
+    "date": "2026-07-03T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43217024-jesus-bas-at-la-boca",
+    "listingUrl": "https://www.songkick.com/concerts/43217024-jesus-bas-at-la-boca",
+    "source": "Songkick"
+  },
+  {
+    "artist": "Wavves",
+    "venue": "Meow Wolf",
+    "date": "2026-07-09T02:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
+    "listingUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
+    "source": "Songkick",
+    "trackIds": [
+      "5ZGM626be3ItMW4UPjfqdY",
+      "1CHL6sjDwpivvA4LE0lsww",
+      "1iMOLNyzKtIMucwZzQSjZi"
+    ],
+    "spotifyId": "6bUJpbekaIlq2fT5FMV2mQ",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb78eb659fbba3b198cc2f4160",
+    "genres": [
+      "garage rock",
+      "surf rock",
+      "noise rock",
+      "indie punk"
+    ]
+  },
+  {
+    "artist": "Bass Drum of Death",
+    "venue": "Meow Wolf",
+    "date": "2026-07-09T02:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
+    "listingUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
+    "source": "Songkick",
+    "trackIds": [
+      "7lHGsPvsdeSD1tRm0faS1o",
+      "3criOyPqWwtt5cUAcDCq6J",
+      "57QZeBhHRLiWhIpjHvKtND"
+    ],
+    "spotifyId": "5LtAyeDVOVcydj65LvgICY",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb62a4b98bc97a9b5534cd1321",
+    "genres": [
+      "garage rock",
+      "surf rock",
+      "indie punk"
+    ]
+  },
+  {
+    "artist": "Worlds Worst",
+    "venue": "Meow Wolf",
+    "date": "2026-07-09T02:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
+    "listingUrl": "https://www.songkick.com/concerts/43138833-wavves-at-meow-wolf",
+    "source": "Songkick",
+    "trackIds": [
+      "5p31gXMyrLUtvDbYIiSaBm",
+      "4ZBf9RlEUr86x0lfa8c3sV",
+      "4RpYDETtHvEOQAglR6OvPe"
+    ],
+    "spotifyId": "61WE20UoQujMRZqzTOq3sI",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb85fa0ce7125cddd2031f6c76",
+    "genres": [
+      "shoegaze"
+    ]
+  },
+  {
+    "artist": "Mina Fajardo and Chuscales",
+    "venue": "Teatro Paraguas",
+    "date": "2026-07-09T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43193638-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193638-mina-fajardo-at-teatro-paraguas",
+    "source": "Songkick",
+    "trackIds": [
+      "4RVmThKCzpzXn1hCatSsP6",
+      "1Qvam2fv4uTCpXAZNaOu2q",
+      "0RljIRAhI5Ki4opxkvFjoa",
+      "2cJWU90x1NlPNKWOS3lHyQ",
+      "2Buj0g77kPF0r345PkzAo2",
+      "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Jesus Bas",
+    "venue": "Dragon Room Bar",
+    "date": "2026-07-08T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43217025-jesus-bas-at-dragon-room-bar",
+    "listingUrl": "https://www.songkick.com/concerts/43217025-jesus-bas-at-dragon-room-bar",
+    "source": "Songkick"
+  },
+  {
+    "artist": "Koji Aiken",
+    "venue": "Meow Wolf",
+    "date": "2026-07-11T02:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43194667-koji-aiken-at-meow-wolf-house-of-eternal-return",
+    "listingUrl": "https://www.songkick.com/concerts/43194667-koji-aiken-at-meow-wolf-house-of-eternal-return",
+    "source": "Songkick",
+    "trackIds": [
+      "6rD4MHVZYYKplXGVO6C7qy",
+      "0dWyiShx09WD8CgxqZh4c5",
+      "0m2YCXCL1WRLsfvYvLtof4"
+    ],
+    "spotifyId": "6iaQv5y48B4A3Ad8Fx9aWn",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebbf788e1649b19be8f7e2d0e2",
+    "genres": [
+      "stutter house",
+      "drum and bass"
+    ]
+  },
+  {
+    "artist": "Jesus Bas",
+    "venue": "La Boca",
+    "date": "2026-07-10T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43217026-jesus-bas-at-la-boca",
+    "listingUrl": "https://www.songkick.com/concerts/43217026-jesus-bas-at-la-boca",
+    "source": "Songkick"
+  },
+  {
+    "artist": "Kurt Vile",
+    "venue": "The Bridge at Santa Fe Brewing Co.",
+    "date": "2026-07-12T01:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43145150-kurt-vile-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43145150-kurt-vile-at-bridge-at-santa-fe-brewing-company",
+    "source": "Songkick",
+    "trackIds": [
+      "21CU5fG0Pp0LUbXRDG1d48",
+      "0aW3FQZlYWyj1gTn7mlc8t",
+      "562yKTMPiyCsZrzjXzUzSF"
+    ],
+    "spotifyId": "5gspAQIAH8nJUrMYgXjCJ2",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8e479fc57372737933ff77b2"
+  },
+  {
+    "artist": "Foghat",
+    "venue": "Buffalo Thunder Resort & Casino",
+    "date": "2026-07-11T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43229915-foghat-at-hilton-santa-fe-buffalo-thunder",
+    "listingUrl": "https://www.songkick.com/concerts/43229915-foghat-at-hilton-santa-fe-buffalo-thunder",
+    "source": "Songkick",
+    "trackIds": [
+      "4MYb7NWLwXNDB7bYs3HeX8",
+      "5aYVqxyetmT5OYmvZCA90X",
+      "48MQDFkvHlGnRQyUx6ZXVe"
+    ],
+    "spotifyId": "6x33CmZWo2Ve4hxYl2Craq",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc99812527711745e4e0bf29c",
+    "genres": [
+      "classic rock",
+      "southern rock"
+    ]
+  },
+  {
+    "artist": "Max Gomez",
+    "venue": "Reunity Resources",
+    "date": "2026-07-11T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43257869-max-gomez-at-reunity-farms",
+    "listingUrl": "https://www.songkick.com/concerts/43257869-max-gomez-at-reunity-farms",
+    "source": "Songkick",
+    "trackIds": [
+      "4KGeSK35AEwinM77n6h52q",
+      "2x2aTcPu4UQA6JckyV8Esc",
+      "5jtHlZuDNl3HCWb2cDqy77"
+    ],
+    "spotifyId": "5nm8ML0WhLsR8eJ5PobwyN",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0ba6295d8a378ca26bae6015",
+    "genres": [
+      "americana"
+    ]
+  },
+  {
+    "artist": "Justin Payne",
+    "venue": "Tumbleroot Brewery & Distillery",
+    "date": "2026-07-13T22:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43070607-justin-payne-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43070607-justin-payne-at-tumbleroot-brewery-and-distillery",
+    "source": "Songkick",
+    "trackIds": [
+      "20AQb9Lh4famjwtAMFCpfs",
+      "7sq7ZA7qFVrQgRzBWdE9SQ",
+      "5EUCg3L2nSzG5niwRog9YT"
+    ],
+    "spotifyId": "3sMyd0iazGQ3iGRCYEAzLV",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebf1e2e2f985c168a82cc6fdba"
+  },
+  {
+    "artist": "Houndmouth",
+    "venue": "The Bridge at Santa Fe Brewing Co.",
+    "date": "2026-07-14T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43187988-houndmouth-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43187988-houndmouth-at-bridge-at-santa-fe-brewing-company",
+    "source": "Songkick",
+    "trackIds": [
+      "2MQhTbX792AT6YyzwLz9dt",
+      "5n4ukKmCn7OEgQVC4kxu6y",
+      "2TmqE1B16v0H6BLbBz38ob"
+    ],
+    "spotifyId": "7EGwUS3c5dXduO4sMyLWC5",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9d60565c6405a35d5854b70d"
+  },
+  {
+    "artist": "Dylan LeBlanc",
+    "venue": "Tumbleroot Brewery & Distillery",
+    "date": "2026-07-15T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43218164-dylan-leblanc-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43218164-dylan-leblanc-at-tumbleroot-brewery-and-distillery",
+    "source": "Songkick",
+    "trackIds": [
+      "2zEByOH565rMCSacbB56Pd",
+      "0SaaTLWDZAiaDLDbCq5znv",
+      "3xLN3ZZ5BK3Og5wZ2WgObG"
+    ],
+    "spotifyId": "60rNO7ymhlxcYxrdkDYq1k",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8a27703d943c683757092f35",
+    "genres": [
+      "americana"
+    ]
+  },
+  {
+    "artist": "Mina Fajardo and Chuscales",
+    "venue": "Teatro Paraguas",
+    "date": "2026-07-16T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43193639-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193639-mina-fajardo-at-teatro-paraguas",
+    "source": "Songkick",
+    "trackIds": [
+      "4RVmThKCzpzXn1hCatSsP6",
+      "1Qvam2fv4uTCpXAZNaOu2q",
+      "0RljIRAhI5Ki4opxkvFjoa",
+      "2cJWU90x1NlPNKWOS3lHyQ",
+      "2Buj0g77kPF0r345PkzAo2",
+      "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Jesus Bas",
+    "venue": "Dragon Room Bar",
+    "date": "2026-07-15T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43217028-jesus-bas-at-dragon-room-bar",
+    "listingUrl": "https://www.songkick.com/concerts/43217028-jesus-bas-at-dragon-room-bar",
+    "source": "Songkick"
+  },
+  {
+    "artist": "James McMurtry",
+    "venue": "The Bridge at Santa Fe Brewing Co.",
+    "date": "2026-07-17T01:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43148078-james-mcmurtry-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43148078-james-mcmurtry-at-bridge-at-santa-fe-brewing-company",
+    "source": "Songkick",
+    "trackIds": [
+      "6biQrLq3oML4mvr9RZ8ZFD",
+      "2sKMKKLObm8wq7YTeB6Yxd",
+      "5ygzu1GVY7wnjOvvvfamJ0"
+    ],
+    "spotifyId": "52BKc9OtCbQstAAPTIvLGH",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebcdb24f2ab31c0739c346dacf",
+    "genres": [
+      "alt country",
+      "americana",
+      "outlaw country",
+      "red dirt",
+      "texas country",
+      "roots rock"
+    ]
+  },
+  {
+    "artist": "Chris Botti",
+    "venue": "Lensic Performing Arts Center",
+    "date": "2026-07-18T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43148082-chris-botti-at-lensic-performing-arts-center",
+    "listingUrl": "https://www.songkick.com/concerts/43148082-chris-botti-at-lensic-performing-arts-center",
+    "source": "Songkick",
+    "trackIds": [
+      "1kTZPhmN8PW3KrXahh8rs8",
+      "5AbTdTkrWyTlnguWH6J2fD",
+      "4V5874YanN9HS4fbTnwiQs"
+    ],
+    "spotifyId": "3eFo5fMv53RYZBYlvT5Z6a",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb3536f18a4d9fe29772335ea3",
+    "genres": [
+      "smooth jazz",
+      "jazz"
+    ]
+  },
+  {
+    "artist": "Jesus Bas",
+    "venue": "La Boca",
+    "date": "2026-07-17T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43217029-jesus-bas-at-la-boca",
+    "listingUrl": "https://www.songkick.com/concerts/43217029-jesus-bas-at-la-boca",
+    "source": "Songkick"
+  },
+  {
+    "artist": "Mary Gauthier",
+    "venue": "San Miguel Chapel",
+    "date": "2026-07-19T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43148089-mary-gauthier-at-san-miguel-chapel",
+    "listingUrl": "https://www.songkick.com/concerts/43148089-mary-gauthier-at-san-miguel-chapel",
+    "source": "Songkick",
+    "trackIds": [
+      "6684GUHy1jpyhJVzpz5OFr",
+      "276N2R4cVkJYp6vWECAlWm",
+      "4s9Q3d4I8QcdcYGHqmqq4V"
+    ],
+    "spotifyId": "4SK1IgkcWWc5HC1TOBq1VS",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9d87eb01be131943865a735e",
+    "genres": [
+      "americana",
+      "alt country",
+      "folk",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "Old 97's",
+    "venue": "The Bridge at Santa Fe Brewing Co.",
+    "date": "2026-07-23T01:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43080152-old-97s-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43080152-old-97s-at-bridge-at-santa-fe-brewing-company",
+    "source": "Songkick",
+    "trackIds": [
+      "6Tc3cyJ9JGNVnlxCxL67rp",
+      "2m5ItG3IIMsaGYJjZOvUoE",
+      "2S6yBUXa5KddBV0CqBkcP1"
+    ],
+    "spotifyId": "27AzFtMZhRN78bAMPntbpF",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebf1ddbf901b0581a473305e4c",
+    "genres": [
+      "alt country",
+      "americana"
+    ]
+  },
+  {
+    "artist": "River Shook",
+    "venue": "The Bridge at Santa Fe Brewing Co.",
+    "date": "2026-07-23T01:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43080152-old-97s-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43080152-old-97s-at-bridge-at-santa-fe-brewing-company",
+    "source": "Songkick",
+    "trackIds": [
+      "5T7ZTI47ewvq66rpX5bj5S",
+      "0uD6bj0fgJRk2Jas7opwPN",
+      "2aKyY2uv2k1K2yunwJ6pyc"
+    ],
+    "spotifyId": "66NY7M7uxuzISHBID7J1Bv",
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2739c0b600d4b8ae25a23964b9e",
+    "genres": [
+      "americana",
+      "alt country",
+      "outlaw country"
+    ]
+  },
+  {
+    "artist": "Mina Fajardo and Chuscales",
+    "venue": "Teatro Paraguas",
+    "date": "2026-07-23T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43193641-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193641-mina-fajardo-at-teatro-paraguas",
+    "source": "Songkick",
+    "trackIds": [
+      "4RVmThKCzpzXn1hCatSsP6",
+      "1Qvam2fv4uTCpXAZNaOu2q",
+      "0RljIRAhI5Ki4opxkvFjoa",
+      "2cJWU90x1NlPNKWOS3lHyQ",
+      "2Buj0g77kPF0r345PkzAo2",
+      "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Jesus Bas",
+    "venue": "Dragon Room Bar",
+    "date": "2026-07-22T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43217030-jesus-bas-at-dragon-room-bar",
+    "listingUrl": "https://www.songkick.com/concerts/43217030-jesus-bas-at-dragon-room-bar",
+    "source": "Songkick"
+  },
+  {
+    "artist": "Jesus Bas",
+    "venue": "La Boca",
+    "date": "2026-07-24T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43217033-jesus-bas-at-la-boca",
+    "listingUrl": "https://www.songkick.com/concerts/43217033-jesus-bas-at-la-boca",
+    "source": "Songkick"
+  },
+  {
+    "artist": "Mina Fajardo and Chuscales",
+    "venue": "Teatro Paraguas",
+    "date": "2026-07-30T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43193642-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193642-mina-fajardo-at-teatro-paraguas",
+    "source": "Songkick",
+    "trackIds": [
+      "4RVmThKCzpzXn1hCatSsP6",
+      "1Qvam2fv4uTCpXAZNaOu2q",
+      "0RljIRAhI5Ki4opxkvFjoa",
+      "2cJWU90x1NlPNKWOS3lHyQ",
+      "2Buj0g77kPF0r345PkzAo2",
+      "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Jesus Bas",
+    "venue": "Dragon Room Bar",
+    "date": "2026-07-29T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43217034-jesus-bas-at-dragon-room-bar",
+    "listingUrl": "https://www.songkick.com/concerts/43217034-jesus-bas-at-dragon-room-bar",
+    "source": "Songkick"
+  },
+  {
+    "artist": "Beach Bunny",
+    "venue": "The Bridge at Santa Fe Brewing Co.",
+    "date": "2026-08-01T01:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43272476-beach-bunny-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43272476-beach-bunny-at-santa-fe-brewing-company",
+    "source": "Songkick",
+    "trackIds": [
+      "3frZl6bno6us1TLjr6PZ4h",
+      "7fKqzZlS2em2fwDkKvSJZA",
+      "1CQYKndmQR1bMvOSZrq2Lq"
+    ],
+    "spotifyId": "2vnB6tuQMaQpORiRdvXF9H",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc76f04ab8987c4fb298abb3c"
+  },
+  {
+    "artist": "The Beths",
+    "venue": "The Bridge at Santa Fe Brewing Co.",
+    "date": "2026-07-31T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43077612-beths-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43077612-beths-at-bridge-at-santa-fe-brewing-company",
+    "source": "Songkick",
+    "trackIds": [
+      "6CWDUTWFZW9P9wNkGqg0U5",
+      "1bPcxJHusTrlr2Kj4kjK7e",
+      "5bS7ajbQ4ZZDksu9ryAvXu"
+    ],
+    "spotifyId": "7DjwIxbe8kpw4pqnzAMoin",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb26b0d0de46b77e23675281",
+    "genres": [
+      "indie rock",
+      "power pop"
+    ]
+  },
+  {
+    "artist": "Jesus Bas",
+    "venue": "La Boca",
+    "date": "2026-07-31T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43217036-jesus-bas-at-la-boca",
+    "listingUrl": "https://www.songkick.com/concerts/43217036-jesus-bas-at-la-boca",
+    "source": "Songkick"
+  },
+  {
+    "artist": "Black Moth Super Rainbow",
+    "venue": "Tumbleroot Brewery & Distillery",
+    "date": "2026-08-05T02:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43148115-black-moth-super-rainbow-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43148115-black-moth-super-rainbow-at-tumbleroot-brewery-and-distillery",
+    "source": "Songkick",
+    "trackIds": [
+      "3d2IeXv14uLNn8LyBAuOEI",
+      "72U9iUryrmKLgXTGXjOb9J",
+      "70PEZ5qdaO5on2NvyA3Rok"
+    ],
+    "spotifyId": "4UHzJP2iKVf0RhKIv7ZE2l",
+    "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46c16ceedabc9ce0e1a362d1929",
+    "genres": [
+      "neo-psychedelic",
+      "space rock"
+    ]
+  },
+  {
+    "artist": "Eagles of Death Metal and Headsend",
+    "venue": "The Bridge at Santa Fe Brewing Co.",
+    "date": "2026-08-06T01:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43124843-eagles-of-death-metal-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43124843-eagles-of-death-metal-at-bridge-at-santa-fe-brewing-company",
+    "source": "Songkick",
+    "trackIds": [
+      "19mRNWlmHCKIlBT8WOCaXQ",
+      "3B7mbMbbcuKdfWssAcyvG8",
+      "3NA45jwwGH28LsHthauYK0"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46cb527d08497ff51fbbd3b0e0b",
+    "genres": [
+      "stoner rock",
+      "garage rock"
+    ],
+    "subArtists": [
+      {
+        "name": "Eagles of Death Metal",
+        "spotifyId": "02uYdhMhCgdB49hZlYRm9o",
+        "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46cb527d08497ff51fbbd3b0e0b",
+        "genres": [
+          "stoner rock",
+          "garage rock"
+        ],
+        "trackIds": [
+          "19mRNWlmHCKIlBT8WOCaXQ",
+          "3B7mbMbbcuKdfWssAcyvG8",
+          "3NA45jwwGH28LsHthauYK0"
+        ]
+      },
+      {
+        "name": "Headsend"
+      }
+    ]
+  },
+  {
+    "artist": "Mina Fajardo and Chuscales",
+    "venue": "Teatro Paraguas",
+    "date": "2026-08-06T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43193643-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193643-mina-fajardo-at-teatro-paraguas",
+    "source": "Songkick",
+    "trackIds": [
+      "4RVmThKCzpzXn1hCatSsP6",
+      "1Qvam2fv4uTCpXAZNaOu2q",
+      "0RljIRAhI5Ki4opxkvFjoa",
+      "2cJWU90x1NlPNKWOS3lHyQ",
+      "2Buj0g77kPF0r345PkzAo2",
+      "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Don Was & the Pan Detroit Ensemble",
+    "venue": "The Bridge at Santa Fe Brewing Co.",
+    "date": "2026-08-06T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43207218-don-was-and-the-pan-detroit-ensemble-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43207218-don-was-and-the-pan-detroit-ensemble-at-bridge-at-santa-fe-brewing-company",
+    "source": "Songkick"
+  },
+  {
+    "artist": "Queensrÿche",
+    "venue": "Buffalo Thunder Resort & Casino",
+    "date": "2026-08-09T02:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43148125-queensryche-at-buffalo-thunder-resort-and-casino",
+    "listingUrl": "https://www.songkick.com/concerts/43148125-queensryche-at-buffalo-thunder-resort-and-casino",
+    "source": "Songkick",
+    "trackIds": [
+      "75gfxIedwH7j2s5nc7JgWh",
+      "2KtqjclZVtEm5K0LTmNdPI",
+      "0U2TocFjqul3sis3sE5jZl"
+    ],
+    "spotifyId": "2OgUPVlWYgGBGMefZgGvCO",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb6cdde60b6c8838aeb82dfb41",
+    "genres": [
+      "progressive metal",
+      "glam metal",
+      "metal",
+      "heavy metal",
+      "hard rock",
+      "progressive rock"
+    ]
+  },
+  {
+    "artist": "Johnny Bell",
+    "venue": "Hecho A Mano",
+    "date": "2026-08-09T17:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43273487-johnny-bell-at-hecho-a-mano",
+    "listingUrl": "https://www.songkick.com/concerts/43273487-johnny-bell-at-hecho-a-mano",
+    "source": "Songkick",
+    "trackIds": [
+      "2WxPCilH08ttH6jDtpXOfq",
+      "5en5TzTJ60Xpn7gE1HGlXu",
+      "0VFFCDogGPEmYVflOyfEn0"
+    ],
+    "spotifyId": "0TecByQRspSF15IxkCCd4I",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1bf0e018af9edd058a2d16de"
+  },
+  {
+    "artist": "Widowspeak",
+    "venue": "Tumbleroot Brewery & Distillery",
+    "date": "2026-08-12T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
+    "source": "Songkick",
+    "trackIds": [
+      "0etKjdwsCnwtj6dB4iEZn8",
+      "2vL3NFV79S9LvAnWAI6MMQ",
+      "48bePG5thRkA5xttNPRB8c"
+    ],
+    "spotifyId": "5ZW7HlSuZz8ng2X21cXbdP",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebffce0e0fc0c2c1e811e48602",
+    "genres": [
+      "dream pop",
+      "chillwave"
+    ]
+  },
+  {
+    "artist": "Dead Gowns",
+    "venue": "Tumbleroot Brewery & Distillery",
+    "date": "2026-08-12T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43108952-widowspeak-at-tumbleroot-brewery-and-distillery",
+    "source": "Songkick",
+    "trackIds": [
+      "37piAuK1WhsQDLJ8hmDDSW",
+      "609jfTPcX5w8YnpW2Sf9JI",
+      "3hVq9e2hA3J0NZmlXqTl0B"
+    ],
+    "spotifyId": "7jadGvdBDPrM4fNOukfDny",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebfe0cbe07c7915a5d7420fb6b"
+  },
+  {
+    "artist": "Soft Palms",
+    "venue": "Hotel Glorieta",
+    "date": "2026-08-13T01:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43111798-soft-palms-at-marigold-room",
+    "listingUrl": "https://www.songkick.com/concerts/43111798-soft-palms-at-marigold-room",
+    "source": "Songkick",
+    "trackIds": [
+      "05s1RKoZ5JNuaSDB1hp9Yv",
+      "1pWtC2kjZoUipQrHU49rSM",
+      "3eBK0q7TW9LtC9Fw1XjaEj"
+    ],
+    "spotifyId": "4PmRvPxX5xKA5zg4gmh4wR",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb057fd1454058de189d9b9b3b"
+  },
+  {
+    "artist": "Mina Fajardo and Chuscales",
+    "venue": "Teatro Paraguas",
+    "date": "2026-08-13T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43193644-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193644-mina-fajardo-at-teatro-paraguas",
+    "source": "Songkick",
+    "trackIds": [
+      "4RVmThKCzpzXn1hCatSsP6",
+      "1Qvam2fv4uTCpXAZNaOu2q",
+      "0RljIRAhI5Ki4opxkvFjoa",
+      "2cJWU90x1NlPNKWOS3lHyQ",
+      "2Buj0g77kPF0r345PkzAo2",
+      "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Black Joe Lewis",
+    "venue": "Tumbleroot Brewery & Distillery",
+    "date": "2026-08-14T02:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43197581-black-joe-lewis-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43197581-black-joe-lewis-at-tumbleroot-brewery-and-distillery",
+    "source": "Songkick",
+    "trackIds": [
+      "1CcUlfuFva1OyoGFHyJBJp",
+      "0BSX4C0HjsV8vcMOD3Jh7q",
+      "7gDBDCgpXyhlagafOwWprz"
+    ],
+    "spotifyId": "4hFguSNiDDWFzkdaxoBYF7",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb548ddeb7de4b23a9abf9abb3",
+    "genres": [
+      "modern blues"
+    ]
+  },
+  {
+    "artist": "Jeff Ruby",
+    "venue": "Tumbleroot Brewery & Distillery",
+    "date": "2026-08-16T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43247641-jeff-ruby-at-tumbleroot-brewery-and-distillery",
+    "listingUrl": "https://www.songkick.com/concerts/43247641-jeff-ruby-at-tumbleroot-brewery-and-distillery",
+    "source": "Songkick",
+    "trackIds": [
+      "2D2BLPHl1kbOlHGcE2t2cW",
+      "3EQEUsIq9XudG0AZ8YqRBx",
+      "47fVvNSSO37USLAQiUUnjc"
+    ],
+    "spotifyId": "7pjhNqmOJNezR9pW3dYLyD",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb048630e44ea770906b674799"
+  },
+  {
+    "artist": "Mina Fajardo and Chuscales",
+    "venue": "Teatro Paraguas",
+    "date": "2026-08-20T01:30:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43193645-mina-fajardo-at-teatro-paraguas",
+    "listingUrl": "https://www.songkick.com/concerts/43193645-mina-fajardo-at-teatro-paraguas",
+    "source": "Songkick",
+    "trackIds": [
+      "4RVmThKCzpzXn1hCatSsP6",
+      "1Qvam2fv4uTCpXAZNaOu2q",
+      "0RljIRAhI5Ki4opxkvFjoa",
+      "2cJWU90x1NlPNKWOS3lHyQ",
+      "2Buj0g77kPF0r345PkzAo2",
+      "31JmoseHvyHLQYEfMmwh0j"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+    "genres": [
+      "flamenco pop",
+      "flamenco"
+    ],
+    "subArtists": [
+      {
+        "name": "Mina Fajardo",
+        "spotifyId": "5GkS7CPxXBR6cOFcczS1Ri",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb49dc26f3a578bb056ff5f480",
+        "genres": [
+          "flamenco pop",
+          "flamenco"
+        ],
+        "trackIds": [
+          "4RVmThKCzpzXn1hCatSsP6",
+          "1Qvam2fv4uTCpXAZNaOu2q",
+          "0RljIRAhI5Ki4opxkvFjoa"
+        ]
+      },
+      {
+        "name": "Chuscales",
+        "spotifyId": "7Fcoty9Sg49oIbgkP0vpjF",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2736b44aa7189677234268c0411",
+        "genres": [
+          "flamenco"
+        ],
+        "trackIds": [
+          "2cJWU90x1NlPNKWOS3lHyQ",
+          "2Buj0g77kPF0r345PkzAo2",
+          "31JmoseHvyHLQYEfMmwh0j"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Bill Callahan",
+    "venue": "The Bridge at Santa Fe Brewing Co.",
+    "date": "2026-08-20T00:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43160049-bill-callahan-at-bridge-at-santa-fe-brewing-company",
+    "listingUrl": "https://www.songkick.com/concerts/43160049-bill-callahan-at-bridge-at-santa-fe-brewing-company",
+    "source": "Songkick",
+    "trackIds": [
+      "3KZRkM7Uv0F2oCTUHAvv0a",
+      "7ydapdmQ4oivP54X29q7Af",
+      "0do3zfmbVl5DiGxUXrbhrT"
+    ],
+    "spotifyId": "7gqsi6aBSkRMJoL9psKqMr",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb2f538487b6868a97f5a7fb",
+    "genres": [
+      "alt country"
+    ]
+  },
+  {
+    "artist": "Tracy Lawrence",
+    "venue": "Buffalo Thunder Resort & Casino",
+    "date": "2026-08-22T02:00:00.000Z",
+    "ticketUrl": "https://www.songkick.com/concerts/43203261-tracy-lawrence-at-buffalo-thunder-resort-and-casino",
+    "listingUrl": "https://www.songkick.com/concerts/43203261-tracy-lawrence-at-buffalo-thunder-resort-and-casino",
+    "source": "Songkick",
+    "trackIds": [
+      "2TIEeLrOQrGnO2D2OeDDJu",
+      "1Mew3ipJFmRpSj83LRyxod",
+      "7cxOL3nvmqd6w811wOlWT1"
+    ],
+    "spotifyId": "2BQVRw9md4UKcGUrDXABCD",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba90ba2a80781238c8dc268d8",
+    "genres": [
+      "country",
+      "classic country",
+      "traditional country"
+    ]
+  },
+  {
+    "artist": "School of Rock Denver",
+    "venue": "Hotel Glorieta",
+    "date": "2026-06-26T00:30:00.000Z",
+    "ticketUrl": "https://www.hotelglorietasantafe.com/event-details/school-of-rock-denver",
+    "listingUrl": "https://www.hotelglorietasantafe.com/event-details/school-of-rock-denver",
+    "sourceEventId": "95d0b9ef-7025-4f38-ba90-735bfed0a86f",
+    "sourceEventSlug": "school-of-rock-denver",
+    "description": "Denver's School of Rock comes to Santa Fe on their Over The Mountain Tour for a free, all-ages show.School of Rock Denver builds community through performance-based music education, one-on-one instruction, and group rehearsals, helping students develop both musical proficiency and essential life skills.",
+    "source": "Hotel Glorieta",
+    "genres": [
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "Eliana Joy",
@@ -3310,7 +5147,10 @@
     "sourceEventId": "a062e9ef-992e-4653-9667-0d9acad0b73a",
     "sourceEventSlug": "jazz-night-eliana-joy-5",
     "description": "Driven by a heartfelt and zealous approach to creating and collaborating, Eliana Joy O’Brien is a multi-instrumentalist, vocalist, educator, and artist from Albuquerque, New Mexico. After a short, sweet lifetime of playing classical piano and euphonium, Eliana moved to Brooklyn to embark on the intimate exploration of jazz as a creative medium. Currently located in Santa Fe, NM, Eliana can be found crafting an elaborate art project, captivating audiences with earnest interpretations of jazz standards, or just having a plain ol’ silly goose time.",
-    "source": "Hotel Glorieta"
+    "source": "Hotel Glorieta",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Rolas Cumbiamberas X Agave Sin Fronteras",
@@ -3326,6 +5166,9 @@
       {
         "name": "Luz Skylarker"
       }
+    ],
+    "genres": [
+      "Reggae / Latin / World"
     ]
   },
   {
@@ -3337,7 +5180,10 @@
     "sourceEventId": "9c19da07-70cb-4b67-9016-528e5d77fb2c",
     "sourceEventSlug": "agave-sin-fronteras-pool-party",
     "description": "Celebrate the wrap of the inaugural Agave Sin Fronteras with us, hanging by one of the best pools in Santa Fe! Food and drinks available for purchase. Entry with purchase of EITHER a pool pass ($30) OR proof of purchase of a paid event from the festival.Agave Sin Fronteras is Santa Fe’s first multi-day festival dedicated to agave spirits, culture, education, and hospitality. Bringing together producers, bartenders, educators, importers, and enthusiasts for four days of seminars, cocktail events, tastings, and community gatherings in Santa Fe, New Mexico. “Sin Fronteras” reflects the festival’s spirit of collaboration and cultural exchange within the agave community.Anchored by the Grand Tasting at Joe’s Tequila Bar on Saturday, June 27, this festival celebrates tequila, mezcal, sotol, raicilla, bacanora, and independent agave spirits through fun, interesting, and educational community-oriented events.",
-    "source": "Hotel Glorieta"
+    "source": "Hotel Glorieta",
+    "genres": [
+      "Other"
+    ]
   },
   {
     "artist": "The Mystic Undertone",
@@ -3348,7 +5194,24 @@
     "sourceEventId": "d29ba5c4-a75d-4871-bf29-2c0f83b83f23",
     "sourceEventSlug": "jazz-night-the-mystic-undertone-10",
     "description": "Jerred Blanchard, jazz pianist from Houston, teamed up with Zeke Kyoku, from Chicago, and Isaac Scarlett, from here in Santa Fe, to create The Mystic Undertone. Mystic Undertone is a forward-thinking jazz experience blending both atmospheric moods with traditional jazz tropes creating a contemporary music experience that showcases the nuance and virtuosity of its founding members. Hosting jazz jams while collaborating with other local musicians, each Mystic Undertone show is a different adventure that will leave the listener both intrigued and fulfilled.",
-    "source": "Hotel Glorieta"
+    "source": "Hotel Glorieta",
+    "subArtists": [
+      {
+        "name": "Jerred Blanchard"
+      },
+      {
+        "name": "Zeke Kyoku"
+      },
+      {
+        "name": "Isaac Scarlett"
+      },
+      {
+        "name": "The Mystic Undertone"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "DARK RED 2",
@@ -3359,7 +5222,11 @@
     "sourceEventId": "54ae4905-4de2-44f5-9b00-e51244ded632",
     "sourceEventSlug": "dark-red-2",
     "description": "Enter into a space lit by red lights, 4 black walls, enticing dancers surrounded by DARK, INDUSTRIAL, GOTH, PUNK, METAL, TECHNO",
-    "source": "Hotel Glorieta"
+    "source": "Hotel Glorieta",
+    "genres": [
+      "Rock / Alternative",
+      "Electronic / EDM / DJ"
+    ]
   },
   {
     "artist": "The Mystic Undertone",
@@ -3370,7 +5237,24 @@
     "sourceEventId": "1f2a21ed-9147-4764-a18b-5ed3eda7a4ec",
     "sourceEventSlug": "jazz-night-the-mystic-undertone-11",
     "description": "Jerred Blanchard, jazz pianist from Houston, teamed up with Zeke Kyoku, from Chicago, and Isaac Scarlett, from here in Santa Fe, to create The Mystic Undertone. Mystic Undertone is a forward-thinking jazz experience blending both atmospheric moods with traditional jazz tropes creating a contemporary music experience that showcases the nuance and virtuosity of its founding members. Hosting jazz jams while collaborating with other local musicians, each Mystic Undertone show is a different adventure that will leave the listener both intrigued and fulfilled.",
-    "source": "Hotel Glorieta"
+    "source": "Hotel Glorieta",
+    "subArtists": [
+      {
+        "name": "Jerred Blanchard"
+      },
+      {
+        "name": "Zeke Kyoku"
+      },
+      {
+        "name": "Isaac Scarlett"
+      },
+      {
+        "name": "The Mystic Undertone"
+      }
+    ],
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "Eliana Joy",
@@ -3381,7 +5265,10 @@
     "sourceEventId": "4b009887-d323-4d24-839a-f4a16ef43575",
     "sourceEventSlug": "jazz-night-eliana-joy-6",
     "description": "Driven by a heartfelt and zealous approach to creating and collaborating, Eliana Joy O’Brien is a multi-instrumentalist, vocalist, educator, and artist from Albuquerque, New Mexico. After a short, sweet lifetime of playing classical piano and euphonium, Eliana moved to Brooklyn to embark on the intimate exploration of jazz as a creative medium. Currently located in Santa Fe, NM, Eliana can be found crafting an elaborate art project, captivating audiences with earnest interpretations of jazz standards, or just having a plain ol’ silly goose time.",
-    "source": "Hotel Glorieta"
+    "source": "Hotel Glorieta",
+    "genres": [
+      "Jazz / Blues / Funk"
+    ]
   },
   {
     "artist": "White Sands / Sinister Surfer",
@@ -3395,13 +5282,13 @@
     "source": "Hotel Glorieta",
     "trackIds": [
       "4ymlF7D3Jlz4IYq0iAP39B",
-      "6mmk71fRTTgjDszeAuYKKt",
       "1UykI1Xdvsob7NolsAJAb7",
+      "6mmk71fRTTgjDszeAuYKKt",
       "5iUa13sA7ERnOGSl5IRM2Q",
-      "19eh4VjhCKgbeZ9yRXygtz",
-      "0TDMW2afzkYOlthLOkr6vt"
+      "0TDMW2afzkYOlthLOkr6vt",
+      "19eh4VjhCKgbeZ9yRXygtz"
     ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27313d47382e0b9e4cfdfad11b8",
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27328e0e29647a1603f5c01a732",
     "genres": [
       "surf rock",
       "psychobilly"
@@ -3410,15 +5297,15 @@
       {
         "name": "White Sands",
         "spotifyId": "0TKXwuiRFjKQdu9ld50My8",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27313d47382e0b9e4cfdfad11b8",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27328e0e29647a1603f5c01a732",
         "genres": [
           "surf rock",
           "psychobilly"
         ],
         "trackIds": [
           "4ymlF7D3Jlz4IYq0iAP39B",
-          "6mmk71fRTTgjDszeAuYKKt",
-          "1UykI1Xdvsob7NolsAJAb7"
+          "1UykI1Xdvsob7NolsAJAb7",
+          "6mmk71fRTTgjDszeAuYKKt"
         ]
       },
       {
@@ -3430,8 +5317,8 @@
         ],
         "trackIds": [
           "5iUa13sA7ERnOGSl5IRM2Q",
-          "19eh4VjhCKgbeZ9yRXygtz",
-          "0TDMW2afzkYOlthLOkr6vt"
+          "0TDMW2afzkYOlthLOkr6vt",
+          "19eh4VjhCKgbeZ9yRXygtz"
         ]
       }
     ]
@@ -3453,6 +5340,9 @@
       {
         "name": "Luz Skylarker"
       }
+    ],
+    "genres": [
+      "Reggae / Latin / World"
     ]
   },
   {
@@ -3536,7 +5426,10 @@
       "0ebuEuZX9liYMw1ccEsCol"
     ],
     "spotifyId": "2BS3fywRW33o5GygfzZaOZ",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebfa964d4c9be2abf0c222a28a"
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebfa964d4c9be2abf0c222a28a",
+    "genres": [
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "John Moreland / Georgia Maq",
@@ -3603,7 +5496,7 @@
     "trackIds": [
       "56iZtmA6lIG3dSPHIG0uIy",
       "29VimvmgZ6AtXDgDY5c4qB",
-      "5lwckjUabBCHUQ2OrlBGsu"
+      "7BAcAmm4hyKhd2sgZjSjdS"
     ],
     "spotifyId": "4pMqJEcrPoNT1QZgIUKBWg",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb783c30b1dff92dc0c5e271e3",
@@ -3697,7 +5590,10 @@
       "1SMhxEMvOrOBBmuGCvaCLn"
     ],
     "spotifyId": "3gWyq4htQycaYE2a6MUENS",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb40ac292d0793c27b4b7f8e"
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb40ac292d0793c27b4b7f8e",
+    "genres": [
+      "Electronic / EDM / DJ"
+    ]
   },
   {
     "artist": "PRIDE {after dark}",
@@ -3710,9 +5606,9 @@
     "description": "Get ready to turn up the energy for **PRIDE {after dark}**, one of the most electrifying nights of **PRIDE Santa Fe 2026**! Join us at **Meow Wolf** for an immersive, late-night dance experience where music, art, and queer joy collide. Step into a world of vibrant visuals and unforgettable beats as we transform Meow Wolf into a full-on Pride dance floor. Expect high-energy vibes, dazzling performances, and a community ready to celebrate loudly, proudly, and unapologetically. Whether you’re dancing all night or soaking in the scene, this is the place to be after dark. Headlining the night is internationally acclaimed DJ and producer: About Tracy Young A powerhouse in the global dance music scene, Tracy Young is a Grammy Award-winning DJ, producer, and remixer known for her genre-defining sound and electrifying sets. She has worked with some of the biggest names in music—including Madonna, Beyoncé, Cher, and Rihanna—and has been a staple in clubs and festivals around the world for decades. A proud member of the LGBTQ+ community, Tracy has long been a champion of queer spaces, using her music to bring people together on dance floors across the globe. Her ability to blend house, pop, and high-energy beats creates an unforgettable experience that keeps crowds moving all night long. **Come dance, celebrate, and experience PRIDE after dark like never before.**",
     "source": "Meow Wolf",
     "trackIds": [
-      "5XXaUQiNgqrf5jQMfpQpyw",
       "6w9FwcNjOhcispHsDlzv5Q",
-      "5cgtaI5S7Kh4yrsOJUnHBz"
+      "5XXaUQiNgqrf5jQMfpQpyw",
+      "7vJM76G9iuxUi2ooyGJhOw"
     ],
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb64e0d7468c14fac81d3db8d8",
     "genres": [
@@ -3727,9 +5623,9 @@
           "tribal house"
         ],
         "trackIds": [
-          "5XXaUQiNgqrf5jQMfpQpyw",
           "6w9FwcNjOhcispHsDlzv5Q",
-          "5cgtaI5S7Kh4yrsOJUnHBz"
+          "5XXaUQiNgqrf5jQMfpQpyw",
+          "7vJM76G9iuxUi2ooyGJhOw"
         ]
       }
     ]
@@ -3840,7 +5736,11 @@
       "1fFYM21OuMnpFrLnNcYLzL"
     ],
     "spotifyId": "74xeHqz5Ap8ZHq69TkxI0r",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebbc16640bce26aa2fb436a972"
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebbc16640bce26aa2fb436a972",
+    "genres": [
+      "Electronic / EDM / DJ",
+      "Pop"
+    ]
   },
   {
     "artist": "Dennett",
@@ -3880,7 +5780,10 @@
       "0Xsw1LCiqVM41xwqxmpWGT"
     ],
     "spotifyId": "5oGxowHeST3s9UROwIbDFz",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bfa8b09e6376c1dca89cd6fb"
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bfa8b09e6376c1dca89cd6fb",
+    "genres": [
+      "Electronic / EDM / DJ"
+    ]
   },
   {
     "artist": "Papa Beats",
@@ -3898,7 +5801,10 @@
       "4f3DEotK6Y2b7eCc7Iem98"
     ],
     "spotifyId": "5ysUw9JRtdLuZT8yhqPkmo",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb17deeb22ffd4e0c151a73412"
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb17deeb22ffd4e0c151a73412",
+    "genres": [
+      "Electronic / EDM / DJ"
+    ]
   },
   {
     "artist": "Neon Indian",
@@ -3949,7 +5855,10 @@
       "2n8B1W7y0ndsWWyK6OLbxW"
     ],
     "spotifyId": "4FN8WHqUbwkd97WEjoCu7B",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb5899d87d69bd3d3bc46ccae3"
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb5899d87d69bd3d3bc46ccae3",
+    "genres": [
+      "Other"
+    ]
   },
   {
     "artist": "Yung Bae",
@@ -4032,7 +5941,11 @@
       "56hp2ikFv3vZJgZXtViF2N"
     ],
     "spotifyId": "2iHrc69sZgyWFBAhLpS3oH",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebdbe7d8a9793a7b979bd509bc"
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebdbe7d8a9793a7b979bd509bc",
+    "genres": [
+      "Pop",
+      "Rock / Alternative"
+    ]
   },
   {
     "artist": "Whipped Cream",
@@ -4050,7 +5963,11 @@
       "5fu8pfEsXXA9mY0F9grAce"
     ],
     "spotifyId": "5CMaNobmJYgXcfiT0zYOwi",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd27d3a00b8270e82f2e81814"
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd27d3a00b8270e82f2e81814",
+    "genres": [
+      "Electronic / EDM / DJ",
+      "Hip Hop / Rap"
+    ]
   },
   {
     "artist": "Thot Daughter",
@@ -4079,6 +5996,10 @@
           "5fu8pfEsXXA9mY0F9grAce"
         ]
       }
+    ],
+    "genres": [
+      "Electronic / EDM / DJ",
+      "Hip Hop / Rap"
     ]
   },
   {
@@ -4140,8 +6061,8 @@
     "source": "Meow Wolf",
     "trackIds": [
       "4gDFVgkXx8H1zmlmhjw9u1",
-      "4Lx2gmkk1OO863VQDlFJMK",
-      "4bsmxYIlAsApRfvopNMFdb"
+      "4bsmxYIlAsApRfvopNMFdb",
+      "4Lx2gmkk1OO863VQDlFJMK"
     ],
     "spotifyId": "5SlqleEyFgUYZEZCJ5juDr",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb458bd0821f53b36929cf2178",
@@ -4168,7 +6089,10 @@
       "58G7Z3QD2j7DkGQPvuCuLj"
     ],
     "spotifyId": "0PFfIFgLmqHJOlRocks9Cr",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9108122dd18ab734cc2b03a9"
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9108122dd18ab734cc2b03a9",
+    "genres": [
+      "Folk / Country / Bluegrass"
+    ]
   },
   {
     "artist": "The Sponges + N2N",
@@ -4234,7 +6158,7 @@
     "trackIds": [
       "6DKSK32WwzBMZ0qAq28Zon",
       "7boAqX1szVF7L8V4iBzXz6",
-      "2JBwEx81Fh8oqxF7cgljB6"
+      "3RlCfpdH6TND9D9Zx4MFPf"
     ],
     "spotifyId": "5WJCUSIw2Td5IEfa3LXCo9",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe297c7c49e13e3c48791bcb2",
@@ -4345,7 +6269,11 @@
       "0pWKCfRmT48YdiNBoM9NrZ"
     ],
     "spotifyId": "6BbqU3r1G2mwkRIfIbkCek",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb232f7a12deba5da507ad6a89"
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb232f7a12deba5da507ad6a89",
+    "genres": [
+      "Pop",
+      "Electronic / EDM / DJ"
+    ]
   },
   {
     "artist": "Bahamas",
@@ -4364,5 +6292,52 @@
     ],
     "spotifyId": "4C50EbCS11M0VbGyH3OfLt",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebdab93a525f5a0a39ee1df01b"
+  },
+  {
+    "artist": "Slothrust",
+    "venue": "Meow Wolf",
+    "date": "2026-11-14T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/slothrust",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/slothrust",
+    "sourceEventId": "019ede0e-1ce9-6cf1-3d94-67d74790e57f__3f35bf2a-ca54-b0a6-fc59-fc4d8f3236ed",
+    "sourceEventSlug": "slothrust",
+    "description": "Enjoy music at Meow Wolf, our stages are portals to new sounds and transcendent, interconnected, celestial, metagalactic vibes.",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "4skGeNFamLnQ87WmQmhMrv",
+      "6tQenUNa0YsN2ZLs82ny3H",
+      "1ecmyd0EYLAeY5IMPJjGde"
+    ],
+    "spotifyId": "6Nwhmo3adbTqPMCsgBgkf4",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb96954571aa1a17a70f905786",
+    "genres": [
+      "Rock / Alternative",
+      "Electronic / EDM / DJ"
+    ]
+  },
+  {
+    "artist": "Um",
+    "venue": "Meow Wolf",
+    "date": "2026-11-14T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/slothrust",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/slothrust",
+    "sourceEventId": "019ede0e-1ce9-6cf1-3d94-67d74790e57f__3f35bf2a-ca54-b0a6-fc59-fc4d8f3236ed",
+    "sourceEventSlug": "slothrust",
+    "description": "Enjoy music at Meow Wolf, our stages are portals to new sounds and transcendent, interconnected, celestial, metagalactic vibes.",
+    "source": "Meow Wolf"
+  },
+  {
+    "artist": "Jennifer?",
+    "venue": "Meow Wolf",
+    "date": "2026-11-14T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/slothrust",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/slothrust",
+    "sourceEventId": "019ede0e-1ce9-6cf1-3d94-67d74790e57f__3f35bf2a-ca54-b0a6-fc59-fc4d8f3236ed",
+    "sourceEventSlug": "slothrust",
+    "description": "Enjoy music at Meow Wolf, our stages are portals to new sounds and transcendent, interconnected, celestial, metagalactic vibes.",
+    "source": "Meow Wolf",
+    "genres": [
+      "Electronic / EDM / DJ"
+    ]
   }
 ]

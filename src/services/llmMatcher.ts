@@ -187,5 +187,76 @@ Provide ONLY the JSON response.`;
       return null;
     }
   }
+
+  /**
+   * Classify the music genre of an artist based on their name, description, and venue
+   */
+  async classifyGenre(artistName: string, description: string, venue: string): Promise<string[] | null> {
+    const isAvailable = await this.initialize();
+    if (!isAvailable || !this.model) return null;
+
+    const prompt = `You are a music genre classifier. Given a music artist/band name, the venue, and the event description, classify their music into one or more of these standard categories:
+- Rock / Alternative
+- Folk / Country / Bluegrass
+- Jazz / Blues / Funk
+- Electronic / EDM / DJ
+- Hip Hop / Rap
+- Pop
+- Reggae / Latin / World
+- Classical
+
+Rules:
+1. Choose the most appropriate category or categories. You can return multiple if they apply.
+2. If it is impossible to determine any of the categories based on the information provided, respond with: ["Other"].
+3. Return only standard categories from the list above. Do not invent new ones.
+
+Artist Name: ${artistName}
+Venue: ${venue}
+Event Description: ${description}
+
+Respond with a JSON object:
+{
+  "genres": ["Category 1", "Category 2", ...]
 }
+Provide ONLY the JSON response.`;
+
+    try {
+      const response = await axios.post(this.url, {
+        model: this.model,
+        prompt: prompt,
+        stream: false,
+        format: 'json'
+      }, { timeout: 30000 });
+
+      const rawResponse = response.data?.response || '';
+      let cleanedJson = rawResponse.trim();
+
+      // Strip markdown code fences if present
+      const codeBlockRegex = /^```(?:json)?\s*([\s\S]*?)\s*```$/i;
+      const match = cleanedJson.match(codeBlockRegex);
+      if (match) {
+        cleanedJson = match[1].trim();
+      } else {
+        // Fallback: extract substring between first '{' and last '}'
+        const firstBrace = cleanedJson.indexOf('{');
+        const lastBrace = cleanedJson.lastIndexOf('}');
+        if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+          cleanedJson = cleanedJson.substring(firstBrace, lastBrace + 1);
+        }
+      }
+
+      const parsedResult = JSON.parse(cleanedJson);
+      if (Array.isArray(parsedResult.genres)) {
+        return parsedResult.genres
+          .map((g: any) => String(g).trim())
+          .filter((g: string) => g.length > 0);
+      }
+      return null;
+    } catch (err: any) {
+      console.error(`LLM Matcher: Error during genre classification for "${artistName}":`, err.message);
+      return null;
+    }
+  }
+}
+
 

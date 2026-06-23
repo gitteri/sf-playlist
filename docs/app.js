@@ -17,28 +17,28 @@ const activeFilters = {
 // Major Genre Classification Maps
 const GENRE_MAP = {
   'Rock / Alternative': [
-    'rock', 'indie', 'alternative', 'punk', 'metal', 'grunge', 'post-punk', 'shoegaze', 'surf', 'garage', 'psych', 'hardcore'
+    'rock', 'indie', 'alternative', 'punk', 'metal', 'grunge', 'post-punk', 'shoegaze', 'surf', 'garage', 'psych', 'hardcore', 'fuzz', 'noise', 'emo'
   ],
   'Folk / Country / Bluegrass': [
-    'folk', 'country', 'bluegrass', 'americana', 'red dirt', 'alt-country', 'alt country', 'singer-songwriter', 'acoustic', 'traditional', 'western', 'roots', 'cowboy'
+    'folk', 'country', 'bluegrass', 'americana', 'red dirt', 'alt-country', 'alt country', 'singer-songwriter', 'singer/songwriter', 'acoustic', 'traditional', 'western', 'roots', 'cowboy', 'banjo', 'fiddle', 'songwriter', 'honky tonk', 'honky-tonk'
   ],
   'Jazz / Blues / Funk': [
-    'jazz', 'blues', 'funk', 'soul', 'r&b', 'gospel', 'swing', 'fusion', 'motown', 'brass', 'big band'
+    'jazz', 'blues', 'funk', 'soul', 'r&b', 'gospel', 'swing', 'fusion', 'motown', 'brass', 'big band', 'groove', 'trio'
   ],
   'Electronic / EDM / DJ': [
-    'edm', 'electronic', 'techno', 'house', 'dance', 'dj', 'remix', 'vinyl', 'beats', 'synth', 'disco', 'trance', 'dubstep', 'rave', 'mix'
+    'edm', 'electronic', 'techno', 'house', 'dance', 'dj', 'remix', 'vinyl', 'beats', 'synth', 'disco', 'trance', 'dubstep', 'rave', 'mix', 'electro'
   ],
   'Hip Hop / Rap': [
     'hip hop', 'hip-hop', 'rap', 'trap', 'drill', 'boom bap'
   ],
   'Pop': [
-    'pop', 'synthpop', 'reggaeton', 'pop rap'
+    'pop', 'synthpop', 'pop rap'
   ],
   'Reggae / Latin / World': [
-    'reggae', 'ska', 'cumbia', 'latin', 'mariachi', 'salsa', 'world', 'afrobeat', 'flamenco', 'folklorico', 'bossa nova'
+    'reggae', 'ska', 'cumbia', 'cumbiero', 'latin', 'mariachi', 'salsa', 'world', 'afrobeat', 'flamenco', 'folklorico', 'bossa nova', 'mexican', 'spanish', 'tejano', 'norteno', 'corridos', 'ranchera', 'reggaeton'
   ],
   'Classical': [
-    'classical', 'orchestra', 'symphony', 'string', 'chamber', 'opera', 'baroque', 'choral', 'quartet', 'quintet'
+    'classical', 'orchestra', 'symphony', 'string', 'chamber', 'opera', 'baroque', 'choral', 'quartet', 'quintet', 'cello', 'violin', 'flute'
   ]
 };
 
@@ -112,6 +112,13 @@ function getMajorGenres(show) {
   if (show.genres && show.genres.length > 0) {
     show.genres.forEach(g => {
       const lower = g.toLowerCase();
+      
+      // Direct category name check
+      for (const major of Object.keys(GENRE_MAP)) {
+        if (lower === major.toLowerCase()) {
+          majorGenres.add(major);
+        }
+      }
       
       for (const [major, keywords] of Object.entries(GENRE_MAP)) {
         const matches = keywords.some(keyword => lower.includes(keyword));

@@ -159,14 +159,31 @@ export class PlaylistUpdater {
           
           for (const separator of separators) {
             if (separator.test(artist)) {
-              // Special rule: if separator is "and" or "&", check if the right side starts with "the" (case-insensitive)
-              // this prevents splitting single bands like "Randolph and the Variants" or "Florence and the Machine"
-              if (separator.source.includes('and') || separator.source.includes('&')) {
+              // Special rule: if separator is "and", "&", or "+", check if the right side indicates a single collective/band name
+              // (e.g. "and the Variants", "Mumford & Sons", "Caleb & Company", "Bob & Friends", "Singer & Band")
+              if (separator.source.includes('and') || separator.source.includes('&') || separator.source.includes('\\+')) {
                 const parts = artist.split(separator);
                 if (parts.length > 1) {
                   const rightSide = parts[1].trim().toLowerCase();
-                  if (rightSide.startsWith('the ') || rightSide.startsWith('the\t')) {
-                    console.log(`  - Combined name "${artist}" contains "${separator.source.includes('and') ? 'and' : '&'} The", treating as a single band name and skipping split.`);
+                  
+                  // Common band suffix/collective nouns
+                  const collectiveNouns = [
+                    'the', 'company', 'co', 'co.', 'sons', 'friends', 'band', 'orchestra', 
+                    'family', 'associates', 'crew', 'gang', 'trio', 'quartet', 'quintet', 
+                    'group', 'collective', 'ensemble', 'players', 'singers', 'chorus', 
+                    'boys', 'girls', 'brothers', 'sisters', 'his', 'her', 'their'
+                  ];
+                  
+                  const isCollective = collectiveNouns.some(word => {
+                    if (word === 'the' || word === 'his' || word === 'her' || word === 'their') {
+                      return rightSide.startsWith(word + ' ') || rightSide.startsWith(word + '\t');
+                    } else {
+                      return rightSide === word || rightSide.startsWith(word + ' ') || rightSide.endsWith(' ' + word) || rightSide.includes(' ' + word + ' ');
+                    }
+                  });
+                  
+                  if (isCollective) {
+                    console.log(`  - Combined name "${artist}" matches a collective suffix pattern, treating as a single band/artist name and skipping split.`);
                     continue; // Skip splitting for this separator
                   }
                 }
@@ -310,6 +327,34 @@ export class PlaylistUpdater {
           }
         });
       }
+
+      // Classify missing genres using LLM (with caching to avoid redundant calls for repeating artists)
+      console.log('Classifying missing genres using LLM...');
+      let classifiedCount = 0;
+      const genreCache = new Map<string, string[]>();
+      
+      for (const concert of validConcerts) {
+        if (!concert.genres || concert.genres.length === 0) {
+          const artistName = concert.artist;
+          const description = (concert.description || '').trim();
+          if (description.length > 15) {
+            const cacheKey = `${artistName}::${description}`;
+            if (genreCache.has(cacheKey)) {
+              concert.genres = genreCache.get(cacheKey)!;
+              continue;
+            }
+            
+            const classified = await this.llmMatcher.classifyGenre(artistName, description, concert.venue);
+            if (classified && classified.length > 0) {
+              console.log(`  - Classified genres for "${artistName}": ${classified.join(', ')}`);
+              concert.genres = classified;
+              genreCache.set(cacheKey, classified);
+              classifiedCount++;
+            }
+          }
+        }
+      }
+      console.log(`Successfully classified genres for ${classifiedCount} unique concerts using the LLM.`);
 
       // Write to JSON for the website (now including all resolved Spotify track IDs)
       console.log(`Writing ${validConcerts.length} concerts to docs/concerts.json...`);
