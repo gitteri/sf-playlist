@@ -441,7 +441,7 @@
     "source": "Santa Fe Reporter"
   },
   {
-    "artist": "Smooth & Suavecito",
+    "artist": "Smooth",
     "venue": "Social Kitchen & Bar",
     "date": "2026-06-27T00:00:00.000Z",
     "listingUrl": "https://www.socialkitchensf.com/",
@@ -451,41 +451,13 @@
     "trackIds": [
       "7jJPmrB7baCiyfY44AhrFa",
       "1cH5ljMHc9kVaUcd8TDQRf",
-      "0ndGo6Y6ngw33sCjJFsTl4",
-      "6vnnplhIUCr1RuDaHY6Gu3",
-      "6wczJ09sVBBM2SlkfABi4X",
-      "0gYmFPIfSFXKmFZtqrnub7"
+      "0ndGo6Y6ngw33sCjJFsTl4"
     ],
+    "spotifyId": "4KKNSSNfectr01qLAy2wEc",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d3c955f5cc71aaf9619b280c",
     "genres": [
       "baltimore club",
       "jersey club"
-    ],
-    "subArtists": [
-      {
-        "name": "Smooth",
-        "spotifyId": "4KKNSSNfectr01qLAy2wEc",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d3c955f5cc71aaf9619b280c",
-        "genres": [
-          "baltimore club",
-          "jersey club"
-        ],
-        "trackIds": [
-          "7jJPmrB7baCiyfY44AhrFa",
-          "1cH5ljMHc9kVaUcd8TDQRf",
-          "0ndGo6Y6ngw33sCjJFsTl4"
-        ]
-      },
-      {
-        "name": "Suavecito",
-        "spotifyId": "3zr8FJ1UqyZJcXE0dwQN4D",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737497f27bb5d97c78dbf9dc84",
-        "trackIds": [
-          "6vnnplhIUCr1RuDaHY6Gu3",
-          "6wczJ09sVBBM2SlkfABi4X",
-          "0gYmFPIfSFXKmFZtqrnub7"
-        ]
-      }
     ]
   },
   {
@@ -550,7 +522,7 @@
     ]
   },
   {
-    "artist": "Betty Benedeadly & Friends | Mystic Residency",
+    "artist": "Betty Benedeadly",
     "venue": "The Mystic Santa Fe, Cerrillos Road, Santa Fe, NM, USA",
     "date": "2026-06-27T02:00:00.000Z",
     "ticketUrl": "https://www.eventbrite.com/e/1987953796319",
@@ -563,22 +535,8 @@
       "0BGtQMcpJOW7MEUUMBKICi",
       "42E6hHZ4FIYBOynFjo07Yy"
     ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebf75efc31fed5129e242d543a",
-    "subArtists": [
-      {
-        "name": "Betty Benedeadly",
-        "spotifyId": "5XfYpSX5Dc49RmB9JMUI8C",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebf75efc31fed5129e242d543a",
-        "trackIds": [
-          "2nRcvB2vIoEsYx7kTJpa0z",
-          "0BGtQMcpJOW7MEUUMBKICi",
-          "42E6hHZ4FIYBOynFjo07Yy"
-        ]
-      },
-      {
-        "name": "Friends | Mystic Residency"
-      }
-    ]
+    "spotifyId": "5XfYpSX5Dc49RmB9JMUI8C",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebf75efc31fed5129e242d543a"
   },
   {
     "artist": "Rolas Cumbiamberas",
@@ -880,7 +838,7 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bbdae5c0fb70c0fb57f5c1ac"
   },
   {
-    "artist": "Stanlie Kee and The Step In",
+    "artist": "Stanlie Kee",
     "venue": "Cowgirl",
     "date": "2026-07-05T19:00:00.000Z",
     "sourceEventId": 4386790,
@@ -1804,7 +1762,7 @@
     ]
   },
   {
-    "artist": "Don Was & the Pan-Detroit Ensemble",
+    "artist": "Don Was",
     "venue": "The Bridge @ SF Brewing Co.",
     "date": "2026-08-07T01:00:00.000Z",
     "listingUrl": "https://tickets.lensic360.org/tickets/460759?tc=lensic360",
@@ -1817,8 +1775,8 @@
       "3s1uOFKUwnuPVPFAGVCEsA",
       "1nRcZ8paEupSa6OG3wZEzf"
     ],
-    "spotifyId": "0spS7DwPZZQ1XvhW8z3Mey",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27372d971ffb8b1350eeaf636d5"
+    "spotifyId": "3UZweLueIxSfgpLuFfeRYu",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe731c0844a474bf41544afbd"
   },
   {
     "artist": "DJ OPTAMYSTIK",
@@ -2026,7 +1984,7 @@
     ]
   },
   {
-    "artist": "Gary Farmer and the Troublemakers",
+    "artist": "Gary Farmer",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-12T00:00:00.000Z",
     "listingUrl": "https://tickets.lensic360.org/tickets/462741?tc=lensic360",
@@ -2035,15 +1993,11 @@
     "description": "He might be Canadian-born, but Farmer has lived in Santa Fe so long that we're claiming him as a hometown hero. Find Farmer and friends digging into the blues on the Plaza. ",
     "source": "Santa Fe Reporter",
     "trackIds": [
-      "4jfFCrPt6SMHAJYva4OUEk",
-      "28BIVJlBWQhgKZKOdfDbYA",
-      "2JMSq6IwpAkskyfQgTuHIt"
+      "10pz78PU1AkAdV22il1tNV",
+      "5H9U6d98ytcLKFKSg7sRpm",
+      "3vanpFAH4mqLLS7oHnjZVX"
     ],
-    "spotifyId": "10Jd7rGaSiMwzSvfuOxssI",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273f77e44167d7cc0590196ef93",
-    "genres": [
-      "native american music"
-    ]
+    "spotifyId": "6hTBv8xAJYD11baaQVEigp"
   },
   {
     "artist": "Widowspeak",
@@ -2199,20 +2153,23 @@
     "source": "Santa Fe Reporter"
   },
   {
-    "artist": "Tropidelic & The Boomroots",
+    "artist": "Tropidelic",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-18T00:00:00.000Z",
     "sourceEventId": 4835940,
     "sourceEventSlug": "tropidelic-the-boomroots-aug-17-2026",
     "description": "The free Santa Fe Summer Scene series keeps scene-ing and summer-ing with performances from hip-hop/rock/reggae/funk act Tropidelic and Santa Fe's Boomroots. ",
     "source": "Santa Fe Reporter",
-    "subArtists": [
-      {
-        "name": "hip-hop/rock/reggae/funk act Tropidelic"
-      },
-      {
-        "name": "Santa Fe's Boomroots"
-      }
+    "trackIds": [
+      "78KCXk5q6nu7S3sYKjD0NG",
+      "4Q9HkRBPuwOFlBz1cXV06F",
+      "5A9xSuOZGQJNdRGEWVNGeI"
+    ],
+    "spotifyId": "2SGFnb6c73UJd1vT6aGBMl",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebdb3c3e81c3e332f19a47303f",
+    "genres": [
+      "reggae rock",
+      "reggae"
     ]
   },
   {
@@ -2486,7 +2443,7 @@
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737cce60538c82434c433a6c12"
   },
   {
-    "artist": "Pepper and The Movement",
+    "artist": "Pepper",
     "venue": "The Bridge at Santa Fe Brewing Co.",
     "date": "2026-08-24T01:00:00.000Z",
     "listingUrl": "https://tickets.lensic360.org/tickets/460050?tc=lensic360",
@@ -2494,13 +2451,17 @@
     "sourceEventSlug": "pepper-and-the-movement-aug-23-2026",
     "description": "Pepper and The Movement are two different bands, btw, and not, as we thought, the name of one band. Cool? Cool. The former blends reggae and rock with punk-ish leanings, while the latter is all about alt.reggae. Word. ",
     "source": "Santa Fe Reporter",
-    "subArtists": [
-      {
-        "name": "punk-ish leanings"
-      },
-      {
-        "name": "while the latter is all about alt"
-      }
+    "trackIds": [
+      "1AO26gK1sI6PoFY9eUF8yV",
+      "39KOFS51LBiUeAEle7utOX",
+      "29JOtyhGMv2gfikATHJlCF"
+    ],
+    "spotifyId": "1YK8JdPbiaMSnf4hrlBkGT",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb068f88354ebee0cd0df589b5",
+    "genres": [
+      "reggae rock",
+      "reggae",
+      "ska"
     ]
   },
   {
@@ -2522,12 +2483,25 @@
     "sourceEventSlug": "iguanas-w-mineral-hill-aug-24-2026",
     "description": "New Orleans roots rock (think Chicano-style rock with R&amp;B vibes and Latin style). If you watched Treme, you likely know 'em. Funky Americana act Mineral Hill opens. Part of the free Summer Scene series from Lensic 360. ",
     "source": "Santa Fe Reporter",
+    "trackIds": [
+      "3SXFYyCiLmjsSA5ikmfwr9",
+      "4NeCkBpfFUcnbsYebusVIp",
+      "6XBusA8CO9H1xy3BHcxNkx"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe25d73446d19b43da83787a0",
     "subArtists": [
       {
         "name": "amp;B vibes"
       },
       {
-        "name": "Latin style"
+        "name": "Latin style",
+        "spotifyId": "5ROQC5YVQeLlQAjxreXCIr",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe25d73446d19b43da83787a0",
+        "trackIds": [
+          "3SXFYyCiLmjsSA5ikmfwr9",
+          "4NeCkBpfFUcnbsYebusVIp",
+          "6XBusA8CO9H1xy3BHcxNkx"
+        ]
       }
     ]
   },
@@ -2665,7 +2639,7 @@
     ]
   },
   {
-    "artist": "Jay Boy Adams and Zenobia w/Bill Hearne",
+    "artist": "Jay Boy Adams",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-27T23:00:00.000Z",
     "listingUrl": "https://tickets.lensic360.org/tickets/462753?tc=lensic360",
@@ -2678,29 +2652,11 @@
       "1tgw48ErlHjmm3WahKXdK3",
       "3scAwLT1kY7nFkc6JJu3CW"
     ],
+    "spotifyId": "6u4HGlTHI4MoixiNxVQhSz",
     "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27322e6ab27696a93e24994358d",
     "genres": [
       "texas country",
       "country rock"
-    ],
-    "subArtists": [
-      {
-        "name": "Jay Boy Adams",
-        "spotifyId": "6u4HGlTHI4MoixiNxVQhSz",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27322e6ab27696a93e24994358d",
-        "genres": [
-          "texas country",
-          "country rock"
-        ],
-        "trackIds": [
-          "3YpNm6q0gteD6R8gpm49Af",
-          "1tgw48ErlHjmm3WahKXdK3",
-          "3scAwLT1kY7nFkc6JJu3CW"
-        ]
-      },
-      {
-        "name": "Zenobia w/Bill Hearne"
-      }
     ]
   },
   {
@@ -2713,7 +2669,7 @@
     "source": "Santa Fe Reporter"
   },
   {
-    "artist": "St. Paul and the Broken Bones",
+    "artist": "St. Paul",
     "venue": "Railyard Plaza",
     "date": "2026-08-29T00:00:00.000Z",
     "listingUrl": "https://tickets.lensic360.org/tickets/462774?tc=lensic360",
@@ -2722,14 +2678,15 @@
     "description": "The Alabama soul band also likes kickin' out R&amp;B and psych-funk sounds and Sacramento singer-songwriter Tré Burt opens yet another Summer Scene show from Lensic 360 (they've presented soooo many great shows this year). ",
     "source": "Santa Fe Reporter",
     "trackIds": [
-      "1RmJJPvyMSszOQHJ4s03A2",
-      "4lhhYqzREcts4uOOqWHjRJ",
-      "2eM4Ew20VXdjBhm6a6Cs9l"
+      "0HwxZNhiADcnozInwSnCZG",
+      "3ecli4KM4kxW8sKV5YX6kL",
+      "2EATQAuePYAPJhoOMcMvya"
     ],
-    "spotifyId": "4fXkvh05wFhuH77MfD4m9o",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe25488bca4236e5ae6d5feb8",
+    "spotifyId": "4jt2312ZxlAbB5Cfddx2Xb",
+    "artistImageUrl": "https://i.scdn.co/image/ab6772690000c46c687c3499082e4f2726c96e5a",
     "genres": [
-      "retro soul"
+      "new jack swing",
+      "aor"
     ]
   },
   {
@@ -2775,7 +2732,7 @@
     "source": "Santa Fe Reporter"
   },
   {
-    "artist": "Sinister Surfer and Strange Magic",
+    "artist": "Sinister Surfer",
     "venue": "Santa Fe Plaza",
     "date": "2026-08-31T23:00:00.000Z",
     "listingUrl": "https://tickets.lensic360.org/tickets/462777?tc=lensic360",
@@ -2786,39 +2743,12 @@
     "trackIds": [
       "5iUa13sA7ERnOGSl5IRM2Q",
       "19eh4VjhCKgbeZ9yRXygtz",
-      "0TDMW2afzkYOlthLOkr6vt",
-      "3wBSwnLJQfmLGiYQ2jF3FS",
-      "0rtbXJV7J0aHT9HWQISY26",
-      "5bGXemkhRQHaLjDIfXGtYu"
+      "0TDMW2afzkYOlthLOkr6vt"
     ],
+    "spotifyId": "6R8y9IL7ld882MjAHhbbJC",
     "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba2a65cdcfb9f406ae6e274dd",
     "genres": [
       "surf rock"
-    ],
-    "subArtists": [
-      {
-        "name": "Sinister Surfer",
-        "spotifyId": "6R8y9IL7ld882MjAHhbbJC",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba2a65cdcfb9f406ae6e274dd",
-        "genres": [
-          "surf rock"
-        ],
-        "trackIds": [
-          "5iUa13sA7ERnOGSl5IRM2Q",
-          "19eh4VjhCKgbeZ9yRXygtz",
-          "0TDMW2afzkYOlthLOkr6vt"
-        ]
-      },
-      {
-        "name": "Strange Magic",
-        "spotifyId": "2ggkOKwKgqUrzcjFLTDWEW",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb55e86c6f07c20693c1a98f23",
-        "trackIds": [
-          "3wBSwnLJQfmLGiYQ2jF3FS",
-          "0rtbXJV7J0aHT9HWQISY26",
-          "5bGXemkhRQHaLjDIfXGtYu"
-        ]
-      }
     ]
   },
   {
@@ -6048,5 +5978,997 @@
       "classic country",
       "traditional country"
     ]
+  },
+  {
+    "artist": "Eliana Joy",
+    "venue": "Lady Duff's Lounge",
+    "date": "2026-06-26T01:00:00.000Z",
+    "ticketUrl": "https://www.hotelglorietasantafe.com/event-details/jazz-night-eliana-joy-5",
+    "listingUrl": "https://www.hotelglorietasantafe.com/event-details/jazz-night-eliana-joy-5",
+    "sourceEventId": "a062e9ef-992e-4653-9667-0d9acad0b73a",
+    "sourceEventSlug": "jazz-night-eliana-joy-5",
+    "description": "Lady Duff's Lounge\n\nFREE",
+    "source": "Hotel Glorieta",
+    "trackIds": [
+      "5kO5gtQ7f2KGEqcFzDKuKf",
+      "2CPRoetf8d2jlc2lwAkBY1"
+    ],
+    "spotifyId": "6MxO2Uhl40xeYFfA0LAgea",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd0b0b1cab00375d01f250d1d"
+  },
+  {
+    "artist": "Rolas Cumbiamberas X Agave Sin Fronteras",
+    "venue": "Lady Duff's Lounge",
+    "date": "2026-06-27T02:00:00.000Z",
+    "ticketUrl": "https://www.hotelglorietasantafe.com/event-details/rolas-cumbiamberas-x-agave-sin-fronteras",
+    "listingUrl": "https://www.hotelglorietasantafe.com/event-details/rolas-cumbiamberas-x-agave-sin-fronteras",
+    "sourceEventId": "67826573-7f3b-4d81-8f60-c9d824f5188b",
+    "sourceEventSlug": "rolas-cumbiamberas-x-agave-sin-fronteras",
+    "description": "FREE",
+    "source": "Hotel Glorieta"
+  },
+  {
+    "artist": "Pool Party",
+    "venue": "Hotel Glorieta - The Pool",
+    "date": "2026-06-28T20:00:00.000Z",
+    "ticketUrl": "https://www.hotelglorietasantafe.com/event-details/agave-sin-fronteras-pool-party",
+    "listingUrl": "https://www.hotelglorietasantafe.com/event-details/agave-sin-fronteras-pool-party",
+    "sourceEventId": "9c19da07-70cb-4b67-9016-528e5d77fb2c",
+    "sourceEventSlug": "agave-sin-fronteras-pool-party",
+    "description": "Day-pass purchase required",
+    "source": "Hotel Glorieta",
+    "trackIds": [
+      "1nzNoEtPjunpW02PQZoElU",
+      "31JGKIviSzXtq4ClUYLeCa",
+      "2KOeLGQjKgqSlBmQL3NYgv"
+    ],
+    "spotifyId": "2QxgXNrYniqBMYzpVvbytt",
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27377e9c1a922684afff6b641fa"
+  },
+  {
+    "artist": "The Mystic Undertone",
+    "venue": "Lady Duff's Lounge",
+    "date": "2026-07-03T02:00:00.000Z",
+    "ticketUrl": "https://www.hotelglorietasantafe.com/event-details/jazz-night-the-mystic-undertone-10",
+    "listingUrl": "https://www.hotelglorietasantafe.com/event-details/jazz-night-the-mystic-undertone-10",
+    "sourceEventId": "d29ba5c4-a75d-4871-bf29-2c0f83b83f23",
+    "sourceEventSlug": "jazz-night-the-mystic-undertone-10",
+    "description": "Lady Duff's Lounge",
+    "source": "Hotel Glorieta"
+  },
+  {
+    "artist": "DARK RED 2",
+    "venue": "The Marigold Room",
+    "date": "2026-07-12T01:00:00.000Z",
+    "ticketUrl": "https://www.hotelglorietasantafe.com/event-details/dark-red-2",
+    "listingUrl": "https://www.hotelglorietasantafe.com/event-details/dark-red-2",
+    "sourceEventId": "54ae4905-4de2-44f5-9b00-e51244ded632",
+    "sourceEventSlug": "dark-red-2",
+    "description": "21+",
+    "source": "Hotel Glorieta"
+  },
+  {
+    "artist": "The Mystic Undertone",
+    "venue": "Lady Duff's Lounge",
+    "date": "2026-07-17T02:00:00.000Z",
+    "ticketUrl": "https://www.hotelglorietasantafe.com/event-details/jazz-night-the-mystic-undertone-11",
+    "listingUrl": "https://www.hotelglorietasantafe.com/event-details/jazz-night-the-mystic-undertone-11",
+    "sourceEventId": "1f2a21ed-9147-4764-a18b-5ed3eda7a4ec",
+    "sourceEventSlug": "jazz-night-the-mystic-undertone-11",
+    "description": "Lady Duff's Lounge",
+    "source": "Hotel Glorieta"
+  },
+  {
+    "artist": "Eliana Joy",
+    "venue": "Lady Duff's Lounge",
+    "date": "2026-07-24T01:00:00.000Z",
+    "ticketUrl": "https://www.hotelglorietasantafe.com/event-details/jazz-night-eliana-joy-6",
+    "listingUrl": "https://www.hotelglorietasantafe.com/event-details/jazz-night-eliana-joy-6",
+    "sourceEventId": "4b009887-d323-4d24-839a-f4a16ef43575",
+    "sourceEventSlug": "jazz-night-eliana-joy-6",
+    "description": "Lady Duff's Lounge\n\nFREE",
+    "source": "Hotel Glorieta",
+    "trackIds": [
+      "5kO5gtQ7f2KGEqcFzDKuKf",
+      "2CPRoetf8d2jlc2lwAkBY1"
+    ],
+    "spotifyId": "6MxO2Uhl40xeYFfA0LAgea",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd0b0b1cab00375d01f250d1d"
+  },
+  {
+    "artist": "White Sands / Sinister Surfer",
+    "venue": "The Marigold Room",
+    "date": "2026-07-24T14:00:00.000Z",
+    "ticketUrl": "https://www.hotelglorietasantafe.com/event-details/white-sands-sinister-surfer",
+    "listingUrl": "https://www.hotelglorietasantafe.com/event-details/white-sands-sinister-surfer",
+    "sourceEventId": "4cbc12a1-46c4-432d-8b80-4d4c094c389e",
+    "sourceEventSlug": "white-sands-sinister-surfer",
+    "description": "Presented by Mama Mañana",
+    "source": "Hotel Glorieta",
+    "trackIds": [
+      "4ymlF7D3Jlz4IYq0iAP39B",
+      "6mmk71fRTTgjDszeAuYKKt",
+      "1UykI1Xdvsob7NolsAJAb7",
+      "5iUa13sA7ERnOGSl5IRM2Q",
+      "19eh4VjhCKgbeZ9yRXygtz",
+      "0TDMW2afzkYOlthLOkr6vt"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27313d47382e0b9e4cfdfad11b8",
+    "genres": [
+      "surf rock",
+      "psychobilly"
+    ],
+    "subArtists": [
+      {
+        "name": "White Sands",
+        "spotifyId": "0TKXwuiRFjKQdu9ld50My8",
+        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27313d47382e0b9e4cfdfad11b8",
+        "genres": [
+          "surf rock",
+          "psychobilly"
+        ],
+        "trackIds": [
+          "4ymlF7D3Jlz4IYq0iAP39B",
+          "6mmk71fRTTgjDszeAuYKKt",
+          "1UykI1Xdvsob7NolsAJAb7"
+        ]
+      },
+      {
+        "name": "Sinister Surfer",
+        "spotifyId": "6R8y9IL7ld882MjAHhbbJC",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eba2a65cdcfb9f406ae6e274dd",
+        "genres": [
+          "surf rock"
+        ],
+        "trackIds": [
+          "5iUa13sA7ERnOGSl5IRM2Q",
+          "19eh4VjhCKgbeZ9yRXygtz",
+          "0TDMW2afzkYOlthLOkr6vt"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Rolas Cumbiamberas w/ Luz Skylarker",
+    "venue": "Lady Duff's Lounge",
+    "date": "2026-08-01T02:00:00.000Z",
+    "ticketUrl": "https://www.hotelglorietasantafe.com/event-details/rolas-cumbiamberas-w-luz-skylarker-4",
+    "listingUrl": "https://www.hotelglorietasantafe.com/event-details/rolas-cumbiamberas-w-luz-skylarker-4",
+    "sourceEventId": "e93f774c-7627-4d51-aa22-c98920318568",
+    "sourceEventSlug": "rolas-cumbiamberas-w-luz-skylarker-4",
+    "description": "FREE",
+    "source": "Hotel Glorieta",
+    "subArtists": [
+      {
+        "name": "Rolas Cumbiamberas"
+      },
+      {
+        "name": "Luz Skylarker"
+      }
+    ]
+  },
+  {
+    "artist": "The Montvales",
+    "venue": "The Marigold Room",
+    "date": "2026-08-10T01:30:00.000Z",
+    "ticketUrl": "https://www.hotelglorietasantafe.com/event-details/the-montvales",
+    "listingUrl": "https://www.hotelglorietasantafe.com/event-details/the-montvales",
+    "sourceEventId": "071c7696-bf8b-46a0-a4df-e8243c6c2a1d",
+    "sourceEventSlug": "the-montvales",
+    "description": "The Marigold Room \n\n$16 / $18",
+    "source": "Hotel Glorieta",
+    "trackIds": [
+      "3JQruySd5wozuHB0zY1Qox",
+      "14xGh12HmGV2qDtr9e8wjI",
+      "50Xw9Zq5usYdfaSa3R0cCD"
+    ],
+    "spotifyId": "0FYazSWo7TGjPJz0Jz4O9t",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb431b14624697db3be8b8498d",
+    "genres": [
+      "americana",
+      "bluegrass",
+      "newgrass"
+    ]
+  },
+  {
+    "artist": "Soft Palms / Maybe So",
+    "venue": "The Marigold Room",
+    "date": "2026-08-13T01:00:00.000Z",
+    "ticketUrl": "https://www.hotelglorietasantafe.com/event-details/soft-palms-maybe-so",
+    "listingUrl": "https://www.hotelglorietasantafe.com/event-details/soft-palms-maybe-so",
+    "sourceEventId": "4bb8086c-d6c4-4bab-a7ca-a39183edd7fe",
+    "sourceEventSlug": "soft-palms-maybe-so",
+    "description": "$12\n\nMama Mañana Records Presents",
+    "source": "Hotel Glorieta",
+    "trackIds": [
+      "05s1RKoZ5JNuaSDB1hp9Yv",
+      "1pWtC2kjZoUipQrHU49rSM",
+      "3eBK0q7TW9LtC9Fw1XjaEj",
+      "5rPEREHy79d4Vi2oJcf4Sb",
+      "6y2XdYk1HAU3g4DiYscznV",
+      "17xiDPpnCHmp803GNfVtFP"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb057fd1454058de189d9b9b3b",
+    "subArtists": [
+      {
+        "name": "Soft Palms",
+        "spotifyId": "4PmRvPxX5xKA5zg4gmh4wR",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb057fd1454058de189d9b9b3b",
+        "trackIds": [
+          "05s1RKoZ5JNuaSDB1hp9Yv",
+          "1pWtC2kjZoUipQrHU49rSM",
+          "3eBK0q7TW9LtC9Fw1XjaEj"
+        ]
+      },
+      {
+        "name": "Maybe So",
+        "spotifyId": "2RLyEB7rdJUFq9iUKbXpHi",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebdf544574a222a2c5fbf16138",
+        "trackIds": [
+          "5rPEREHy79d4Vi2oJcf4Sb",
+          "6y2XdYk1HAU3g4DiYscznV",
+          "17xiDPpnCHmp803GNfVtFP"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Wild Pink",
+    "venue": "The Marigold Room",
+    "date": "2026-10-14T01:00:00.000Z",
+    "ticketUrl": "https://www.hotelglorietasantafe.com/event-details/wild-pink",
+    "listingUrl": "https://www.hotelglorietasantafe.com/event-details/wild-pink",
+    "sourceEventId": "9e87f9fb-50b5-4d62-9652-2f03d7316a93",
+    "sourceEventSlug": "wild-pink",
+    "description": "Presented by Lensic 360\n\n$20 ADV / $25 DOS",
+    "source": "Hotel Glorieta",
+    "trackIds": [
+      "1mjtX4af3hbvz8TsM4Eium",
+      "6UOgyWbhnGvDpgTtfU2XAk",
+      "0ebuEuZX9liYMw1ccEsCol"
+    ],
+    "spotifyId": "2BS3fywRW33o5GygfzZaOZ",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebfa964d4c9be2abf0c222a28a"
+  },
+  {
+    "artist": "John Moreland / Georgia Maq",
+    "venue": "The Marigold Room",
+    "date": "2026-10-29T01:30:00.000Z",
+    "ticketUrl": "https://www.hotelglorietasantafe.com/event-details/john-moreland-georgia-maq",
+    "listingUrl": "https://www.hotelglorietasantafe.com/event-details/john-moreland-georgia-maq",
+    "sourceEventId": "73e48f6f-8dc0-4e56-af6e-6ef41503e69e",
+    "sourceEventSlug": "john-moreland-georgia-maq",
+    "description": "$25 ADV / $30 DOS",
+    "source": "Hotel Glorieta",
+    "trackIds": [
+      "7vzYYRZuvy9CNyzh3LJFaY",
+      "1tQGRq2WOBXjL3JWdWMONg",
+      "1ERgZKcOl3XCimALNr5VVw",
+      "5HipykpiahPoH8fXwxfNU5",
+      "4iCHY1fIDHb1tJmJXr6iCE",
+      "4Mm0rC1aDD14WzuxgxRkqf"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb401cf69c7c23a0f9f4a93457",
+    "genres": [
+      "americana",
+      "alt country",
+      "red dirt"
+    ],
+    "subArtists": [
+      {
+        "name": "John Moreland",
+        "spotifyId": "5MPWTD6J1H9XqYEOb4QkdH",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb401cf69c7c23a0f9f4a93457",
+        "genres": [
+          "americana",
+          "alt country",
+          "red dirt"
+        ],
+        "trackIds": [
+          "7vzYYRZuvy9CNyzh3LJFaY",
+          "1tQGRq2WOBXjL3JWdWMONg",
+          "1ERgZKcOl3XCimALNr5VVw"
+        ]
+      },
+      {
+        "name": "Georgia Maq",
+        "spotifyId": "5NeumLAB759fhEZ61o2Bed",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb176fb9fa1a56d37331306e97",
+        "trackIds": [
+          "5HipykpiahPoH8fXwxfNU5",
+          "4iCHY1fIDHb1tJmJXr6iCE",
+          "4Mm0rC1aDD14WzuxgxRkqf"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Two Runner",
+    "venue": "The Marigold Room",
+    "date": "2026-11-11T02:00:00.000Z",
+    "ticketUrl": "https://www.hotelglorietasantafe.com/event-details/two-runner",
+    "listingUrl": "https://www.hotelglorietasantafe.com/event-details/two-runner",
+    "sourceEventId": "f45a5cd0-498e-4c31-b1f2-c43bd415f506",
+    "sourceEventSlug": "two-runner",
+    "description": "Presented by Lensic 360",
+    "source": "Hotel Glorieta",
+    "trackIds": [
+      "56iZtmA6lIG3dSPHIG0uIy",
+      "29VimvmgZ6AtXDgDY5c4qB",
+      "5lwckjUabBCHUQ2OrlBGsu"
+    ],
+    "spotifyId": "4pMqJEcrPoNT1QZgIUKBWg",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb783c30b1dff92dc0c5e271e3",
+    "genres": [
+      "bluegrass",
+      "newgrass",
+      "americana"
+    ]
+  },
+  {
+    "artist": "Amtrac",
+    "venue": "Meow Wolf",
+    "date": "2026-06-27T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/amtrac",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/amtrac",
+    "sourceEventId": "019dff89-ac0e-bbd3-7b54-82c601d520cc__6ca9dcee-9054-36ef-e8ea-cbe19ce9a6ed",
+    "sourceEventSlug": "amtrac",
+    "description": "Amtrac. Jun 26th Doors @ 9:00 PM. With supporting acts: Aimie Jane, Travel Kit",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "1eCbYVNIkLFf54XkKWN6uf",
+      "0LRDr7rhv07TA2rz7c3sEP",
+      "32v4XcJEaB3c3NbETfJ3uV"
+    ],
+    "spotifyId": "3ifxHfYz2pqHku0bwx8H5J",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb85194d88093071e726cef400",
+    "genres": [
+      "melodic house",
+      "nu disco",
+      "deep house"
+    ]
+  },
+  {
+    "artist": "Aimie Jane",
+    "venue": "Meow Wolf",
+    "date": "2026-06-27T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/amtrac",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/amtrac",
+    "sourceEventId": "019dff89-ac0e-bbd3-7b54-82c601d520cc__6ca9dcee-9054-36ef-e8ea-cbe19ce9a6ed",
+    "sourceEventSlug": "amtrac",
+    "description": "Amtrac. Jun 26th Doors @ 9:00 PM. With supporting acts: Aimie Jane, Travel Kit",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "34Ig2WkSIvdR0yvxaus54B",
+      "4v6WoicrY9VOcxhXaleguD",
+      "1SMhxEMvOrOBBmuGCvaCLn"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb40ac292d0793c27b4b7f8e",
+    "subArtists": [
+      {
+        "name": "supporting acts: Aimie Jane"
+      },
+      {
+        "name": "Travel Kit",
+        "spotifyId": "3gWyq4htQycaYE2a6MUENS",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb40ac292d0793c27b4b7f8e",
+        "trackIds": [
+          "34Ig2WkSIvdR0yvxaus54B",
+          "4v6WoicrY9VOcxhXaleguD",
+          "1SMhxEMvOrOBBmuGCvaCLn"
+        ]
+      }
+    ]
+  },
+  {
+    "artist": "Travel Kit",
+    "venue": "Meow Wolf",
+    "date": "2026-06-27T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/amtrac",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/amtrac",
+    "sourceEventId": "019dff89-ac0e-bbd3-7b54-82c601d520cc__6ca9dcee-9054-36ef-e8ea-cbe19ce9a6ed",
+    "sourceEventSlug": "amtrac",
+    "description": "Amtrac. Jun 26th Doors @ 9:00 PM. With supporting acts: Aimie Jane, Travel Kit",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "34Ig2WkSIvdR0yvxaus54B",
+      "4v6WoicrY9VOcxhXaleguD",
+      "1SMhxEMvOrOBBmuGCvaCLn"
+    ],
+    "spotifyId": "3gWyq4htQycaYE2a6MUENS",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb40ac292d0793c27b4b7f8e"
+  },
+  {
+    "artist": "PRIDE {after dark}",
+    "venue": "Meow Wolf",
+    "date": "2026-06-28T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/pride26",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/pride26",
+    "sourceEventId": "019d4636-21a7-c447-0938-aeeeccf5a1df__8e82dfa7-e4a5-5cb9-b1f3-2a5e08e6ec23",
+    "sourceEventSlug": "pride26",
+    "description": "PRIDE {after dark} featuring DJ Tracy Young. Jun 27th Doors @ 8:00 PM.",
+    "source": "Meow Wolf"
+  },
+  {
+    "artist": "Wavves",
+    "venue": "Meow Wolf",
+    "date": "2026-07-09T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/wavves",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/wavves",
+    "sourceEventId": "019d1c8c-4e46-b87c-2fbb-61f8261d71c2__336d00c5-5023-8879-31c7-9e154a51f51e",
+    "sourceEventSlug": "wavves",
+    "description": "Wavves. Jul 8th Doors @ 8:00 PM. With supporting acts: Bass Drum of Death, World's Worst",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "5ZGM626be3ItMW4UPjfqdY",
+      "1CHL6sjDwpivvA4LE0lsww",
+      "1iMOLNyzKtIMucwZzQSjZi"
+    ],
+    "spotifyId": "6bUJpbekaIlq2fT5FMV2mQ",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb78eb659fbba3b198cc2f4160",
+    "genres": [
+      "garage rock",
+      "surf rock",
+      "noise rock",
+      "indie punk"
+    ]
+  },
+  {
+    "artist": "Bass Drum of Death",
+    "venue": "Meow Wolf",
+    "date": "2026-07-09T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/wavves",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/wavves",
+    "sourceEventId": "019d1c8c-4e46-b87c-2fbb-61f8261d71c2__336d00c5-5023-8879-31c7-9e154a51f51e",
+    "sourceEventSlug": "wavves",
+    "description": "Wavves. Jul 8th Doors @ 8:00 PM. With supporting acts: Bass Drum of Death, World's Worst",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "7lHGsPvsdeSD1tRm0faS1o",
+      "3criOyPqWwtt5cUAcDCq6J",
+      "57QZeBhHRLiWhIpjHvKtND"
+    ],
+    "spotifyId": "5LtAyeDVOVcydj65LvgICY",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb62a4b98bc97a9b5534cd1321",
+    "genres": [
+      "garage rock",
+      "surf rock",
+      "indie punk"
+    ]
+  },
+  {
+    "artist": "World's Worst",
+    "venue": "Meow Wolf",
+    "date": "2026-07-09T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/wavves",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/wavves",
+    "sourceEventId": "019d1c8c-4e46-b87c-2fbb-61f8261d71c2__336d00c5-5023-8879-31c7-9e154a51f51e",
+    "sourceEventSlug": "wavves",
+    "description": "Wavves. Jul 8th Doors @ 8:00 PM. With supporting acts: Bass Drum of Death, World's Worst",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "5p31gXMyrLUtvDbYIiSaBm",
+      "4ZBf9RlEUr86x0lfa8c3sV",
+      "4RpYDETtHvEOQAglR6OvPe"
+    ],
+    "spotifyId": "61WE20UoQujMRZqzTOq3sI",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb85fa0ce7125cddd2031f6c76",
+    "genres": [
+      "shoegaze"
+    ]
+  },
+  {
+    "artist": "Koji Aiken",
+    "venue": "Meow Wolf",
+    "date": "2026-07-11T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/kojiaiken",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/kojiaiken",
+    "sourceEventId": "019d07ae-d3ae-6a2a-cc11-ecb7742ebfc8__bbd6a4c7-fcba-5eb4-693f-cb33c9f93b70",
+    "sourceEventSlug": "kojiaiken",
+    "description": "Koji Aiken. Jul 10th Doors @ 8:00 PM.",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "6rD4MHVZYYKplXGVO6C7qy",
+      "0dWyiShx09WD8CgxqZh4c5",
+      "0m2YCXCL1WRLsfvYvLtof4"
+    ],
+    "spotifyId": "6iaQv5y48B4A3Ad8Fx9aWn",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebbf788e1649b19be8f7e2d0e2",
+    "genres": [
+      "stutter house",
+      "drum and bass"
+    ]
+  },
+  {
+    "artist": "Bonnie x Clyde",
+    "venue": "Meow Wolf",
+    "date": "2026-07-25T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/bxc",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/bxc",
+    "sourceEventId": "019eb34e-ba8f-7205-4e17-18ab08e384c4__ac753019-6cfa-0072-b1e7-d0f0374812c0",
+    "sourceEventSlug": "bxc",
+    "description": "Bonnie x Clyde. Jul 24th Doors @ 9:00 PM.",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "7v96Qk4hcwmNulzSlOs9Zw",
+      "0GZ6PpNaMiViu3J0MDZztp",
+      "1fFYM21OuMnpFrLnNcYLzL"
+    ],
+    "spotifyId": "74xeHqz5Ap8ZHq69TkxI0r",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebbc16640bce26aa2fb436a972"
+  },
+  {
+    "artist": "Dennett",
+    "venue": "Meow Wolf",
+    "date": "2026-07-26T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/dennett",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/dennett",
+    "sourceEventId": "019e653f-61bc-6be6-aa30-50adc1a8dcc3__63459236-db3e-e345-e7b8-f7b66c3551a5",
+    "sourceEventSlug": "dennett",
+    "description": "Dennett. Jul 25th Doors @ 9:00 PM. With supporting acts: Reference_312, Papa Beats",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "1hQAmS4c99YiiXTORf0pCW",
+      "0JZFXrxFp0YNn6iPR2LF08",
+      "2twpRzcPzLOF9xxsbSWQqw"
+    ],
+    "spotifyId": "00iuR3hBqoYxY8I0XYcWN9",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8321cc507c1d9a340fa1f25d",
+    "genres": [
+      "riddim",
+      "dubstep"
+    ]
+  },
+  {
+    "artist": "Reference_312",
+    "venue": "Meow Wolf",
+    "date": "2026-07-26T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/dennett",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/dennett",
+    "sourceEventId": "019e653f-61bc-6be6-aa30-50adc1a8dcc3__63459236-db3e-e345-e7b8-f7b66c3551a5",
+    "sourceEventSlug": "dennett",
+    "description": "Dennett. Jul 25th Doors @ 9:00 PM. With supporting acts: Reference_312, Papa Beats",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "2bEypvhtabJV9NlzrSQmux",
+      "0kgR68AqfNs7HALWhHK2U1",
+      "0Xsw1LCiqVM41xwqxmpWGT"
+    ],
+    "spotifyId": "5oGxowHeST3s9UROwIbDFz",
+    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273bfa8b09e6376c1dca89cd6fb"
+  },
+  {
+    "artist": "Papa Beats",
+    "venue": "Meow Wolf",
+    "date": "2026-07-26T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/dennett",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/dennett",
+    "sourceEventId": "019e653f-61bc-6be6-aa30-50adc1a8dcc3__63459236-db3e-e345-e7b8-f7b66c3551a5",
+    "sourceEventSlug": "dennett",
+    "description": "Dennett. Jul 25th Doors @ 9:00 PM. With supporting acts: Reference_312, Papa Beats",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "0FJKX29Y6lhvTDDRES1xhY",
+      "234TCUrC5qJAd9n1PqWPLn",
+      "4f3DEotK6Y2b7eCc7Iem98"
+    ],
+    "spotifyId": "5ysUw9JRtdLuZT8yhqPkmo",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb17deeb22ffd4e0c151a73412"
+  },
+  {
+    "artist": "Neon Indian",
+    "venue": "Meow Wolf",
+    "date": "2026-08-15T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/neonindian",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/neonindian",
+    "sourceEventId": "019eb33b-5786-e4a8-d480-b5a3ebc72eb3__b89035f8-7c0e-9d82-5509-a86dcafa210b",
+    "sourceEventSlug": "neonindian",
+    "description": "Neon Indian (DJ Set). Aug 14th Doors @ 9:00 PM. With supporting act: Adobe Disco",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "2O96sgZ7WjU0DqcSnLmrfC",
+      "0oSuRJjTO7DTA1ltDuQUzM",
+      "7kxOafRA4u3NQFFrLZIOu3"
+    ],
+    "spotifyId": "0KydPQPUUoTNhmiHKOg5Er",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebea85158edf79ac07013811b0",
+    "genres": [
+      "chillwave",
+      "indie electronic"
+    ]
+  },
+  {
+    "artist": "Adobe Disco",
+    "venue": "Meow Wolf",
+    "date": "2026-08-15T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/neonindian",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/neonindian",
+    "sourceEventId": "019eb33b-5786-e4a8-d480-b5a3ebc72eb3__b89035f8-7c0e-9d82-5509-a86dcafa210b",
+    "sourceEventSlug": "neonindian",
+    "description": "Neon Indian (DJ Set). Aug 14th Doors @ 9:00 PM. With supporting act: Adobe Disco",
+    "source": "Meow Wolf"
+  },
+  {
+    "artist": "Justin Martin",
+    "venue": "Meow Wolf",
+    "date": "2026-08-22T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/justinmartin",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/justinmartin",
+    "sourceEventId": "019df5fc-6297-7b0f-2090-1fc598613624__2469331d-c5ab-20bb-8c1f-b6ab04e58ba1",
+    "sourceEventSlug": "justinmartin",
+    "description": "Justin Martin. Aug 21st Doors @ 9:00 PM.",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "4hLYzmObqNcO0YBUXCI41c",
+      "1utIIuIYIvQAjUdkdxiX8j",
+      "2n8B1W7y0ndsWWyK6OLbxW"
+    ],
+    "spotifyId": "4FN8WHqUbwkd97WEjoCu7B",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb5899d87d69bd3d3bc46ccae3"
+  },
+  {
+    "artist": "Yung Bae",
+    "venue": "Meow Wolf",
+    "date": "2026-08-23T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/yungbae",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/yungbae",
+    "sourceEventId": "019e1523-aa85-a334-0e8c-24aa6a20f2d2__a4df82f6-1ed8-009c-5074-2e852221ef64",
+    "sourceEventSlug": "yungbae",
+    "description": "Yung Bae. Aug 22nd Doors @ 8:00 PM.",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "2LXfEAOEhhNupDM01ZLOQe",
+      "3rc3BWLhFGj5ewNLJaOUAQ",
+      "4jkQZNP7o8T7xuTs9EQu7Y"
+    ],
+    "spotifyId": "30FDJPN3RtwJZ20g5YGCRX",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb6eafd8abb52917d2d52b3b67",
+    "genres": [
+      "vaporwave",
+      "city pop",
+      "nu disco"
+    ]
+  },
+  {
+    "artist": "ero808",
+    "venue": "Meow Wolf",
+    "date": "2026-09-05T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/ero808",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/ero808",
+    "sourceEventId": "019eb33a-b8cf-569c-2c39-126a25025ab2__cd30d50c-ed98-6020-f027-7a17309d4145",
+    "sourceEventSlug": "ero808",
+    "description": "ero808. Sep 4th Doors @ 9:00 PM. With supporting act: Moceans",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "6NZceNVNJSAreye4TAzrI1",
+      "2h6RqJzWqpyP9fYCLUlTrA",
+      "0kY69OeuAxFBfhdTGiL7Cs"
+    ],
+    "spotifyId": "6x9CKUBQ96VjXxKgGE5hIw",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe315e0a67b6f6174e22cb5c5",
+    "genres": [
+      "bass house"
+    ]
+  },
+  {
+    "artist": "Moceans",
+    "venue": "Meow Wolf",
+    "date": "2026-09-05T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/ero808",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/ero808",
+    "sourceEventId": "019eb33a-b8cf-569c-2c39-126a25025ab2__cd30d50c-ed98-6020-f027-7a17309d4145",
+    "sourceEventSlug": "ero808",
+    "description": "ero808. Sep 4th Doors @ 9:00 PM. With supporting act: Moceans",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "4U1RNP8urWTFDCwDyLxIm0",
+      "756j0vtOIK0jajV88aOlDP",
+      "5rE63xy5Sej2Omg4xgpg1R"
+    ],
+    "spotifyId": "4sNqZN5imeFil3F2SnK8EZ",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebb1577005200027ae23441efe",
+    "genres": [
+      "stutter house"
+    ]
+  },
+  {
+    "artist": "Meltt",
+    "venue": "Meow Wolf",
+    "date": "2026-09-14T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/meltt",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/meltt",
+    "sourceEventId": "019d59e2-7272-2a9d-bff9-93c534bbede8__3ad6ee86-fe54-33a7-8efb-a2452d52a990",
+    "sourceEventSlug": "meltt",
+    "description": "Meltt. Sep 13th Doors @ 8:00 PM.",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "77evpfqHmmSklsFpo8wLCB",
+      "2SGDxeH9stHj9bYbqtClHw",
+      "56hp2ikFv3vZJgZXtViF2N"
+    ],
+    "spotifyId": "2iHrc69sZgyWFBAhLpS3oH",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebdbe7d8a9793a7b979bd509bc"
+  },
+  {
+    "artist": "Whipped Cream",
+    "venue": "Meow Wolf",
+    "date": "2026-09-19T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/whippedcream",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/whippedcream",
+    "sourceEventId": "019dff8b-866f-5f7b-9a23-3db0959bcdeb__6a4936c4-281b-b0fc-6b99-b39e7e162996",
+    "sourceEventSlug": "whippedcream",
+    "description": "Whipped Cream. Sep 18th Doors @ 9:00 PM. With supporting acts: Thot Daughter, Rob AD",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "7rIncPcHyKmnsZgyvGhoDw",
+      "3jMeoTAxDrZfkVxMmWcWCg",
+      "5fu8pfEsXXA9mY0F9grAce"
+    ],
+    "spotifyId": "5CMaNobmJYgXcfiT0zYOwi",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd27d3a00b8270e82f2e81814"
+  },
+  {
+    "artist": "Thot Daughter",
+    "venue": "Meow Wolf",
+    "date": "2026-09-19T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/whippedcream",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/whippedcream",
+    "sourceEventId": "019dff8b-866f-5f7b-9a23-3db0959bcdeb__6a4936c4-281b-b0fc-6b99-b39e7e162996",
+    "sourceEventSlug": "whippedcream",
+    "description": "Whipped Cream. Sep 18th Doors @ 9:00 PM. With supporting acts: Thot Daughter, Rob AD",
+    "source": "Meow Wolf",
+    "subArtists": [
+      {
+        "name": "supporting acts: Thot Daughter"
+      },
+      {
+        "name": "Rob AD"
+      }
+    ]
+  },
+  {
+    "artist": "Rob AD",
+    "venue": "Meow Wolf",
+    "date": "2026-09-19T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/whippedcream",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/whippedcream",
+    "sourceEventId": "019dff8b-866f-5f7b-9a23-3db0959bcdeb__6a4936c4-281b-b0fc-6b99-b39e7e162996",
+    "sourceEventSlug": "whippedcream",
+    "description": "Whipped Cream. Sep 18th Doors @ 9:00 PM. With supporting acts: Thot Daughter, Rob AD",
+    "source": "Meow Wolf",
+    "subArtists": [
+      {
+        "name": "supporting acts: Thot Daughter"
+      },
+      {
+        "name": "Rob AD"
+      }
+    ]
+  },
+  {
+    "artist": "Ethan Regan",
+    "venue": "Meow Wolf",
+    "date": "2026-09-22T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/ethanregan",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/ethanregan",
+    "sourceEventId": "019e88de-d73b-1572-8470-1a6d89d9877d__57b8133d-8657-fb3c-74e4-8f7cdf229db0",
+    "sourceEventSlug": "ethanregan",
+    "description": "Ethan Regan. Sep 21st Doors @ 8:00 PM.",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "3DfaPuC2Lc3sCTPlB0NxV3",
+      "7bGfQ7ezUqO8Aexf5dXom3",
+      "5Sg615kNA7VUa0zaTvanUc"
+    ],
+    "spotifyId": "3UNkRVGHGCrGCE0930Bt9e",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc766f39e29f140bb5b3f8d51"
+  },
+  {
+    "artist": "Joshua Ray Walker",
+    "venue": "Meow Wolf",
+    "date": "2026-09-27T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/joshuaraywalker",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/joshuaraywalker",
+    "sourceEventId": "019d4146-b468-27c1-e60f-0a54fbcf6cf1__fff7f971-b5ec-08a0-85bd-59d540b4a497",
+    "sourceEventSlug": "joshuaraywalker",
+    "description": "Joshua Ray Walker. Sep 26th Doors @ 8:00 PM. With supporting act: FABRIZIO",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "4gDFVgkXx8H1zmlmhjw9u1",
+      "4Lx2gmkk1OO863VQDlFJMK",
+      "4bsmxYIlAsApRfvopNMFdb"
+    ],
+    "spotifyId": "5SlqleEyFgUYZEZCJ5juDr",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb458bd0821f53b36929cf2178",
+    "genres": [
+      "alt country",
+      "americana",
+      "red dirt",
+      "outlaw country"
+    ]
+  },
+  {
+    "artist": "FABRIZIO",
+    "venue": "Meow Wolf",
+    "date": "2026-09-27T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/joshuaraywalker",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/joshuaraywalker",
+    "sourceEventId": "019d4146-b468-27c1-e60f-0a54fbcf6cf1__fff7f971-b5ec-08a0-85bd-59d540b4a497",
+    "sourceEventSlug": "joshuaraywalker",
+    "description": "Joshua Ray Walker. Sep 26th Doors @ 8:00 PM. With supporting act: FABRIZIO",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "5wlp24waiNLMRFxMZQKd9f",
+      "4iPu4L2Xz371HTYnZ3pqIl",
+      "58G7Z3QD2j7DkGQPvuCuLj"
+    ],
+    "spotifyId": "0PFfIFgLmqHJOlRocks9Cr",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9108122dd18ab734cc2b03a9"
+  },
+  {
+    "artist": "The Sponges + N2N",
+    "venue": "Meow Wolf",
+    "date": "2026-10-03T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/thesponges",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/thesponges",
+    "sourceEventId": "019e88d5-b472-30a8-d0d0-26a4201de131__10edb89c-50b8-60ba-edd0-43fb60f6ef3a",
+    "sourceEventSlug": "thesponges",
+    "description": "The Sponges + N2N. Oct 2nd Doors @ 8:00 PM.",
+    "source": "Meow Wolf"
+  },
+  {
+    "artist": "Kishi Bashi: Sonderlust 10th Anniversary Tour",
+    "venue": "Meow Wolf",
+    "date": "2026-10-21T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/kishibashi",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/kishibashi",
+    "sourceEventId": "019d1ca7-b46b-d341-f322-3bf709ca0fc9__fb86de37-7518-768c-eb3f-fda36f6768ea",
+    "sourceEventSlug": "kishibashi",
+    "description": "Kishi Bashi: Sonderlust 10th Anniversary Tour. Oct 20th Doors @ 8:00 PM.",
+    "source": "Meow Wolf"
+  },
+  {
+    "artist": "Ax and the Hatchetmen",
+    "venue": "Meow Wolf",
+    "date": "2026-10-24T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/hatchetmen",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/hatchetmen",
+    "sourceEventId": "019e2d87-72e3-8fe8-8313-b8fe21395dbc__acee595f-a767-dbf9-8c1f-9e2e47ae5484",
+    "sourceEventSlug": "hatchetmen",
+    "description": "Ax and the Hatchetmen. Oct 23rd Doors @ 8:00 PM.",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "6DKSK32WwzBMZ0qAq28Zon",
+      "7boAqX1szVF7L8V4iBzXz6",
+      "2JBwEx81Fh8oqxF7cgljB6"
+    ],
+    "spotifyId": "5WJCUSIw2Td5IEfa3LXCo9",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe297c7c49e13e3c48791bcb2",
+    "genres": [
+      "indie rock"
+    ]
+  },
+  {
+    "artist": "Jay Webb",
+    "venue": "Meow Wolf",
+    "date": "2026-11-05T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/jaywebb",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/jaywebb",
+    "sourceEventId": "019eae75-12e8-90e3-6722-5504aa0f1dae__23067fcf-5402-a234-966c-c8f5d8910ec6",
+    "sourceEventSlug": "jaywebb",
+    "description": "Jay Webb - The HOMESICK Tour . Nov 4th Doors @ 7:00 PM. With supporting act: Caitlynne Curtis",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "7E6OF8uNJ9H08c28cnXbul",
+      "4NZqV3QOot02imkM26bluL",
+      "0shLKqWyFkq8Vs2mweIpFg"
+    ],
+    "spotifyId": "74a1KhMBkw4iweAtpbjuHk",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb65d54fbe489d4153c61e1935",
+    "genres": [
+      "country hip hop",
+      "country"
+    ]
+  },
+  {
+    "artist": "Caitlynne Curtis",
+    "venue": "Meow Wolf",
+    "date": "2026-11-05T02:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/jaywebb",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/jaywebb",
+    "sourceEventId": "019eae75-12e8-90e3-6722-5504aa0f1dae__23067fcf-5402-a234-966c-c8f5d8910ec6",
+    "sourceEventSlug": "jaywebb",
+    "description": "Jay Webb - The HOMESICK Tour . Nov 4th Doors @ 7:00 PM. With supporting act: Caitlynne Curtis",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "24j0o1B7eiiwSdtbUm7OnN",
+      "5dRwdw0BLvGmNQ2TqBhOdc",
+      "7hACwt7KNexldVwCFRlaU2"
+    ],
+    "spotifyId": "5m984rwcMVTObo3jCSzDCf",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb2e475e409b7d8ffed250ff50",
+    "genres": [
+      "country hip hop"
+    ]
+  },
+  {
+    "artist": "Gilla Band",
+    "venue": "Meow Wolf",
+    "date": "2026-11-09T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/gillaband",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/gillaband",
+    "sourceEventId": "019e532b-0516-65c4-9cb9-45edc082fe8c__13f65814-d30d-e348-fcab-4ef11fed4f50",
+    "sourceEventSlug": "gillaband",
+    "description": "Gilla Band. Nov 8th Doors @ 8:00 PM.",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "7DQ3JbZ8JmjjxoGmOYkjoR",
+      "5JPikGNqkUngwpppwRfiFd",
+      "1GRGCIaRlqSCR6ljUmZpv0"
+    ],
+    "spotifyId": "7IdPmzvB3PugXieZE9vS4S",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb5b46e484fab7fc3b5cbc2008",
+    "genres": [
+      "noise rock",
+      "post-punk",
+      "industrial rock"
+    ]
+  },
+  {
+    "artist": "Puma Blue",
+    "venue": "Meow Wolf",
+    "date": "2026-11-10T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/pumablue",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/pumablue",
+    "sourceEventId": "019e95e7-efd1-c7bc-b006-0efab54ecda2__68771f0f-294e-d0ba-f5da-089af435398f",
+    "sourceEventSlug": "pumablue",
+    "description": "Puma Blue. Nov 9th Doors @ 8:00 PM.",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "600uAlmfRmnPG7b2whsVTI",
+      "4NYFBOqAZ68yY5XymxEN20",
+      "6Id2D4fydr2s1V18ayKHdd"
+    ],
+    "spotifyId": "6lHO1eGthNnos9KP2BH0cG",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb0b676222e49056ce9b91cf2a",
+    "genres": [
+      "bedroom pop"
+    ]
+  },
+  {
+    "artist": "Bayonne",
+    "venue": "Meow Wolf",
+    "date": "2026-11-11T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/bayonne",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/bayonne",
+    "sourceEventId": "019d93b6-891f-f688-63e9-23ca2d30fa2c__3cd258fb-b928-aef1-1fd5-485ae4b3f4a9",
+    "sourceEventSlug": "bayonne",
+    "description": "Bayonne - The ‘Filters’ Tour. Nov 10th Doors @ 8:00 PM.",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "5WSbA7CYliGAJiZTRldTMK",
+      "2bAZx1704rpD2K0Uhtzei0",
+      "0pWKCfRmT48YdiNBoM9NrZ"
+    ],
+    "spotifyId": "6BbqU3r1G2mwkRIfIbkCek",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb232f7a12deba5da507ad6a89"
+  },
+  {
+    "artist": "Bahamas",
+    "venue": "Meow Wolf",
+    "date": "2026-11-12T03:00:00.000Z",
+    "ticketUrl": "https://tickets.meowwolf.com/events/santa-fe/bahamas",
+    "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/bahamas",
+    "sourceEventId": "019cc4f6-2db9-d6d3-f508-373d40a201c8__373cd78b-8705-08b5-f03e-5e0ab371e91e",
+    "sourceEventSlug": "bahamas",
+    "description": "Bahamas . Nov 11th Doors @ 8:00 PM.",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "6IBpFG2LU2udYofIuROp3w",
+      "0qI1W6chJgvrSAzAkX9JBa",
+      "6ioeN8jQ8Qc3tS8dhpoAVi"
+    ],
+    "spotifyId": "4C50EbCS11M0VbGyH3OfLt",
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebdab93a525f5a0a39ee1df01b"
   }
 ]

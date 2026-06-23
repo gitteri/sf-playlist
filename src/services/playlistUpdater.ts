@@ -2,6 +2,8 @@ import { ConcertService } from './concert';
 import { SpotifyService } from './spotify';
 import { JamBaseService } from './jambase';
 import { SongkickService } from './songkick';
+import { HotelGlorietaService } from './hotelGlorieta';
+import { MeowWolfService } from './meowWolf';
 import { Concert } from '../types/concert';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -10,12 +12,16 @@ export class PlaylistUpdater {
   private concertService: ConcertService;
   private jambaseService: JamBaseService;
   private songkickService: SongkickService;
+  private hotelGlorietaService: HotelGlorietaService;
+  private meowWolfService: MeowWolfService;
   private spotifyService: SpotifyService;
   
   constructor(playlistId: string) {
     this.concertService = new ConcertService();
     this.jambaseService = new JamBaseService();
     this.songkickService = new SongkickService();
+    this.hotelGlorietaService = new HotelGlorietaService();
+    this.meowWolfService = new MeowWolfService();
     this.spotifyService = new SpotifyService(playlistId);
   }
   
@@ -38,10 +44,18 @@ export class PlaylistUpdater {
       console.log('Fetching upcoming concert events from SongKick...');
       const songkickConcerts = await this.songkickService.fetchConcerts();
       
+      console.log('Fetching upcoming events from Hotel Glorieta...');
+      const hotelGlorietaConcerts = await this.hotelGlorietaService.fetchConcerts();
+      
+      console.log('Fetching upcoming events from Meow Wolf...');
+      const meowWolfConcerts = await this.meowWolfService.fetchConcerts();
+      
       // Combine all concerts
       const allConcerts = [
         ...sfReporterConcerts,
-        ...songkickConcerts
+        ...songkickConcerts,
+        ...hotelGlorietaConcerts,
+        ...meowWolfConcerts
       ];
       
       // Filter out non-artist events

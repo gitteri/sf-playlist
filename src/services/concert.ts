@@ -163,6 +163,17 @@ export class ConcertService {
     
     // Remove "at [venue]" patterns
     name = name.replace(/\s*at\s+.*$/i, '');
+
+    // Handle multiple artists in the same title
+    const artistSeparators = [' and ', ' & ', ' w/ '];
+    const specialCases = ['Caleb & Company'];
+
+    for (const separator of artistSeparators) {
+      if (name.includes(separator) && !specialCases.some(sc => name.includes(sc))) {
+        name = name.split(separator)[0];
+        break;
+      }
+    }
     
     // Remove extra spaces
     name = name.trim();
