@@ -276,7 +276,7 @@ export class SpotifyService {
    * @param artistName Name of the artist to search for
    * @returns Artist ID if found, null otherwise
    */
-  async searchArtist(artistName: string): Promise<{ id: string, imageUrl?: string, genres?: string[] } | null> {
+  async searchArtist(artistName: string): Promise<{ id: string, name: string, popularity: number, imageUrl?: string, genres?: string[] } | null> {
     return this.withRetry(async () => {
       try {
         const response = await this.spotifyApi.searchArtists(artistName, { limit: 10 });
@@ -290,6 +290,8 @@ export class SpotifyService {
           if (exactMatch) {
             return {
               id: exactMatch.id,
+              name: exactMatch.name,
+              popularity: exactMatch.popularity || 0,
               imageUrl: exactMatch.images && exactMatch.images.length > 0 ? exactMatch.images[0].url : undefined,
               genres: exactMatch.genres || []
             };
@@ -304,6 +306,8 @@ export class SpotifyService {
             console.log(`Found fuzzy match: "${fuzzyMatch.name}" for search term "${artistName}"`);
             return {
               id: fuzzyMatch.id,
+              name: fuzzyMatch.name,
+              popularity: fuzzyMatch.popularity || 0,
               imageUrl: fuzzyMatch.images && fuzzyMatch.images.length > 0 ? fuzzyMatch.images[0].url : undefined,
               genres: fuzzyMatch.genres || []
             };
@@ -313,6 +317,30 @@ export class SpotifyService {
         return null;
       } catch (error) {
         console.error(`Error searching for artist ${artistName}:`, error);
+        return null;
+      }
+    });
+  }
+
+  /**
+   * Get artist details by Spotify ID
+   * @param artistId Spotify artist ID
+   * @returns Artist details or null
+   */
+  async getArtistById(artistId: string): Promise<{ id: string, name: string, popularity: number, imageUrl?: string, genres?: string[] } | null> {
+    return this.withRetry(async () => {
+      try {
+        const response = await this.spotifyApi.getArtist(artistId);
+        const artist = response.body;
+        return {
+          id: artist.id,
+          name: artist.name,
+          popularity: artist.popularity || 0,
+          imageUrl: artist.images && artist.images.length > 0 ? artist.images[0].url : undefined,
+          genres: artist.genres || []
+        };
+      } catch (error) {
+        console.error(`Error getting artist by ID ${artistId}:`, error);
         return null;
       }
     });
@@ -335,6 +363,26 @@ export class SpotifyService {
           .map(track => track.id);
       } catch (error) {
         console.error(`Error getting top tracks for artist ${artistId}:`, error);
+        return [];
+      }
+    });
+  }
+
+  /**
+   * Get top track names for an artist
+   * @param artistId Spotify artist ID
+   * @param limit Number of tracks to return
+   * @returns Array of track names
+   */
+  async getArtistTopTrackNames(artistId: string, limit: number = 3): Promise<string[]> {
+    return this.withRetry(async () => {
+      try {
+        const response = await this.spotifyApi.getArtistTopTracks(artistId, 'US');
+        return response.body.tracks
+          .slice(0, limit)
+          .map(track => track.name);
+      } catch (error) {
+        console.error(`Error getting top track names for artist ${artistId}:`, error);
         return [];
       }
     });

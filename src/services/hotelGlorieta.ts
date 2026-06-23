@@ -56,6 +56,34 @@ export class HotelGlorietaService {
         const slug = event.slug;
         const listingUrl = slug ? `https://www.hotelglorietasantafe.com/event-details/${slug}` : this.url;
         
+        let description = event.description || undefined;
+        if (slug) {
+          try {
+            const detailUrl = `https://www.hotelglorietasantafe.com/event-details/${slug}`;
+            const detailResponse = await axios.get(detailUrl, {
+              headers: {
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+              }
+            });
+            const $detail = cheerio.load(detailResponse.data);
+            const detailWixScript = $detail('#wix-warmup-data').html();
+            if (detailWixScript) {
+              const detailData = JSON.parse(detailWixScript);
+              const detailEventObj = this.findEventWithDesc(detailData);
+              if (detailEventObj && detailEventObj.longDescription) {
+                const bioText = this.extractTextFromRichText(detailEventObj.longDescription)
+                  .replace(/\s+/g, ' ')
+                  .trim();
+                if (bioText) {
+                  description = bioText;
+                }
+              }
+            }
+          } catch (err: any) {
+            console.error(`Error fetching detail page for ${slug}:`, err.message);
+          }
+        }
+        
         concerts.push({
           artist: cleanedArtist,
           venue,
@@ -64,7 +92,7 @@ export class HotelGlorietaService {
           listingUrl,
           sourceEventId: event.id,
           sourceEventSlug: slug,
-          description: event.description || undefined,
+          description,
           source: 'Hotel Glorieta'
         });
       }
@@ -126,5 +154,44 @@ export class HotelGlorietaService {
     name = name.replace(/^Jazz Night\s+-\s*/i, '');
     
     return name.trim();
+  }
+
+  /**
+   * Recursively search Wix data structure for the event object containing longDescription
+   */
+  private findEventWithDesc(obj: any): any | null {
+    if (!obj || typeof obj !== 'object') return null;
+    if (obj.longDescription || obj.about) {
+      return obj;
+    }
+    for (const key of Object.keys(obj)) {
+      const res = this.findEventWithDesc(obj[key]);
+      if (res) return res;
+    }
+    return null;
+  }
+
+  /**
+   * Recursively extract raw text strings from Wix Slate rich text longDescription JSON
+   */
+  private extractTextFromRichText(obj: any): string {
+    if (!obj) return '';
+    if (typeof obj === 'string') return '';
+    if (Array.isArray(obj)) {
+      return obj.map(item => this.extractTextFromRichText(item)).join('');
+    }
+    let text = '';
+    if (obj.textData && typeof obj.textData.text === 'string') {
+      text += obj.textData.text;
+    } else if (obj.text && typeof obj.text === 'string' && obj.type === 'text') {
+      text += obj.text;
+    } else {
+      for (const val of Object.values(obj)) {
+        if (typeof val === 'object') {
+          text += this.extractTextFromRichText(val);
+        }
+      }
+    }
+    return text;
   }
 }

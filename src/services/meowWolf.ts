@@ -65,7 +65,33 @@ export class MeowWolfService {
           ? `https://tickets.meowwolf.com/events/santa-fe/${event.url}`
           : this.url;
         
-        const description = event.text?.ariaLabel || undefined;
+        let description = event.text?.ariaLabel || undefined;
+        if (event.url) {
+          try {
+            const detailUrl = `https://tickets.meowwolf.com/events/santa-fe/${event.url}`;
+            const detailResponse = await axios.get(detailUrl, {
+              headers: {
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+              },
+              timeout: 10000
+            });
+            const $detail = cheerio.load(detailResponse.data);
+            const detailNextDataScript = $detail('#__NEXT_DATA__').html();
+            if (detailNextDataScript) {
+              const detailParsed = JSON.parse(detailNextDataScript);
+              const detailEventObj = detailParsed.props?.pageProps?.events?.events?.[0];
+              if (detailEventObj && detailEventObj.description) {
+                const $desc = cheerio.load(detailEventObj.description);
+                const bioText = $desc.text().replace(/\s+/g, ' ').trim();
+                if (bioText) {
+                  description = bioText;
+                }
+              }
+            }
+          } catch (err: any) {
+            console.error(`Error fetching Meow Wolf detail page for ${event.url}:`, err.message);
+          }
+        }
         
         // Add a Concert entry for each artist in this show
         for (const artist of artistsList) {

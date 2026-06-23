@@ -1,15 +1,5 @@
 [
   {
-    "artist": "Santa Fe Grass",
-    "venue": "The Bridge at Santa Fe Brewing Co.",
-    "date": "2026-06-22T22:20:00.000Z",
-    "listingUrl": " https://santafebrewing.com/taproom/beer-hall/",
-    "sourceEventId": 4809576,
-    "sourceEventSlug": "santa-fe-grass-jun-22-2026",
-    "description": "<p>Live traditional and contemporary bluegrass music. </p>",
-    "source": "Santa Fe Reporter"
-  },
-  {
     "artist": "Smoking Toad",
     "venue": "Tumbleroot Brewery & Distillery",
     "date": "2026-06-22T23:00:00.000Z",
@@ -151,69 +141,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853538,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
@@ -302,7 +230,15 @@
     "sourceEventId": 4837840,
     "sourceEventSlug": "locals-night-folk-jam-jun-25-2026",
     "description": "<p>Grab your instrument and join Queen Bee Music Association for a folk jam! All experience levels welcome! </p>",
-    "source": "Santa Fe Reporter"
+    "source": "Santa Fe Reporter",
+    "subArtists": [
+      {
+        "name": "Locals Night"
+      },
+      {
+        "name": "Folk Jam"
+      }
+    ]
   },
   {
     "artist": "Folk Jam with Queen Bee Music Association",
@@ -447,18 +383,7 @@
     "listingUrl": "https://www.socialkitchensf.com/",
     "sourceEventId": 4838290,
     "description": "<p>Two powerhouse bands that ignite the stage with Latin rock, Chicano funk, and timeless old-school classics. </p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "7jJPmrB7baCiyfY44AhrFa",
-      "1cH5ljMHc9kVaUcd8TDQRf",
-      "0ndGo6Y6ngw33sCjJFsTl4"
-    ],
-    "spotifyId": "4KKNSSNfectr01qLAy2wEc",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b273d3c955f5cc71aaf9619b280c",
-    "genres": [
-      "baltimore club",
-      "jersey club"
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -505,21 +430,7 @@
     "ticketUrl": "https://tickets.holdmyticket.com/tickets/463045",
     "sourceEventId": 4853352,
     "description": "<p>ABQ's Queen of Soul Hillary Smith sings jazz with Alex Murzyn on saxophone, John Funkhouser on piano, Gordon Johnson on bass and Rich Malloy on drums. </p>",
-    "source": "Santa Fe Reporter",
-    "subArtists": [
-      {
-        "name": "Alex Murzyn on saxophone"
-      },
-      {
-        "name": "John Funkhouser on piano"
-      },
-      {
-        "name": "Gordon Johnson on bass"
-      },
-      {
-        "name": "Rich Malloy on drums"
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Betty Benedeadly",
@@ -579,21 +490,7 @@
     "listingUrl": "https://hrasantafe.org/pride-2026/",
     "sourceEventId": 4853600,
     "description": "<p>Get ready to turn up the energy for PRIDE {after dark}, one of the most electrifying nights of PRIDE Santa Fe 2026 featuring an immersive, late-night dance experience where music, art, and queer joy collide.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "subArtists": [
-      {
-        "name": "an immersive"
-      },
-      {
-        "name": "late-night dance experience where music"
-      },
-      {
-        "name": "art"
-      },
-      {
-        "name": "queer joy collide"
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "The Ron Crowder Band",
@@ -714,69 +611,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853539,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
@@ -894,69 +729,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853540,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
@@ -1059,69 +832,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853541,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
@@ -1224,69 +935,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853542,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
@@ -1389,69 +1038,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853543,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Remix Wednesdays feat. DJ Stranger Vinyl Set",
@@ -1654,69 +1241,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853544,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Eagles of Death Metal",
@@ -1811,66 +1336,7 @@
     "sourceEventId": 4835898,
     "sourceEventSlug": "wonderful-fantastic-hip-hop-festival-aug-7-2026",
     "description": "<p>Local multi-hyphenate Raashan Ahmad presides over his annual ode to hip-hop's genesis and enduring excellence with performances from Souls of Mischief, Brother Ali and Slum Village. Honestly? This lineup is INSANE and the show is free. Thanks, Raashan and Lensic 360!</p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0PV1TFUMTBrDETzW6KQulB",
-      "2eNSieyqDoZMa3yOSagR4q",
-      "0VuzA7lyIFn1VzinsOak8J",
-      "42uXDKUhyAt5Exe1G5pKWJ",
-      "06tMxo0sySSq4SkIS3xUsc",
-      "1nRrJHvBAnZ9DQK0QJsYDT",
-      "7sZCAHP2duHwr5M5K7lHsb",
-      "2KBo6O5rkNdtYT3wYjkEkq",
-      "3ZUgG228RG5bbRGsF3OzDg"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb77f22a53b5c7965572c5480c",
-    "genres": [
-      "jazz rap",
-      "old school hip hop",
-      "underground hip hop"
-    ],
-    "subArtists": [
-      {
-        "name": "Souls of Mischief",
-        "spotifyId": "5Rzqmz1zAszembFHGZQuAt",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb77f22a53b5c7965572c5480c",
-        "genres": [
-          "jazz rap",
-          "old school hip hop"
-        ],
-        "trackIds": [
-          "0PV1TFUMTBrDETzW6KQulB",
-          "2eNSieyqDoZMa3yOSagR4q",
-          "0VuzA7lyIFn1VzinsOak8J"
-        ]
-      },
-      {
-        "name": "Brother Ali",
-        "spotifyId": "6CsleyOZtyt16saX8WhzDx",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb63ed92a9f979d3e88f371bdf",
-        "genres": [
-          "underground hip hop"
-        ],
-        "trackIds": [
-          "42uXDKUhyAt5Exe1G5pKWJ",
-          "06tMxo0sySSq4SkIS3xUsc",
-          "1nRrJHvBAnZ9DQK0QJsYDT"
-        ]
-      },
-      {
-        "name": "Slum Village",
-        "spotifyId": "1020a42xVklY6c56imNcaa",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd3e282b54f0709be5376764a",
-        "genres": [
-          "jazz rap"
-        ],
-        "trackIds": [
-          "7sZCAHP2duHwr5M5K7lHsb",
-          "2KBo6O5rkNdtYT3wYjkEkq",
-          "3ZUgG228RG5bbRGsF3OzDg"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Banshee Tree",
@@ -2027,69 +1493,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853545,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "DJ OPTAMYSTIK",
@@ -2221,69 +1625,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853546,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "DK Harrell",
@@ -2293,15 +1635,6 @@
     "sourceEventId": 4835945,
     "sourceEventSlug": "dk-harrell-aug-20-2026",
     "description": "If you like the blues (by which we mean the music, not feeling sad), look no further than songwriter/singer/shredder Harrell. Turquoise Steel opens. ",
-    "source": "Santa Fe Reporter"
-  },
-  {
-    "artist": "DJ OPTAMYSTIK",
-    "venue": "Cowgirl",
-    "date": "2026-08-21T01:00:00.000Z",
-    "sourceEventId": 4838507,
-    "sourceEventSlug": "dj-optamystik-aug-20-2026",
-    "description": "The most positive beats in town every Thursday.",
     "source": "Santa Fe Reporter"
   },
   {
@@ -2323,6 +1656,15 @@
     "genres": [
       "alt country"
     ]
+  },
+  {
+    "artist": "DJ OPTAMYSTIK",
+    "venue": "Cowgirl",
+    "date": "2026-08-21T01:00:00.000Z",
+    "sourceEventId": 4838507,
+    "sourceEventSlug": "dj-optamystik-aug-20-2026",
+    "description": "The most positive beats in town every Thursday.",
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Fantastic Negrito",
@@ -2482,28 +1824,7 @@
     "sourceEventId": 4838450,
     "sourceEventSlug": "iguanas-w-mineral-hill-aug-24-2026",
     "description": "New Orleans roots rock (think Chicano-style rock with R&amp;B vibes and Latin style). If you watched Treme, you likely know 'em. Funky Americana act Mineral Hill opens. Part of the free Summer Scene series from Lensic 360. ",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "3SXFYyCiLmjsSA5ikmfwr9",
-      "4NeCkBpfFUcnbsYebusVIp",
-      "6XBusA8CO9H1xy3BHcxNkx"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe25d73446d19b43da83787a0",
-    "subArtists": [
-      {
-        "name": "amp;B vibes"
-      },
-      {
-        "name": "Latin style",
-        "spotifyId": "5ROQC5YVQeLlQAjxreXCIr",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe25d73446d19b43da83787a0",
-        "trackIds": [
-          "3SXFYyCiLmjsSA5ikmfwr9",
-          "4NeCkBpfFUcnbsYebusVIp",
-          "6XBusA8CO9H1xy3BHcxNkx"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Doug Montgomery",
@@ -2557,69 +1878,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853547,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Last Wednesdays with John Francis",
@@ -2783,69 +2042,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853548,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -2902,69 +2099,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853549,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -3021,69 +2156,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853550,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -3140,69 +2213,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853551,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -3259,69 +2270,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853552,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -3378,69 +2327,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853553,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -3497,69 +2384,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853554,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -3616,69 +2441,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853555,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -3753,69 +2516,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853556,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -3872,69 +2573,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853557,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -3991,69 +2630,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853558,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -4110,69 +2687,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853559,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -4229,69 +2744,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853560,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -4348,69 +2801,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853561,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -4467,69 +2858,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853562,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -4586,69 +2915,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853563,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "David Wood",
@@ -4705,69 +2972,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853564,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Doug Montgomery",
@@ -4808,69 +3013,7 @@
     "listingUrl": "https://www.facebook.com/share/1D6s5t8XB1/",
     "sourceEventId": 4853565,
     "description": "<p>Join the Brotha Love &amp; The Blueristocrats house band for a fun-filled night out in Santa Fe, as they are joined every week by some of the finest variety of traditional blues with a little honky-tonk, rock, and soul, by players from Albuquerque to Taos and beyond.</p><p><br></p>",
-    "source": "Santa Fe Reporter",
-    "trackIds": [
-      "0SoWAjgu4jJ1PLtei3CNez",
-      "6Eb0wxxAgDfFAKyTdcVpXh",
-      "2BNQHenBc9Nzu59ErG0k6t",
-      "2q4rjDy9WhaN3o9MvDbO21",
-      "66TRwr5uJwPt15mfFkzhbi",
-      "6ATrsVaZT7XjkCynxM8cTS",
-      "77uktQePd9IdeMPVWlu1cO",
-      "2xsfwyT49o2OCoPieXMxQC",
-      "0VNZynSjhpNMXHCJUvuQiT"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-    "genres": [
-      "cantopop",
-      "chinese rock",
-      "c-pop",
-      "mandopop"
-    ],
-    "subArtists": [
-      {
-        "name": "a little honky-tonk"
-      },
-      {
-        "name": "rock",
-        "spotifyId": "7vKlWZCVYQIdYzo6anAGkE",
-        "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b2737d085fc5ca11d63d67501bd6",
-        "trackIds": [
-          "0SoWAjgu4jJ1PLtei3CNez",
-          "6Eb0wxxAgDfFAKyTdcVpXh",
-          "2BNQHenBc9Nzu59ErG0k6t"
-        ]
-      },
-      {
-        "name": "soul",
-        "spotifyId": "6GMYJwaziB4ekv1Y6wCDWS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7a5849685e85f7e63bac7f34",
-        "trackIds": [
-          "2q4rjDy9WhaN3o9MvDbO21",
-          "66TRwr5uJwPt15mfFkzhbi",
-          "6ATrsVaZT7XjkCynxM8cTS"
-        ]
-      },
-      {
-        "name": "by players from Albuquerque to Taos"
-      },
-      {
-        "name": "beyond",
-        "spotifyId": "4F5TrtYYxsVM1PhbtISE5m",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5eb960319376b0e00277fbee23f",
-        "genres": [
-          "cantopop",
-          "chinese rock",
-          "c-pop",
-          "mandopop"
-        ],
-        "trackIds": [
-          "77uktQePd9IdeMPVWlu1cO",
-          "2xsfwyT49o2OCoPieXMxQC",
-          "0VNZynSjhpNMXHCJUvuQiT"
-        ]
-      }
-    ]
+    "source": "Santa Fe Reporter"
   },
   {
     "artist": "Jesus Bas",
@@ -5987,14 +4130,8 @@
     "listingUrl": "https://www.hotelglorietasantafe.com/event-details/jazz-night-eliana-joy-5",
     "sourceEventId": "a062e9ef-992e-4653-9667-0d9acad0b73a",
     "sourceEventSlug": "jazz-night-eliana-joy-5",
-    "description": "Lady Duff's Lounge\n\nFREE",
-    "source": "Hotel Glorieta",
-    "trackIds": [
-      "5kO5gtQ7f2KGEqcFzDKuKf",
-      "2CPRoetf8d2jlc2lwAkBY1"
-    ],
-    "spotifyId": "6MxO2Uhl40xeYFfA0LAgea",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd0b0b1cab00375d01f250d1d"
+    "description": "Driven by a heartfelt and zealous approach to creating and collaborating, Eliana Joy O’Brien is a multi-instrumentalist, vocalist, educator, and artist from Albuquerque, New Mexico. After a short, sweet lifetime of playing classical piano and euphonium, Eliana moved to Brooklyn to embark on the intimate exploration of jazz as a creative medium. Currently located in Santa Fe, NM, Eliana can be found crafting an elaborate art project, captivating audiences with earnest interpretations of jazz standards, or just having a plain ol’ silly goose time.",
+    "source": "Hotel Glorieta"
   },
   {
     "artist": "Rolas Cumbiamberas X Agave Sin Fronteras",
@@ -6004,7 +4141,7 @@
     "listingUrl": "https://www.hotelglorietasantafe.com/event-details/rolas-cumbiamberas-x-agave-sin-fronteras",
     "sourceEventId": "67826573-7f3b-4d81-8f60-c9d824f5188b",
     "sourceEventSlug": "rolas-cumbiamberas-x-agave-sin-fronteras",
-    "description": "FREE",
+    "description": "Deep cut cumbias y más w/ Luz Skylarker! Featuring cocktail and flight specials all evening by Laika Spirits. Agave Sin Fronteras is Santa Fe’s first multi-day festival dedicated to agave spirits, culture, education, and hospitality. Bringing together producers, bartenders, educators, importers, and enthusiasts for four days of seminars, cocktail events, tastings, and community gatherings in Santa Fe, New Mexico. “Sin Fronteras” reflects the festival’s spirit of collaboration and cultural exchange within the agave community.Anchored by the Grand Tasting at Joe’s Tequila Bar on Saturday, June 27, this festival celebrates tequila, mezcal, sotol, raicilla, bacanora, and independent agave spirits through fun, interesting, and educational community-oriented events.",
     "source": "Hotel Glorieta"
   },
   {
@@ -6015,15 +4152,8 @@
     "listingUrl": "https://www.hotelglorietasantafe.com/event-details/agave-sin-fronteras-pool-party",
     "sourceEventId": "9c19da07-70cb-4b67-9016-528e5d77fb2c",
     "sourceEventSlug": "agave-sin-fronteras-pool-party",
-    "description": "Day-pass purchase required",
-    "source": "Hotel Glorieta",
-    "trackIds": [
-      "1nzNoEtPjunpW02PQZoElU",
-      "31JGKIviSzXtq4ClUYLeCa",
-      "2KOeLGQjKgqSlBmQL3NYgv"
-    ],
-    "spotifyId": "2QxgXNrYniqBMYzpVvbytt",
-    "artistImageUrl": "https://i.scdn.co/image/ab67616d0000b27377e9c1a922684afff6b641fa"
+    "description": "Celebrate the wrap of the inaugural Agave Sin Fronteras with us, hanging by one of the best pools in Santa Fe! Food and drinks available for purchase. Entry with purchase of EITHER a pool pass ($30) OR proof of purchase of a paid event from the festival.Agave Sin Fronteras is Santa Fe’s first multi-day festival dedicated to agave spirits, culture, education, and hospitality. Bringing together producers, bartenders, educators, importers, and enthusiasts for four days of seminars, cocktail events, tastings, and community gatherings in Santa Fe, New Mexico. “Sin Fronteras” reflects the festival’s spirit of collaboration and cultural exchange within the agave community.Anchored by the Grand Tasting at Joe’s Tequila Bar on Saturday, June 27, this festival celebrates tequila, mezcal, sotol, raicilla, bacanora, and independent agave spirits through fun, interesting, and educational community-oriented events.",
+    "source": "Hotel Glorieta"
   },
   {
     "artist": "The Mystic Undertone",
@@ -6033,7 +4163,7 @@
     "listingUrl": "https://www.hotelglorietasantafe.com/event-details/jazz-night-the-mystic-undertone-10",
     "sourceEventId": "d29ba5c4-a75d-4871-bf29-2c0f83b83f23",
     "sourceEventSlug": "jazz-night-the-mystic-undertone-10",
-    "description": "Lady Duff's Lounge",
+    "description": "Jerred Blanchard, jazz pianist from Houston, teamed up with Zeke Kyoku, from Chicago, and Isaac Scarlett, from here in Santa Fe, to create The Mystic Undertone. Mystic Undertone is a forward-thinking jazz experience blending both atmospheric moods with traditional jazz tropes creating a contemporary music experience that showcases the nuance and virtuosity of its founding members. Hosting jazz jams while collaborating with other local musicians, each Mystic Undertone show is a different adventure that will leave the listener both intrigued and fulfilled.",
     "source": "Hotel Glorieta"
   },
   {
@@ -6044,7 +4174,7 @@
     "listingUrl": "https://www.hotelglorietasantafe.com/event-details/dark-red-2",
     "sourceEventId": "54ae4905-4de2-44f5-9b00-e51244ded632",
     "sourceEventSlug": "dark-red-2",
-    "description": "21+",
+    "description": "Enter into a space lit by red lights, 4 black walls, enticing dancers surrounded by DARK, INDUSTRIAL, GOTH, PUNK, METAL, TECHNO",
     "source": "Hotel Glorieta"
   },
   {
@@ -6055,7 +4185,7 @@
     "listingUrl": "https://www.hotelglorietasantafe.com/event-details/jazz-night-the-mystic-undertone-11",
     "sourceEventId": "1f2a21ed-9147-4764-a18b-5ed3eda7a4ec",
     "sourceEventSlug": "jazz-night-the-mystic-undertone-11",
-    "description": "Lady Duff's Lounge",
+    "description": "Jerred Blanchard, jazz pianist from Houston, teamed up with Zeke Kyoku, from Chicago, and Isaac Scarlett, from here in Santa Fe, to create The Mystic Undertone. Mystic Undertone is a forward-thinking jazz experience blending both atmospheric moods with traditional jazz tropes creating a contemporary music experience that showcases the nuance and virtuosity of its founding members. Hosting jazz jams while collaborating with other local musicians, each Mystic Undertone show is a different adventure that will leave the listener both intrigued and fulfilled.",
     "source": "Hotel Glorieta"
   },
   {
@@ -6066,14 +4196,8 @@
     "listingUrl": "https://www.hotelglorietasantafe.com/event-details/jazz-night-eliana-joy-6",
     "sourceEventId": "4b009887-d323-4d24-839a-f4a16ef43575",
     "sourceEventSlug": "jazz-night-eliana-joy-6",
-    "description": "Lady Duff's Lounge\n\nFREE",
-    "source": "Hotel Glorieta",
-    "trackIds": [
-      "5kO5gtQ7f2KGEqcFzDKuKf",
-      "2CPRoetf8d2jlc2lwAkBY1"
-    ],
-    "spotifyId": "6MxO2Uhl40xeYFfA0LAgea",
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebd0b0b1cab00375d01f250d1d"
+    "description": "Driven by a heartfelt and zealous approach to creating and collaborating, Eliana Joy O’Brien is a multi-instrumentalist, vocalist, educator, and artist from Albuquerque, New Mexico. After a short, sweet lifetime of playing classical piano and euphonium, Eliana moved to Brooklyn to embark on the intimate exploration of jazz as a creative medium. Currently located in Santa Fe, NM, Eliana can be found crafting an elaborate art project, captivating audiences with earnest interpretations of jazz standards, or just having a plain ol’ silly goose time.",
+    "source": "Hotel Glorieta"
   },
   {
     "artist": "White Sands / Sinister Surfer",
@@ -6083,7 +4207,7 @@
     "listingUrl": "https://www.hotelglorietasantafe.com/event-details/white-sands-sinister-surfer",
     "sourceEventId": "4cbc12a1-46c4-432d-8b80-4d4c094c389e",
     "sourceEventSlug": "white-sands-sinister-surfer",
-    "description": "Presented by Mama Mañana",
+    "description": "🌊 Surf's up in the high desert. White Sands and Sinister Surfer wash into The Marigold Room on July 24th, two of Albuquerque's finest, drenched in live psychedelic projections. Come for a night of surf, exotica, psychedelia, and good ol' retro rock n' roll! Doors 8PM.",
     "source": "Hotel Glorieta",
     "trackIds": [
       "4ymlF7D3Jlz4IYq0iAP39B",
@@ -6136,7 +4260,7 @@
     "listingUrl": "https://www.hotelglorietasantafe.com/event-details/rolas-cumbiamberas-w-luz-skylarker-4",
     "sourceEventId": "e93f774c-7627-4d51-aa22-c98920318568",
     "sourceEventSlug": "rolas-cumbiamberas-w-luz-skylarker-4",
-    "description": "FREE",
+    "description": "Deep cut cumbias y más w/ Luz Skylarker!",
     "source": "Hotel Glorieta",
     "subArtists": [
       {
@@ -6220,7 +4344,7 @@
     "listingUrl": "https://www.hotelglorietasantafe.com/event-details/wild-pink",
     "sourceEventId": "9e87f9fb-50b5-4d62-9652-2f03d7316a93",
     "sourceEventSlug": "wild-pink",
-    "description": "Presented by Lensic 360\n\n$20 ADV / $25 DOS",
+    "description": "Presented by Lensic 360Wild Pink’s new album Dulling The Horns finds frontman John Ross rebuilding after cancer, burnout, and years of emotional upheaval. Once known for sweeping synth-Americana and polished production, the band strips things back here, recording live and embracing a rawer, rough-edged sound inspired by classic rock and Crazy Horse-style grit. Across songs full of fragmented observations, dark humor, anxiety, and personal reflection, Ross wrestles with aging, fatherhood, mortality, and the exhausting cycle of the music industry while searching for renewed meaning and creative fire. The result is Wild Pink’s loosest, loudest, and most visceral album yet — a messy but vital reclamation of purpose that ultimately lands on a hard-earned philosophy: keep moving forward, even without clear answers.",
     "source": "Hotel Glorieta",
     "trackIds": [
       "1mjtX4af3hbvz8TsM4Eium",
@@ -6238,7 +4362,7 @@
     "listingUrl": "https://www.hotelglorietasantafe.com/event-details/john-moreland-georgia-maq",
     "sourceEventId": "73e48f6f-8dc0-4e56-af6e-6ef41503e69e",
     "sourceEventSlug": "john-moreland-georgia-maq",
-    "description": "$25 ADV / $30 DOS",
+    "description": "After an impressive 2010s run of albums that earned him a devoted fanbase, accolades from outlets like The New York Times, Fresh Air, and Pitchfork, and a place in the upper echelon of modern Americana singer-songwriters, John Moreland has already taken two unexpected turns this decade, both of which highlight his fierce artistic independence. First, he released a brilliant and sonically layered folk-electronica meditation on modern alienation, 2022’s Birds In The Ceiling, that took some of his fans by surprise. Then, after wrapping up a difficult tour behind that record in November 2022, he stopped working entirely. He took an entire year off from playing shows and didn’t use a smartphone for 6 months. “At the end of that year, I was just like ‘Nobody call me’. I needed to not do anything for a while and just process,” Moreland says. After nearly a decade in the limelight, constantly jostled by the expectations of his audience, the music industry, and anonymous strangers online, he carved out some time to rest, heal, and reflect for the first time.The result of that unplugged year at home is 2024’s Visitor, a folk-rock record that is intimate, immediate, deeply thoughtful, and catchy as hell. Moreland recorded the album at his home in Bixby, Oklahoma, in only ten days, playing nearly every instrument himself (his wife Pearl Rachinsky sang on one song, and his longtime collaborator John Calvin Abney contributed a guitar solo), as well as engineering and mixing the album. “Simplicity and immediacy felt very important to the process,” he says.This is a return to the approach Moreland took on his breakthrough albums, 2013’s In The Throes and 2015’s High On Tulsa Heat, both of which were largely self-recorded at home with a small cadre of additional musicians. Echoes of these early albums can be heard on Visitor (Moreland makes a passing reference to In The Throes’ opening track “I Need You To Tell Me Who I Am” in two different songs on Visitor), which finds Moreland shutting out the noisy world outside, and the even noisier digital world in his pocket, to reconnect with a muse that’s had to increasingly compete for his attention in the intervening years. Visitor charts his journey back to this muse. If Birds In The Ceiling’s theme was alienation, Visitor’s theme is un-alienation. Georgia Maq became something of a local hero as the leader of revered punk trio Camp Cope, calling out music industry sexism over fearsome indie rock salvos while garnering widespread international acclaim. In late 2019, Maq surprised everyone by releasing her solo debut, Pleaser, a refreshingly bright and catchy missive of electro-pop tunes about heartbreak and love. A suite of singles in 'Someone Stranger' with Alice Ivy, 'Joe Rogan', 'tropical lush ice' and live EP recorded at the Sydney Opera House showcase the breadth of her taste and range.Ever since, Georgia has chased a more genuine form of pop music in her solo career, a vision hat retains all of the glamour and universality but feels unburdened from capitalist underpinnings. Mining the evergreen themes of romantic, sexual and self-love, Georgia Maq’s solo venture was not so much a transformation as it was a revelation. Opening up on her vulnerabilities and heartbreaks, her continued evolution is far beyond the Greek girl from Naarm that first set fire to the rain. ADA: Accommodations upon request, please speak with a TMR or Hotel Glorieta representative.SEATING: All tickets are GA. This show will be a combination of seated and standing room.PARKING: At the venue and in the gravel lot next door",
     "source": "Hotel Glorieta",
     "trackIds": [
       "7vzYYRZuvy9CNyzh3LJFaY",
@@ -6290,7 +4414,7 @@
     "listingUrl": "https://www.hotelglorietasantafe.com/event-details/two-runner",
     "sourceEventId": "f45a5cd0-498e-4c31-b1f2-c43bd415f506",
     "sourceEventSlug": "two-runner",
-    "description": "Presented by Lensic 360",
+    "description": "Presented by Lensic 360Amid the excitement and ambiguity of a new start, Paige Anderson of Two Runner poses poignant questions on Porchlight, her resolute and tenderhearted new record. Beautiful string arrangements, intimate confessionals, and rollicking hymns for the lost and determined, here is an artist who’s been on the road consistently since early childhood - with persistence and commitment to her craft clearly in no short supply.Porchlight offers tunes that are warm and steady, relatable nostalgia twinged with the ache of needing to move on. The result aptly links the uncertainty of letting go and simultaneous resolve of someone faced with no other choice. A destiny perhaps sealed from an early age, as Anderson began her touring career in a six-person family bluegrass band from the age of nine. Now nearly a decade into her own music career, she’s seen stages warming up for Sierra Ferrell, Watchhouse and Molly Tuttle.Although change often comes en masse, it is surreal and jarring to start again. Paige Anderson offers Two Runner as solace and escape for those needing to reset, with sage comfort and kindness from her own accounts, the way all great songwriters do. Porchlight is perhaps best summed up by the chorus in track five, ‘Mocking Crow’: “Wake up tomorrow, there’s no in between - your heart knows what you need.” A reckoning, a stark look in the mirror, hope, and forward movement against all odds.",
     "source": "Hotel Glorieta",
     "trackIds": [
       "56iZtmA6lIG3dSPHIG0uIy",
@@ -6313,7 +4437,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/amtrac",
     "sourceEventId": "019dff89-ac0e-bbd3-7b54-82c601d520cc__6ca9dcee-9054-36ef-e8ea-cbe19ce9a6ed",
     "sourceEventSlug": "amtrac",
-    "description": "Amtrac. Jun 26th Doors @ 9:00 PM. With supporting acts: Aimie Jane, Travel Kit",
+    "description": "AMTRAC · Civilian World",
     "source": "Meow Wolf",
     "trackIds": [
       "1eCbYVNIkLFf54XkKWN6uf",
@@ -6336,29 +4460,8 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/amtrac",
     "sourceEventId": "019dff89-ac0e-bbd3-7b54-82c601d520cc__6ca9dcee-9054-36ef-e8ea-cbe19ce9a6ed",
     "sourceEventSlug": "amtrac",
-    "description": "Amtrac. Jun 26th Doors @ 9:00 PM. With supporting acts: Aimie Jane, Travel Kit",
-    "source": "Meow Wolf",
-    "trackIds": [
-      "34Ig2WkSIvdR0yvxaus54B",
-      "4v6WoicrY9VOcxhXaleguD",
-      "1SMhxEMvOrOBBmuGCvaCLn"
-    ],
-    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb40ac292d0793c27b4b7f8e",
-    "subArtists": [
-      {
-        "name": "supporting acts: Aimie Jane"
-      },
-      {
-        "name": "Travel Kit",
-        "spotifyId": "3gWyq4htQycaYE2a6MUENS",
-        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebeb40ac292d0793c27b4b7f8e",
-        "trackIds": [
-          "34Ig2WkSIvdR0yvxaus54B",
-          "4v6WoicrY9VOcxhXaleguD",
-          "1SMhxEMvOrOBBmuGCvaCLn"
-        ]
-      }
-    ]
+    "description": "AMTRAC · Civilian World",
+    "source": "Meow Wolf"
   },
   {
     "artist": "Travel Kit",
@@ -6368,7 +4471,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/amtrac",
     "sourceEventId": "019dff89-ac0e-bbd3-7b54-82c601d520cc__6ca9dcee-9054-36ef-e8ea-cbe19ce9a6ed",
     "sourceEventSlug": "amtrac",
-    "description": "Amtrac. Jun 26th Doors @ 9:00 PM. With supporting acts: Aimie Jane, Travel Kit",
+    "description": "AMTRAC · Civilian World",
     "source": "Meow Wolf",
     "trackIds": [
       "34Ig2WkSIvdR0yvxaus54B",
@@ -6386,7 +4489,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/pride26",
     "sourceEventId": "019d4636-21a7-c447-0938-aeeeccf5a1df__8e82dfa7-e4a5-5cb9-b1f3-2a5e08e6ec23",
     "sourceEventSlug": "pride26",
-    "description": "PRIDE {after dark} featuring DJ Tracy Young. Jun 27th Doors @ 8:00 PM.",
+    "description": "Get ready to turn up the energy for **PRIDE {after dark}**, one of the most electrifying nights of **PRIDE Santa Fe 2026**! Join us at **Meow Wolf** for an immersive, late-night dance experience where music, art, and queer joy collide. Step into a world of vibrant visuals and unforgettable beats as we transform Meow Wolf into a full-on Pride dance floor. Expect high-energy vibes, dazzling performances, and a community ready to celebrate loudly, proudly, and unapologetically. Whether you’re dancing all night or soaking in the scene, this is the place to be after dark. Headlining the night is internationally acclaimed DJ and producer: About Tracy Young A powerhouse in the global dance music scene, Tracy Young is a Grammy Award-winning DJ, producer, and remixer known for her genre-defining sound and electrifying sets. She has worked with some of the biggest names in music—including Madonna, Beyoncé, Cher, and Rihanna—and has been a staple in clubs and festivals around the world for decades. A proud member of the LGBTQ+ community, Tracy has long been a champion of queer spaces, using her music to bring people together on dance floors across the globe. Her ability to blend house, pop, and high-energy beats creates an unforgettable experience that keeps crowds moving all night long. **Come dance, celebrate, and experience PRIDE after dark like never before.**",
     "source": "Meow Wolf"
   },
   {
@@ -6397,7 +4500,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/wavves",
     "sourceEventId": "019d1c8c-4e46-b87c-2fbb-61f8261d71c2__336d00c5-5023-8879-31c7-9e154a51f51e",
     "sourceEventSlug": "wavves",
-    "description": "Wavves. Jul 8th Doors @ 8:00 PM. With supporting acts: Bass Drum of Death, World's Worst",
+    "description": "Wavves recently made a long-awaited return with their first new music since 2021, the launch of their cannabis brand Wavvy Supply Co., and a Los Angeles wildfire benefit show at Zebulon. The band followed that momentum with the release of their new album Spun, marking the start of a new chapter for Nathan Williams and longtime bandmates Stephen Pope, Ross Traver, and Alex Gates. Now Wavves are expanding the Spun era with a deluxe edition of the album featuring two B-sides and the Live Wavvy Sessions—five songs recorded live in the studio capturing the band’s raw, unfiltered energy. The sessions include performances of “King of the Beach,” “Nine Is God,” “Green Eyes,” “Goner,” and “So Long,” bridging fan-favorite classics with songs from Spun. The album’s single “Goner,” produced by Travis Barker, arrived alongside a Brandon Dermer-directed music video filmed during the band’s Zebulon charity show. Dermer previously directed Wavves’ 2013 video for “That’s On Me” and has worked with artists including Blink-182. Speaking about how the track came together, Williams says: “I had this song I had been sitting on, always revisited it and tried to record it a bunch of times but it was never just right. Eventually it was giving me PTSD. I was talking to Travis about doing some songs together and when I opened up the vault to him, this one jumped out so we laid it down and finally we got it right.” Like Nathan Williams’ earliest music, Spun first took shape in a small shed behind his parents’ house known as the Hideaway—the same space where he recorded some of his earliest material. Since the beginning, Williams has been known for writing songs that push back against the world while still evoking pathos, sympathy, and the uneasy realization that sometimes we’re our own worst enemies—and that can be okay. Over a decade earlier, Williams released King of the Beach, the album that delivered on the promise of his first two homespun records, Wavves and Wavvves. It catapulted the band to worldwide acclaim as one of indie rock’s most exciting new acts. In the years that followed, Wavves entered the major-label system with Warner Records, releasing Afraid of Heights and V, before eventually stepping away in search of greater creative freedom. In 2017, Williams self-released You’re Welcome on his own label, Ghost Ramp, before returning to Fat Possum for 2021’s Hideaway. Wavves have since returned to Ghost Ramp for the release of Spun and its newly released deluxe edition. With Spun and its deluxe edition, Wavves reaffirm their place as one of the most enduring bands to emerge from the late-2000s indie rock explosion. Known for their raucous live shows and sun-bleached punk songs, the band continues to evolve while staying true to the spirit that made them cult heroes in the first place. Bass Drum of Death Bass Drum of Death is getting back to basics. From the bare-bones title of their sixth record—SIX—to the writing approach—their first two LPs were recorded entirely on GarageBand—the creative process for the group is strikingly similar to the early stages of their career. While the new album marks a return to their original recording method, there are a few notable changes. Instead of working solo on the demos, frontman John Barrett and the band (Jim Barrett, guitar; Ian Kirkpatrick, drums) convened for several sessions in Barrett’s home studio in Nashville to bring the songs to life. Manning the faders was producer Jeremy Ferguson (Cage the Elephant, White Reaper), who then hosted the band for ten snowy days of fine tuning at his Battle Tapes studio. The result is a scuzzy blast of their signature sound, with influences ranging from The Stooges to ZZ Top and very much aided by Ferguson’s deft engineering touch. If SIX sounds like a return to form, the band proves they still have a few tricks in their pockets and things up their sleeves. Worlds Worst Worlds Worst is an SLC-based band who introduced their loud, energetic-while-melancholic sound with the release of their two EP’s in 2020 and 2021. They released their self-titled debut album in March of 2023 via Smoking Room/Julia’s War Records, which earned them recognition as one of Stereogum’s Best New Bands of 2023. Worlds Worst has toured extensively across the US, have played multiple festivals, including headlining Philly’s Julia’s War Fest, playing Vermont’s Otis Mountain Get Down, SLC’s Kilby Block Party twice, and the new Best Friends Forever Festival in Las Vegas.",
     "source": "Meow Wolf",
     "trackIds": [
       "5ZGM626be3ItMW4UPjfqdY",
@@ -6421,7 +4524,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/wavves",
     "sourceEventId": "019d1c8c-4e46-b87c-2fbb-61f8261d71c2__336d00c5-5023-8879-31c7-9e154a51f51e",
     "sourceEventSlug": "wavves",
-    "description": "Wavves. Jul 8th Doors @ 8:00 PM. With supporting acts: Bass Drum of Death, World's Worst",
+    "description": "Wavves recently made a long-awaited return with their first new music since 2021, the launch of their cannabis brand Wavvy Supply Co., and a Los Angeles wildfire benefit show at Zebulon. The band followed that momentum with the release of their new album Spun, marking the start of a new chapter for Nathan Williams and longtime bandmates Stephen Pope, Ross Traver, and Alex Gates. Now Wavves are expanding the Spun era with a deluxe edition of the album featuring two B-sides and the Live Wavvy Sessions—five songs recorded live in the studio capturing the band’s raw, unfiltered energy. The sessions include performances of “King of the Beach,” “Nine Is God,” “Green Eyes,” “Goner,” and “So Long,” bridging fan-favorite classics with songs from Spun. The album’s single “Goner,” produced by Travis Barker, arrived alongside a Brandon Dermer-directed music video filmed during the band’s Zebulon charity show. Dermer previously directed Wavves’ 2013 video for “That’s On Me” and has worked with artists including Blink-182. Speaking about how the track came together, Williams says: “I had this song I had been sitting on, always revisited it and tried to record it a bunch of times but it was never just right. Eventually it was giving me PTSD. I was talking to Travis about doing some songs together and when I opened up the vault to him, this one jumped out so we laid it down and finally we got it right.” Like Nathan Williams’ earliest music, Spun first took shape in a small shed behind his parents’ house known as the Hideaway—the same space where he recorded some of his earliest material. Since the beginning, Williams has been known for writing songs that push back against the world while still evoking pathos, sympathy, and the uneasy realization that sometimes we’re our own worst enemies—and that can be okay. Over a decade earlier, Williams released King of the Beach, the album that delivered on the promise of his first two homespun records, Wavves and Wavvves. It catapulted the band to worldwide acclaim as one of indie rock’s most exciting new acts. In the years that followed, Wavves entered the major-label system with Warner Records, releasing Afraid of Heights and V, before eventually stepping away in search of greater creative freedom. In 2017, Williams self-released You’re Welcome on his own label, Ghost Ramp, before returning to Fat Possum for 2021’s Hideaway. Wavves have since returned to Ghost Ramp for the release of Spun and its newly released deluxe edition. With Spun and its deluxe edition, Wavves reaffirm their place as one of the most enduring bands to emerge from the late-2000s indie rock explosion. Known for their raucous live shows and sun-bleached punk songs, the band continues to evolve while staying true to the spirit that made them cult heroes in the first place. Bass Drum of Death Bass Drum of Death is getting back to basics. From the bare-bones title of their sixth record—SIX—to the writing approach—their first two LPs were recorded entirely on GarageBand—the creative process for the group is strikingly similar to the early stages of their career. While the new album marks a return to their original recording method, there are a few notable changes. Instead of working solo on the demos, frontman John Barrett and the band (Jim Barrett, guitar; Ian Kirkpatrick, drums) convened for several sessions in Barrett’s home studio in Nashville to bring the songs to life. Manning the faders was producer Jeremy Ferguson (Cage the Elephant, White Reaper), who then hosted the band for ten snowy days of fine tuning at his Battle Tapes studio. The result is a scuzzy blast of their signature sound, with influences ranging from The Stooges to ZZ Top and very much aided by Ferguson’s deft engineering touch. If SIX sounds like a return to form, the band proves they still have a few tricks in their pockets and things up their sleeves. Worlds Worst Worlds Worst is an SLC-based band who introduced their loud, energetic-while-melancholic sound with the release of their two EP’s in 2020 and 2021. They released their self-titled debut album in March of 2023 via Smoking Room/Julia’s War Records, which earned them recognition as one of Stereogum’s Best New Bands of 2023. Worlds Worst has toured extensively across the US, have played multiple festivals, including headlining Philly’s Julia’s War Fest, playing Vermont’s Otis Mountain Get Down, SLC’s Kilby Block Party twice, and the new Best Friends Forever Festival in Las Vegas.",
     "source": "Meow Wolf",
     "trackIds": [
       "7lHGsPvsdeSD1tRm0faS1o",
@@ -6444,7 +4547,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/wavves",
     "sourceEventId": "019d1c8c-4e46-b87c-2fbb-61f8261d71c2__336d00c5-5023-8879-31c7-9e154a51f51e",
     "sourceEventSlug": "wavves",
-    "description": "Wavves. Jul 8th Doors @ 8:00 PM. With supporting acts: Bass Drum of Death, World's Worst",
+    "description": "Wavves recently made a long-awaited return with their first new music since 2021, the launch of their cannabis brand Wavvy Supply Co., and a Los Angeles wildfire benefit show at Zebulon. The band followed that momentum with the release of their new album Spun, marking the start of a new chapter for Nathan Williams and longtime bandmates Stephen Pope, Ross Traver, and Alex Gates. Now Wavves are expanding the Spun era with a deluxe edition of the album featuring two B-sides and the Live Wavvy Sessions—five songs recorded live in the studio capturing the band’s raw, unfiltered energy. The sessions include performances of “King of the Beach,” “Nine Is God,” “Green Eyes,” “Goner,” and “So Long,” bridging fan-favorite classics with songs from Spun. The album’s single “Goner,” produced by Travis Barker, arrived alongside a Brandon Dermer-directed music video filmed during the band’s Zebulon charity show. Dermer previously directed Wavves’ 2013 video for “That’s On Me” and has worked with artists including Blink-182. Speaking about how the track came together, Williams says: “I had this song I had been sitting on, always revisited it and tried to record it a bunch of times but it was never just right. Eventually it was giving me PTSD. I was talking to Travis about doing some songs together and when I opened up the vault to him, this one jumped out so we laid it down and finally we got it right.” Like Nathan Williams’ earliest music, Spun first took shape in a small shed behind his parents’ house known as the Hideaway—the same space where he recorded some of his earliest material. Since the beginning, Williams has been known for writing songs that push back against the world while still evoking pathos, sympathy, and the uneasy realization that sometimes we’re our own worst enemies—and that can be okay. Over a decade earlier, Williams released King of the Beach, the album that delivered on the promise of his first two homespun records, Wavves and Wavvves. It catapulted the band to worldwide acclaim as one of indie rock’s most exciting new acts. In the years that followed, Wavves entered the major-label system with Warner Records, releasing Afraid of Heights and V, before eventually stepping away in search of greater creative freedom. In 2017, Williams self-released You’re Welcome on his own label, Ghost Ramp, before returning to Fat Possum for 2021’s Hideaway. Wavves have since returned to Ghost Ramp for the release of Spun and its newly released deluxe edition. With Spun and its deluxe edition, Wavves reaffirm their place as one of the most enduring bands to emerge from the late-2000s indie rock explosion. Known for their raucous live shows and sun-bleached punk songs, the band continues to evolve while staying true to the spirit that made them cult heroes in the first place. Bass Drum of Death Bass Drum of Death is getting back to basics. From the bare-bones title of their sixth record—SIX—to the writing approach—their first two LPs were recorded entirely on GarageBand—the creative process for the group is strikingly similar to the early stages of their career. While the new album marks a return to their original recording method, there are a few notable changes. Instead of working solo on the demos, frontman John Barrett and the band (Jim Barrett, guitar; Ian Kirkpatrick, drums) convened for several sessions in Barrett’s home studio in Nashville to bring the songs to life. Manning the faders was producer Jeremy Ferguson (Cage the Elephant, White Reaper), who then hosted the band for ten snowy days of fine tuning at his Battle Tapes studio. The result is a scuzzy blast of their signature sound, with influences ranging from The Stooges to ZZ Top and very much aided by Ferguson’s deft engineering touch. If SIX sounds like a return to form, the band proves they still have a few tricks in their pockets and things up their sleeves. Worlds Worst Worlds Worst is an SLC-based band who introduced their loud, energetic-while-melancholic sound with the release of their two EP’s in 2020 and 2021. They released their self-titled debut album in March of 2023 via Smoking Room/Julia’s War Records, which earned them recognition as one of Stereogum’s Best New Bands of 2023. Worlds Worst has toured extensively across the US, have played multiple festivals, including headlining Philly’s Julia’s War Fest, playing Vermont’s Otis Mountain Get Down, SLC’s Kilby Block Party twice, and the new Best Friends Forever Festival in Las Vegas.",
     "source": "Meow Wolf",
     "trackIds": [
       "5p31gXMyrLUtvDbYIiSaBm",
@@ -6465,7 +4568,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/kojiaiken",
     "sourceEventId": "019d07ae-d3ae-6a2a-cc11-ecb7742ebfc8__bbd6a4c7-fcba-5eb4-693f-cb33c9f93b70",
     "sourceEventSlug": "kojiaiken",
-    "description": "Koji Aiken. Jul 10th Doors @ 8:00 PM.",
+    "description": "Koji Aiken is a Japanese-Canadian drum and bass artist redefining the future of bass music in North America, but before he was behind the decks, he was building a platform. Starting as a content creator and the 'DNB Plug', Koji gained over 140,000 followers across TikTok and Instagram by curating high-quality DnB content, championing underground artists, and building trust as a go-to source for fans of the genre. His following has helped fuel a movement, not just a music project. After years of supporting the scene, Koji made the leap from influencer to artist. Known now for his high-energy productions and emotionally-charged sets, he blends the raw grit of jump-up with the soul of liquid and melodic bass. His music reflects a deep love for rave culture, storytelling, and making people feel seen, free, and unstoppable. Koji has released on respected labels like High Tea Records, PUREFILTH, and Th3rd Brain. His viral remix of Billie Eilish’s Ocean Eyes turned the pop hit into a dreamy liquid anthem, while originals like FAKE and Same Thoughts showcase his balance of heavy basslines and emotion. He’s played major festivals like Electric Love and Altitude Festival, made his U.S. debut at Exchange LA, sold out headline shows at Après Après and Coastal Sound Club, etc. He’s also supported legends including Pendulum, ShockOne, T&Sugah, Culture Shock, Reaper, AEON:Mode, and Sub Zero. Beyond music, Koji founded KUMU, a promo group pushing bass culture on the Canadian West Coast. Through KUMO and his personal brand, he’s promoted hundreds of tracks, mentored emerging talent, and helped build a thriving community. Rooted in Japanese philosophy, community empowerment, and a bold DIY spirit, Koji Aiken isn’t just another artist; he’s a movement in motion. Koji Aiken · Dev Lemons - STUCK AGAIN (Koji Aiken Bootleg) Basket O Fries DJ Basket O Fries is a Drum & Bass DJ with 12 years of experience, specializing in jump up, rollers, and minimal DnB. Known for high-energy double drops and clean, crowd-focused mixing, he is the founder of 505 Junglists and the monthly REWIND DnB event in Albuquerque. His background as both a DJ and promoter brings a professional, show-ready approach to every booking. Basket O Fries · Best Drum & Bass Podcast Guest Mix DNDY DNDY is a DJ and producer driven by a deep love for sound and the culture behind it. Rooted in Drum & Bass, he crafts soundscapes with intention. Music designed to bend perception, provoke thought, and pull listeners into altered states of reality. DNDY · Vire Jayzo Jayzo G MC was born out east, schooled out west, raised in MA/RI, built in Los Angeles 1998 - 2020. DRUMZ CREW LA 2002-PRESENT currently residing in Albuquerque New Mexico & is a resident MC with his 505 JUNGLISTS CREW. His 1st feature \"My Hood\" went #70 on Beatport & #12 on Juno as part of Subkillaz #1 EP on both charts with Gradient Recordings! This year he has a feature on \"CRASH OUT\" with 505 Junglists crewmate DNDY with another \"SIMULATION\" in the works for 2026. He also has a feature \"DEVOUR\" on crewmate XPLYSSID's THE EVOLUTION EP 2025!! FURY · Fury + MC Dino - Live at Let It Roll Puerto Rico 2025 Markhyphen Markhyphen has been immersed in rave culture as a DJ, promoter, and everyday fanatic of dance music for decades. His passion stems as much from the love of the music as the people who keep the dream alive. From Dallas, to Minneapolis, to the east coast, and now New Mexico, a common theme is people escaping the pressures of life for a brief, magical moment full of dancing, artistic expression, and the camaraderie of friends. Markhyphen wants to help make that happen. As a founding member of 505 Junglists, via amazing ties with the local community and collaborations with countless local artists, Markhyphen keeps the dance floors pounding with quality beats, amazing productions, and top-notch sound. Markhyphen knows it's all about love of the local music scene and has no plans on slowing down. PLUR! markhyphen · Markhyphen w MC ASTRO and JAYZO G MC - Sept 22 , 2023 - BDay Set!!! Nova Circuit Nova Circuit is the combined force of Cosmix and Luminous, two DJs who've been on a shared sonic journey since the start. Known for their dark, groovy energy, the duo thrives on techno foundations, filthy basslines, and international-inspired rhythms that electrify the dance floor. With a natural chemistry and a vision rooted in creative growth, Nova Circuit is here to push boundaries, fuse sounds, and bring each other's ideas to life, one heavy drop at a time. Nova Circuit · JELLO (Nova Circuit Techno Flip) Pretty HIGH Pretty HIGH is more than a DJ/producer duo, they're a movement. Born from breakups, breakthroughs, and the refusal to settle, Pretty HIGH channels raw emotion into electrifying drum and bass anthems that heal and empower. With inspiration from Kanine, Dimension, Sub Focus, and Chase & Status, their sound fuses heavy basslines with uplifting energy, designed to move both body and soul. At the heart of their identity are two truths: “Don’t juzz get high, get Pretty HIGH.” “You can’t get to a 10 in life if you settle for a 7.” Their music and performances invite fans to go beyond escape and to rise into authenticity, self-love, and the courage to live at a 10. With neon-fueled energy and a message of empowerment, Pretty HIGH isn’t just dropping beats, they’re building a community where transformation meets euphoria. Pretty High · Sabrina Carpenter - Juno (Pretty High Remix)",
     "source": "Meow Wolf",
     "trackIds": [
       "6rD4MHVZYYKplXGVO6C7qy",
@@ -6487,7 +4590,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/bxc",
     "sourceEventId": "019eb34e-ba8f-7205-4e17-18ab08e384c4__ac753019-6cfa-0072-b1e7-d0f0374812c0",
     "sourceEventSlug": "bxc",
-    "description": "Bonnie x Clyde. Jul 24th Doors @ 9:00 PM.",
+    "description": "BONNIE X CLYDE · ANOTHER YOU",
     "source": "Meow Wolf",
     "trackIds": [
       "7v96Qk4hcwmNulzSlOs9Zw",
@@ -6505,7 +4608,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/dennett",
     "sourceEventId": "019e653f-61bc-6be6-aa30-50adc1a8dcc3__63459236-db3e-e345-e7b8-f7b66c3551a5",
     "sourceEventSlug": "dennett",
-    "description": "Dennett. Jul 25th Doors @ 9:00 PM. With supporting acts: Reference_312, Papa Beats",
+    "description": "DENNETT is quickly becoming one of the most exciting names in electronic music, known for his high energy sets and unique sound. He’s played major festivals including EDC, North Coast Music Festival, and Seven Stars, while continuing to build momentum across the U.S. Uniquely, DENNETT has built both a house and bass music fanbase, with a sound that blends emotional melodies, heavy drops, and festival ready energy. His official remix of “LIGHTS GO OUT” by John Summit helped push his name even further, alongside multiple tracks that have passed half a million streams on SoundCloud. With a rapidly growing audience and standout live performances, DENNETT is carving out his own lane in the electronic scene.",
     "source": "Meow Wolf",
     "trackIds": [
       "1hQAmS4c99YiiXTORf0pCW",
@@ -6527,7 +4630,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/dennett",
     "sourceEventId": "019e653f-61bc-6be6-aa30-50adc1a8dcc3__63459236-db3e-e345-e7b8-f7b66c3551a5",
     "sourceEventSlug": "dennett",
-    "description": "Dennett. Jul 25th Doors @ 9:00 PM. With supporting acts: Reference_312, Papa Beats",
+    "description": "DENNETT is quickly becoming one of the most exciting names in electronic music, known for his high energy sets and unique sound. He’s played major festivals including EDC, North Coast Music Festival, and Seven Stars, while continuing to build momentum across the U.S. Uniquely, DENNETT has built both a house and bass music fanbase, with a sound that blends emotional melodies, heavy drops, and festival ready energy. His official remix of “LIGHTS GO OUT” by John Summit helped push his name even further, alongside multiple tracks that have passed half a million streams on SoundCloud. With a rapidly growing audience and standout live performances, DENNETT is carving out his own lane in the electronic scene.",
     "source": "Meow Wolf",
     "trackIds": [
       "2bEypvhtabJV9NlzrSQmux",
@@ -6545,7 +4648,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/dennett",
     "sourceEventId": "019e653f-61bc-6be6-aa30-50adc1a8dcc3__63459236-db3e-e345-e7b8-f7b66c3551a5",
     "sourceEventSlug": "dennett",
-    "description": "Dennett. Jul 25th Doors @ 9:00 PM. With supporting acts: Reference_312, Papa Beats",
+    "description": "DENNETT is quickly becoming one of the most exciting names in electronic music, known for his high energy sets and unique sound. He’s played major festivals including EDC, North Coast Music Festival, and Seven Stars, while continuing to build momentum across the U.S. Uniquely, DENNETT has built both a house and bass music fanbase, with a sound that blends emotional melodies, heavy drops, and festival ready energy. His official remix of “LIGHTS GO OUT” by John Summit helped push his name even further, alongside multiple tracks that have passed half a million streams on SoundCloud. With a rapidly growing audience and standout live performances, DENNETT is carving out his own lane in the electronic scene.",
     "source": "Meow Wolf",
     "trackIds": [
       "0FJKX29Y6lhvTDDRES1xhY",
@@ -6563,7 +4666,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/neonindian",
     "sourceEventId": "019eb33b-5786-e4a8-d480-b5a3ebc72eb3__b89035f8-7c0e-9d82-5509-a86dcafa210b",
     "sourceEventSlug": "neonindian",
-    "description": "Neon Indian (DJ Set). Aug 14th Doors @ 9:00 PM. With supporting act: Adobe Disco",
+    "description": "Emerging as a blurry, sample-driven electronic pop outfit with influences ranging from Todd Rundgren to Italo-disco, Alan Palomo aka Neon Indian became one of chillwave's definitive acts in the late 2000s before Palomo took the project in a more polished, danceable direction. With 2009's Psychic Chasms, Neon Indian lived up to the hype generated by the project's early singles, thanks to Palomo's hazy but hooky swirl of disco, electro, dream, and synth pop. By the time of 2015's Vega Intl. Night School, he switched to a palette of funk, new wave, and reggae, but held onto Neon Indian's gift for balancing heady atmospheres with catchy songwriting. As the 2010s came to a close, his work as a producer and soundtrack composer -- not to mention his fascination with Peruvian music -- suggested even more aspects to Palomo's work. Beginning in 2017, Palomo focused on film and soundtrack work, including his own short film \"86'd\" premiered in 2018 and featured the single \"Heaven's Basement.\" In 2023 Palomo announced that his next album \"World of Hassle\" would be released under his own name, featuring collaborations with Mac Demarco and L'Imperatrice's Flore Benguigui and inspired by a heavy dose of French Boogie, Italo Disco and City Pop.",
     "source": "Meow Wolf",
     "trackIds": [
       "2O96sgZ7WjU0DqcSnLmrfC",
@@ -6585,7 +4688,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/neonindian",
     "sourceEventId": "019eb33b-5786-e4a8-d480-b5a3ebc72eb3__b89035f8-7c0e-9d82-5509-a86dcafa210b",
     "sourceEventSlug": "neonindian",
-    "description": "Neon Indian (DJ Set). Aug 14th Doors @ 9:00 PM. With supporting act: Adobe Disco",
+    "description": "Emerging as a blurry, sample-driven electronic pop outfit with influences ranging from Todd Rundgren to Italo-disco, Alan Palomo aka Neon Indian became one of chillwave's definitive acts in the late 2000s before Palomo took the project in a more polished, danceable direction. With 2009's Psychic Chasms, Neon Indian lived up to the hype generated by the project's early singles, thanks to Palomo's hazy but hooky swirl of disco, electro, dream, and synth pop. By the time of 2015's Vega Intl. Night School, he switched to a palette of funk, new wave, and reggae, but held onto Neon Indian's gift for balancing heady atmospheres with catchy songwriting. As the 2010s came to a close, his work as a producer and soundtrack composer -- not to mention his fascination with Peruvian music -- suggested even more aspects to Palomo's work. Beginning in 2017, Palomo focused on film and soundtrack work, including his own short film \"86'd\" premiered in 2018 and featured the single \"Heaven's Basement.\" In 2023 Palomo announced that his next album \"World of Hassle\" would be released under his own name, featuring collaborations with Mac Demarco and L'Imperatrice's Flore Benguigui and inspired by a heavy dose of French Boogie, Italo Disco and City Pop.",
     "source": "Meow Wolf"
   },
   {
@@ -6596,7 +4699,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/justinmartin",
     "sourceEventId": "019df5fc-6297-7b0f-2090-1fc598613624__2469331d-c5ab-20bb-8c1f-b6ab04e58ba1",
     "sourceEventSlug": "justinmartin",
-    "description": "Justin Martin. Aug 21st Doors @ 9:00 PM.",
+    "description": "justin martin music · Woods (VIP) [feat. Sea Of Bees]",
     "source": "Meow Wolf",
     "trackIds": [
       "4hLYzmObqNcO0YBUXCI41c",
@@ -6614,7 +4717,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/yungbae",
     "sourceEventId": "019e1523-aa85-a334-0e8c-24aa6a20f2d2__a4df82f6-1ed8-009c-5074-2e852221ef64",
     "sourceEventSlug": "yungbae",
-    "description": "Yung Bae. Aug 22nd Doors @ 8:00 PM.",
+    "description": "LA-based artist and producer Yung Bae might be best known for heralding the rise of Future Funk, stewarding the sub-genre from the underground into a cult-like phenomenon. From anime-themed Tumblr memes to shutting down stages across the world, Yung Bae has an extensive catalog spanning nine albums, including his prolific _Bae_ series and _Groove Continental_, on which Bae welcomed a multitude of star power into his universe resulting in collaborations with Nile Rodgers, Channel Tres, AWOLNATION, Pink Sweat$, and more. Yung Bae immediately grabs his listeners with a sound design that dances between 70’s funk and disco, smooth jazz, old school hip-hop and draws influence from ’90s anime and arcade video games. Having grown his niche fanbase through the wonders of the internet and social media, Yung Bae exploded with his viral single _“Bad Boy”_ featuring bbno$ and has continuously evolved his sound while maintaining undeniable grooves. To sift through his nostalgic samples would surely be a day well spent, but it’s the way he brings them together in a colorful, quirky vapor-bounce style that keeps listeners coming back.",
     "source": "Meow Wolf",
     "trackIds": [
       "2LXfEAOEhhNupDM01ZLOQe",
@@ -6637,7 +4740,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/ero808",
     "sourceEventId": "019eb33a-b8cf-569c-2c39-126a25025ab2__cd30d50c-ed98-6020-f027-7a17309d4145",
     "sourceEventSlug": "ero808",
-    "description": "ero808. Sep 4th Doors @ 9:00 PM. With supporting act: Moceans",
+    "description": "ero808 is a first-generation American artist with Latino roots. His sound reflects the music he grew up with—Latin rhythms and hip-hop—blended with a modern approach to dance music. Over the years, he has accumulated hundreds of millions of streams and collaborated with artists like Kyle Watson, Solardo, Pitbull, AYYBO, and NXSTY. His music stands out for its darker tones and straightforward lyricism, incorporating themes of paranoia, sex, addiction, ambition, and nightlife. Influenced by House, Bass, hip-hop, and UK Garage, ero808 has crafted a sound uniquely his own, without adhering to a single genre. ero808's live performances are DJ sets that combine his original tracks, which he performs with live vocals, alongside music from his collaborators and influences",
     "source": "Meow Wolf",
     "trackIds": [
       "6NZceNVNJSAreye4TAzrI1",
@@ -6658,7 +4761,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/ero808",
     "sourceEventId": "019eb33a-b8cf-569c-2c39-126a25025ab2__cd30d50c-ed98-6020-f027-7a17309d4145",
     "sourceEventSlug": "ero808",
-    "description": "ero808. Sep 4th Doors @ 9:00 PM. With supporting act: Moceans",
+    "description": "ero808 is a first-generation American artist with Latino roots. His sound reflects the music he grew up with—Latin rhythms and hip-hop—blended with a modern approach to dance music. Over the years, he has accumulated hundreds of millions of streams and collaborated with artists like Kyle Watson, Solardo, Pitbull, AYYBO, and NXSTY. His music stands out for its darker tones and straightforward lyricism, incorporating themes of paranoia, sex, addiction, ambition, and nightlife. Influenced by House, Bass, hip-hop, and UK Garage, ero808 has crafted a sound uniquely his own, without adhering to a single genre. ero808's live performances are DJ sets that combine his original tracks, which he performs with live vocals, alongside music from his collaborators and influences",
     "source": "Meow Wolf",
     "trackIds": [
       "4U1RNP8urWTFDCwDyLxIm0",
@@ -6679,7 +4782,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/meltt",
     "sourceEventId": "019d59e2-7272-2a9d-bff9-93c534bbede8__3ad6ee86-fe54-33a7-8efb-a2452d52a990",
     "sourceEventSlug": "meltt",
-    "description": "Meltt. Sep 13th Doors @ 8:00 PM.",
+    "description": "Meltt’s upcoming third album is the culmination of everything the Vancouver indie-pop quartet have accomplished so far, all the while pushing their sound in new and exciting directions. True to its title, **_Pathways_**_ _finds** Chris Smith** [lead vocals, guitar, bass, keys], **Jamie** **Turner** [drums, percussion], **James** **Porter** [guitar, keys, bass, vocals], and **Ian** **Winkler** [bass, keys, guitar] at multiple forks in the road and deciding to take all of them, submerging their sound in new rippling textures while still retaining the warm, textured glow that their music’s contained since their debut EP _Visions_ in 2017. Thematically, _Pathways_ approaches what Winkler refers to as “four men approaching their 30s and figuring out their paths and lives.” Big topics abound, from relationships and the aftermath of loss to the strange and uneasy feeling that accompanies navigating the modern world at large. “Our tone is usually pretty optimistic and hopeful, but this time we let some darkness in,” Porter says. “There are so many things we experience individually, but when we get in the studio, it’s clear that we’re on a journey together.” Whether you’ve been with them since the beginning or are joining them at this very juncture, _Pathways_ will make you thankful that you’re along for the journey.",
     "source": "Meow Wolf",
     "trackIds": [
       "77evpfqHmmSklsFpo8wLCB",
@@ -6697,7 +4800,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/whippedcream",
     "sourceEventId": "019dff8b-866f-5f7b-9a23-3db0959bcdeb__6a4936c4-281b-b0fc-6b99-b39e7e162996",
     "sourceEventSlug": "whippedcream",
-    "description": "Whipped Cream. Sep 18th Doors @ 9:00 PM. With supporting acts: Thot Daughter, Rob AD",
+    "description": "Spinning on ice isn’t the only thing WHIPPED CREAM’s turning heads on. Once a competitive figure skater, Toronto-born Caroline Cecil knows how to bewitch a crowd. Channeling her passion for music both on and off the ice, WHIPPED CREAM–drawn to cinematic soundscapes and deep bass textures–transitioned into production to fully realize her creative vision. Paving her own lane unlike any other with influences from the likes of Hans Zimmer to Skrillex, WHIPPED CREAM is formulating her own sound, while expressing through dynamic live performances, an incomparable energy. Never not creating, WHIPPED CREAM is not just a producer and DJ, but a songwriter and vocalist as well. Fusing her passion and love for hip-hop, cinema, electronica and more, she impressively navigates these genres fluidly, truly invoking a feeling like no other. Her passionate approach to music has earned widespread recognition. WHIPPED CREAM was unanimously selected by the Apple Music Canada team as April 2026’s ‘Up Next’ artist, making her the first dance artist ever to be featured in the ‘Up Next’ Canada program, while Spotify Canada also tapped WHIPPED CREAM as its RADAR Canada feature artist for April 2026, promoting the news on billboards in Toronto. Elsewhere earlier this year she played at Rolling Stone Canada’s exclusive party at the Winter Olympics in Milan, Italy, a full-circle moment for the once competitive figure skater. With standout live appearances at Coachella, Lollapalooza, and Tomorrowland, WHIPPED CREAM has solidified her reputation as a must-see live act. Highlights from 2025 included performances at Fireside Festival, Beyond Wonderland, Tecate Pal Norte, Ubbi Dubbi Festival, and Tomorrowland, with 2026 set to bring major appearances at Fvded in the Park, Festival d'été de Québec (FEQ), and Bass Canyon-The Gorge, alongside a fall headlining run. Whether you’re watching her perform or streaming her music, WHIPPED CREAM is here to provide a high-energy, thought provoking feeling appealing to any music and art lover. Your producer’s favorite producer is now in session. WHIPPED CREAM’s official debut album HOME WAS ALWAYS ME arrives April 30 via Monstercat. A string of singles have been released ahead of the album including the latest “2 u” which makes a play with bouncy 90’s nostalgia, the groundbreaking and tone-setting track “it’s time to go home,” and the electrifying “stranger,” a standout with over 2.3 million streams on Spotify in its first two months out. ‘stranger’ hit Spotify’s Viral Top 50 charts in US and Canada and is currently in rotation on SiriusXM’s BPM, reaching the Top 20 in April ‘26.",
     "source": "Meow Wolf",
     "trackIds": [
       "7rIncPcHyKmnsZgyvGhoDw",
@@ -6715,16 +4818,8 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/whippedcream",
     "sourceEventId": "019dff8b-866f-5f7b-9a23-3db0959bcdeb__6a4936c4-281b-b0fc-6b99-b39e7e162996",
     "sourceEventSlug": "whippedcream",
-    "description": "Whipped Cream. Sep 18th Doors @ 9:00 PM. With supporting acts: Thot Daughter, Rob AD",
-    "source": "Meow Wolf",
-    "subArtists": [
-      {
-        "name": "supporting acts: Thot Daughter"
-      },
-      {
-        "name": "Rob AD"
-      }
-    ]
+    "description": "Spinning on ice isn’t the only thing WHIPPED CREAM’s turning heads on. Once a competitive figure skater, Toronto-born Caroline Cecil knows how to bewitch a crowd. Channeling her passion for music both on and off the ice, WHIPPED CREAM–drawn to cinematic soundscapes and deep bass textures–transitioned into production to fully realize her creative vision. Paving her own lane unlike any other with influences from the likes of Hans Zimmer to Skrillex, WHIPPED CREAM is formulating her own sound, while expressing through dynamic live performances, an incomparable energy. Never not creating, WHIPPED CREAM is not just a producer and DJ, but a songwriter and vocalist as well. Fusing her passion and love for hip-hop, cinema, electronica and more, she impressively navigates these genres fluidly, truly invoking a feeling like no other. Her passionate approach to music has earned widespread recognition. WHIPPED CREAM was unanimously selected by the Apple Music Canada team as April 2026’s ‘Up Next’ artist, making her the first dance artist ever to be featured in the ‘Up Next’ Canada program, while Spotify Canada also tapped WHIPPED CREAM as its RADAR Canada feature artist for April 2026, promoting the news on billboards in Toronto. Elsewhere earlier this year she played at Rolling Stone Canada’s exclusive party at the Winter Olympics in Milan, Italy, a full-circle moment for the once competitive figure skater. With standout live appearances at Coachella, Lollapalooza, and Tomorrowland, WHIPPED CREAM has solidified her reputation as a must-see live act. Highlights from 2025 included performances at Fireside Festival, Beyond Wonderland, Tecate Pal Norte, Ubbi Dubbi Festival, and Tomorrowland, with 2026 set to bring major appearances at Fvded in the Park, Festival d'été de Québec (FEQ), and Bass Canyon-The Gorge, alongside a fall headlining run. Whether you’re watching her perform or streaming her music, WHIPPED CREAM is here to provide a high-energy, thought provoking feeling appealing to any music and art lover. Your producer’s favorite producer is now in session. WHIPPED CREAM’s official debut album HOME WAS ALWAYS ME arrives April 30 via Monstercat. A string of singles have been released ahead of the album including the latest “2 u” which makes a play with bouncy 90’s nostalgia, the groundbreaking and tone-setting track “it’s time to go home,” and the electrifying “stranger,” a standout with over 2.3 million streams on Spotify in its first two months out. ‘stranger’ hit Spotify’s Viral Top 50 charts in US and Canada and is currently in rotation on SiriusXM’s BPM, reaching the Top 20 in April ‘26.",
+    "source": "Meow Wolf"
   },
   {
     "artist": "Rob AD",
@@ -6734,16 +4829,8 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/whippedcream",
     "sourceEventId": "019dff8b-866f-5f7b-9a23-3db0959bcdeb__6a4936c4-281b-b0fc-6b99-b39e7e162996",
     "sourceEventSlug": "whippedcream",
-    "description": "Whipped Cream. Sep 18th Doors @ 9:00 PM. With supporting acts: Thot Daughter, Rob AD",
-    "source": "Meow Wolf",
-    "subArtists": [
-      {
-        "name": "supporting acts: Thot Daughter"
-      },
-      {
-        "name": "Rob AD"
-      }
-    ]
+    "description": "Spinning on ice isn’t the only thing WHIPPED CREAM’s turning heads on. Once a competitive figure skater, Toronto-born Caroline Cecil knows how to bewitch a crowd. Channeling her passion for music both on and off the ice, WHIPPED CREAM–drawn to cinematic soundscapes and deep bass textures–transitioned into production to fully realize her creative vision. Paving her own lane unlike any other with influences from the likes of Hans Zimmer to Skrillex, WHIPPED CREAM is formulating her own sound, while expressing through dynamic live performances, an incomparable energy. Never not creating, WHIPPED CREAM is not just a producer and DJ, but a songwriter and vocalist as well. Fusing her passion and love for hip-hop, cinema, electronica and more, she impressively navigates these genres fluidly, truly invoking a feeling like no other. Her passionate approach to music has earned widespread recognition. WHIPPED CREAM was unanimously selected by the Apple Music Canada team as April 2026’s ‘Up Next’ artist, making her the first dance artist ever to be featured in the ‘Up Next’ Canada program, while Spotify Canada also tapped WHIPPED CREAM as its RADAR Canada feature artist for April 2026, promoting the news on billboards in Toronto. Elsewhere earlier this year she played at Rolling Stone Canada’s exclusive party at the Winter Olympics in Milan, Italy, a full-circle moment for the once competitive figure skater. With standout live appearances at Coachella, Lollapalooza, and Tomorrowland, WHIPPED CREAM has solidified her reputation as a must-see live act. Highlights from 2025 included performances at Fireside Festival, Beyond Wonderland, Tecate Pal Norte, Ubbi Dubbi Festival, and Tomorrowland, with 2026 set to bring major appearances at Fvded in the Park, Festival d'été de Québec (FEQ), and Bass Canyon-The Gorge, alongside a fall headlining run. Whether you’re watching her perform or streaming her music, WHIPPED CREAM is here to provide a high-energy, thought provoking feeling appealing to any music and art lover. Your producer’s favorite producer is now in session. WHIPPED CREAM’s official debut album HOME WAS ALWAYS ME arrives April 30 via Monstercat. A string of singles have been released ahead of the album including the latest “2 u” which makes a play with bouncy 90’s nostalgia, the groundbreaking and tone-setting track “it’s time to go home,” and the electrifying “stranger,” a standout with over 2.3 million streams on Spotify in its first two months out. ‘stranger’ hit Spotify’s Viral Top 50 charts in US and Canada and is currently in rotation on SiriusXM’s BPM, reaching the Top 20 in April ‘26.",
+    "source": "Meow Wolf"
   },
   {
     "artist": "Ethan Regan",
@@ -6753,7 +4840,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/ethanregan",
     "sourceEventId": "019e88de-d73b-1572-8470-1a6d89d9877d__57b8133d-8657-fb3c-74e4-8f7cdf229db0",
     "sourceEventSlug": "ethanregan",
-    "description": "Ethan Regan. Sep 21st Doors @ 8:00 PM.",
+    "description": "$1 from each ticket goes to The Sato Project https://www.thesatoproject.org/ Ethan Regan is just the troubadour Gen Z needs. He’s had a fair share of significant viral moments, but he’s also an accomplished and energe?c showman on stage, giving performances I.R.L. that leave a las?ng mark. As a songwriter, he’s both intensely introspec?ve and sharply self-aware, espousing the importance of self-care with sensi?vity. In this respect, he makes ?meless music with a modern mindset. Beyond playing instruments and singing, this CharloIe na?ve with a restless, road-worn spirit personally grabs the reins and produces, mixes, and masters his own songs. He has tallied nearly 100 million streams, received cri?cal acclaim, and cap?vated sold-out rooms as a proven headliner. Crea?vely, he doesn’t follow a formula. You’re just as likely to encounter a breezy chord progression in one of his tunes as you are to hear a rowdy and boisterous horn sec?on or big screen-size strings. HiOng the road, he shined on bills with Sam Barber and Rainbow KiIen Surprise as well as Chelsea Cutler and Jeremy Zucker. Ethan’s self-produced 2025 EP, honey honey honey, saw him gain further trac?on with “get by” and “spaceman.” In the EP’s wake, he canvased the country, headlining his “I Almost Graduated” Tour and releasing the likes of “fool” and “sweet hunger.” Looking forward, his ar?stry remains an unapologe?c and unfiltered reflec?on of who he is. You’ll feel like you know him a liIle beIer on a series of 2026 singles for Columbia Records and his forthcoming debut album, “YOUNG REGAN.”",
     "source": "Meow Wolf",
     "trackIds": [
       "3DfaPuC2Lc3sCTPlB0NxV3",
@@ -6771,7 +4858,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/joshuaraywalker",
     "sourceEventId": "019d4146-b468-27c1-e60f-0a54fbcf6cf1__fff7f971-b5ec-08a0-85bd-59d540b4a497",
     "sourceEventSlug": "joshuaraywalker",
-    "description": "Joshua Ray Walker. Sep 26th Doors @ 8:00 PM. With supporting act: FABRIZIO",
+    "description": "Joshua Ray Walker is a Dallas-born Country/Americana songwriter known for vivid, character-driven storytelling and a rich tenor that blends classic Texas tradition with a modern emotional edge. Since his 2019 debut, he has built a catalog defined by sharp writing, dark humor, and deep empathy for complicated people, earning national television appearances, multiple Grand Ole Opry performances, and more than 2,000 shows across the U.S. and Europe. His sixth studio album, Ain’t Dead Yet, marks his most personal chapter to date. Recorded before, during, and after cancer treatment, (including sessions the day before lung surgery that could have permanently altered his voice), the record wrestles with mortality, gratitude, memory, and transformation. Sonically rooted in pedal steel, fiddle, and Walker’s signature guitar picking, it captures an artist confronting uncertainty with defiance , clarity, and hard-won joy. Across every release, from early character portraits to ambitious concept records, Walker’s through-line remains the same: songs that tell the truth, even when it’s uncomfortable. On Ain’t Dead Yet, he expands that hallmark into his most personal chapter yet, documenting a profound period of change and a hard-won second chance.",
     "source": "Meow Wolf",
     "trackIds": [
       "4gDFVgkXx8H1zmlmhjw9u1",
@@ -6795,7 +4882,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/joshuaraywalker",
     "sourceEventId": "019d4146-b468-27c1-e60f-0a54fbcf6cf1__fff7f971-b5ec-08a0-85bd-59d540b4a497",
     "sourceEventSlug": "joshuaraywalker",
-    "description": "Joshua Ray Walker. Sep 26th Doors @ 8:00 PM. With supporting act: FABRIZIO",
+    "description": "Joshua Ray Walker is a Dallas-born Country/Americana songwriter known for vivid, character-driven storytelling and a rich tenor that blends classic Texas tradition with a modern emotional edge. Since his 2019 debut, he has built a catalog defined by sharp writing, dark humor, and deep empathy for complicated people, earning national television appearances, multiple Grand Ole Opry performances, and more than 2,000 shows across the U.S. and Europe. His sixth studio album, Ain’t Dead Yet, marks his most personal chapter to date. Recorded before, during, and after cancer treatment, (including sessions the day before lung surgery that could have permanently altered his voice), the record wrestles with mortality, gratitude, memory, and transformation. Sonically rooted in pedal steel, fiddle, and Walker’s signature guitar picking, it captures an artist confronting uncertainty with defiance , clarity, and hard-won joy. Across every release, from early character portraits to ambitious concept records, Walker’s through-line remains the same: songs that tell the truth, even when it’s uncomfortable. On Ain’t Dead Yet, he expands that hallmark into his most personal chapter yet, documenting a profound period of change and a hard-won second chance.",
     "source": "Meow Wolf",
     "trackIds": [
       "5wlp24waiNLMRFxMZQKd9f",
@@ -6813,8 +4900,37 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/thesponges",
     "sourceEventId": "019e88d5-b472-30a8-d0d0-26a4201de131__10edb89c-50b8-60ba-edd0-43fb60f6ef3a",
     "sourceEventSlug": "thesponges",
-    "description": "The Sponges + N2N. Oct 2nd Doors @ 8:00 PM.",
-    "source": "Meow Wolf"
+    "description": "The Sponges have become well known for their unmistakable signature sound in dance music. The combination of tasteful 70's funk & disco samples, psychedelic sound design, heavy basslines, and 4x4 house rhythms can instantly be recognized as one of The Sponges' finely tuned productions. After having the opportunity to work with many of the artists who originally influenced them including Purple Disco Machine, GRiZ, AC Slater, Kyle Watson, Opiuo, The Floozies, Manic Focus & Lettuce, The Sponges have now established themselves as a respected act of their own in the world of electronic music. Since their arrival in 2019, The Sponges have been fortunate in their success with millions of streams, five #1 records on Beatport and a massive touring career. The duo, composed by the collective minds of Ryan Slepin and Nik Eaton, have been invited to play some of the top music festivals in the western hemisphere such as Shambhala, Friendship AMF & Envision. After releasing their debut EP and completing their first ever headline tour in 2023, sights are set high for The Sponges as they continue to develop into an internationally renowned musical project. N2N N2N has quietly emerged as one of dance music’s most compelling underground forces. Unpredictable and emotionally unfiltered, his performances push past celebration into catharsis. Drawing from disco, house, funk, and hip hop, his sound is funky, bouncy, and intentionally hard to pin down. A fearless mixer with an instinct for tension and release, N2N has ignited dance floors everywhere from intimate clubs to major festival stages, with standout appearances at Desert Hearts Festival, Elements, and Shambhala. His presence is commanding without ego—setting the tone and daring people to meet it. Fresh off 70+ shows in 2025 and backed by industry tastemakers including Toolroom, Repopulate Mars, and GDB, the momentum is building. 2026 sees N2N bring his imprint Dance Therapy to the forefront—a philosophy rooted in self-expression, release, and the belief in the healing power of the dance floor. When he’s not behind the decks, he’s tending to an ever-growing plant collection or whispering sweet nothings to his cats: Bucket, Shoe, Tofu, and Jasmine.",
+    "source": "Meow Wolf",
+    "trackIds": [
+      "6sGDxKo6gsklfgStjQ8hp0",
+      "61uWZMNzTjdnIiUii5HzOy",
+      "1uMINFed2KNqZXZJO4q6Ts"
+    ],
+    "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebfe61665bc2db0db8d3a0ffd6",
+    "genres": [
+      "bass house",
+      "funky house"
+    ],
+    "subArtists": [
+      {
+        "name": "The Sponges",
+        "spotifyId": "3cj6O7NrjS5l0CVo8LhpV1",
+        "artistImageUrl": "https://i.scdn.co/image/ab6761610000e5ebfe61665bc2db0db8d3a0ffd6",
+        "genres": [
+          "bass house",
+          "funky house"
+        ],
+        "trackIds": [
+          "6sGDxKo6gsklfgStjQ8hp0",
+          "61uWZMNzTjdnIiUii5HzOy",
+          "1uMINFed2KNqZXZJO4q6Ts"
+        ]
+      },
+      {
+        "name": "N2N"
+      }
+    ]
   },
   {
     "artist": "Kishi Bashi: Sonderlust 10th Anniversary Tour",
@@ -6824,7 +4940,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/kishibashi",
     "sourceEventId": "019d1ca7-b46b-d341-f322-3bf709ca0fc9__fb86de37-7518-768c-eb3f-fda36f6768ea",
     "sourceEventSlug": "kishibashi",
-    "description": "Kishi Bashi: Sonderlust 10th Anniversary Tour. Oct 20th Doors @ 8:00 PM.",
+    "description": "Kishi Bashi is the pseudonym of Emmy-nominated singer, songwriter, and multi-instrumentalist Kaoru Ishibashi. A Berklee-trained virtuoso violinist, Kishi Bashi is acclaimed for his uplifting, high-energy concerts and his distinctive loop-based violin style. He has also earned recognition for his groundbreaking collaborations with major symphonies—including the National Symphony Orchestra, Chicago Philharmonic, Seattle Symphony, and Oregon Symphony—where he blends classical and pop influences in captivating performances. Beyond the orchestral stage, he has toured internationally with Regina Spektor and of Montreal, and released five acclaimed albums—beginning with his NPR-praised debut _151a_ (2012), followed by _Sonderlust_ (2016), the documentary project _Omoiyari_ (2019), and most recently _Kantos_ (2024), a kaleidoscopic fusion of funk, jazz, and orchestral pop. Known for his cinematic storytelling and genre-bending sound, Kishi Bashi continues to push creative boundaries while captivating audiences worldwide.",
     "source": "Meow Wolf"
   },
   {
@@ -6835,7 +4951,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/hatchetmen",
     "sourceEventId": "019e2d87-72e3-8fe8-8313-b8fe21395dbc__acee595f-a767-dbf9-8c1f-9e2e47ae5484",
     "sourceEventSlug": "hatchetmen",
-    "description": "Ax and the Hatchetmen. Oct 23rd Doors @ 8:00 PM.",
+    "description": "Check out was hours ago, but Ax and the Hatchetmen aren’t leaving. The indie rock six piece, fronted by Axel Ellis, hit the road this fall for the “Late Check Out Tour” — a coast to coast run bringing their sunburnt guitars and jangly tunes to the masses. What started in high school hallways outside Chicago has grown into a band with millions of listeners, diehard fans, and nearly a decade of life on the road.",
     "source": "Meow Wolf",
     "trackIds": [
       "6DKSK32WwzBMZ0qAq28Zon",
@@ -6856,7 +4972,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/jaywebb",
     "sourceEventId": "019eae75-12e8-90e3-6722-5504aa0f1dae__23067fcf-5402-a234-966c-c8f5d8910ec6",
     "sourceEventSlug": "jaywebb",
-    "description": "Jay Webb - The HOMESICK Tour . Nov 4th Doors @ 7:00 PM. With supporting act: Caitlynne Curtis",
+    "description": "Country artist Jay Webb writes songs that hit like a gut punch. Raised between the backroads of North Alabama and the city in the south, music was how he made sense of the chaos around him. What started as a way to process a turbulent childhood quickly became his purpose — gritty storytelling over genre-blurring beats, delivered with zero filter. He started cutting demos in high school and never stopped, releasing track after track on his own and building a following from the ground up. His lyrics cut deep, his voice carries the scars and his sound refuses to stay in one lane. Webb doesn’t clean up the mess — he leans into it, and has a good time doing it. Pulling from a wide range of influences, he pairs the weight of Johnny Cash and Hank Williams with the edge of Juice WRLD and Post Malone. It’s not traditional country — and he doesn’t want it to be. He calls it “music for real people with real problems,” and his fans know exactly what that means. In 2022, a viral TikTok pushed his music to a wider audience. Since then, he’s dropped standout tracks like “Down Here,” “Bury Me With Bourbon” and “Broken,” racking up over 415M streams and more than 2M fans. Caitlynne Curtis Caitlynne Curtis is an American singer-songwriter and rising country/pop artist known for her powerful vocals, emotional storytelling, and genre-blending sound. Residing now South of Nashville, Tennessee, she began singing and performing at a young age, taking voice lessons as a child and knowing early on that music was her passion. After facing early setbacks — including a rejection from The X Factor — Caitlynne stayed committed to her craft, continuing to write and perform while navigating real-life challenges, including becoming a young mother. She later reignited her career by sharing covers and original music on social media, quickly reconnecting with fans through her raw authenticity. Her momentum took off after signing with Angels & Outlaws, the independent label led by Struggle Jennings, where she collaborated on the hit song “God We Need You Now.” Since then, she has released singles such as ‘You Need Jesus”, “Where You Left Off,” “Black Widow,” & “Amen,” and continues to tour and release new music that blends heartfelt country roots with modern pop energy.",
     "source": "Meow Wolf",
     "trackIds": [
       "7E6OF8uNJ9H08c28cnXbul",
@@ -6878,7 +4994,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/jaywebb",
     "sourceEventId": "019eae75-12e8-90e3-6722-5504aa0f1dae__23067fcf-5402-a234-966c-c8f5d8910ec6",
     "sourceEventSlug": "jaywebb",
-    "description": "Jay Webb - The HOMESICK Tour . Nov 4th Doors @ 7:00 PM. With supporting act: Caitlynne Curtis",
+    "description": "Country artist Jay Webb writes songs that hit like a gut punch. Raised between the backroads of North Alabama and the city in the south, music was how he made sense of the chaos around him. What started as a way to process a turbulent childhood quickly became his purpose — gritty storytelling over genre-blurring beats, delivered with zero filter. He started cutting demos in high school and never stopped, releasing track after track on his own and building a following from the ground up. His lyrics cut deep, his voice carries the scars and his sound refuses to stay in one lane. Webb doesn’t clean up the mess — he leans into it, and has a good time doing it. Pulling from a wide range of influences, he pairs the weight of Johnny Cash and Hank Williams with the edge of Juice WRLD and Post Malone. It’s not traditional country — and he doesn’t want it to be. He calls it “music for real people with real problems,” and his fans know exactly what that means. In 2022, a viral TikTok pushed his music to a wider audience. Since then, he’s dropped standout tracks like “Down Here,” “Bury Me With Bourbon” and “Broken,” racking up over 415M streams and more than 2M fans. Caitlynne Curtis Caitlynne Curtis is an American singer-songwriter and rising country/pop artist known for her powerful vocals, emotional storytelling, and genre-blending sound. Residing now South of Nashville, Tennessee, she began singing and performing at a young age, taking voice lessons as a child and knowing early on that music was her passion. After facing early setbacks — including a rejection from The X Factor — Caitlynne stayed committed to her craft, continuing to write and perform while navigating real-life challenges, including becoming a young mother. She later reignited her career by sharing covers and original music on social media, quickly reconnecting with fans through her raw authenticity. Her momentum took off after signing with Angels & Outlaws, the independent label led by Struggle Jennings, where she collaborated on the hit song “God We Need You Now.” Since then, she has released singles such as ‘You Need Jesus”, “Where You Left Off,” “Black Widow,” & “Amen,” and continues to tour and release new music that blends heartfelt country roots with modern pop energy.",
     "source": "Meow Wolf",
     "trackIds": [
       "24j0o1B7eiiwSdtbUm7OnN",
@@ -6899,7 +5015,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/gillaband",
     "sourceEventId": "019e532b-0516-65c4-9cb9-45edc082fe8c__13f65814-d30d-e348-fcab-4ef11fed4f50",
     "sourceEventSlug": "gillaband",
-    "description": "Gilla Band. Nov 8th Doors @ 8:00 PM.",
+    "description": "**_Giraffe_** is the first new music from Gilla Band in nearly 4 years. This follows their critically acclaimed 3rd album Most Normal which Pitchfork described in a best new music review as _“a masterpiece of panic and deconstruction”._ Live The Guardian described the band’s set as feeling _“genuinely dangerous, like one last rave before the apocalypse, and as perfect an expression of rock’n’roll’s essential auto-destructive impulse as this writer’s ever heard”_ For over ten years now, the Dublin quartet — vocalist Dara Kiely, guitarist Alan Duggan Borges, bassist Daniel Fox, and drummer Adam Faulkner — have been redefining what you could loosely call “rock music” in the 21st century, influencing a wide swath of similarly forward-thinking guitar acts along the way. The band perfected a vision that wasn’t quite post-punk, wasn’t quite noise-rock, wasn’t quite anything besides an idiosyncratic, ground-breaking hybrid that could only come from the four of them - Giraffe is their bold new offering.",
     "source": "Meow Wolf",
     "trackIds": [
       "7DQ3JbZ8JmjjxoGmOYkjoR",
@@ -6922,7 +5038,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/pumablue",
     "sourceEventId": "019e95e7-efd1-c7bc-b006-0efab54ecda2__68771f0f-294e-d0ba-f5da-089af435398f",
     "sourceEventSlug": "pumablue",
-    "description": "Puma Blue. Nov 9th Doors @ 8:00 PM.",
+    "description": "If you knew how and when you were going to die, how would it change the way you choose to live? Croak Dream, the new album from Puma Blue, is a ruminative exploration of that very notion, as well as a celebration of rebirth. Written in solitude and brought to life in collaboration, Croak Dream was conjured from tape loop sessions at Peter Gabriel’s Real World Studios, co-produced and engineered by Sam Petts-Davies (The Smile, Frank Ocean), where the band improvised to fragments of Allen’s songs they’d never fully heard. The result is a dreamlike collage of baritone sax-drenched ballads and restless grooves: tender, feverish, and alive. Conceptually-the album reflects on the interlocking nature of past, present and future, with Allen tackling questions of fate, vulnerability and transformation in provocative new ways. Musically, Croak Dream charts a new path for Puma Blue, fusing lo-fi jazz balladry with jungle breaks, krautrock textures and trip-hop atmosphere, balancing bold sonic experimentation with raw emotional clarity. “Sonically both intricate and intimate” — DIY ★★★★ \"Croak Dream is not just a tender and candid documentation of rebirth for Puma Blue, but a peek at an artist intrepidly shedding the weight of expectations and falling in love with his own vulnerability.\" — Clash ★★★★ “an album strong in its convictions and beautiful in its presentation.” — Rolling Stone UK “Puma Blue exists in this nocturnal hazy hurricane.” — God Is In The TV ★★★★ “quietly transformative” -Earmilk",
     "source": "Meow Wolf",
     "trackIds": [
       "600uAlmfRmnPG7b2whsVTI",
@@ -6943,7 +5059,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/bayonne",
     "sourceEventId": "019d93b6-891f-f688-63e9-23ca2d30fa2c__3cd258fb-b928-aef1-1fd5-485ae4b3f4a9",
     "sourceEventSlug": "bayonne",
-    "description": "Bayonne - The ‘Filters’ Tour. Nov 10th Doors @ 8:00 PM.",
+    "description": "Bayonne’s music captures the indescribable. For 10 years, the Austin, Texas-based experimental avant-pop/electronic musician, born Roger Sellers, has been creating atmospheric soundscapes brimming with layers, texture, and deep emotional resonance. On his fourth and most immersive album to date, **_Filters_**, Sellers picks up where he left us on 2023’s mournful yet pop-minded _Temporary Time_. With its elegantly constructed melodies, silken synth-work, a sprinkle of field recordings, and an upbeat yet blissful blend of piano and percussion, _Filters_ finds Sellers entering a new phase of existence as he works through the grief around losing his father and into a place of acceptance.",
     "source": "Meow Wolf",
     "trackIds": [
       "5WSbA7CYliGAJiZTRldTMK",
@@ -6961,7 +5077,7 @@
     "listingUrl": "https://tickets.meowwolf.com/events/santa-fe/bahamas",
     "sourceEventId": "019cc4f6-2db9-d6d3-f508-373d40a201c8__373cd78b-8705-08b5-f03e-5e0ab371e91e",
     "sourceEventSlug": "bahamas",
-    "description": "Bahamas . Nov 11th Doors @ 8:00 PM.",
+    "description": "Afie Jurvanen does not spend too much time in cities these days. For nearly two decades, Jurvanen was a fixture of the Toronto scene, both as a valued multi-instrumentalist and producer for friends like Feist, The Weather Station, and Kathleen Edwards and as the architect of one of his country’s most celebrated artists, Bahamas. Jurvanen came of age across Bahamas’ first six albums, the restlessness of jumpy early hits like Pink Strat and Barchords slowly shifting into the generous domesticity of 2023’s Bootcut. But Jurvanen has long been drawn to open spaces, to a quieter life. In 2009, the year of his aforementioned debut, he began visiting Nova Scotia, the Atlantic Ocean. Over the next decade, his trips became more consistent, then more frequent, and then longer, until, in 2019, Jurvanen and his family of four finally made the move—nearly 2,000 kilometers northeast, to Nova Scotia. They live a lifestyle, Jurvanen half-jokes, that is “close to Mennonite.” The kids are homeschooled. No one has an iPad. Text messages can feel like miracles. But in 2022, Jurvanen went back to a city—namely, Music City, or Nashville, Tenn. During five days at the Sound Emporium, he worked with some of America’s true country greats, aces like Vince Gill and Sam Bush, Russ Pahl and Mickey Raphael. Bootcut, he reminisces, was maybe the easiest record he’s ever made, his songs and visions executed with utter clarity by absolute pros. When Jurvanen came home, though, he still had a few tunes and plenty of energy. Could he make more music, he wondered, outside of a city? Despite his extended résumé, Jurvanen has never been much of a tech guy or studio hound, never one for making his own records. In 2021, however, producer and multi-instrumentalist Joshua Van Tassel had also left Toronto, moving back to Nova Scotia and building a little studio, called DreamDate, in a backyard shed there. It was just small enough to skirt inspections, just big enough to house everything. Jurvanen had once rented Van Tassel’s space back in Toronto to listen to his Earthtones album on someone else’s speakers, to decide if it was ready for release. He’d been impressed by the place’s minimalism and tidiness, by the studio rarity of everything working. So Jurvanen began driving the 20 minutes from his cottage to Van Tassel’s spot via a winding ocean road, passing his days hanging out with his local friend and recording some songs. There was no real agenda but to work and play. And that’s how two people in a little shed made what may be the most effortlessly magnetic record in the entire Bahamas catalogue, My Second Last Album. Van Tassel and Jurvanen played every sound on My Second Last Album, from the buzzing acoustics of “Shadows” to the Mellotron ostinato of “Play the Game.” This self-dependence allowed them to do anything they wanted, to follow musical enthusiasms into any space they favored. Jurvanen wrote “The Bridge” via text with Hiss Golden Messenger’s M.C. Taylor, and he and Van Tassel turned it into an infectious country-funk tune, the strutting refrain closing the gap between Little Feat and Canned Heat. “Ready for a New Thing” echoes Joni Mitchell’s famous electric guitar tone, using it as the core of a buoyant little pop song about growing up, about being happy with growing older. “Feels So Good” is a modern soul wonder, its perfect groove framed by bass, piano, and finger-snap drums and built with a brilliant amount of negative space. There is charging indie rock, hazy piano, and pastoral folk-rock. Again, My Second Last Album is anything Van Tassel and Jurvanen wanted it to be. What’s most striking about these 10 songs, though, may be Jurvanen’s lyrical candor and open sense of play. He often found himself so motivated by what he and Van Tassel had accomplished during the day that he’d go home and write another song by night, the pace giving him permission to put down words without second-guessing himself. “Don’t hold back/share your opinion,” as he belts out as he emerges from the bridge on the funny and real opener, “Sauna.” His opinions here range from government payouts that could feel like pandemic bribes (again, “Sauna”) to the anti-rock star practice of waking up early enough to see the dawn and feel the day take shape (“Ready for a New Thing”). Over the tender piano of “Only Inspiration,” he extols the virtues of living in a house of women and girls, while he chastises Henry Ford’s vitriol and social media’s endemic bile on “Dearborn.” There is a burgeoning strain of self-determination to it all, of finding and accepting new ways to live for oneself and for everyone else, too. As Jurvanen, the son of immigrants, sings during the poignant closer, “We all belong in this country.” In the country, Jurvanen found his own state of being. For a long time, Jurvanen didn’t know what to do with My Second Last Album. After cutting a legitimate country record in the city where the genre lives, was it a too-weird left turn to put out a loose-limbed indie-pop set cut in a shed? He thought about slicing it into singles or splicing it as a bonus onto some sort of future Bahamas compendium, maybe even shelving it altogether. But then he put the record back on after not hearing it for several months and had the simplest and most profound realization possible: He loved these songs, the way they sat together, the story they told about who he was at that moment—a married father content to live in the country alongside the very ocean where he surfs, a musician who often goes to his buddy’s house to casually make some music. It became My Second Last Album, one of Bahamas’ truly indispensable works.",
     "source": "Meow Wolf",
     "trackIds": [
       "6IBpFG2LU2udYofIuROp3w",
