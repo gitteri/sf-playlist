@@ -6,6 +6,7 @@ import { HotelGlorietaService } from './hotelGlorieta';
 import { MeowWolfService } from './meowWolf';
 import { ElReyCourtService } from './elReyCourt';
 import { TheMysticService } from './theMystic';
+import { Lensic360Service } from './lensic360';
 import { LlmMatcher } from './llmMatcher';
 import { Concert } from '../types/concert';
 import * as fs from 'fs';
@@ -19,6 +20,7 @@ export class PlaylistUpdater {
   private meowWolfService: MeowWolfService;
   private elReyCourtService: ElReyCourtService;
   private theMysticService: TheMysticService;
+  private lensic360Service: Lensic360Service;
   private spotifyService: SpotifyService;
   private llmMatcher: LlmMatcher;
   
@@ -30,6 +32,7 @@ export class PlaylistUpdater {
     this.meowWolfService = new MeowWolfService();
     this.elReyCourtService = new ElReyCourtService();
     this.theMysticService = new TheMysticService();
+    this.lensic360Service = new Lensic360Service();
     this.spotifyService = new SpotifyService(playlistId);
     this.llmMatcher = new LlmMatcher();
   }
@@ -66,6 +69,9 @@ export class PlaylistUpdater {
       console.log('Fetching upcoming events from The Mystic...');
       const theMysticConcerts = await this.theMysticService.fetchConcerts();
       
+      console.log('Fetching upcoming events from Lensic 360...');
+      const lensic360Concerts = await this.lensic360Service.fetchConcerts();
+      
       // Combine all concerts
       const allConcerts = [
         ...sfReporterConcerts,
@@ -73,7 +79,8 @@ export class PlaylistUpdater {
         ...hotelGlorietaConcerts,
         ...meowWolfConcerts,
         ...elReyCourtConcerts,
-        ...theMysticConcerts
+        ...theMysticConcerts,
+        ...lensic360Concerts
       ];
       
       // Standardize venue names
@@ -409,7 +416,7 @@ export class PlaylistUpdater {
       /karaoke/i,
       /singles mingle/i,
       /listening party/i,
-      /family-friendly rave/i,
+      /family-friendly.*rave/i,
       /season finale/i,
       /music series/i,
       /summer scene/i,
