@@ -51,6 +51,7 @@ export class SongkickService {
 
           const datetimeStr = $(element).find('time').attr('datetime');
           const date = datetimeStr ? new Date(datetimeStr) : new Date();
+          const hasTime = datetimeStr ? (datetimeStr.includes('T') || datetimeStr.includes(':')) : false;
           const venue = $(element).find('a.venue-link').text().trim() || 'Unknown Venue';
           
           const relativeTicketUrl = $(element).find('a.event-link').attr('href') || '';
@@ -83,6 +84,7 @@ export class SongkickService {
               artist,
               venue,
               date,
+              hasTime,
               ticketUrl,
               listingUrl: ticketUrl,
               source: 'Songkick'

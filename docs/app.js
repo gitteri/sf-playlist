@@ -5,13 +5,15 @@ let filteredConcerts = [];
 let embedController = null;
 let currentTrackId = null;
 let activeShowGroup = null;
+let heartedShows = JSON.parse(localStorage.getItem('heartedShows') || '[]');
 
 // Filter States
 const activeFilters = {
   search: '',
   date: 'all',
   venue: 'all',
-  genres: [] // Array of selected genre strings for multi-toggle
+  genres: [], // Array of selected genre strings for multi-toggle
+  favoritesOnly: false
 };
 
 // Major Genre Classification Maps
@@ -54,6 +56,14 @@ let resultsCount;
 let clearFiltersBtn;
 let emptyResetBtn;
 let loadPlaylistBtn;
+let favoritesToggle;
+let favoritesExportBtn;
+let concertsAreaHeader;
+let modalHeartBtn;
+let calendarTrigger;
+let calendarMenu;
+let googleCalBtn;
+let appleCalBtn;
 
 // Playbar Elements
 let bottomPlaybar;
@@ -171,6 +181,9 @@ function init() {
   clearFiltersBtn = document.getElementById('clear-filters-btn');
   emptyResetBtn = document.getElementById('empty-reset-btn');
   loadPlaylistBtn = document.getElementById('btn-load-playlist');
+  favoritesToggle = document.getElementById('favorites-toggle');
+  favoritesExportBtn = document.getElementById('favorites-export');
+  concertsAreaHeader = document.getElementById('concerts-area-header');
 
   bottomPlaybar = document.getElementById('bottom-playbar');
   playbarArtist = document.getElementById('playbar-artist');
@@ -192,10 +205,17 @@ function init() {
   modalTicketsBtn = document.getElementById('modal-btn-tickets');
   modalListingBtn = document.getElementById('modal-btn-listing');
   modalShareBtn = document.getElementById('modal-btn-share');
+  modalHeartBtn = document.getElementById('modal-btn-heart');
   modalHeaderPlayBtn = document.getElementById('modal-header-play-btn');
   modalDirectionsBtn = document.getElementById('modal-btn-directions');
   modalDescriptionContainer = document.getElementById('modal-description-container');
   modalDescription = document.getElementById('modal-description');
+  
+  // Calendar elements
+  calendarTrigger = document.getElementById('modal-btn-calendar');
+  calendarMenu = document.getElementById('calendar-menu');
+  googleCalBtn = document.getElementById('cal-btn-google');
+  appleCalBtn = document.getElementById('cal-btn-apple');
 
   setupEventListeners();
   fetchConcerts();
@@ -234,6 +254,7 @@ async function fetchConcerts() {
     
     // Initial apply
     applyFilters();
+    updateFavoritesExportButtonVisibility();
     
     // Check if direct link hash is present
     checkUrlHash();
@@ -332,6 +353,11 @@ function groupConcerts(rawList) {
         matched.description = item.description;
       }
       
+      // Preserve hasTime if any item has time
+      if (item.hasTime) {
+        matched.hasTime = true;
+      }
+      
       // Keep source event details for deep linking
       if (!matched.sourceEventId && item.sourceEventId) {
         matched.sourceEventId = item.sourceEventId;
@@ -376,6 +402,7 @@ function groupConcerts(rawList) {
         artist: item.artist, // headliner
         venue: item.venue,
         date: item.date,
+        hasTime: item.hasTime,
         description: item.description,
         ticketUrl: item.ticketUrl,
         listingUrl: item.listingUrl,
@@ -535,7 +562,7 @@ function renderConcerts() {
   
   filteredConcerts.forEach(show => {
     const { month, day, timeString, weekday } = parseConcertDate(show.date);
-    const hasTime = show.date.includes('T') && !show.date.endsWith('T00:00:00.000Z');
+    const hasTime = show.hasTime !== undefined ? show.hasTime : (show.date.includes('T') && !show.date.endsWith('T00:00:00.000Z'));
     
     // Create card element
     const card = document.createElement('article');
@@ -567,11 +594,11 @@ function renderConcerts() {
       `;
     }
     
-    // Source Badges
-    const sourcesLabel = show.sources.map(s => s === 'Santa Fe Reporter' ? 'SFR' : s).join(' + ');
-    
+    const isHearted = heartedShows.includes(show.id);
+    const heartIconClass = isHearted ? 'fa-solid fa-heart' : 'fa-regular fa-heart';
+    const heartClass = isHearted ? 'card-heart-btn hearted' : 'card-heart-btn';
     const cardGradient = getDeterministicGradient(show.artist);
-    
+
     // Card structure
     card.innerHTML = `
       <div class="card-bg-image" ${show.artistImageUrl ? `style="background-image: url('${show.artistImageUrl}')"` : `style="background-image: ${cardGradient}"`}>
@@ -585,7 +612,11 @@ function renderConcerts() {
             <span class="month">${month}</span>
             <span class="day">${day}</span>
           </div>
-          <span class="source-icon-badge">${sourcesLabel}</span>
+          <div class="card-actions-top">
+            <button class="${heartClass}" aria-label="Heart event" title="Save Event">
+              <i class="${heartIconClass}"></i>
+            </button>
+          </div>
         </div>
         
         ${show.trackIds && show.trackIds.length > 0 ? `
@@ -620,6 +651,15 @@ function renderConcerts() {
       playBtn.addEventListener('click', (e) => {
         e.stopPropagation();
         playShowTracks(show.id);
+      });
+    }
+
+    // Heart button click handler
+    const heartBtn = card.querySelector('.card-heart-btn');
+    if (heartBtn) {
+      heartBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleHeartShow(show.id);
       });
     }
     
@@ -683,7 +723,13 @@ function checkShowMatch(show, excludeGenreFilter = false) {
     matchesGenres = showMajorGenres.some(g => genresVal.includes(g));
   }
   
-  return matchesSearch && matchesVenue && matchesDate && matchesGenres;
+  // 5. Favorites Filter
+  let matchesFavorites = true;
+  if (activeFilters.favoritesOnly) {
+    matchesFavorites = heartedShows.includes(show.id);
+  }
+  
+  return matchesSearch && matchesVenue && matchesDate && matchesGenres && matchesFavorites;
 }
 
 // Filter Logic
@@ -695,7 +741,7 @@ function applyFilters() {
   
   // Toggle reset button
   if (clearFiltersBtn) {
-    if (searchQuery !== '' || dateVal !== 'all' || venueVal !== 'all' || genresVal.length > 0) {
+    if (searchQuery !== '' || dateVal !== 'all' || venueVal !== 'all' || genresVal.length > 0 || activeFilters.favoritesOnly) {
       clearFiltersBtn.style.display = 'inline-flex';
     } else {
       clearFiltersBtn.style.display = 'none';
@@ -709,6 +755,7 @@ function applyFilters() {
   populateGenrePills();
   
   renderConcerts();
+  updateFavoritesExportButtonVisibility();
 }
 
 // Reset all active filters
@@ -743,6 +790,14 @@ function clearFilters() {
     genrePillsContainer.querySelectorAll('.pill').forEach(btn => {
       btn.classList.remove('active');
     });
+  }
+
+  // Reset favorites toggle
+  activeFilters.favoritesOnly = false;
+  if (favoritesToggle) {
+    favoritesToggle.classList.remove('active');
+    const icon = favoritesToggle.querySelector('i');
+    if (icon) icon.className = 'fa-regular fa-heart';
   }
   
   applyFilters();
@@ -804,9 +859,255 @@ function playTrackOnSpotify(trackId) {
   }
 }
 
+function getGoogleCalendarUrl(show) {
+  const title = `${show.artist} @ ${show.venue}`;
+  const location = `${show.venue}, Santa Fe, NM`;
+  
+  // Format description
+  let details = `Santa Fe Concerts - Discover more upcoming shows at: ${window.location.origin}${window.location.pathname}#${show.id}`;
+  if (show.description) {
+    const cleanDesc = show.description.replace(/<[^>]*>/g, '').trim();
+    details += `\n\nAbout the show:\n${cleanDesc}`;
+  }
+  if (show.ticketUrl) {
+    details += `\n\nTickets: ${show.ticketUrl}`;
+  }
+  
+  // Parse date
+  const startDate = new Date(show.date);
+  
+  // End date is 2 hours later
+  const endDate = new Date(startDate.getTime() + (2 * 60 * 60 * 1000));
+  
+  // Format date to YYYYMMDDTHHmmSSZ
+  const formatGCalDate = (date) => {
+    return date.toISOString().replace(/-|:|\.\d\d\d/g, '');
+  };
+  
+  const dates = `${formatGCalDate(startDate)}/${formatGCalDate(endDate)}`;
+  
+  return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${dates}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(location)}`;
+}
+
+function downloadIcsFile(show) {
+  const title = `${show.artist} @ ${show.venue}`;
+  const location = `${show.venue}, Santa Fe, NM`;
+  
+  let details = `Santa Fe Concerts - Discover more upcoming shows at: ${window.location.origin}${window.location.pathname}#${show.id}`;
+  if (show.description) {
+    const cleanDesc = show.description.replace(/<[^>]*>/g, '').trim();
+    details += `\\n\\nAbout the show:\\n${cleanDesc}`;
+  }
+  if (show.ticketUrl) {
+    details += `\\n\\nTickets: ${show.ticketUrl}`;
+  }
+  
+  const startDate = new Date(show.date);
+  const endDate = new Date(startDate.getTime() + (2 * 60 * 60 * 1000));
+  
+  const formatIcsDate = (date) => {
+    return date.toISOString().replace(/-|:|\.\d\d\d/g, '');
+  };
+  
+  const createdDate = formatIcsDate(new Date());
+  const startStr = formatIcsDate(startDate);
+  const endStr = formatIcsDate(endDate);
+  
+  const escapeIcs = (str) => {
+    return str
+      .replace(/\\/g, '\\\\')
+      .replace(/;/g, '\\;')
+      .replace(/,/g, '\\,')
+      .replace(/\n/g, '\\n');
+  };
+
+  const icsLines = [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//Santa Fe Concerts//NONSGML Event Calendar//EN',
+    'BEGIN:VEVENT',
+    `UID:${show.id}@santafeconcerts.com`,
+    `DTSTAMP:${createdDate}`,
+    `DTSTART:${startStr}`,
+    `DTEND:${endStr}`,
+    `SUMMARY:${escapeIcs(title)}`,
+    `DESCRIPTION:${escapeIcs(details)}`,
+    `LOCATION:${escapeIcs(location)}`,
+    'END:VEVENT',
+    'END:VCALENDAR'
+  ];
+  
+  const icsString = icsLines.join('\r\n');
+  const blob = new Blob([icsString], { type: 'text/calendar;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  
+  const link = document.createElement('a');
+  link.href = url;
+  
+  const cleanFilename = `${show.artist.toLowerCase().replace(/[^a-z0-9]/g, '-')}-${show.venue.toLowerCase().replace(/[^a-z0-9]/g, '-')}.ics`;
+  link.setAttribute('download', cleanFilename);
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+}
+
+function downloadAllFavoritesIcs() {
+  if (heartedShows.length === 0) {
+    alert("You don't have any saved shows to export!");
+    return;
+  }
+  
+  const icsLines = [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//Santa Fe Concerts//NONSGML Event Calendar//EN',
+  ];
+  
+  const createdDate = new Date().toISOString().replace(/-|:|\.\d\d\d/g, '');
+  
+  heartedShows.forEach(showId => {
+    const show = groupedConcerts.find(g => g.id === showId);
+    if (!show) return;
+    
+    const title = `${show.artist} @ ${show.venue}`;
+    const location = `${show.venue}, Santa Fe, NM`;
+    
+    let details = `Santa Fe Concerts - Discover more upcoming shows at: ${window.location.origin}${window.location.pathname}#${show.id}`;
+    if (show.description) {
+      const cleanDesc = show.description.replace(/<[^>]*>/g, '').trim();
+      details += `\\n\\nAbout the show:\\n${cleanDesc}`;
+    }
+    if (show.ticketUrl) {
+      details += `\\n\\nTickets: ${show.ticketUrl}`;
+    }
+    
+    const startDate = new Date(show.date);
+    const endDate = new Date(startDate.getTime() + (2 * 60 * 60 * 1000));
+    
+    const formatIcsDate = (date) => {
+      return date.toISOString().replace(/-|:|\.\d\d\d/g, '');
+    };
+    
+    const startStr = formatIcsDate(startDate);
+    const endStr = formatIcsDate(endDate);
+    
+    const escapeIcs = (str) => {
+      return str
+        .replace(/\\/g, '\\\\')
+        .replace(/;/g, '\\;')
+        .replace(/,/g, '\\,')
+        .replace(/\n/g, '\\n');
+    };
+
+    icsLines.push(
+      'BEGIN:VEVENT',
+      `UID:${show.id}@santafeconcerts.com`,
+      `DTSTAMP:${createdDate}`,
+      `DTSTART:${startStr}`,
+      `DTEND:${endStr}`,
+      `SUMMARY:${escapeIcs(title)}`,
+      `DESCRIPTION:${escapeIcs(details)}`,
+      `LOCATION:${escapeIcs(location)}`,
+      'END:VEVENT'
+    );
+  });
+  
+  icsLines.push('END:VCALENDAR');
+  
+  const icsString = icsLines.join('\r\n');
+  const blob = new Blob([icsString], { type: 'text/calendar;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  
+  const link = document.createElement('a');
+  link.href = url;
+  link.setAttribute('download', 'santa-fe-concerts-saved.ics');
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+}
+
+function isShowHearted(showId) {
+  return heartedShows.includes(showId);
+}
+
+function toggleHeartShow(showId) {
+  const idx = heartedShows.indexOf(showId);
+  if (idx > -1) {
+    heartedShows.splice(idx, 1);
+    console.log(`Removed show from favorites: ${showId}`);
+  } else {
+    heartedShows.push(showId);
+    console.log(`Added show to favorites: ${showId}`);
+  }
+  localStorage.setItem('heartedShows', JSON.stringify(heartedShows));
+  
+  // Update UI elements
+  updateHeartUI(showId);
+  updateFavoritesExportButtonVisibility();
+  
+  // If favorites filter is active, re-filter/render
+  if (activeFilters.favoritesOnly) {
+    applyFilters();
+  }
+}
+
+function updateHeartUI(showId) {
+  const isHearted = isShowHearted(showId);
+  
+  // Update grid card if present
+  const card = document.querySelector(`.concert-card[data-show-id="${showId}"]`);
+  if (card) {
+    const heartBtn = card.querySelector('.card-heart-btn');
+    if (heartBtn) {
+      if (isHearted) {
+        heartBtn.classList.add('hearted');
+        heartBtn.innerHTML = '<i class="fa-solid fa-heart"></i>';
+      } else {
+        heartBtn.classList.remove('hearted');
+        heartBtn.innerHTML = '<i class="fa-regular fa-heart"></i>';
+      }
+    }
+  }
+  
+  // Update modal if currently viewing this show
+  if (activeShowGroup && activeShowGroup.id === showId && modalHeartBtn) {
+    if (isHearted) {
+      modalHeartBtn.classList.add('hearted');
+      modalHeartBtn.innerHTML = '<i class="fa-solid fa-heart"></i> <span>Saved</span>';
+    } else {
+      modalHeartBtn.classList.remove('hearted');
+      modalHeartBtn.innerHTML = '<i class="fa-regular fa-heart"></i> <span>Save Event</span>';
+    }
+  }
+}
+
+function updateFavoritesExportButtonVisibility() {
+  if (concertsAreaHeader) {
+    if (activeFilters.favoritesOnly) {
+      concertsAreaHeader.style.display = 'flex';
+    } else {
+      concertsAreaHeader.style.display = 'none';
+    }
+  }
+}
+
 // Show details in Modal
 function openShowDetailsModal(show) {
   activeShowGroup = show;
+
+  // Set initial heart button state
+  if (modalHeartBtn) {
+    const isHearted = isShowHearted(show.id);
+    if (isHearted) {
+      modalHeartBtn.classList.add('hearted');
+      modalHeartBtn.innerHTML = '<i class="fa-solid fa-heart"></i> <span>Saved</span>';
+    } else {
+      modalHeartBtn.classList.remove('hearted');
+      modalHeartBtn.innerHTML = '<i class="fa-regular fa-heart"></i> <span>Save Event</span>';
+    }
+  }
   
   // Date format
   const dateObj = new Date(show.date);
@@ -815,7 +1116,8 @@ function openShowDetailsModal(show) {
     month: 'short',
     day: 'numeric'
   });
-  const formattedTime = show.date.includes('T') && !show.date.endsWith('T00:00:00.000Z')
+  const hasTime = show.hasTime !== undefined ? show.hasTime : (show.date.includes('T') && !show.date.endsWith('T00:00:00.000Z'));
+  const formattedTime = hasTime
     ? dateObj.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     : 'Time TBA';
     
@@ -984,6 +1286,10 @@ function closeModal() {
     showModal.style.display = 'none';
   }
   document.body.style.overflow = ''; // Unlock background scroll
+  
+  if (calendarMenu) {
+    calendarMenu.style.display = 'none';
+  }
   
   // Clear URL hash without scroll jump
   if (window.location.hash) {
@@ -1228,6 +1534,31 @@ function setupEventListeners() {
       applyFilters();
     });
   }
+
+  // Favorites Toggle
+  if (favoritesToggle) {
+    favoritesToggle.addEventListener('click', () => {
+      activeFilters.favoritesOnly = !activeFilters.favoritesOnly;
+      favoritesToggle.classList.toggle('active', activeFilters.favoritesOnly);
+      
+      const icon = favoritesToggle.querySelector('i');
+      if (icon) {
+        if (activeFilters.favoritesOnly) {
+          icon.className = 'fa-solid fa-heart';
+        } else {
+          icon.className = 'fa-regular fa-heart';
+        }
+      }
+      applyFilters();
+    });
+  }
+
+  // Favorites Export
+  if (favoritesExportBtn) {
+    favoritesExportBtn.addEventListener('click', () => {
+      downloadAllFavoritesIcs();
+    });
+  }
   
   // Date pills toggle
   if (datePillsContainer) {
@@ -1274,6 +1605,54 @@ function setupEventListeners() {
       }
     });
   }
+
+  // Heart button click handler in modal
+  if (modalHeartBtn) {
+    modalHeartBtn.addEventListener('click', () => {
+      if (activeShowGroup) {
+        toggleHeartShow(activeShowGroup.id);
+      }
+    });
+  }
+
+  // Calendar trigger click handler
+  if (calendarTrigger && calendarMenu) {
+    calendarTrigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isHidden = calendarMenu.style.display === 'none';
+      calendarMenu.style.display = isHidden ? 'flex' : 'none';
+    });
+  }
+
+  // Calendar platform selection click handlers
+  if (googleCalBtn) {
+    googleCalBtn.addEventListener('click', () => {
+      if (activeShowGroup) {
+        const url = getGoogleCalendarUrl(activeShowGroup);
+        window.open(url, '_blank', 'noopener,noreferrer');
+        calendarMenu.style.display = 'none';
+      }
+    });
+  }
+  
+  if (appleCalBtn) {
+    appleCalBtn.addEventListener('click', () => {
+      if (activeShowGroup) {
+        downloadIcsFile(activeShowGroup);
+        calendarMenu.style.display = 'none';
+      }
+    });
+  }
+
+  // Close calendar menu when clicking outside
+  document.addEventListener('click', (e) => {
+    if (calendarMenu && calendarMenu.style.display !== 'none') {
+      const wrapper = e.target.closest('.calendar-dropdown-wrapper');
+      if (!wrapper) {
+        calendarMenu.style.display = 'none';
+      }
+    }
+  });
 
   // Load playlist button click handler
   if (loadPlaylistBtn) {

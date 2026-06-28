@@ -426,6 +426,11 @@ export class PlaylistUpdater {
       /father's day concert/i,
       /songwriters? circle/i,
       /songwriters? showcase/i,
+      /pool party/i,
+      /splashdance/i,
+      /swim pass/i,
+      /pool pass/i,
+      /yoga/i,
     ];
 
     for (const pattern of blacklistPatterns) {

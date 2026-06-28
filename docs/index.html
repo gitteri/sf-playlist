@@ -78,6 +78,10 @@
               <!-- Populated dynamically -->
             </select>
           </div>
+
+          <button id="favorites-toggle" class="btn-favorites-toggle" title="Show saved events only">
+            <i class="fa-regular fa-heart"></i> <span>Saved Only</span>
+          </button>
         </div>
 
         <!-- Date Filters (Pill design) -->
@@ -106,6 +110,12 @@
             <i class="fa-solid fa-xmark"></i> Reset Filters
           </button>
         </div>
+      </div>
+
+      <div class="concerts-area-header" id="concerts-area-header" style="display: none;">
+        <button id="favorites-export" class="favorites-export-btn" title="Save all saved shows to your calendar">
+          <i class="fa-regular fa-calendar-check"></i> <span>Save All to Calendar</span>
+        </button>
       </div>
 
       <!-- Main Concerts Grid -->
@@ -227,9 +237,25 @@
               <a id="modal-btn-listing" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
                 <i class="fa-solid fa-arrow-up-right-from-square"></i> View Details
               </a>
+              <button id="modal-btn-heart" class="btn btn-secondary btn-heart-modal">
+                <i class="fa-regular fa-heart"></i> <span>Save Event</span>
+              </button>
               <button id="modal-btn-share" class="btn btn-secondary">
                 <i class="fa-solid fa-share-nodes"></i> Share Show
               </button>
+              <div class="calendar-dropdown-wrapper">
+                <button id="modal-btn-calendar" class="btn btn-secondary calendar-trigger">
+                  <i class="fa-regular fa-calendar-plus"></i> <span>Add to Calendar</span>
+                </button>
+                <div class="calendar-dropdown-menu" id="calendar-menu" style="display: none;">
+                  <button class="calendar-menu-item" id="cal-btn-google">
+                    <i class="fa-brands fa-google"></i> Google Calendar
+                  </button>
+                  <button class="calendar-menu-item" id="cal-btn-apple">
+                    <i class="fa-brands fa-apple"></i> Apple / iCal (.ics)
+                  </button>
+                </div>
+              </div>
               <a id="modal-btn-directions" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
                 <i class="fa-solid fa-diamond-turn-right"></i> Get Directions
               </a>

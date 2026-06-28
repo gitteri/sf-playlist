@@ -132,7 +132,11 @@ export class HotelGlorietaService {
    */
   private isMusicEvent(title: string): boolean {
     const lower = title.toLowerCase();
-    const blacklist = ['screening', 'tasting', 'workshop', 'yoga', 'class', 'market', 'pop-up', 'gallery', 'exhibition'];
+    const blacklist = [
+      'screening', 'tasting', 'workshop', 'yoga', 'class', 'market', 
+      'pop-up', 'gallery', 'exhibition', 'pool party', 'splashdance', 
+      'swim pass', 'pool pass'
+    ];
     return !blacklist.some(word => lower.includes(word));
   }
   

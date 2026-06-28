@@ -9,6 +9,7 @@ export interface Concert {
   artist: string;
   venue: string;
   date: Date;
+  hasTime?: boolean;
   ticketUrl?: string;
   listingUrl?: string;
   sourceEventId?: string | number;

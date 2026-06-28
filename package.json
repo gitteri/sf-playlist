@@ -11,7 +11,7 @@
     "dev:scheduled": "ts-node src/scheduled.ts",
     "update": "npm run build && npm run start",
     "start:daemon": "npm run build && node dist/scheduled.js > logs/playlist-updater.log 2>&1 &",
-    "serve": "npx serve docs",
+    "serve": "npx -y http-server docs -p 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

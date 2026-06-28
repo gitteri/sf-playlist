@@ -94,6 +94,7 @@ export class ConcertService {
           artist: cleanedName,
           venue: event._source.venue.name,
           date: new Date(event._source.starttime),
+          hasTime: !event._source.allday,
           ticketUrl: event._source.ticketurl || undefined,
           listingUrl: event._source.moreinfo || undefined,
           sourceEventId: event._source.id || undefined,
